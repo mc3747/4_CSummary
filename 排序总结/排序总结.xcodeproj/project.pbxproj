@@ -15,9 +15,12 @@
 		4257583520A29F0900BA4F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583420A29F0900BA4F54 /* main.m */; };
 		4257583F20A29F0900BA4F54 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583E20A29F0900BA4F54 /* ____Tests.m */; };
 		4257584A20A29F0900BA4F54 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257584920A29F0900BA4F54 /* ____UITests.m */; };
+		426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C320CA77ED00B2B747 /* PassValueVC.m */; };
+		426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */; };
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
+		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +57,18 @@
 		4257584520A29F0900BA4F54 /* 排序总结UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序总结UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257584920A29F0900BA4F54 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		4257584B20A29F0900BA4F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426FB1C220CA77ED00B2B747 /* PassValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassValueVC.h; sourceTree = "<group>"; };
+		426FB1C320CA77ED00B2B747 /* PassValueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassValueVC.m; sourceTree = "<group>"; };
+		426FB1C520CA7CFD00B2B747 /* ReceiveValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveValueVC.h; sourceTree = "<group>"; };
+		426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveValueVC.m; sourceTree = "<group>"; };
 		427F207B20C6915400F511B0 /* ParameterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterManager.h; sourceTree = "<group>"; };
 		427F207C20C6915400F511B0 /* ParameterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterManager.m; sourceTree = "<group>"; };
 		427F207E20C695C000F511B0 /* ParameterClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterClass.h; sourceTree = "<group>"; };
 		427F207F20C695C000F511B0 /* ParameterClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterClass.m; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
+		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
+		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +123,7 @@
 				4257582620A29F0700BA4F54 /* AppDelegate.m */,
 				4257582820A29F0700BA4F54 /* ViewController.h */,
 				4257582920A29F0700BA4F54 /* ViewController.m */,
+				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
 				429D333720C77F48006EA211 /* 1_方法的可变参数 */,
 				429D333820C77F6D006EA211 /* 2_方法的多个返回值 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -141,6 +151,19 @@
 				4257584B20A29F0900BA4F54 /* Info.plist */,
 			);
 			path = "排序总结UITests";
+			sourceTree = "<group>";
+		};
+		426FB1C120CA755E00B2B747 /* 3_控制器传值 */ = {
+			isa = PBXGroup;
+			children = (
+				426FB1C220CA77ED00B2B747 /* PassValueVC.h */,
+				426FB1C320CA77ED00B2B747 /* PassValueVC.m */,
+				426FB1C520CA7CFD00B2B747 /* ReceiveValueVC.h */,
+				426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */,
+				42E1E54E20CE02E3000A263B /* GCD_Singleton.h */,
+				42E1E54F20CE02E3000A263B /* GCD_Singleton.m */,
+			);
+			path = "3_控制器传值";
 			sourceTree = "<group>";
 		};
 		429D333720C77F48006EA211 /* 1_方法的可变参数 */ = {
@@ -293,9 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
+				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
 				4257582A20A29F0700BA4F54 /* ViewController.m in Sources */,
 				427F207D20C6915400F511B0 /* ParameterManager.m in Sources */,
+				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
 				4257583520A29F0900BA4F54 /* main.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,

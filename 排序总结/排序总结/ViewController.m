@@ -10,10 +10,12 @@
 #import "ParameterManager.h"
 #import "ParameterClass.h"
 #import "ReturnValueManager.h"
+#import "PassValueVC.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *testBtn1;
 @property (weak, nonatomic) IBOutlet UIButton *testBtn2;
+@property (weak, nonatomic) IBOutlet UIButton *testBtn3;
 
 @end
 
@@ -24,6 +26,7 @@
 
     [_testBtn1 addTarget:self action:@selector(test1) forControlEvents:UIControlEventTouchUpInside];
     [_testBtn2 addTarget:self action:@selector(test2) forControlEvents:UIControlEventTouchUpInside];
+    [_testBtn3 addTarget:self action:@selector(test3) forControlEvents:UIControlEventTouchUpInside];
 }
 
 #pragma mark -  1，可变参数
@@ -61,4 +64,8 @@
 }
 
 
+- (void)test3 {
+    PassValueVC *vc = [[PassValueVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end
