@@ -29,7 +29,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     _textField = [[UITextField alloc] initWithFrame:CGRectMake(50, 100, 150, 50)];
     _textField.placeholder = @"请输入传递的值";
-    _textField.text = _string;
+//    _textField.text = _string;
+    _textField.text = (NSString *)[[NSUserDefaults standardUserDefaults] objectForKey:@"text"];
     _textField.backgroundColor = [[UIColor redColor] colorWithAlphaComponent:0.6];
     [self.view addSubview:_textField];
     

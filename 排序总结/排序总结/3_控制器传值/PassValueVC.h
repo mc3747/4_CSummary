@@ -23,6 +23,8 @@
  6，KVC传值，正向传值
  
  7，KVO传值，反向传值
+ 
+ 8，NSUserDefaults传值
  */
 
 @end

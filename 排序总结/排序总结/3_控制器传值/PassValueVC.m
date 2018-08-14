@@ -28,6 +28,7 @@
     UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(50, 100, 150, 50)];
     textField.placeholder = @"请输入传递的值";
     textField.backgroundColor = [[UIColor blueColor] colorWithAlphaComponent:0.6];
+    textField.tintColor = [UIColor redColor];
     [self.view addSubview:textField];
     _textField = textField;
     
@@ -38,6 +39,7 @@
     SEL sel5 = NSSelectorFromString(@"test5");
     SEL sel6 = NSSelectorFromString(@"test6");
     SEL sel7 = NSSelectorFromString(@"test7");
+    SEL sel8 = NSSelectorFromString(@"test8");
     
     UIButton *btn1 = [self getButton:@"1,正向属性传值" :sel1];
     btn1.frame = CGRectMake(20, 200, 150, 50);
@@ -61,6 +63,9 @@
     
     UIButton *btn7 = [self getButton:@"7,KVC传值" :sel7];
     btn7.frame = CGRectMake(20, 410, 150, 50);
+    
+    UIButton *btn8 = [self getButton:@"8,NSUserDefaults传值" :sel8];
+    btn8.frame = CGRectMake(200, 410, 150, 50);
 }
 
 
@@ -122,6 +127,12 @@
      */
     _receiveVC = [[ReceiveValueVC alloc] init];
     [_receiveVC setValue:self.textField.text forKey:@"string"];
+    [self.navigationController pushViewController:_receiveVC animated:YES];
+}
+#pragma mark -  8，NSUserDefaults传值
+- (void)test8 {
+    _receiveVC = [[ReceiveValueVC alloc] init];
+    [[NSUserDefaults standardUserDefaults] setObject:self.textField.text forKey:@"text"];
     [self.navigationController pushViewController:_receiveVC animated:YES];
 }
 
