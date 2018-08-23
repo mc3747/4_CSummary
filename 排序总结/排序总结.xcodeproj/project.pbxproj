@@ -21,6 +21,7 @@
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
+		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
+		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
+		42E4579F212E3D8D00898A3D /* CallMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallMethodViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,7 @@
 				429D333720C77F48006EA211 /* 1_方法的可变参数 */,
 				429D333820C77F6D006EA211 /* 2_方法的多个返回值 */,
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
+				42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -184,6 +188,15 @@
 				429D333A20C7939A006EA211 /* ReturnValueManager.m */,
 			);
 			path = "2_方法的多个返回值";
+			sourceTree = "<group>";
+		};
+		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
+			isa = PBXGroup;
+			children = (
+				42E4579F212E3D8D00898A3D /* CallMethodViewController.h */,
+				42E4579E212E3D8D00898A3D /* CallMethodViewController.m */,
+			);
+			path = "4_调用方法的方式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
+				42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
 				4257582A20A29F0700BA4F54 /* ViewController.m in Sources */,

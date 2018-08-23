@@ -11,11 +11,13 @@
 #import "ParameterClass.h"
 #import "ReturnValueManager.h"
 #import "PassValueVC.h"
+#import "CallMethodViewController.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *testBtn1;
 @property (weak, nonatomic) IBOutlet UIButton *testBtn2;
 @property (weak, nonatomic) IBOutlet UIButton *testBtn3;
+@property (weak, nonatomic) IBOutlet UIButton *testBtn4;
 
 @end
 
@@ -27,6 +29,7 @@
     [_testBtn1 addTarget:self action:@selector(test1) forControlEvents:UIControlEventTouchUpInside];
     [_testBtn2 addTarget:self action:@selector(test2) forControlEvents:UIControlEventTouchUpInside];
     [_testBtn3 addTarget:self action:@selector(test3) forControlEvents:UIControlEventTouchUpInside];
+    [_testBtn4 addTarget:self action:@selector(test4) forControlEvents:UIControlEventTouchUpInside];
 }
 
 #pragma mark -  1，可变参数
@@ -63,9 +66,15 @@
     }];
 }
 
-
+#pragma mark -  控制器传值
 - (void)test3 {
     PassValueVC *vc = [[PassValueVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark -  调用方法的几种方式
+- (void)test4 {
+    CallMethodViewController *vc = [[CallMethodViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
 @end
