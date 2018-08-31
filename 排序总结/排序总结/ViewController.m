@@ -12,12 +12,14 @@
 #import "ReturnValueManager.h"
 #import "PassValueVC.h"
 #import "CallMethodViewController.h"
+#import <objc/runtime.h>
 
-@interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *testBtn1;
-@property (weak, nonatomic) IBOutlet UIButton *testBtn2;
-@property (weak, nonatomic) IBOutlet UIButton *testBtn3;
-@property (weak, nonatomic) IBOutlet UIButton *testBtn4;
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+
+
+@property (nonatomic, strong) NSArray *cellDisplayNameArray;
+@property (nonatomic, strong) NSArray *cellControllerNameArray;
+@property (nonatomic, weak) UITableView *tableView;
 
 @end
 
@@ -25,11 +27,99 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"重要知识点汇总";
+    [self initArrays];
+    [self initTableView];
+    
+}
+#pragma mark -  初始化
+- (void)initArrays {
+    
+    
+    self.cellDisplayNameArray = @[@"1，方法的可变参数",@"2，方法的多个返回值",@"3，控制器传值",@"4，调用方法的方式",
+                                  @"5，定时器汇总"];
+    
+    self.cellControllerNameArray = @[@"",@"",@"PassValueVC",@"CallMethodViewController",
+                                     @"TimerViewController"];
+}
 
-    [_testBtn1 addTarget:self action:@selector(test1) forControlEvents:UIControlEventTouchUpInside];
-    [_testBtn2 addTarget:self action:@selector(test2) forControlEvents:UIControlEventTouchUpInside];
-    [_testBtn3 addTarget:self action:@selector(test3) forControlEvents:UIControlEventTouchUpInside];
-    [_testBtn4 addTarget:self action:@selector(test4) forControlEvents:UIControlEventTouchUpInside];
+#pragma mark -  初始化tableview
+
+- (void)initTableView {
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 200, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 200) style:UITableViewStylePlain];
+    tableView.backgroundColor = [UIColor whiteColor];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    [self.view addSubview:tableView];
+    _tableView = tableView;
+}
+
+#pragma mark - tableView delegate
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.cellDisplayNameArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    //由于此方法调用十分频繁，cell的标示声明成静态变量有利于性能优化
+    static NSString *cellIdentifier=@"UITableViewCellIdentifierKey";
+    
+    //首先根据标识去缓存池取
+    UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+   
+    //如果缓存池没有到则重新创建并放到缓存池中
+    if(!cell){
+        cell=[[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
+    }
+    cell.textLabel.text = self.cellDisplayNameArray[indexPath.row];
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    return cell;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.row == 0) {
+          [self test1];
+        
+    }else if (indexPath.row == 1) {
+        [self test2];
+    }else {
+         [self.navigationController pushViewController:[self getController:self.cellControllerNameArray[indexPath.row]] animated:YES];
+    };
+   
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 0;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60;
+}
+
+
+
+#pragma mark - 根据字符串名称动态获取控制器对象
+- (id)getController:(NSString *)controllerName {
+    // 类名
+    NSString *class =[NSString stringWithFormat:@"%@", controllerName];
+    const char *className = [class cStringUsingEncoding:NSASCIIStringEncoding];
+    
+    // 从一个字串返回一个类
+    Class newClass = objc_getClass(className);
+    if (!newClass)
+    {
+        // 创建一个类
+        Class superClass = [NSObject class];
+        newClass = objc_allocateClassPair(superClass, className, 0);
+        // 注册你创建的这个类
+        objc_registerClassPair(newClass);
+    }
+    // 创建对象
+    id instance = [[newClass alloc] init];
+    return instance;
 }
 
 #pragma mark -  1，可变参数

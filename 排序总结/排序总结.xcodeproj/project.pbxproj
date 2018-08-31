@@ -20,6 +20,15 @@
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
+		42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E3A2138E399003397FB /* TimerViewController.m */; };
+		42CB7E4F2138E399003397FB /* BlockTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E3C2138E399003397FB /* BlockTimerVC.m */; };
+		42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E3D2138E399003397FB /* GCDTimerVC.m */; };
+		42CB7E512138E399003397FB /* NSTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E3E2138E399003397FB /* NSTimerVC.m */; };
+		42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E3F2138E399003397FB /* CustomTimerVC.m */; };
+		42CB7E532138E399003397FB /* PerformSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E402138E399003397FB /* PerformSelectorVC.m */; };
+		42CB7E542138E399003397FB /* NSTimer+TimerBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E432138E399003397FB /* NSTimer+TimerBlock.m */; };
+		42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E482138E399003397FB /* JX_GCDTimerManager.m */; };
+		42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 /* End PBXBuildFile section */
@@ -68,6 +77,24 @@
 		427F207F20C695C000F511B0 /* ParameterClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterClass.m; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
+		42CB7E392138E399003397FB /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		42CB7E3A2138E399003397FB /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		42CB7E3C2138E399003397FB /* BlockTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTimerVC.m; sourceTree = "<group>"; };
+		42CB7E3D2138E399003397FB /* GCDTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimerVC.m; sourceTree = "<group>"; };
+		42CB7E3E2138E399003397FB /* NSTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTimerVC.m; sourceTree = "<group>"; };
+		42CB7E3F2138E399003397FB /* CustomTimerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTimerVC.m; sourceTree = "<group>"; };
+		42CB7E402138E399003397FB /* PerformSelectorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformSelectorVC.m; sourceTree = "<group>"; };
+		42CB7E412138E399003397FB /* CADisplayLinkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADisplayLinkVC.h; sourceTree = "<group>"; };
+		42CB7E432138E399003397FB /* NSTimer+TimerBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TimerBlock.m"; sourceTree = "<group>"; };
+		42CB7E442138E399003397FB /* NSTimer+TimerBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TimerBlock.h"; sourceTree = "<group>"; };
+		42CB7E452138E399003397FB /* GCDTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimerVC.h; sourceTree = "<group>"; };
+		42CB7E472138E399003397FB /* JX_GCDTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JX_GCDTimerManager.h; sourceTree = "<group>"; };
+		42CB7E482138E399003397FB /* JX_GCDTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JX_GCDTimerManager.m; sourceTree = "<group>"; };
+		42CB7E492138E399003397FB /* BlockTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTimerVC.h; sourceTree = "<group>"; };
+		42CB7E4A2138E399003397FB /* PerformSelectorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformSelectorVC.h; sourceTree = "<group>"; };
+		42CB7E4B2138E399003397FB /* CustomTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTimerVC.h; sourceTree = "<group>"; };
+		42CB7E4C2138E399003397FB /* NSTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerVC.h; sourceTree = "<group>"; };
+		42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkVC.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
@@ -130,6 +157,7 @@
 				429D333820C77F6D006EA211 /* 2_方法的多个返回值 */,
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
 				42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */,
+				42CB7E382138E355003397FB /* 5_定时器总结 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -188,6 +216,55 @@
 				429D333A20C7939A006EA211 /* ReturnValueManager.m */,
 			);
 			path = "2_方法的多个返回值";
+			sourceTree = "<group>";
+		};
+		42CB7E382138E355003397FB /* 5_定时器总结 */ = {
+			isa = PBXGroup;
+			children = (
+				42CB7E392138E399003397FB /* TimerViewController.h */,
+				42CB7E3A2138E399003397FB /* TimerViewController.m */,
+				42CB7E3B2138E399003397FB /* SubControllers */,
+			);
+			path = "5_定时器总结";
+			sourceTree = "<group>";
+		};
+		42CB7E3B2138E399003397FB /* SubControllers */ = {
+			isa = PBXGroup;
+			children = (
+				42CB7E3C2138E399003397FB /* BlockTimerVC.m */,
+				42CB7E3D2138E399003397FB /* GCDTimerVC.m */,
+				42CB7E3E2138E399003397FB /* NSTimerVC.m */,
+				42CB7E3F2138E399003397FB /* CustomTimerVC.m */,
+				42CB7E402138E399003397FB /* PerformSelectorVC.m */,
+				42CB7E412138E399003397FB /* CADisplayLinkVC.h */,
+				42CB7E422138E399003397FB /* TimerBlock */,
+				42CB7E452138E399003397FB /* GCDTimerVC.h */,
+				42CB7E462138E399003397FB /* TimerGCDManager */,
+				42CB7E492138E399003397FB /* BlockTimerVC.h */,
+				42CB7E4A2138E399003397FB /* PerformSelectorVC.h */,
+				42CB7E4B2138E399003397FB /* CustomTimerVC.h */,
+				42CB7E4C2138E399003397FB /* NSTimerVC.h */,
+				42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */,
+			);
+			path = SubControllers;
+			sourceTree = "<group>";
+		};
+		42CB7E422138E399003397FB /* TimerBlock */ = {
+			isa = PBXGroup;
+			children = (
+				42CB7E432138E399003397FB /* NSTimer+TimerBlock.m */,
+				42CB7E442138E399003397FB /* NSTimer+TimerBlock.h */,
+			);
+			path = TimerBlock;
+			sourceTree = "<group>";
+		};
+		42CB7E462138E399003397FB /* TimerGCDManager */ = {
+			isa = PBXGroup;
+			children = (
+				42CB7E472138E399003397FB /* JX_GCDTimerManager.h */,
+				42CB7E482138E399003397FB /* JX_GCDTimerManager.m */,
+			);
+			path = TimerGCDManager;
 			sourceTree = "<group>";
 		};
 		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
@@ -329,11 +406,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
+				42CB7E542138E399003397FB /* NSTimer+TimerBlock.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
+				42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */,
+				42CB7E532138E399003397FB /* PerformSelectorVC.m in Sources */,
 				42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */,
+				42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
+				42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */,
 				4257582A20A29F0700BA4F54 /* ViewController.m in Sources */,
+				42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */,
+				42CB7E512138E399003397FB /* NSTimerVC.m in Sources */,
+				42CB7E4F2138E399003397FB /* BlockTimerVC.m in Sources */,
 				427F207D20C6915400F511B0 /* ParameterManager.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
