@@ -37,10 +37,10 @@
     
     
     self.cellDisplayNameArray = @[@"1，方法的可变参数",@"2，方法的多个返回值",@"3，控制器传值",@"4，调用方法的方式",
-                                  @"5，定时器汇总"];
+                                  @"5，定时器汇总",@"6，PerformSelector方法测试"];
     
     self.cellControllerNameArray = @[@"",@"",@"PassValueVC",@"CallMethodViewController",
-                                     @"TimerViewController"];
+                                     @"TimerViewController",@"RootViewController"];
 }
 
 #pragma mark -  初始化tableview
