@@ -2,4 +2,38 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/8_&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;/1,&#x5339;&#x914d;&#x7684;&#x4e09;&#x79cd;&#x65b9;&#x5f0f;/MatchingMethodVC.m"
+            timestampString = "558267706.947925"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-confirm3"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/8_&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;/1,&#x5339;&#x914d;&#x7684;&#x4e09;&#x79cd;&#x65b9;&#x5f0f;/MatchingMethodVC.m"
+            timestampString = "558267706.948047"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "-regularExpression:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

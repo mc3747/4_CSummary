@@ -27,6 +27,7 @@
 		42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 42278973214614B1002B9C13 /* NSObject+LXD_KVO.m */; };
 		4227897B21461827002B9C13 /* NotificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227897721461827002B9C13 /* NotificationVC.m */; };
 		4227897C21461827002B9C13 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227897A21461827002B9C13 /* NavController.m */; };
+		42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42278981214651B8002B9C13 /* MatchingMethodVC.m */; };
 		4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582620A29F0700BA4F54 /* AppDelegate.m */; };
 		4257582A20A29F0700BA4F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582920A29F0700BA4F54 /* ViewController.m */; };
 		4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4257582B20A29F0700BA4F54 /* Main.storyboard */; };
@@ -233,6 +234,8 @@
 		4227897821461827002B9C13 /* NotificationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationVC.h; sourceTree = "<group>"; };
 		4227897921461827002B9C13 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
 		4227897A21461827002B9C13 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
+		42278981214651B8002B9C13 /* MatchingMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingMethodVC.m; sourceTree = "<group>"; };
+		42278982214651B8002B9C13 /* MatchingMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingMethodVC.h; sourceTree = "<group>"; };
 		4257582220A29F0700BA4F54 /* 排序总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257582520A29F0700BA4F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4257582620A29F0700BA4F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -642,6 +645,39 @@
 			path = "3,FaceBook开源的KVOController";
 			sourceTree = "<group>";
 		};
+		4227897D214645F5002B9C13 /* 8_正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				4227897E2146511C002B9C13 /* 1,匹配的三种方式 */,
+				4227897F2146512C002B9C13 /* 2,正则的使用场景 */,
+				4227898021465148002B9C13 /* 3,常用的正则工具 */,
+			);
+			path = "8_正则表达式";
+			sourceTree = "<group>";
+		};
+		4227897E2146511C002B9C13 /* 1,匹配的三种方式 */ = {
+			isa = PBXGroup;
+			children = (
+				42278982214651B8002B9C13 /* MatchingMethodVC.h */,
+				42278981214651B8002B9C13 /* MatchingMethodVC.m */,
+			);
+			path = "1,匹配的三种方式";
+			sourceTree = "<group>";
+		};
+		4227897F2146512C002B9C13 /* 2,正则的使用场景 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2,正则的使用场景";
+			sourceTree = "<group>";
+		};
+		4227898021465148002B9C13 /* 3,常用的正则工具 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3,常用的正则工具";
+			sourceTree = "<group>";
+		};
 		4257581920A29F0700BA4F54 = {
 			isa = PBXGroup;
 			children = (
@@ -677,6 +713,7 @@
 				42CB7E382138E355003397FB /* 5_定时器总结 */,
 				42B573EE213FDCC10089CFDF /* 6_PerformSelctor的测试 */,
 				42C5B4DE2142593800563794 /* 7_设计模式 */,
+				4227897D214645F5002B9C13 /* 8_正则表达式 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -1616,6 +1653,7 @@
 				42C5B62821425EA500563794 /* ClassModel.m in Sources */,
 				4227897C21461827002B9C13 /* NavController.m in Sources */,
 				42C5B64C21425EA500563794 /* ManagerHandler.m in Sources */,
+				42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */,
 				42C5B63C21425EA500563794 /* ConsumeBill.m in Sources */,
 				42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */,
 				42C5B61A21425EA500563794 /* AirConditioner.m in Sources */,
