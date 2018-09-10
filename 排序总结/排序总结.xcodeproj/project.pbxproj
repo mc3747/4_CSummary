@@ -1018,10 +1018,10 @@
 			isa = PBXGroup;
 			children = (
 				42C5B54421425EA400563794 /* 工厂方法模式 */,
-				42C5B54F21425EA400563794 /* 单例模式 */,
-				42C5B55421425EA400563794 /* 原型模式 */,
-				42C5B55D21425EA400563794 /* 构建者模式 */,
 				42C5B56921425EA400563794 /* 抽象工厂模式 */,
+				42C5B54F21425EA400563794 /* 单例模式 */,
+				42C5B55D21425EA400563794 /* 构建者模式 */,
+				42C5B55421425EA400563794 /* 原型模式 */,
 			);
 			path = "创建型模式";
 			sourceTree = "<group>";
@@ -1029,16 +1029,16 @@
 		42C5B54421425EA400563794 /* 工厂方法模式 */ = {
 			isa = PBXGroup;
 			children = (
+				42C5B54D21425EA400563794 /* FactoryPatternViewController.h */,
 				42C5B54521425EA400563794 /* FactoryPatternViewController.m */,
-				42C5B54621425EA400563794 /* Pencil.m */,
 				42C5B54721425EA400563794 /* Pen.h */,
-				42C5B54821425EA400563794 /* PenFactory.m */,
+				42C5B54C21425EA400563794 /* Pen.m */,
+				42C5B54B21425EA400563794 /* Pencil.h */,
+				42C5B54621425EA400563794 /* Pencil.m */,
+				42C5B54E21425EA400563794 /* BallpointPen.h */,
 				42C5B54921425EA400563794 /* BallpointPen.m */,
 				42C5B54A21425EA400563794 /* PenFactory.h */,
-				42C5B54B21425EA400563794 /* Pencil.h */,
-				42C5B54C21425EA400563794 /* Pen.m */,
-				42C5B54D21425EA400563794 /* FactoryPatternViewController.h */,
-				42C5B54E21425EA400563794 /* BallpointPen.h */,
+				42C5B54821425EA400563794 /* PenFactory.m */,
 			);
 			path = "工厂方法模式";
 			sourceTree = "<group>";
@@ -1046,10 +1046,10 @@
 		42C5B54F21425EA400563794 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
-				42C5B55021425EA400563794 /* SingletonManager.h */,
 				42C5B55121425EA400563794 /* SingletonPatternViewController.h */,
-				42C5B55221425EA400563794 /* SingletonManager.m */,
 				42C5B55321425EA400563794 /* SingletonPatternViewController.m */,
+				42C5B55021425EA400563794 /* SingletonManager.h */,
+				42C5B55221425EA400563794 /* SingletonManager.m */,
 			);
 			path = "单例模式";
 			sourceTree = "<group>";
@@ -1074,10 +1074,10 @@
 			children = (
 				42C5B55E21425EA400563794 /* 车场 */,
 				42C5B56421425EA400563794 /* Director.h */,
-				42C5B56521425EA400563794 /* BuilderViewController.h */,
-				42C5B56621425EA400563794 /* CarBuilder.h */,
 				42C5B56721425EA400563794 /* Director.m */,
+				42C5B56521425EA400563794 /* BuilderViewController.h */,
 				42C5B56821425EA400563794 /* BuilderViewController.m */,
+				42C5B56621425EA400563794 /* CarBuilder.h */,
 			);
 			path = "构建者模式";
 			sourceTree = "<group>";
@@ -1085,11 +1085,11 @@
 		42C5B55E21425EA400563794 /* 车场 */ = {
 			isa = PBXGroup;
 			children = (
-				42C5B55F21425EA400563794 /* CarCompanyBuilder.h */,
 				42C5B56021425EA400563794 /* Car.h */,
-				42C5B56121425EA400563794 /* CarCompanyProtocol.h */,
-				42C5B56221425EA400563794 /* CarCompanyBuilder.m */,
 				42C5B56321425EA400563794 /* Car.m */,
+				42C5B55F21425EA400563794 /* CarCompanyBuilder.h */,
+				42C5B56221425EA400563794 /* CarCompanyBuilder.m */,
+				42C5B56121425EA400563794 /* CarCompanyProtocol.h */,
 			);
 			path = "车场";
 			sourceTree = "<group>";
@@ -1097,19 +1097,19 @@
 		42C5B56921425EA400563794 /* 抽象工厂模式 */ = {
 			isa = PBXGroup;
 			children = (
-				42C5B56A21425EA400563794 /* AbstractFactoryPatternImg.jpeg */,
-				42C5B56B21425EA400563794 /* CircleHeaderFactory.h */,
-				42C5B56C21425EA400563794 /* SquareHeaderFactory.m */,
-				42C5B56D21425EA400563794 /* CircleView.m */,
-				42C5B56E21425EA400563794 /* AbstractFactoryPatternViewController.m */,
-				42C5B56F21425EA400563794 /* HeaderImgFactory.m */,
-				42C5B57021425EA400563794 /* SquareView.h */,
 				42C5B57121425EA400563794 /* AbstractFactoryPatternViewController.h */,
-				42C5B57221425EA400563794 /* CircleView.h */,
-				42C5B57321425EA400563794 /* SquareHeaderFactory.h */,
-				42C5B57421425EA400563794 /* CircleHeaderFactory.m */,
-				42C5B57521425EA400563794 /* SquareView.m */,
+				42C5B56E21425EA400563794 /* AbstractFactoryPatternViewController.m */,
+				42C5B56A21425EA400563794 /* AbstractFactoryPatternImg.jpeg */,
 				42C5B57621425EA400563794 /* HeaderImgFactory.h */,
+				42C5B56F21425EA400563794 /* HeaderImgFactory.m */,
+				42C5B56B21425EA400563794 /* CircleHeaderFactory.h */,
+				42C5B57421425EA400563794 /* CircleHeaderFactory.m */,
+				42C5B57221425EA400563794 /* CircleView.h */,
+				42C5B56D21425EA400563794 /* CircleView.m */,
+				42C5B57321425EA400563794 /* SquareHeaderFactory.h */,
+				42C5B56C21425EA400563794 /* SquareHeaderFactory.m */,
+				42C5B57021425EA400563794 /* SquareView.h */,
+				42C5B57521425EA400563794 /* SquareView.m */,
 			);
 			path = "抽象工厂模式";
 			sourceTree = "<group>";
