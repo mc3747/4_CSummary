@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		422789422145FCEE002B9C13 /* TestVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227893B2145FCEC002B9C13 /* TestVC1.m */; };
+		422789432145FCEE002B9C13 /* SingltonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227893C2145FCEC002B9C13 /* SingltonTest.m */; };
+		422789442145FCEE002B9C13 /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227893E2145FCED002B9C13 /* TestVC2.m */; };
+		422789452145FCEE002B9C13 /* SingltonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227893F2145FCED002B9C13 /* SingltonVC.m */; };
+		422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 422789482145FFD4002B9C13 /* SimpleDelegateTestView.m */; };
+		4227894C2145FFF5002B9C13 /* SimpleDelegateTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227894B2145FFF5002B9C13 /* SimpleDelegateTestVC.m */; };
+		4227895021460376002B9C13 /* ProtocolDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227894F21460376002B9C13 /* ProtocolDelegateVC.m */; };
+		422789532146044C002B9C13 /* TimerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 422789522146044C002B9C13 /* TimerDelegate.m */; };
+		4227895D2146093B002B9C13 /* TestTableViewCellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227895621460939002B9C13 /* TestTableViewCellConfig.m */; };
+		4227895E2146093B002B9C13 /* TestTableViewDigitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227895721460939002B9C13 /* TestTableViewDigitConfig.m */; };
+		4227895F2146093B002B9C13 /* MutiDelegatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227895A2146093A002B9C13 /* MutiDelegatVC.m */; };
+		422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227895B2146093B002B9C13 /* TestTableViewClickConfig.m */; };
+		4227896421460950002B9C13 /* YBProxyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227896321460950002B9C13 /* YBProxyManager.m */; };
+		4227896821460C9D002B9C13 /* BaseKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227896621460C9D002B9C13 /* BaseKVOViewController.m */; };
+		4227896B21460CAF002B9C13 /* myKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227896921460CAE002B9C13 /* myKVO.m */; };
+		4227896F214614A2002B9C13 /* BlockKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227896E214614A2002B9C13 /* BlockKVOViewController.m */; };
+		42278974214614B1002B9C13 /* LXD_ObservedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42278970214614B0002B9C13 /* LXD_ObservedObject.m */; };
+		42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 42278973214614B1002B9C13 /* NSObject+LXD_KVO.m */; };
+		4227897B21461827002B9C13 /* NotificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227897721461827002B9C13 /* NotificationVC.m */; };
+		4227897C21461827002B9C13 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227897A21461827002B9C13 /* NavController.m */; };
 		4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582620A29F0700BA4F54 /* AppDelegate.m */; };
 		4257582A20A29F0700BA4F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582920A29F0700BA4F54 /* ViewController.m */; };
 		4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4257582B20A29F0700BA4F54 /* Main.storyboard */; };
@@ -173,6 +193,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4227893A2145FCEC002B9C13 /* TestVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC1.h; sourceTree = "<group>"; };
+		4227893B2145FCEC002B9C13 /* TestVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC1.m; sourceTree = "<group>"; };
+		4227893C2145FCEC002B9C13 /* SingltonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingltonTest.m; sourceTree = "<group>"; };
+		4227893D2145FCED002B9C13 /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		4227893E2145FCED002B9C13 /* TestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		4227893F2145FCED002B9C13 /* SingltonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingltonVC.m; sourceTree = "<group>"; };
+		422789402145FCED002B9C13 /* SingltonTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingltonTest.h; sourceTree = "<group>"; };
+		422789412145FCED002B9C13 /* SingltonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingltonVC.h; sourceTree = "<group>"; };
+		422789472145FFD4002B9C13 /* SimpleDelegateTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDelegateTestView.h; sourceTree = "<group>"; };
+		422789482145FFD4002B9C13 /* SimpleDelegateTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDelegateTestView.m; sourceTree = "<group>"; };
+		4227894A2145FFF5002B9C13 /* SimpleDelegateTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleDelegateTestVC.h; sourceTree = "<group>"; };
+		4227894B2145FFF5002B9C13 /* SimpleDelegateTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleDelegateTestVC.m; sourceTree = "<group>"; };
+		4227894E21460376002B9C13 /* ProtocolDelegateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolDelegateVC.h; sourceTree = "<group>"; };
+		4227894F21460376002B9C13 /* ProtocolDelegateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolDelegateVC.m; sourceTree = "<group>"; };
+		422789512146044C002B9C13 /* TimerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerDelegate.h; sourceTree = "<group>"; };
+		422789522146044C002B9C13 /* TimerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerDelegate.m; sourceTree = "<group>"; };
+		4227895521460939002B9C13 /* TestTableViewCellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCellConfig.h; sourceTree = "<group>"; };
+		4227895621460939002B9C13 /* TestTableViewCellConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCellConfig.m; sourceTree = "<group>"; };
+		4227895721460939002B9C13 /* TestTableViewDigitConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewDigitConfig.m; sourceTree = "<group>"; };
+		422789582146093A002B9C13 /* TestTableViewClickConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewClickConfig.h; sourceTree = "<group>"; };
+		422789592146093A002B9C13 /* MutiDelegatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutiDelegatVC.h; sourceTree = "<group>"; };
+		4227895A2146093A002B9C13 /* MutiDelegatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutiDelegatVC.m; sourceTree = "<group>"; };
+		4227895B2146093B002B9C13 /* TestTableViewClickConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewClickConfig.m; sourceTree = "<group>"; };
+		4227895C2146093B002B9C13 /* TestTableViewDigitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewDigitConfig.h; sourceTree = "<group>"; };
+		4227896221460950002B9C13 /* YBProxyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBProxyManager.h; sourceTree = "<group>"; };
+		4227896321460950002B9C13 /* YBProxyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBProxyManager.m; sourceTree = "<group>"; };
+		4227896621460C9D002B9C13 /* BaseKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseKVOViewController.m; sourceTree = "<group>"; };
+		4227896721460C9D002B9C13 /* BaseKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseKVOViewController.h; sourceTree = "<group>"; };
+		4227896921460CAE002B9C13 /* myKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myKVO.m; sourceTree = "<group>"; };
+		4227896A21460CAF002B9C13 /* myKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myKVO.h; sourceTree = "<group>"; };
+		4227896D214614A2002B9C13 /* BlockKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockKVOViewController.h; sourceTree = "<group>"; };
+		4227896E214614A2002B9C13 /* BlockKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockKVOViewController.m; sourceTree = "<group>"; };
+		42278970214614B0002B9C13 /* LXD_ObservedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXD_ObservedObject.m; sourceTree = "<group>"; };
+		42278971214614B0002B9C13 /* NSObject+LXD_KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LXD_KVO.h"; sourceTree = "<group>"; };
+		42278972214614B0002B9C13 /* LXD_ObservedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXD_ObservedObject.h; sourceTree = "<group>"; };
+		42278973214614B1002B9C13 /* NSObject+LXD_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LXD_KVO.m"; sourceTree = "<group>"; };
+		4227897721461827002B9C13 /* NotificationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationVC.m; sourceTree = "<group>"; };
+		4227897821461827002B9C13 /* NotificationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationVC.h; sourceTree = "<group>"; };
+		4227897921461827002B9C13 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		4227897A21461827002B9C13 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 		4257582220A29F0700BA4F54 /* 排序总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257582520A29F0700BA4F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4257582620A29F0700BA4F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -504,6 +564,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422789462145FF7D002B9C13 /* 1，简单代理 */ = {
+			isa = PBXGroup;
+			children = (
+				4227894A2145FFF5002B9C13 /* SimpleDelegateTestVC.h */,
+				4227894B2145FFF5002B9C13 /* SimpleDelegateTestVC.m */,
+				422789472145FFD4002B9C13 /* SimpleDelegateTestView.h */,
+				422789482145FFD4002B9C13 /* SimpleDelegateTestView.m */,
+			);
+			path = "1，简单代理";
+			sourceTree = "<group>";
+		};
+		4227894D21460349002B9C13 /* 2，协议代理 */ = {
+			isa = PBXGroup;
+			children = (
+				4227894E21460376002B9C13 /* ProtocolDelegateVC.h */,
+				4227894F21460376002B9C13 /* ProtocolDelegateVC.m */,
+				422789512146044C002B9C13 /* TimerDelegate.h */,
+				422789522146044C002B9C13 /* TimerDelegate.m */,
+			);
+			path = "2，协议代理";
+			sourceTree = "<group>";
+		};
+		422789542146087C002B9C13 /* 3，多代理 */ = {
+			isa = PBXGroup;
+			children = (
+				4227896121460950002B9C13 /* YBProxyManager */,
+				4227895521460939002B9C13 /* TestTableViewCellConfig.h */,
+				4227895621460939002B9C13 /* TestTableViewCellConfig.m */,
+				422789582146093A002B9C13 /* TestTableViewClickConfig.h */,
+				4227895B2146093B002B9C13 /* TestTableViewClickConfig.m */,
+				4227895C2146093B002B9C13 /* TestTableViewDigitConfig.h */,
+				4227895721460939002B9C13 /* TestTableViewDigitConfig.m */,
+				422789592146093A002B9C13 /* MutiDelegatVC.h */,
+				4227895A2146093A002B9C13 /* MutiDelegatVC.m */,
+			);
+			path = "3，多代理";
+			sourceTree = "<group>";
+		};
+		4227896121460950002B9C13 /* YBProxyManager */ = {
+			isa = PBXGroup;
+			children = (
+				4227896221460950002B9C13 /* YBProxyManager.h */,
+				4227896321460950002B9C13 /* YBProxyManager.m */,
+			);
+			path = YBProxyManager;
+			sourceTree = "<group>";
+		};
+		4227896521460C5E002B9C13 /* 1,基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				4227896721460C9D002B9C13 /* BaseKVOViewController.h */,
+				4227896621460C9D002B9C13 /* BaseKVOViewController.m */,
+				4227896A21460CAF002B9C13 /* myKVO.h */,
+				4227896921460CAE002B9C13 /* myKVO.m */,
+			);
+			path = "1,基本使用";
+			sourceTree = "<group>";
+		};
+		4227896C21461303002B9C13 /* 2,Block封装KVO */ = {
+			isa = PBXGroup;
+			children = (
+				42278972214614B0002B9C13 /* LXD_ObservedObject.h */,
+				42278970214614B0002B9C13 /* LXD_ObservedObject.m */,
+				42278971214614B0002B9C13 /* NSObject+LXD_KVO.h */,
+				42278973214614B1002B9C13 /* NSObject+LXD_KVO.m */,
+				4227896D214614A2002B9C13 /* BlockKVOViewController.h */,
+				4227896E214614A2002B9C13 /* BlockKVOViewController.m */,
+			);
+			path = "2,Block封装KVO";
+			sourceTree = "<group>";
+		};
+		42278976214616A4002B9C13 /* 3,FaceBook开源的KVOController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3,FaceBook开源的KVOController";
+			sourceTree = "<group>";
+		};
 		4257581920A29F0700BA4F54 = {
 			isa = PBXGroup;
 			children = (
@@ -629,6 +767,14 @@
 		42C5B4DF21425A7300563794 /* 1，单例模式 */ = {
 			isa = PBXGroup;
 			children = (
+				422789402145FCED002B9C13 /* SingltonTest.h */,
+				4227893C2145FCEC002B9C13 /* SingltonTest.m */,
+				4227893A2145FCEC002B9C13 /* TestVC1.h */,
+				4227893B2145FCEC002B9C13 /* TestVC1.m */,
+				4227893D2145FCED002B9C13 /* TestVC2.h */,
+				4227893E2145FCED002B9C13 /* TestVC2.m */,
+				422789412145FCED002B9C13 /* SingltonVC.h */,
+				4227893F2145FCED002B9C13 /* SingltonVC.m */,
 			);
 			path = "1，单例模式";
 			sourceTree = "<group>";
@@ -636,6 +782,9 @@
 		42C5B4E021425A7D00563794 /* 2，代理(委托)模式 */ = {
 			isa = PBXGroup;
 			children = (
+				422789462145FF7D002B9C13 /* 1，简单代理 */,
+				4227894D21460349002B9C13 /* 2，协议代理 */,
+				422789542146087C002B9C13 /* 3，多代理 */,
 			);
 			path = "2，代理(委托)模式";
 			sourceTree = "<group>";
@@ -643,6 +792,9 @@
 		42C5B4E121425A9C00563794 /* 3，观察者(KVO)模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4227896521460C5E002B9C13 /* 1,基本使用 */,
+				4227896C21461303002B9C13 /* 2,Block封装KVO */,
+				42278976214616A4002B9C13 /* 3,FaceBook开源的KVOController */,
 			);
 			path = "3，观察者(KVO)模式";
 			sourceTree = "<group>";
@@ -650,6 +802,10 @@
 		42C5B4E221425AC100563794 /* 4，通知模式 */ = {
 			isa = PBXGroup;
 			children = (
+				4227897921461827002B9C13 /* NavController.h */,
+				4227897A21461827002B9C13 /* NavController.m */,
+				4227897821461827002B9C13 /* NotificationVC.h */,
+				4227897721461827002B9C13 /* NotificationVC.m */,
 			);
 			path = "4，通知模式";
 			sourceTree = "<group>";
@@ -1386,25 +1542,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4227896821460C9D002B9C13 /* BaseKVOViewController.m in Sources */,
 				42C5B64021425EA500563794 /* Boss.m in Sources */,
 				42C5B66921425EA500563794 /* SubscibeCenter.m in Sources */,
 				42C5B64F21425EA500563794 /* ChainOfResponsibilityPatternViewController.m in Sources */,
+				4227896421460950002B9C13 /* YBProxyManager.m in Sources */,
 				42C5B66521425EA500563794 /* AdditionExpression.m in Sources */,
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
 				42C5B65221425EA500563794 /* ShipmentState.m in Sources */,
 				42C5B62E21425EA500563794 /* BuilderViewController.m in Sources */,
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
 				42C5B6742142646A00563794 /* UIColor+Separate.m in Sources */,
+				422789532146044C002B9C13 /* TimerDelegate.m in Sources */,
 				42C5B66321425EA500563794 /* Calculator.m in Sources */,
 				42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */,
 				42C5B61121425EA500563794 /* DelegatePatternViewController.m in Sources */,
 				42C5B5FE21425EA500563794 /* GameDecortor.m in Sources */,
+				4227894C2145FFF5002B9C13 /* SimpleDelegateTestVC.m in Sources */,
 				42C5B62921425EA500563794 /* PrototypePatternViewController.m in Sources */,
 				42C5B64121425EA500563794 /* Receiver.m in Sources */,
 				42C5B60121425EA500563794 /* ModelTwoAdapter.m in Sources */,
 				42C5B65321425EA500563794 /* Celling.m in Sources */,
 				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
+				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
+				4227896F214614A2002B9C13 /* BlockKVOViewController.m in Sources */,
+				4227896B21460CAF002B9C13 /* myKVO.m in Sources */,
 				42C5B65C21425EA500563794 /* LinkIterator.m in Sources */,
 				42C5B61821425EA500563794 /* TemperatureRemote.m in Sources */,
 				42B573FA213FDCFF0089CFDF /* RootViewController.m in Sources */,
@@ -1419,6 +1582,7 @@
 				42C5B65D21425EA500563794 /* Node.m in Sources */,
 				42C5B60521425EA500563794 /* AdapterUSD.m in Sources */,
 				42C5B66121425EA500563794 /* Basketball.m in Sources */,
+				4227897B21461827002B9C13 /* NotificationVC.m in Sources */,
 				42C5B63021425EA500563794 /* SquareHeaderFactory.m in Sources */,
 				42C5B5F921425EA500563794 /* GameLoL+Coin.m in Sources */,
 				42C5B63521425EA500563794 /* SquareView.m in Sources */,
@@ -1429,6 +1593,7 @@
 				42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */,
 				42C5B63621425EA500563794 /* StrategyPatternViewController.m in Sources */,
 				42C5B66821425EA500563794 /* InterpreterPatternViewController.m in Sources */,
+				4227895021460376002B9C13 /* ProtocolDelegateVC.m in Sources */,
 				42C5B61F21425EA500563794 /* Flower.m in Sources */,
 				42C5B60B21425EA500563794 /* FileCell.m in Sources */,
 				42C5B63321425EA500563794 /* HeaderImgFactory.m in Sources */,
@@ -1436,6 +1601,7 @@
 				42C5B61C21425EA500563794 /* BridgePatternViewController.m in Sources */,
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
+				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
@@ -1448,6 +1614,7 @@
 				42C5B63E21425EA500563794 /* CAP.m in Sources */,
 				42C5B65021425EA500563794 /* ChairmanHandler.m in Sources */,
 				42C5B62821425EA500563794 /* ClassModel.m in Sources */,
+				4227897C21461827002B9C13 /* NavController.m in Sources */,
 				42C5B64C21425EA500563794 /* ManagerHandler.m in Sources */,
 				42C5B63C21425EA500563794 /* ConsumeBill.m in Sources */,
 				42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */,
@@ -1456,7 +1623,10 @@
 				42C5B61621425EA500563794 /* Remote.m in Sources */,
 				42C5B65121425EA500563794 /* BuyState.m in Sources */,
 				42C5B65F21425EA500563794 /* TemplatePatternViewController.m in Sources */,
+				422789452145FCEE002B9C13 /* SingltonVC.m in Sources */,
+				422789432145FCEE002B9C13 /* SingltonTest.m in Sources */,
 				42C5B63D21425EA500563794 /* AccountBook.m in Sources */,
+				422789442145FCEE002B9C13 /* TestVC2.m in Sources */,
 				42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */,
 				42C5B62021425EA500563794 /* FactoryPatternViewController.m in Sources */,
 				42C5B66A21425EA500563794 /* ObserverPatternViewController.m in Sources */,
@@ -1474,7 +1644,9 @@
 				42C5B64321425EA500563794 /* CommandPatternViewController.m in Sources */,
 				42C5B62D21425EA500563794 /* Director.m in Sources */,
 				4257582A20A29F0700BA4F54 /* ViewController.m in Sources */,
+				4227895E2146093B002B9C13 /* TestTableViewDigitConfig.m in Sources */,
 				42C5B63821425EA500563794 /* OperationAdd.m in Sources */,
+				422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */,
 				42C5B65A21425EA500563794 /* NSObject+MementoCenter.m in Sources */,
 				42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
@@ -1487,6 +1659,7 @@
 				42C5B62621425EA500563794 /* SingletonPatternViewController.m in Sources */,
 				42C5B61721425EA500563794 /* DirectionRemote.m in Sources */,
 				42C5B60921425EA500563794 /* AdapterViewController.m in Sources */,
+				4227895D2146093B002B9C13 /* TestTableViewCellConfig.m in Sources */,
 				42CB7E512138E399003397FB /* NSTimerVC.m in Sources */,
 				42C5B65921425EA500563794 /* FastCoder.m in Sources */,
 				42C5B61321425EA500563794 /* Taximeter.m in Sources */,
@@ -1502,6 +1675,7 @@
 				42C5B60321425EA500563794 /* ModelOneAdapter.m in Sources */,
 				42C5B60E21425EA500563794 /* CompositePatternViewController.m in Sources */,
 				42C5B62421425EA500563794 /* Pen.m in Sources */,
+				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,
 				42C5B61E21425EA500563794 /* FlowerFactory.m in Sources */,
 				42C5B5FD21425EA500563794 /* CoinGameDecorator.m in Sources */,
 				42C5B65421425EA500563794 /* StatePatternViewController.m in Sources */,
@@ -1514,6 +1688,7 @@
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
 				42C5B6752142646A00563794 /* UIColor+Wonderful.m in Sources */,
+				4227895F2146093B002B9C13 /* MutiDelegatVC.m in Sources */,
 				42C5B63721425EA500563794 /* OperationSubStract.m in Sources */,
 				42C5B66021425EA500563794 /* Game.m in Sources */,
 				42C5B63121425EA500563794 /* CircleView.m in Sources */,
@@ -1521,6 +1696,7 @@
 				42C5B65521425EA500563794 /* ChoosingState.m in Sources */,
 				42C5B62A21425EA500563794 /* StudentModel.m in Sources */,
 				4257583520A29F0900BA4F54 /* main.m in Sources */,
+				42278974214614B1002B9C13 /* LXD_ObservedObject.m in Sources */,
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
 				42C5B62121425EA500563794 /* Pencil.m in Sources */,

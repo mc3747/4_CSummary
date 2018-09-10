@@ -37,10 +37,10 @@
     
     
     self.cellDisplayNameArray = @[@"1，方法的可变参数",@"2，方法的多个返回值",@"3，控制器传值",@"4，调用方法的方式",
-                                  @"5，定时器汇总",@"6，PerformSelector方法测试",@"7，设计模式汇总"];
+                                  @"5，定时器汇总",@"6，PerformSelector方法测试",@"7，设计模式汇总",@"8，单例模式",@"9，简单代理",@"10，协议代理",@"11，多代理",@"12，KVO基本使用",@"13，Block封装KVO",@"14，通知模式"];
     
     self.cellControllerNameArray = @[@"",@"",@"PassValueVC",@"CallMethodViewController",
-                                     @"TimerViewController",@"RootViewController",@"DesignModeSummaryVC"];
+ @"TimerViewController",@"RootViewController",@"DesignModeSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"BaseKVOViewController",@"BlockKVOViewController",@"NotificationVC"];
 }
 
 #pragma mark -  初始化tableview
