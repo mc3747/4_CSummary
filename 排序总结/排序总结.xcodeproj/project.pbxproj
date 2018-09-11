@@ -174,6 +174,19 @@
 		42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
+		42E8C8B02147583B00BA399D /* RegularExpressionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */; };
+		42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8B3214758B900BA399D /* SearchViewController.m */; };
+		42E8C8BC214758BB00BA399D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8B4214758B900BA399D /* FirstViewController.m */; };
+		42E8C8BD214758BB00BA399D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8B7214758BA00BA399D /* SecondViewController.m */; };
+		42E8C8BE214758BB00BA399D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8B8214758BA00BA399D /* ThirdViewController.m */; };
+		42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E8C8C0214758F100BA399D /* RegularExpressionVC.storyboard */; };
+		42E8C8C521476FDA00BA399D /* RegularUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8C321476FDA00BA399D /* RegularUtils.m */; };
+		42E8C8C821476FF500BA399D /* LCRegExpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8C621476FF500BA399D /* LCRegExpTool.m */; };
+		42E8C8CF2147931300BA399D /* MMReTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8CD2147931300BA399D /* MMReTextField.m */; };
+		42E8C8D02147931300BA399D /* MMRegularParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8CE2147931300BA399D /* MMRegularParser.m */; };
+		42E8C8D42147933500BA399D /* NSString+NSStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8D22147933500BA399D /* NSString+NSStringUtils.m */; };
+		42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8D62147951A00BA399D /* AmountInputVC.m */; };
+		42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E8C8D72147951A00BA399D /* AmountInputVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -540,6 +553,30 @@
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
 		42E4579F212E3D8D00898A3D /* CallMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallMethodViewController.h; sourceTree = "<group>"; };
+		42E8C8AE2147583B00BA399D /* RegularExpressionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularExpressionVC.h; sourceTree = "<group>"; };
+		42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionVC.m; sourceTree = "<group>"; };
+		42E8C8B3214758B900BA399D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		42E8C8B4214758B900BA399D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		42E8C8B5214758B900BA399D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		42E8C8B6214758B900BA399D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		42E8C8B7214758BA00BA399D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		42E8C8B8214758BA00BA399D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		42E8C8B9214758BA00BA399D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		42E8C8BA214758BB00BA399D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		42E8C8C0214758F100BA399D /* RegularExpressionVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RegularExpressionVC.storyboard; sourceTree = "<group>"; };
+		42E8C8C321476FDA00BA399D /* RegularUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularUtils.m; sourceTree = "<group>"; };
+		42E8C8C421476FDA00BA399D /* RegularUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularUtils.h; sourceTree = "<group>"; };
+		42E8C8C621476FF500BA399D /* LCRegExpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCRegExpTool.m; sourceTree = "<group>"; };
+		42E8C8C721476FF500BA399D /* LCRegExpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCRegExpTool.h; sourceTree = "<group>"; };
+		42E8C8CB2147931300BA399D /* MMReTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMReTextField.h; sourceTree = "<group>"; };
+		42E8C8CC2147931300BA399D /* MMRegularParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRegularParser.h; sourceTree = "<group>"; };
+		42E8C8CD2147931300BA399D /* MMReTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMReTextField.m; sourceTree = "<group>"; };
+		42E8C8CE2147931300BA399D /* MMRegularParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRegularParser.m; sourceTree = "<group>"; };
+		42E8C8D22147933500BA399D /* NSString+NSStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringUtils.m"; sourceTree = "<group>"; };
+		42E8C8D32147933500BA399D /* NSString+NSStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringUtils.h"; sourceTree = "<group>"; };
+		42E8C8D52147951A00BA399D /* AmountInputVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmountInputVC.h; sourceTree = "<group>"; };
+		42E8C8D62147951A00BA399D /* AmountInputVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmountInputVC.m; sourceTree = "<group>"; };
+		42E8C8D72147951A00BA399D /* AmountInputVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmountInputVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -667,6 +704,10 @@
 		4227897F2146512C002B9C13 /* 2,正则的使用场景 */ = {
 			isa = PBXGroup;
 			children = (
+				42E8C8BF214758BF00BA399D /* Controllers */,
+				42E8C8AE2147583B00BA399D /* RegularExpressionVC.h */,
+				42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */,
+				42E8C8C0214758F100BA399D /* RegularExpressionVC.storyboard */,
 			);
 			path = "2,正则的使用场景";
 			sourceTree = "<group>";
@@ -674,6 +715,8 @@
 		4227898021465148002B9C13 /* 3,常用的正则工具 */ = {
 			isa = PBXGroup;
 			children = (
+				42E8C8C221476FBF00BA399D /* 1，验证类工具 */,
+				42E8C8C92147724F00BA399D /* 2，金额输入格式化 */,
 			);
 			path = "3,常用的正则工具";
 			sourceTree = "<group>";
@@ -1447,6 +1490,64 @@
 			path = "4_调用方法的方式";
 			sourceTree = "<group>";
 		};
+		42E8C8BF214758BF00BA399D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42E8C8B5214758B900BA399D /* FirstViewController.h */,
+				42E8C8B4214758B900BA399D /* FirstViewController.m */,
+				42E8C8B9214758BA00BA399D /* SearchViewController.h */,
+				42E8C8B3214758B900BA399D /* SearchViewController.m */,
+				42E8C8B6214758B900BA399D /* SecondViewController.h */,
+				42E8C8B7214758BA00BA399D /* SecondViewController.m */,
+				42E8C8BA214758BB00BA399D /* ThirdViewController.h */,
+				42E8C8B8214758BA00BA399D /* ThirdViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		42E8C8C221476FBF00BA399D /* 1，验证类工具 */ = {
+			isa = PBXGroup;
+			children = (
+				42E8C8C721476FF500BA399D /* LCRegExpTool.h */,
+				42E8C8C621476FF500BA399D /* LCRegExpTool.m */,
+				42E8C8C421476FDA00BA399D /* RegularUtils.h */,
+				42E8C8C321476FDA00BA399D /* RegularUtils.m */,
+			);
+			path = "1，验证类工具";
+			sourceTree = "<group>";
+		};
+		42E8C8C92147724F00BA399D /* 2，金额输入格式化 */ = {
+			isa = PBXGroup;
+			children = (
+				42E8C8D52147951A00BA399D /* AmountInputVC.h */,
+				42E8C8D62147951A00BA399D /* AmountInputVC.m */,
+				42E8C8D72147951A00BA399D /* AmountInputVC.xib */,
+				42E8C8D12147933500BA399D /* AmountString */,
+				42E8C8CA2147931300BA399D /* RegularTool */,
+			);
+			path = "2，金额输入格式化";
+			sourceTree = "<group>";
+		};
+		42E8C8CA2147931300BA399D /* RegularTool */ = {
+			isa = PBXGroup;
+			children = (
+				42E8C8CB2147931300BA399D /* MMReTextField.h */,
+				42E8C8CC2147931300BA399D /* MMRegularParser.h */,
+				42E8C8CD2147931300BA399D /* MMReTextField.m */,
+				42E8C8CE2147931300BA399D /* MMRegularParser.m */,
+			);
+			path = RegularTool;
+			sourceTree = "<group>";
+		};
+		42E8C8D12147933500BA399D /* AmountString */ = {
+			isa = PBXGroup;
+			children = (
+				42E8C8D32147933500BA399D /* NSString+NSStringUtils.h */,
+				42E8C8D22147933500BA399D /* NSString+NSStringUtils.m */,
+			);
+			path = AmountString;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1553,6 +1654,8 @@
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
 				42C5B60F21425EA500563794 /* 文件夹系统.png in Resources */,
 				4257583220A29F0900BA4F54 /* LaunchScreen.storyboard in Resources */,
+				42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */,
+				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
 			);
@@ -1591,6 +1694,7 @@
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
 				42C5B6742142646A00563794 /* UIColor+Separate.m in Sources */,
 				422789532146044C002B9C13 /* TimerDelegate.m in Sources */,
+				42E8C8C521476FDA00BA399D /* RegularUtils.m in Sources */,
 				42C5B66321425EA500563794 /* Calculator.m in Sources */,
 				42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */,
 				42C5B61121425EA500563794 /* DelegatePatternViewController.m in Sources */,
@@ -1603,6 +1707,7 @@
 				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
 				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
+				42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */,
 				4227896F214614A2002B9C13 /* BlockKVOViewController.m in Sources */,
 				4227896B21460CAF002B9C13 /* myKVO.m in Sources */,
 				42C5B65C21425EA500563794 /* LinkIterator.m in Sources */,
@@ -1622,7 +1727,10 @@
 				4227897B21461827002B9C13 /* NotificationVC.m in Sources */,
 				42C5B63021425EA500563794 /* SquareHeaderFactory.m in Sources */,
 				42C5B5F921425EA500563794 /* GameLoL+Coin.m in Sources */,
+				42E8C8B02147583B00BA399D /* RegularExpressionVC.m in Sources */,
+				42E8C8BD214758BB00BA399D /* SecondViewController.m in Sources */,
 				42C5B63521425EA500563794 /* SquareView.m in Sources */,
+				42E8C8C821476FF500BA399D /* LCRegExpTool.m in Sources */,
 				42C5B60221425EA500563794 /* ModelTwo.m in Sources */,
 				42C5B61521425EA500563794 /* CabDriver.m in Sources */,
 				42C5B61221425EA500563794 /* FacadeCar.m in Sources */,
@@ -1636,6 +1744,7 @@
 				42C5B63321425EA500563794 /* HeaderImgFactory.m in Sources */,
 				42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */,
 				42C5B61C21425EA500563794 /* BridgePatternViewController.m in Sources */,
+				42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */,
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
@@ -1647,6 +1756,7 @@
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
 				42C5B66D21425EE300563794 /* DesignModeSummaryVC.m in Sources */,
+				42E8C8BE214758BB00BA399D /* ThirdViewController.m in Sources */,
 				42C5B64821425EA500563794 /* Colleague.m in Sources */,
 				42C5B63E21425EA500563794 /* CAP.m in Sources */,
 				42C5B65021425EA500563794 /* ChairmanHandler.m in Sources */,
@@ -1687,10 +1797,12 @@
 				422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */,
 				42C5B65A21425EA500563794 /* NSObject+MementoCenter.m in Sources */,
 				42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */,
+				42E8C8D02147931300BA399D /* MMRegularParser.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
 				42C5B65E21425EA500563794 /* LinkedList.m in Sources */,
 				42C5B62B21425EA500563794 /* CarCompanyBuilder.m in Sources */,
 				42C5B60821425EA500563794 /* AdapterCNY.m in Sources */,
+				42E8C8D42147933500BA399D /* NSString+NSStringUtils.m in Sources */,
 				42C5B5FF21425EA500563794 /* ModelOne.m in Sources */,
 				42C5B66221425EA500563794 /* Football.m in Sources */,
 				42C5B65621425EA500563794 /* Apple.m in Sources */,
@@ -1698,12 +1810,14 @@
 				42C5B61721425EA500563794 /* DirectionRemote.m in Sources */,
 				42C5B60921425EA500563794 /* AdapterViewController.m in Sources */,
 				4227895D2146093B002B9C13 /* TestTableViewCellConfig.m in Sources */,
+				42E8C8BC214758BB00BA399D /* FirstViewController.m in Sources */,
 				42CB7E512138E399003397FB /* NSTimerVC.m in Sources */,
 				42C5B65921425EA500563794 /* FastCoder.m in Sources */,
 				42C5B61321425EA500563794 /* Taximeter.m in Sources */,
 				42C5B63B21425EA500563794 /* IncomeBill.m in Sources */,
 				42C5B61421425EA500563794 /* FacadePatternViewController.m in Sources */,
 				42CB7E4F2138E399003397FB /* BlockTimerVC.m in Sources */,
+				42E8C8CF2147931300BA399D /* MMReTextField.m in Sources */,
 				42C5B64E21425EA500563794 /* GroupLeaderHandler.m in Sources */,
 				42C5B66721425EA500563794 /* OperatorExpression.m in Sources */,
 				42C5B64B21425EA500563794 /* Order.m in Sources */,

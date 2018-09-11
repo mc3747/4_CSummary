@@ -86,8 +86,6 @@
 
 #pragma mark -  弹框
 - (void)showAlert {
-    // UIAlertControllerStyleActionSheet 从底部sheet的形式
-    // UIAlertControllerStyleAlert       从中间弹框的形式
     UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:@"过滤数字" message:@"" preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *defaultAction = [UIAlertAction actionWithTitle:_filterStr style:UIAlertActionStyleDefault handler:nil];
     [alertVC addAction:defaultAction];
@@ -127,10 +125,25 @@
      searchText = @"// Do any additional setup after loading the view, nib., typically from a nib.";
     NSError *error = NULL;
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"(?:[^,])*\\." options:NSRegularExpressionCaseInsensitive error:&error];
-    NSTextCheckingResult *result = [regex firstMatchInString:searchText options:0 range:NSMakeRange(0, [searchText length])];
-    if (result) {
-        NSLog(@"%@", [searchText substringWithRange:result.range]);
-        _filterStr = [searchText substringWithRange:result.range];
+    
+//    匹配一次
+//    NSTextCheckingResult *result = [regex firstMatchInString:searchText options:0 range:NSMakeRange(0, [searchText length])];
+    
+//    匹配多次
+    NSMutableString *resultString = [NSMutableString stringWithFormat:@"结果是："];
+    NSArray *matches = [regex matchesInString:searchText options:NSMatchingReportCompletion range:NSMakeRange(0, [searchText length])];
+    for (NSTextCheckingResult *result in matches) {
+        NSRange matchRange = result.range;
+        NSString *matchString = [searchText substringWithRange:matchRange];
+        [resultString appendString:matchString];
+    }
+    
+//    [regex enumerateMatchesInString:searchText options:NSMatchingReportCompletion range:NSMakeRange(0, [searchText length]) usingBlock:^(NSTextCheckingResult * _Nullable result, NSMatchingFlags flags, BOOL * _Nonnull stop) {
+//
+//    }];
+    
+    if (resultString) {
+        _filterStr = resultString;
     }else {
         _filterStr = @"没有满足条件哦😯";
     }

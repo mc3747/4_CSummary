@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/8_&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;/1,&#x5339;&#x914d;&#x7684;&#x4e09;&#x79cd;&#x65b9;&#x5f0f;/MatchingMethodVC.m"
-            timestampString = "558267706.947925"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/8_&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;/2,&#x6b63;&#x5219;&#x7684;&#x4f7f;&#x7528;&#x573a;&#x666f;/Controllers/FirstViewController.m"
+            timestampString = "558326850.084543"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "-confirm3"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-controller:didFinishWithSearchString:options:replacement:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/8_&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;/1,&#x5339;&#x914d;&#x7684;&#x4e09;&#x79cd;&#x65b9;&#x5f0f;/MatchingMethodVC.m"
-            timestampString = "558267706.948047"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/8_&#x6b63;&#x5219;&#x8868;&#x8fbe;&#x5f0f;/2,&#x6b63;&#x5219;&#x7684;&#x4f7f;&#x7528;&#x573a;&#x666f;/Controllers/FirstViewController.m"
+            timestampString = "558326850.0851229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
-            landmarkName = "-regularExpression:"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-prepareForSegue:sender:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
