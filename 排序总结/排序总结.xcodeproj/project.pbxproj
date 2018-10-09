@@ -757,6 +757,8 @@
 				42B573EE213FDCC10089CFDF /* 6_PerformSelctor的测试 */,
 				42C5B4DE2142593800563794 /* 7_设计模式 */,
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
+				427D28B1216C9843009DDEAC /* 9_代码架构 */,
+				427D28B2216C9863009DDEAC /* 10_组件化 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -795,6 +797,20 @@
 				42E1E54F20CE02E3000A263B /* GCD_Singleton.m */,
 			);
 			path = "3_控制器传值";
+			sourceTree = "<group>";
+		};
+		427D28B1216C9843009DDEAC /* 9_代码架构 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "9_代码架构";
+			sourceTree = "<group>";
+		};
+		427D28B2216C9863009DDEAC /* 10_组件化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "10_组件化";
 			sourceTree = "<group>";
 		};
 		429D333720C77F48006EA211 /* 1_方法的可变参数 */ = {
@@ -1532,8 +1548,8 @@
 			isa = PBXGroup;
 			children = (
 				42E8C8CB2147931300BA399D /* MMReTextField.h */,
-				42E8C8CC2147931300BA399D /* MMRegularParser.h */,
 				42E8C8CD2147931300BA399D /* MMReTextField.m */,
+				42E8C8CC2147931300BA399D /* MMRegularParser.h */,
 				42E8C8CE2147931300BA399D /* MMRegularParser.m */,
 			);
 			path = RegularTool;
@@ -2022,6 +2038,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQBF47L68X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "排序总结/Resources/PrefixHeader.pch";
 				INFOPLIST_FILE = "排序总结/Info.plist";
@@ -2040,6 +2057,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQBF47L68X;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "排序总结/Resources/PrefixHeader.pch";
 				INFOPLIST_FILE = "排序总结/Info.plist";

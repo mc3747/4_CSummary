@@ -8,6 +8,7 @@
 
 #import "AmountInputVC.h"
 #import "MMReTextField.h"
+
 #import "NSString+NSStringUtils.h"
 
 @interface AmountInputVC ()<UITextFieldDelegate>
