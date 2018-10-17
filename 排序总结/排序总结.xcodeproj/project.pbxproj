@@ -172,6 +172,7 @@
 		42CB7E542138E399003397FB /* NSTimer+TimerBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E432138E399003397FB /* NSTimer+TimerBlock.m */; };
 		42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E482138E399003397FB /* JX_GCDTimerManager.m */; };
 		42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */; };
+		42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D04E982176C5490075ECEF /* RunTimeVC.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 		42E8C8B02147583B00BA399D /* RegularExpressionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */; };
@@ -549,6 +550,8 @@
 		42CB7E4B2138E399003397FB /* CustomTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTimerVC.h; sourceTree = "<group>"; };
 		42CB7E4C2138E399003397FB /* NSTimerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTimerVC.h; sourceTree = "<group>"; };
 		42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkVC.m; sourceTree = "<group>"; };
+		42D04E972176C5490075ECEF /* RunTimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeVC.h; sourceTree = "<group>"; };
+		42D04E982176C5490075ECEF /* RunTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeVC.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
@@ -759,6 +762,7 @@
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
 				427D28B1216C9843009DDEAC /* 9_代码架构 */,
 				427D28B2216C9863009DDEAC /* 10_组件化 */,
+				42D04E962176C2920075ECEF /* 11_runTime */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -1497,6 +1501,23 @@
 			path = TimerGCDManager;
 			sourceTree = "<group>";
 		};
+		42D04E962176C2920075ECEF /* 11_runTime */ = {
+			isa = PBXGroup;
+			children = (
+				42D04E972176C5490075ECEF /* RunTimeVC.h */,
+				42D04E982176C5490075ECEF /* RunTimeVC.m */,
+				42D04E9A2176C6450075ECEF /* 1,常规特征 */,
+			);
+			path = 11_runTime;
+			sourceTree = "<group>";
+		};
+		42D04E9A2176C6450075ECEF /* 1,常规特征 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1,常规特征";
+			sourceTree = "<group>";
+		};
 		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1845,6 +1866,7 @@
 				42C5B62421425EA500563794 /* Pen.m in Sources */,
 				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,
 				42C5B61E21425EA500563794 /* FlowerFactory.m in Sources */,
+				42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */,
 				42C5B5FD21425EA500563794 /* CoinGameDecorator.m in Sources */,
 				42C5B65421425EA500563794 /* StatePatternViewController.m in Sources */,
 				42C5B63421425EA500563794 /* CircleHeaderFactory.m in Sources */,
