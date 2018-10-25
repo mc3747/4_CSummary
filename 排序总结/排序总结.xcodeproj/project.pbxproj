@@ -38,6 +38,10 @@
 		4257584A20A29F0900BA4F54 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257584920A29F0900BA4F54 /* ____UITests.m */; };
 		426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C320CA77ED00B2B747 /* PassValueVC.m */; };
 		426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */; };
+		427479D121817382004CFC10 /* InitMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D021817382004CFC10 /* InitMethodVC.m */; };
+		427479D8218173DE004CFC10 /* BuildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D2218173DD004CFC10 /* BuildClass.m */; };
+		427479D9218173DE004CFC10 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D5218173DD004CFC10 /* Builder.m */; };
+		427479DA218173DE004CFC10 /* BuildPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D6218173DE004CFC10 /* BuildPattern.m */; };
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
@@ -270,6 +274,14 @@
 		426FB1C320CA77ED00B2B747 /* PassValueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassValueVC.m; sourceTree = "<group>"; };
 		426FB1C520CA7CFD00B2B747 /* ReceiveValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveValueVC.h; sourceTree = "<group>"; };
 		426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiveValueVC.m; sourceTree = "<group>"; };
+		427479CF21817382004CFC10 /* InitMethodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitMethodVC.h; sourceTree = "<group>"; };
+		427479D021817382004CFC10 /* InitMethodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitMethodVC.m; sourceTree = "<group>"; };
+		427479D2218173DD004CFC10 /* BuildClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildClass.m; sourceTree = "<group>"; };
+		427479D3218173DD004CFC10 /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		427479D4218173DD004CFC10 /* BuildPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildPattern.h; sourceTree = "<group>"; };
+		427479D5218173DD004CFC10 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		427479D6218173DE004CFC10 /* BuildPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildPattern.m; sourceTree = "<group>"; };
+		427479D7218173DE004CFC10 /* BuildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildClass.h; sourceTree = "<group>"; };
 		427F207B20C6915400F511B0 /* ParameterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterManager.h; sourceTree = "<group>"; };
 		427F207C20C6915400F511B0 /* ParameterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterManager.m; sourceTree = "<group>"; };
 		427F207E20C695C000F511B0 /* ParameterClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterClass.h; sourceTree = "<group>"; };
@@ -763,6 +775,7 @@
 				427D28B1216C9843009DDEAC /* 9_代码架构 */,
 				427D28B2216C9863009DDEAC /* 10_组件化 */,
 				42D04E962176C2920075ECEF /* 11_runTime */,
+				427479CE21817321004CFC10 /* 12_对象初始化方法 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -801,6 +814,21 @@
 				42E1E54F20CE02E3000A263B /* GCD_Singleton.m */,
 			);
 			path = "3_控制器传值";
+			sourceTree = "<group>";
+		};
+		427479CE21817321004CFC10 /* 12_对象初始化方法 */ = {
+			isa = PBXGroup;
+			children = (
+				427479D7218173DE004CFC10 /* BuildClass.h */,
+				427479D2218173DD004CFC10 /* BuildClass.m */,
+				427479D3218173DD004CFC10 /* Builder.h */,
+				427479D5218173DD004CFC10 /* Builder.m */,
+				427479D4218173DD004CFC10 /* BuildPattern.h */,
+				427479D6218173DE004CFC10 /* BuildPattern.m */,
+				427479CF21817382004CFC10 /* InitMethodVC.h */,
+				427479D021817382004CFC10 /* InitMethodVC.m */,
+			);
+			path = "12_对象初始化方法";
 			sourceTree = "<group>";
 		};
 		427D28B1216C9843009DDEAC /* 9_代码架构 */ = {
@@ -1720,6 +1748,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4227896821460C9D002B9C13 /* BaseKVOViewController.m in Sources */,
+				427479D121817382004CFC10 /* InitMethodVC.m in Sources */,
 				42C5B64021425EA500563794 /* Boss.m in Sources */,
 				42C5B66921425EA500563794 /* SubscibeCenter.m in Sources */,
 				42C5B64F21425EA500563794 /* ChainOfResponsibilityPatternViewController.m in Sources */,
@@ -1741,6 +1770,7 @@
 				42C5B64121425EA500563794 /* Receiver.m in Sources */,
 				42C5B60121425EA500563794 /* ModelTwoAdapter.m in Sources */,
 				42C5B65321425EA500563794 /* Celling.m in Sources */,
+				427479DA218173DE004CFC10 /* BuildPattern.m in Sources */,
 				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
 				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
@@ -1789,6 +1819,7 @@
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
 				42C5B61021425EA500563794 /* Person.m in Sources */,
+				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
@@ -1875,6 +1906,7 @@
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
+				427479D9218173DE004CFC10 /* Builder.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
 				42C5B6752142646A00563794 /* UIColor+Wonderful.m in Sources */,
