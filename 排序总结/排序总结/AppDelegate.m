@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "HAMLogOutputWindow.h"
+
 @interface AppDelegate ()
 
 @end
@@ -23,6 +25,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = naviVC;
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 

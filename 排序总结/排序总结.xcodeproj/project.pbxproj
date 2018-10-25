@@ -42,6 +42,23 @@
 		427479D8218173DE004CFC10 /* BuildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D2218173DD004CFC10 /* BuildClass.m */; };
 		427479D9218173DE004CFC10 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D5218173DD004CFC10 /* Builder.m */; };
 		427479DA218173DE004CFC10 /* BuildPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D6218173DE004CFC10 /* BuildPattern.m */; };
+		42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479E721819DC3004CFC10 /* ZSAnalysisClass.m */; };
+		42747A0821819DC4004CFC10 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479EC21819DC3004CFC10 /* NSObject+YYModel.m */; };
+		42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479ED21819DC3004CFC10 /* YYClassInfo.m */; };
+		42747A0A21819DC4004CFC10 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479F321819DC3004CFC10 /* MJPropertyType.m */; };
+		42747A0B21819DC4004CFC10 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479F621819DC3004CFC10 /* NSObject+MJKeyValue.m */; };
+		42747A0C21819DC4004CFC10 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479F721819DC3004CFC10 /* MJProperty.m */; };
+		42747A0D21819DC4004CFC10 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479F921819DC3004CFC10 /* NSObject+MJCoding.m */; };
+		42747A0E21819DC4004CFC10 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479FB21819DC3004CFC10 /* MJExtensionConst.m */; };
+		42747A0F21819DC4004CFC10 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479FC21819DC3004CFC10 /* NSObject+MJProperty.m */; };
+		42747A1021819DC4004CFC10 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479FE21819DC3004CFC10 /* NSObject+MJClass.m */; };
+		42747A1121819DC4004CFC10 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479FF21819DC3004CFC10 /* NSString+MJExtension.m */; };
+		42747A1221819DC4004CFC10 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 42747A0021819DC3004CFC10 /* MJPropertyKey.m */; };
+		42747A1421819DC4004CFC10 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42747A0521819DC3004CFC10 /* MJFoundation.m */; };
+		42747A1521819DC4004CFC10 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42747A0621819DC3004CFC10 /* TestModel.m */; };
+		42747A1821819E1E004CFC10 /* DicToModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42747A1621819E1E004CFC10 /* DicToModelVC.m */; };
+		42747A1C2181A4C8004CFC10 /* HAMStatisticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42747A1B2181A4C8004CFC10 /* HAMStatisticsManager.m */; };
+		42747A1F2181A4E1004CFC10 /* HAMLogOutputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 42747A1E2181A4E1004CFC10 /* HAMLogOutputWindow.m */; };
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
@@ -282,6 +299,42 @@
 		427479D5218173DD004CFC10 /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 		427479D6218173DE004CFC10 /* BuildPattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildPattern.m; sourceTree = "<group>"; };
 		427479D7218173DE004CFC10 /* BuildClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildClass.h; sourceTree = "<group>"; };
+		427479E621819DC3004CFC10 /* ZSAnalysisClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAnalysisClass.h; sourceTree = "<group>"; };
+		427479E721819DC3004CFC10 /* ZSAnalysisClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAnalysisClass.m; sourceTree = "<group>"; };
+		427479E821819DC3004CFC10 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		427479EA21819DC3004CFC10 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		427479EB21819DC3004CFC10 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		427479EC21819DC3004CFC10 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		427479ED21819DC3004CFC10 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		427479EE21819DC3004CFC10 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		427479F021819DC3004CFC10 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		427479F121819DC3004CFC10 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		427479F221819DC3004CFC10 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		427479F321819DC3004CFC10 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		427479F421819DC3004CFC10 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		427479F521819DC3004CFC10 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		427479F621819DC3004CFC10 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		427479F721819DC3004CFC10 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		427479F821819DC3004CFC10 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		427479F921819DC3004CFC10 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		427479FA21819DC3004CFC10 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		427479FB21819DC3004CFC10 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		427479FC21819DC3004CFC10 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		427479FD21819DC3004CFC10 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		427479FE21819DC3004CFC10 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		427479FF21819DC3004CFC10 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		42747A0021819DC3004CFC10 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		42747A0121819DC3004CFC10 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		42747A0221819DC3004CFC10 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		42747A0321819DC3004CFC10 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		42747A0521819DC3004CFC10 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		42747A0621819DC3004CFC10 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
+		42747A1621819E1E004CFC10 /* DicToModelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DicToModelVC.m; sourceTree = "<group>"; };
+		42747A1721819E1E004CFC10 /* DicToModelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DicToModelVC.h; sourceTree = "<group>"; };
+		42747A1A2181A4C8004CFC10 /* HAMStatisticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMStatisticsManager.h; sourceTree = "<group>"; };
+		42747A1B2181A4C8004CFC10 /* HAMStatisticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMStatisticsManager.m; sourceTree = "<group>"; };
+		42747A1D2181A4E1004CFC10 /* HAMLogOutputWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAMLogOutputWindow.h; sourceTree = "<group>"; };
+		42747A1E2181A4E1004CFC10 /* HAMLogOutputWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAMLogOutputWindow.m; sourceTree = "<group>"; };
 		427F207B20C6915400F511B0 /* ParameterManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterManager.h; sourceTree = "<group>"; };
 		427F207C20C6915400F511B0 /* ParameterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterManager.m; sourceTree = "<group>"; };
 		427F207E20C695C000F511B0 /* ParameterClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterClass.h; sourceTree = "<group>"; };
@@ -776,6 +829,7 @@
 				427D28B2216C9863009DDEAC /* 10_组件化 */,
 				42D04E962176C2920075ECEF /* 11_runTime */,
 				427479CE21817321004CFC10 /* 12_对象初始化方法 */,
+				427479DB218199EB004CFC10 /* 13_字典转模型 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -819,16 +873,90 @@
 		427479CE21817321004CFC10 /* 12_对象初始化方法 */ = {
 			isa = PBXGroup;
 			children = (
+				427479CF21817382004CFC10 /* InitMethodVC.h */,
+				427479D021817382004CFC10 /* InitMethodVC.m */,
 				427479D7218173DE004CFC10 /* BuildClass.h */,
 				427479D2218173DD004CFC10 /* BuildClass.m */,
 				427479D3218173DD004CFC10 /* Builder.h */,
 				427479D5218173DD004CFC10 /* Builder.m */,
 				427479D4218173DD004CFC10 /* BuildPattern.h */,
 				427479D6218173DE004CFC10 /* BuildPattern.m */,
-				427479CF21817382004CFC10 /* InitMethodVC.h */,
-				427479D021817382004CFC10 /* InitMethodVC.m */,
 			);
 			path = "12_对象初始化方法";
+			sourceTree = "<group>";
+		};
+		427479DB218199EB004CFC10 /* 13_字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				42747A1721819E1E004CFC10 /* DicToModelVC.h */,
+				42747A1621819E1E004CFC10 /* DicToModelVC.m */,
+				427479E821819DC3004CFC10 /* TestModel.h */,
+				42747A0621819DC3004CFC10 /* TestModel.m */,
+				427479E921819DC3004CFC10 /* YYModel */,
+				427479E521819DC3004CFC10 /* ZSAnalysis */,
+				427479EF21819DC3004CFC10 /* MJExtension */,
+			);
+			path = "13_字典转模型";
+			sourceTree = "<group>";
+		};
+		427479E521819DC3004CFC10 /* ZSAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				427479E621819DC3004CFC10 /* ZSAnalysisClass.h */,
+				427479E721819DC3004CFC10 /* ZSAnalysisClass.m */,
+			);
+			path = ZSAnalysis;
+			sourceTree = "<group>";
+		};
+		427479E921819DC3004CFC10 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				427479EA21819DC3004CFC10 /* YYClassInfo.h */,
+				427479EB21819DC3004CFC10 /* YYModel.h */,
+				427479EC21819DC3004CFC10 /* NSObject+YYModel.m */,
+				427479ED21819DC3004CFC10 /* YYClassInfo.m */,
+				427479EE21819DC3004CFC10 /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		427479EF21819DC3004CFC10 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				427479F021819DC3004CFC10 /* MJPropertyKey.h */,
+				427479F121819DC3004CFC10 /* NSObject+MJClass.h */,
+				427479F221819DC3004CFC10 /* NSString+MJExtension.h */,
+				427479F321819DC3004CFC10 /* MJPropertyType.m */,
+				427479F421819DC3004CFC10 /* NSObject+MJProperty.h */,
+				427479F521819DC3004CFC10 /* MJExtensionConst.h */,
+				427479F621819DC3004CFC10 /* NSObject+MJKeyValue.m */,
+				427479F721819DC3004CFC10 /* MJProperty.m */,
+				427479F821819DC3004CFC10 /* MJFoundation.h */,
+				427479F921819DC3004CFC10 /* NSObject+MJCoding.m */,
+				427479FA21819DC3004CFC10 /* MJExtension.h */,
+				427479FB21819DC3004CFC10 /* MJExtensionConst.m */,
+				427479FC21819DC3004CFC10 /* NSObject+MJProperty.m */,
+				427479FD21819DC3004CFC10 /* MJPropertyType.h */,
+				427479FE21819DC3004CFC10 /* NSObject+MJClass.m */,
+				427479FF21819DC3004CFC10 /* NSString+MJExtension.m */,
+				42747A0021819DC3004CFC10 /* MJPropertyKey.m */,
+				42747A0121819DC3004CFC10 /* MJProperty.h */,
+				42747A0221819DC3004CFC10 /* NSObject+MJKeyValue.h */,
+				42747A0321819DC3004CFC10 /* NSObject+MJCoding.h */,
+				42747A0521819DC3004CFC10 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		42747A192181A492004CFC10 /* 日志显示 */ = {
+			isa = PBXGroup;
+			children = (
+				42747A1D2181A4E1004CFC10 /* HAMLogOutputWindow.h */,
+				42747A1E2181A4E1004CFC10 /* HAMLogOutputWindow.m */,
+				42747A1A2181A4C8004CFC10 /* HAMStatisticsManager.h */,
+				42747A1B2181A4C8004CFC10 /* HAMStatisticsManager.m */,
+			);
+			path = "日志显示";
 			sourceTree = "<group>";
 		};
 		427D28B1216C9843009DDEAC /* 9_代码架构 */ = {
@@ -1471,6 +1599,7 @@
 		42C5B66F2142643E00563794 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
 				42C5B6712142646900563794 /* UIColor+Separate.h */,
 				42C5B6702142646900563794 /* UIColor+Separate.m */,
@@ -1750,8 +1879,11 @@
 				4227896821460C9D002B9C13 /* BaseKVOViewController.m in Sources */,
 				427479D121817382004CFC10 /* InitMethodVC.m in Sources */,
 				42C5B64021425EA500563794 /* Boss.m in Sources */,
+				42747A1021819DC4004CFC10 /* NSObject+MJClass.m in Sources */,
 				42C5B66921425EA500563794 /* SubscibeCenter.m in Sources */,
 				42C5B64F21425EA500563794 /* ChainOfResponsibilityPatternViewController.m in Sources */,
+				42747A0B21819DC4004CFC10 /* NSObject+MJKeyValue.m in Sources */,
+				42747A1221819DC4004CFC10 /* MJPropertyKey.m in Sources */,
 				4227896421460950002B9C13 /* YBProxyManager.m in Sources */,
 				42C5B66521425EA500563794 /* AdditionExpression.m in Sources */,
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
@@ -1773,6 +1905,7 @@
 				427479DA218173DE004CFC10 /* BuildPattern.m in Sources */,
 				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
 				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
+				42747A1821819E1E004CFC10 /* DicToModelVC.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
 				42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */,
 				4227896F214614A2002B9C13 /* BlockKVOViewController.m in Sources */,
@@ -1786,11 +1919,14 @@
 				42C5B5FB21425EA500563794 /* DecoratorPatternViewController.m in Sources */,
 				42C5B61921425EA500563794 /* GeliAirConditioner.m in Sources */,
 				42C5B63A21425EA500563794 /* Context.m in Sources */,
+				42747A0E21819DC4004CFC10 /* MJExtensionConst.m in Sources */,
 				42C5B62C21425EA500563794 /* Car.m in Sources */,
 				42C5B64D21425EA500563794 /* Handler.m in Sources */,
+				42747A0821819DC4004CFC10 /* NSObject+YYModel.m in Sources */,
 				42C5B65D21425EA500563794 /* Node.m in Sources */,
 				42C5B60521425EA500563794 /* AdapterUSD.m in Sources */,
 				42C5B66121425EA500563794 /* Basketball.m in Sources */,
+				42747A0A21819DC4004CFC10 /* MJPropertyType.m in Sources */,
 				4227897B21461827002B9C13 /* NotificationVC.m in Sources */,
 				42C5B63021425EA500563794 /* SquareHeaderFactory.m in Sources */,
 				42C5B5F921425EA500563794 /* GameLoL+Coin.m in Sources */,
@@ -1798,6 +1934,7 @@
 				42E8C8BD214758BB00BA399D /* SecondViewController.m in Sources */,
 				42C5B63521425EA500563794 /* SquareView.m in Sources */,
 				42E8C8C821476FF500BA399D /* LCRegExpTool.m in Sources */,
+				42747A1421819DC4004CFC10 /* MJFoundation.m in Sources */,
 				42C5B60221425EA500563794 /* ModelTwo.m in Sources */,
 				42C5B61521425EA500563794 /* CabDriver.m in Sources */,
 				42C5B61221425EA500563794 /* FacadeCar.m in Sources */,
@@ -1813,6 +1950,7 @@
 				42C5B61C21425EA500563794 /* BridgePatternViewController.m in Sources */,
 				42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */,
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
+				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
@@ -1829,6 +1967,7 @@
 				42C5B63E21425EA500563794 /* CAP.m in Sources */,
 				42C5B65021425EA500563794 /* ChairmanHandler.m in Sources */,
 				42C5B62821425EA500563794 /* ClassModel.m in Sources */,
+				42747A0D21819DC4004CFC10 /* NSObject+MJCoding.m in Sources */,
 				4227897C21461827002B9C13 /* NavController.m in Sources */,
 				42C5B64C21425EA500563794 /* ManagerHandler.m in Sources */,
 				42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */,
@@ -1837,6 +1976,7 @@
 				42C5B61A21425EA500563794 /* AirConditioner.m in Sources */,
 				42CB7E532138E399003397FB /* PerformSelectorVC.m in Sources */,
 				42C5B61621425EA500563794 /* Remote.m in Sources */,
+				42747A1F2181A4E1004CFC10 /* HAMLogOutputWindow.m in Sources */,
 				42C5B65121425EA500563794 /* BuyState.m in Sources */,
 				42C5B65F21425EA500563794 /* TemplatePatternViewController.m in Sources */,
 				422789452145FCEE002B9C13 /* SingltonVC.m in Sources */,
@@ -1846,6 +1986,7 @@
 				42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */,
 				42C5B62021425EA500563794 /* FactoryPatternViewController.m in Sources */,
 				42C5B66A21425EA500563794 /* ObserverPatternViewController.m in Sources */,
+				42747A1C2181A4C8004CFC10 /* HAMStatisticsManager.m in Sources */,
 				42C5B66621425EA500563794 /* ReduceExpression.m in Sources */,
 				42C5B63221425EA500563794 /* AbstractFactoryPatternViewController.m in Sources */,
 				42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */,
@@ -1864,6 +2005,7 @@
 				42C5B63821425EA500563794 /* OperationAdd.m in Sources */,
 				422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */,
 				42C5B65A21425EA500563794 /* NSObject+MementoCenter.m in Sources */,
+				42747A0C21819DC4004CFC10 /* MJProperty.m in Sources */,
 				42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */,
 				42E8C8D02147931300BA399D /* MMRegularParser.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
@@ -1872,6 +2014,8 @@
 				42C5B60821425EA500563794 /* AdapterCNY.m in Sources */,
 				42E8C8D42147933500BA399D /* NSString+NSStringUtils.m in Sources */,
 				42C5B5FF21425EA500563794 /* ModelOne.m in Sources */,
+				42747A1121819DC4004CFC10 /* NSString+MJExtension.m in Sources */,
+				42747A0F21819DC4004CFC10 /* NSObject+MJProperty.m in Sources */,
 				42C5B66221425EA500563794 /* Football.m in Sources */,
 				42C5B65621425EA500563794 /* Apple.m in Sources */,
 				42C5B62621425EA500563794 /* SingletonPatternViewController.m in Sources */,
@@ -1916,11 +2060,13 @@
 				42C5B63121425EA500563794 /* CircleView.m in Sources */,
 				42C5B66421425EA500563794 /* NumExpression.m in Sources */,
 				42C5B65521425EA500563794 /* ChoosingState.m in Sources */,
+				42747A1521819DC4004CFC10 /* TestModel.m in Sources */,
 				42C5B62A21425EA500563794 /* StudentModel.m in Sources */,
 				4257583520A29F0900BA4F54 /* main.m in Sources */,
 				42278974214614B1002B9C13 /* LXD_ObservedObject.m in Sources */,
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
+				42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */,
 				42C5B62121425EA500563794 /* Pencil.m in Sources */,
 				42C5B60621425EA500563794 /* AdapterManager.m in Sources */,
 			);

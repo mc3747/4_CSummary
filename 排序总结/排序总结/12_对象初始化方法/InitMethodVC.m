@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = RandColor;
+    
 //    方法1：麻烦、而且外部可修改
     BuildPattern *buildPatten1 = [[BuildPattern alloc] init];
     buildPatten1.age = @"10";
@@ -38,6 +40,7 @@
         
     }];
     BuildPattern *buildPatten4 = class.pattern;
+    
 }
 
 

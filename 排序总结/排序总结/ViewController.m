@@ -16,6 +16,9 @@
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UIButton *logDisplayButton;
+@property (weak, nonatomic) IBOutlet UIButton *logHiddenButton;
+@property (weak, nonatomic) IBOutlet UIButton *logClearButton;
 
 @property (nonatomic, strong) NSArray *cellDisplayNameArray;
 @property (nonatomic, strong) NSArray *cellControllerNameArray;
@@ -30,17 +33,33 @@
     self.title = @"重要知识点汇总";
     [self initArrays];
     [self initTableView];
-    
+    [self.logDisplayButton addTarget:self action:@selector(logDisplay) forControlEvents:UIControlEventTouchUpInside];
+    [self.logHiddenButton addTarget:self action:@selector(logHidden) forControlEvents:UIControlEventTouchUpInside];
+    [self.logClearButton addTarget:self action:@selector(logClear) forControlEvents:UIControlEventTouchUpInside];
+
 }
+- (void)logDisplay {
+    
+    [[HAMLogOutputWindow sharedInstance] setHidden:NO];
+}
+
+- (void)logHidden {
+     [[HAMLogOutputWindow sharedInstance] setHidden:YES];
+}
+
+- (void)logClear {
+    MCLogClear;
+}
+
 #pragma mark -  初始化
 - (void)initArrays {
     
     
     self.cellDisplayNameArray = @[@"1，方法的可变参数",@"2，方法的多个返回值",@"3，控制器传值",@"4，调用方法的方式",
-                                  @"5，定时器汇总",@"6，PerformSelector方法测试",@"7，24种设计模式汇总",@"8，单例模式",@"9，简单代理",@"10，协议代理",@"11，多代理",@"12，KVO基本使用",@"13，Block封装KVO",@"14，通知模式",@"15，匹配的三种方式",@"16，正则表达式的使用场景",@"17，RunTime总结"];
+                                  @"5，定时器汇总",@"6，PerformSelector方法测试",@"7，24种设计模式汇总",@"8，单例模式",@"9，简单代理",@"10，协议代理",@"11，多代理",@"12，KVO基本使用",@"13，Block封装KVO",@"14，通知模式",@"15，匹配的三种方式",@"16，正则表达式的使用场景",@"17，RunTime总结",@"18，对象的初始化方法",@"19，字典转模型"];
     
     self.cellControllerNameArray = @[@"",@"",@"PassValueVC",@"CallMethodViewController",
- @"TimerViewController",@"RootViewController",@"DesignModeSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"BaseKVOViewController",@"BlockKVOViewController",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC"];
+ @"TimerViewController",@"RootViewController",@"DesignModeSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"BaseKVOViewController",@"BlockKVOViewController",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC"];
 }
 
 #pragma mark -  初始化tableview

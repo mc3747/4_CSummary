@@ -11,6 +11,8 @@
 
 #import "UIColor+Separate.h"
 #import "UIColor+Wonderful.h"
+#import "HAMLogOutputWindow.h"
+#import "HAMStatisticsManager.h"
 
 //  随机色
 #define RandColor RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
@@ -20,5 +22,8 @@
 
 //  控制器背景颜色随机色
 #define RandomBackgroundColor  (self.view.backgroundColor = RandColor);
+
+#define MCLogout(log) [HAMLogOutputWindow printLog:log]
+#define MCLogClear [HAMLogOutputWindow clear]
 
 #endif /* PrefixHeader_pch */
