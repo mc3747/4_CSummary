@@ -23,7 +23,22 @@
 //  控制器背景颜色随机色
 #define RandomBackgroundColor  (self.view.backgroundColor = RandColor);
 
+//  面板日志打印
 #define MCLogout(log) [HAMLogOutputWindow printLog:log]
 #define MCLogClear [HAMLogOutputWindow clear]
+
+//  调试宏
+    //条件
+#define TEST(condition) {\
+BOOL pass = (condition); printf("%s [%s:%d] => %s\n",pass ? "✅" : "❌", __FUNCTION__, __LINE__, #condition); if(ABORT_IF_FAILURE && !pass) abort(); \
+}\
+    //条件后执行
+#define TEST_AFTER_EXECUTE(condition, test_expressions...) {\
+test_expressions; { BOOL pass = (condition);  printf("%s [%s:%d] => %s\n",pass ? "✅" : "❌", __FUNCTION__, __LINE__, #test_expressions); if(ABORT_IF_FAILURE && !pass) abort(); }\
+}\
+    //换行
+#define NEW_LINE printf("\n");
+   //分割线
+#define SEP_LINE printf("==========================================================================================================\n");
 
 #endif /* PrefixHeader_pch */
