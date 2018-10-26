@@ -212,6 +212,13 @@
 		42D7011F2182A93A008DFABB /* EncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7011E2182A93A008DFABB /* EncryptVC.m */; };
 		42D701272182B109008DFABB /* MultiThreadApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D701252182B109008DFABB /* MultiThreadApplicationVC.m */; };
 		42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D701262182B109008DFABB /* MultiThreadApplicationVC.xib */; };
+		42D7013D218304F3008DFABB /* AudioSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7013B218304F3008DFABB /* AudioSummaryVC.m */; };
+		42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D7013C218304F3008DFABB /* AudioSummaryVC.xib */; };
+		42D70146218306AD008DFABB /* AudioPlistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D70140218306AC008DFABB /* AudioPlistVC.m */; };
+		42D70147218306AD008DFABB /* AudioSystemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D70144218306AD008DFABB /* AudioSystemVC.m */; };
+		42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014821830723008DFABB /* SystemSoundModel.m */; };
+		42D7014C21830724008DFABB /* SystemSound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D7014A21830724008DFABB /* SystemSound.plist */; };
+		42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014E218307D9008DFABB /* AudioPlayVC.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 		42E8C8B02147583B00BA399D /* RegularExpressionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */; };
@@ -666,6 +673,18 @@
 		42D701242182B109008DFABB /* MultiThreadApplicationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadApplicationVC.h; sourceTree = "<group>"; };
 		42D701252182B109008DFABB /* MultiThreadApplicationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadApplicationVC.m; sourceTree = "<group>"; };
 		42D701262182B109008DFABB /* MultiThreadApplicationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiThreadApplicationVC.xib; sourceTree = "<group>"; };
+		42D7013A218304F3008DFABB /* AudioSummaryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioSummaryVC.h; sourceTree = "<group>"; };
+		42D7013B218304F3008DFABB /* AudioSummaryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioSummaryVC.m; sourceTree = "<group>"; };
+		42D7013C218304F3008DFABB /* AudioSummaryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioSummaryVC.xib; sourceTree = "<group>"; };
+		42D70140218306AC008DFABB /* AudioPlistVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlistVC.m; sourceTree = "<group>"; };
+		42D70141218306AC008DFABB /* AudioPlistVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlistVC.h; sourceTree = "<group>"; };
+		42D70143218306AD008DFABB /* AudioSystemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSystemVC.h; sourceTree = "<group>"; };
+		42D70144218306AD008DFABB /* AudioSystemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSystemVC.m; sourceTree = "<group>"; };
+		42D7014821830723008DFABB /* SystemSoundModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemSoundModel.m; sourceTree = "<group>"; };
+		42D7014921830723008DFABB /* SystemSoundModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemSoundModel.h; sourceTree = "<group>"; };
+		42D7014A21830724008DFABB /* SystemSound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SystemSound.plist; sourceTree = "<group>"; };
+		42D7014D218307D9008DFABB /* AudioPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayVC.h; sourceTree = "<group>"; };
+		42D7014E218307D9008DFABB /* AudioPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayVC.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
@@ -882,6 +901,7 @@
 				42747A202181BEE5004CFC10 /* 14_RunLoop汇总 */,
 				42747A232181D421004CFC10 /* 15_多线程汇总 */,
 				42747A242181D435004CFC10 /* 16_加密汇总 */,
+				42D7013921830492008DFABB /* 17_音频汇总 */,
 				42747A212181BEF7004CFC10 /* 性能优化 */,
 				42747A222181D3C9004CFC10 /* APP安全 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -1835,6 +1855,49 @@
 			path = "4_具体应用";
 			sourceTree = "<group>";
 		};
+		42D7013921830492008DFABB /* 17_音频汇总 */ = {
+			isa = PBXGroup;
+			children = (
+				42D7013A218304F3008DFABB /* AudioSummaryVC.h */,
+				42D7013B218304F3008DFABB /* AudioSummaryVC.m */,
+				42D7013C218304F3008DFABB /* AudioSummaryVC.xib */,
+				42D70142218306AD008DFABB /* 1_系统音频获取 */,
+				42D7013F218306AC008DFABB /* 2_系统音频的plist展示 */,
+				42D70145218306AD008DFABB /* 3_展示本地音频文件 */,
+			);
+			path = "17_音频汇总";
+			sourceTree = "<group>";
+		};
+		42D7013F218306AC008DFABB /* 2_系统音频的plist展示 */ = {
+			isa = PBXGroup;
+			children = (
+				42D70141218306AC008DFABB /* AudioPlistVC.h */,
+				42D70140218306AC008DFABB /* AudioPlistVC.m */,
+				42D7014A21830724008DFABB /* SystemSound.plist */,
+				42D7014921830723008DFABB /* SystemSoundModel.h */,
+				42D7014821830723008DFABB /* SystemSoundModel.m */,
+			);
+			path = "2_系统音频的plist展示";
+			sourceTree = "<group>";
+		};
+		42D70142218306AD008DFABB /* 1_系统音频获取 */ = {
+			isa = PBXGroup;
+			children = (
+				42D70143218306AD008DFABB /* AudioSystemVC.h */,
+				42D70144218306AD008DFABB /* AudioSystemVC.m */,
+			);
+			path = "1_系统音频获取";
+			sourceTree = "<group>";
+		};
+		42D70145218306AD008DFABB /* 3_展示本地音频文件 */ = {
+			isa = PBXGroup;
+			children = (
+				42D7014D218307D9008DFABB /* AudioPlayVC.h */,
+				42D7014E218307D9008DFABB /* AudioPlayVC.m */,
+			);
+			path = "3_展示本地音频文件";
+			sourceTree = "<group>";
+		};
 		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2009,12 +2072,14 @@
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
 				42C5B60F21425EA500563794 /* 文件夹系统.png in Resources */,
 				4257583220A29F0900BA4F54 /* LaunchScreen.storyboard in Resources */,
+				42D7014C21830724008DFABB /* SystemSound.plist in Resources */,
 				42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */,
 				42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
 				42D7011C2182A8B7008DFABB /* SVProgressHUD.bundle in Resources */,
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
+				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
 				42D701072182A842008DFABB /* NSOperationVC.xib in Resources */,
 				42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */,
 				42D7010A2182A842008DFABB /* GCDViewController.xib in Resources */,
@@ -2054,6 +2119,7 @@
 				42C5B66521425EA500563794 /* AdditionExpression.m in Sources */,
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
 				42C5B65221425EA500563794 /* ShipmentState.m in Sources */,
+				42D70146218306AD008DFABB /* AudioPlistVC.m in Sources */,
 				42D7011B2182A8B7008DFABB /* SVIndefiniteAnimatedView.m in Sources */,
 				42C5B62E21425EA500563794 /* BuilderViewController.m in Sources */,
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
@@ -2084,6 +2150,7 @@
 				42C5B60A21425EA500563794 /* FileViewController.m in Sources */,
 				42C5B61B21425EA500563794 /* HaierAirConditioner.m in Sources */,
 				42C5B62321425EA500563794 /* BallpointPen.m in Sources */,
+				42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */,
 				42C5B5FB21425EA500563794 /* DecoratorPatternViewController.m in Sources */,
 				42C5B61921425EA500563794 /* GeliAirConditioner.m in Sources */,
 				42C5B63A21425EA500563794 /* Context.m in Sources */,
@@ -2166,6 +2233,7 @@
 				42C5B65721425EA500563794 /* MementoCenter.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
+				42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */,
 				42C5B65B21425EA500563794 /* IteratorPatternViewController.m in Sources */,
 				42C5B64221425EA500563794 /* LighterCommand.m in Sources */,
 				42D701272182B109008DFABB /* MultiThreadApplicationVC.m in Sources */,
@@ -2227,7 +2295,9 @@
 				427F207D20C6915400F511B0 /* ParameterManager.m in Sources */,
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
+				42D70147218306AD008DFABB /* AudioSystemVC.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
+				42D7013D218304F3008DFABB /* AudioSummaryVC.m in Sources */,
 				427479D9218173DE004CFC10 /* Builder.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
