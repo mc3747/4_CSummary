@@ -194,6 +194,24 @@
 		42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E482138E399003397FB /* JX_GCDTimerManager.m */; };
 		42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */; };
 		42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D04E982176C5490075ECEF /* RunTimeVC.m */; };
+		42D700F22182A672008DFABB /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D700F12182A672008DFABB /* RunLoopVC.m */; };
+		42D700F62182A6B6008DFABB /* MultiThreadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D700F42182A6B6008DFABB /* MultiThreadingVC.m */; };
+		42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D700F52182A6B6008DFABB /* MultiThreadingVC.xib */; };
+		42D701062182A842008DFABB /* NSOperationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D700FB2182A841008DFABB /* NSOperationVC.m */; };
+		42D701072182A842008DFABB /* NSOperationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D700FC2182A841008DFABB /* NSOperationVC.xib */; };
+		42D701082182A842008DFABB /* WHOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D700FD2182A841008DFABB /* WHOperation.m */; };
+		42D701092182A842008DFABB /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D700FF2182A841008DFABB /* GCDViewController.m */; };
+		42D7010A2182A842008DFABB /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D701012182A841008DFABB /* GCDViewController.xib */; };
+		42D7010B2182A842008DFABB /* NSThreadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D701032182A841008DFABB /* NSThreadVC.xib */; };
+		42D7010C2182A842008DFABB /* NSThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D701042182A841008DFABB /* NSThreadVC.m */; };
+		42D701182182A8B7008DFABB /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7010E2182A8B7008DFABB /* SVRadialGradientLayer.m */; };
+		42D701192182A8B7008DFABB /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D701112182A8B7008DFABB /* SVProgressAnimatedView.m */; };
+		42D7011A2182A8B7008DFABB /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D701142182A8B7008DFABB /* SVProgressHUD.m */; };
+		42D7011B2182A8B7008DFABB /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D701152182A8B7008DFABB /* SVIndefiniteAnimatedView.m */; };
+		42D7011C2182A8B7008DFABB /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42D701162182A8B7008DFABB /* SVProgressHUD.bundle */; };
+		42D7011F2182A93A008DFABB /* EncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7011E2182A93A008DFABB /* EncryptVC.m */; };
+		42D701272182B109008DFABB /* MultiThreadApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D701252182B109008DFABB /* MultiThreadApplicationVC.m */; };
+		42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D701262182B109008DFABB /* MultiThreadApplicationVC.xib */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 		42E8C8B02147583B00BA399D /* RegularExpressionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */; };
@@ -617,6 +635,37 @@
 		42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkVC.m; sourceTree = "<group>"; };
 		42D04E972176C5490075ECEF /* RunTimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeVC.h; sourceTree = "<group>"; };
 		42D04E982176C5490075ECEF /* RunTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeVC.m; sourceTree = "<group>"; };
+		42D700F02182A672008DFABB /* RunLoopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopVC.h; sourceTree = "<group>"; };
+		42D700F12182A672008DFABB /* RunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopVC.m; sourceTree = "<group>"; };
+		42D700F32182A6B6008DFABB /* MultiThreadingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadingVC.h; sourceTree = "<group>"; };
+		42D700F42182A6B6008DFABB /* MultiThreadingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadingVC.m; sourceTree = "<group>"; };
+		42D700F52182A6B6008DFABB /* MultiThreadingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiThreadingVC.xib; sourceTree = "<group>"; };
+		42D700F92182A841008DFABB /* NSOperationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationVC.h; sourceTree = "<group>"; };
+		42D700FA2182A841008DFABB /* WHOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHOperation.h; sourceTree = "<group>"; };
+		42D700FB2182A841008DFABB /* NSOperationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationVC.m; sourceTree = "<group>"; };
+		42D700FC2182A841008DFABB /* NSOperationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSOperationVC.xib; sourceTree = "<group>"; };
+		42D700FD2182A841008DFABB /* WHOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHOperation.m; sourceTree = "<group>"; };
+		42D700FF2182A841008DFABB /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		42D701002182A841008DFABB /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		42D701012182A841008DFABB /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
+		42D701032182A841008DFABB /* NSThreadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSThreadVC.xib; sourceTree = "<group>"; };
+		42D701042182A841008DFABB /* NSThreadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadVC.m; sourceTree = "<group>"; };
+		42D701052182A841008DFABB /* NSThreadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadVC.h; sourceTree = "<group>"; };
+		42D7010E2182A8B7008DFABB /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		42D7010F2182A8B7008DFABB /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		42D701102182A8B7008DFABB /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		42D701112182A8B7008DFABB /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		42D701122182A8B7008DFABB /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		42D701132182A8B7008DFABB /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		42D701142182A8B7008DFABB /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		42D701152182A8B7008DFABB /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		42D701162182A8B7008DFABB /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		42D701172182A8B7008DFABB /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		42D7011D2182A93A008DFABB /* EncryptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptVC.h; sourceTree = "<group>"; };
+		42D7011E2182A93A008DFABB /* EncryptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptVC.m; sourceTree = "<group>"; };
+		42D701242182B109008DFABB /* MultiThreadApplicationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadApplicationVC.h; sourceTree = "<group>"; };
+		42D701252182B109008DFABB /* MultiThreadApplicationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadApplicationVC.m; sourceTree = "<group>"; };
+		42D701262182B109008DFABB /* MultiThreadApplicationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiThreadApplicationVC.xib; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
@@ -967,6 +1016,8 @@
 		42747A202181BEE5004CFC10 /* 14_RunLoop汇总 */ = {
 			isa = PBXGroup;
 			children = (
+				42D700F02182A672008DFABB /* RunLoopVC.h */,
+				42D700F12182A672008DFABB /* RunLoopVC.m */,
 			);
 			path = "14_RunLoop汇总";
 			sourceTree = "<group>";
@@ -988,6 +1039,13 @@
 		42747A232181D421004CFC10 /* 15_多线程汇总 */ = {
 			isa = PBXGroup;
 			children = (
+				42D700F32182A6B6008DFABB /* MultiThreadingVC.h */,
+				42D700F42182A6B6008DFABB /* MultiThreadingVC.m */,
+				42D700F52182A6B6008DFABB /* MultiThreadingVC.xib */,
+				42D701022182A841008DFABB /* 1_NSThread */,
+				42D700FE2182A841008DFABB /* 2_GCD */,
+				42D700F82182A841008DFABB /* 3_NSOperation */,
+				42D701202182B09F008DFABB /* 4_具体应用 */,
 			);
 			path = "15_多线程汇总";
 			sourceTree = "<group>";
@@ -995,6 +1053,8 @@
 		42747A242181D435004CFC10 /* 16_加密汇总 */ = {
 			isa = PBXGroup;
 			children = (
+				42D7011D2182A93A008DFABB /* EncryptVC.h */,
+				42D7011E2182A93A008DFABB /* EncryptVC.m */,
 			);
 			path = "16_加密汇总";
 			sourceTree = "<group>";
@@ -1639,6 +1699,7 @@
 		42C5B66F2142643E00563794 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				42D7010D2182A8B7008DFABB /* SVProgressHUD */,
 				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
 				42C5B6712142646900563794 /* UIColor+Separate.h */,
@@ -1713,6 +1774,65 @@
 			children = (
 			);
 			path = "1,常规特征";
+			sourceTree = "<group>";
+		};
+		42D700F82182A841008DFABB /* 3_NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				42D700F92182A841008DFABB /* NSOperationVC.h */,
+				42D700FB2182A841008DFABB /* NSOperationVC.m */,
+				42D700FC2182A841008DFABB /* NSOperationVC.xib */,
+				42D700FA2182A841008DFABB /* WHOperation.h */,
+				42D700FD2182A841008DFABB /* WHOperation.m */,
+			);
+			path = 3_NSOperation;
+			sourceTree = "<group>";
+		};
+		42D700FE2182A841008DFABB /* 2_GCD */ = {
+			isa = PBXGroup;
+			children = (
+				42D701002182A841008DFABB /* GCDViewController.h */,
+				42D700FF2182A841008DFABB /* GCDViewController.m */,
+				42D701012182A841008DFABB /* GCDViewController.xib */,
+			);
+			path = 2_GCD;
+			sourceTree = "<group>";
+		};
+		42D701022182A841008DFABB /* 1_NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				42D701052182A841008DFABB /* NSThreadVC.h */,
+				42D701042182A841008DFABB /* NSThreadVC.m */,
+				42D701032182A841008DFABB /* NSThreadVC.xib */,
+			);
+			path = 1_NSThread;
+			sourceTree = "<group>";
+		};
+		42D7010D2182A8B7008DFABB /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				42D7010E2182A8B7008DFABB /* SVRadialGradientLayer.m */,
+				42D7010F2182A8B7008DFABB /* SVIndefiniteAnimatedView.h */,
+				42D701102182A8B7008DFABB /* SVProgressHUD.h */,
+				42D701112182A8B7008DFABB /* SVProgressAnimatedView.m */,
+				42D701122182A8B7008DFABB /* SVProgressHUD-Prefix.pch */,
+				42D701132182A8B7008DFABB /* SVRadialGradientLayer.h */,
+				42D701142182A8B7008DFABB /* SVProgressHUD.m */,
+				42D701152182A8B7008DFABB /* SVIndefiniteAnimatedView.m */,
+				42D701162182A8B7008DFABB /* SVProgressHUD.bundle */,
+				42D701172182A8B7008DFABB /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		42D701202182B09F008DFABB /* 4_具体应用 */ = {
+			isa = PBXGroup;
+			children = (
+				42D701242182B109008DFABB /* MultiThreadApplicationVC.h */,
+				42D701252182B109008DFABB /* MultiThreadApplicationVC.m */,
+				42D701262182B109008DFABB /* MultiThreadApplicationVC.xib */,
+			);
+			path = "4_具体应用";
 			sourceTree = "<group>";
 		};
 		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
@@ -1885,13 +2005,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D7010B2182A842008DFABB /* NSThreadVC.xib in Resources */,
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
 				42C5B60F21425EA500563794 /* 文件夹系统.png in Resources */,
 				4257583220A29F0900BA4F54 /* LaunchScreen.storyboard in Resources */,
 				42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */,
+				42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
+				42D7011C2182A8B7008DFABB /* SVProgressHUD.bundle in Resources */,
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
+				42D701072182A842008DFABB /* NSOperationVC.xib in Resources */,
+				42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */,
+				42D7010A2182A842008DFABB /* GCDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1928,6 +2054,7 @@
 				42C5B66521425EA500563794 /* AdditionExpression.m in Sources */,
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
 				42C5B65221425EA500563794 /* ShipmentState.m in Sources */,
+				42D7011B2182A8B7008DFABB /* SVIndefiniteAnimatedView.m in Sources */,
 				42C5B62E21425EA500563794 /* BuilderViewController.m in Sources */,
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
 				42C5B6742142646A00563794 /* UIColor+Separate.m in Sources */,
@@ -1944,6 +2071,7 @@
 				42C5B65321425EA500563794 /* Celling.m in Sources */,
 				427479DA218173DE004CFC10 /* BuildPattern.m in Sources */,
 				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
+				42D701082182A842008DFABB /* WHOperation.m in Sources */,
 				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
 				42747A1821819E1E004CFC10 /* DicToModelVC.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
@@ -1974,6 +2102,7 @@
 				42E8C8BD214758BB00BA399D /* SecondViewController.m in Sources */,
 				42C5B63521425EA500563794 /* SquareView.m in Sources */,
 				42E8C8C821476FF500BA399D /* LCRegExpTool.m in Sources */,
+				42D701182182A8B7008DFABB /* SVRadialGradientLayer.m in Sources */,
 				42747A1421819DC4004CFC10 /* MJFoundation.m in Sources */,
 				42C5B60221425EA500563794 /* ModelTwo.m in Sources */,
 				42C5B61521425EA500563794 /* CabDriver.m in Sources */,
@@ -1988,6 +2117,9 @@
 				42C5B63321425EA500563794 /* HeaderImgFactory.m in Sources */,
 				42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */,
 				42C5B61C21425EA500563794 /* BridgePatternViewController.m in Sources */,
+				42D7010C2182A842008DFABB /* NSThreadVC.m in Sources */,
+				42D7011A2182A8B7008DFABB /* SVProgressHUD.m in Sources */,
+				42D701092182A842008DFABB /* GCDViewController.m in Sources */,
 				42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */,
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
@@ -2010,6 +2142,7 @@
 				42747A0D21819DC4004CFC10 /* NSObject+MJCoding.m in Sources */,
 				4227897C21461827002B9C13 /* NavController.m in Sources */,
 				42C5B64C21425EA500563794 /* ManagerHandler.m in Sources */,
+				42D701192182A8B7008DFABB /* SVProgressAnimatedView.m in Sources */,
 				42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */,
 				42C5B63C21425EA500563794 /* ConsumeBill.m in Sources */,
 				42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */,
@@ -2035,6 +2168,7 @@
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
 				42C5B65B21425EA500563794 /* IteratorPatternViewController.m in Sources */,
 				42C5B64221425EA500563794 /* LighterCommand.m in Sources */,
+				42D701272182B109008DFABB /* MultiThreadApplicationVC.m in Sources */,
 				42C5B64521425EA500563794 /* DarkerCommand.m in Sources */,
 				42C5B5FC21425EA500563794 /* CheatGameDecotor.m in Sources */,
 				42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */,
@@ -2046,11 +2180,14 @@
 				422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */,
 				42C5B65A21425EA500563794 /* NSObject+MementoCenter.m in Sources */,
 				42747A0C21819DC4004CFC10 /* MJProperty.m in Sources */,
+				42D700F22182A672008DFABB /* RunLoopVC.m in Sources */,
 				42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */,
 				42E8C8D02147931300BA399D /* MMRegularParser.m in Sources */,
+				42D700F62182A6B6008DFABB /* MultiThreadingVC.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
 				42C5B65E21425EA500563794 /* LinkedList.m in Sources */,
 				42C5B62B21425EA500563794 /* CarCompanyBuilder.m in Sources */,
+				42D701062182A842008DFABB /* NSOperationVC.m in Sources */,
 				42C5B60821425EA500563794 /* AdapterCNY.m in Sources */,
 				42E8C8D42147933500BA399D /* NSString+NSStringUtils.m in Sources */,
 				42C5B5FF21425EA500563794 /* ModelOne.m in Sources */,
@@ -2078,6 +2215,7 @@
 				42C5B64921425EA500563794 /* Mediator.m in Sources */,
 				42C5B60321425EA500563794 /* ModelOneAdapter.m in Sources */,
 				42C5B60E21425EA500563794 /* CompositePatternViewController.m in Sources */,
+				42D7011F2182A93A008DFABB /* EncryptVC.m in Sources */,
 				42C5B62421425EA500563794 /* Pen.m in Sources */,
 				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,
 				42C5B61E21425EA500563794 /* FlowerFactory.m in Sources */,
