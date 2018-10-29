@@ -62,6 +62,7 @@
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
+		42AF6E8321868D49001806BE /* AudioPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AF6E8221868D49001806BE /* AudioPlayManager.m */; };
 		42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F2213FDCFF0089CFDF /* PerformSelectorNoViewController.m */; };
 		42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F4213FDCFF0089CFDF /* PerformSelectorViewController.m */; };
 		42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F5213FDCFF0089CFDF /* PerformSelectorThreadViewController.m */; };
@@ -366,6 +367,8 @@
 		427F207F20C695C000F511B0 /* ParameterClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterClass.m; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
+		42AF6E8121868D49001806BE /* AudioPlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayManager.h; sourceTree = "<group>"; };
+		42AF6E8221868D49001806BE /* AudioPlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayManager.m; sourceTree = "<group>"; };
 		42B573EF213FDCFE0089CFDF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		42B573F0213FDCFE0089CFDF /* PerformSelectorThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformSelectorThreadViewController.h; sourceTree = "<group>"; };
 		42B573F1213FDCFF0089CFDF /* PerformSelectorNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformSelectorNoViewController.h; sourceTree = "<group>"; };
@@ -1894,6 +1897,8 @@
 			children = (
 				42D7014D218307D9008DFABB /* AudioPlayVC.h */,
 				42D7014E218307D9008DFABB /* AudioPlayVC.m */,
+				42AF6E8121868D49001806BE /* AudioPlayManager.h */,
+				42AF6E8221868D49001806BE /* AudioPlayManager.m */,
 			);
 			path = "3_展示本地音频文件";
 			sourceTree = "<group>";
@@ -2183,6 +2188,7 @@
 				42C5B60B21425EA500563794 /* FileCell.m in Sources */,
 				42C5B63321425EA500563794 /* HeaderImgFactory.m in Sources */,
 				42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */,
+				42AF6E8321868D49001806BE /* AudioPlayManager.m in Sources */,
 				42C5B61C21425EA500563794 /* BridgePatternViewController.m in Sources */,
 				42D7010C2182A842008DFABB /* NSThreadVC.m in Sources */,
 				42D7011A2182A8B7008DFABB /* SVProgressHUD.m in Sources */,

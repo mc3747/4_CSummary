@@ -35,7 +35,6 @@
     _dataArray = [NSMutableArray array];
     
     // 列举对象所有子对象，相当于遍历，也可以使用for循环代理。
-    
     [soundAry enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         SystemSoundModel *model = [SystemSoundModel new];
         [model setValuesForKeysWithDictionary:obj];

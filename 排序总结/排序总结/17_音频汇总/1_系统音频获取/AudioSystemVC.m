@@ -99,6 +99,7 @@
         model.SoundID = [NSNumber numberWithInt:soundID];
         [self.audioModelArray addObject:model];
     }];
+    
     [self.audioModelArray sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
         SystemSoundModel *pModel1 = obj1;
         SystemSoundModel *pModel2 = obj2;
@@ -151,9 +152,11 @@
 {
 //    SystemSoundID soundID;
 //    AudioServicesCreateSystemSoundID((__bridge_retained CFURLRef)[_audioFileList objectAtIndex:indexPath.row],&soundID);
-    AudioServicesPlaySystemSound(_audioModelArray[indexPath.row].SoundID);
+//    AudioServicesPlaySystemSound(soundID);
     
-    NSLog(@"File url: %@", [[_audioFileList objectAtIndex:indexPath.row] description]);
+    AudioServicesPlaySystemSound([_audioModelArray[indexPath.row].SoundID intValue]);
+//    NSLog(@"File url: %@", [[_audioFileList objectAtIndex:indexPath.row] description]);
+    NSLog(@"soundId:%i",[_audioModelArray[indexPath.row].SoundID intValue]);
 }
 
 @end
