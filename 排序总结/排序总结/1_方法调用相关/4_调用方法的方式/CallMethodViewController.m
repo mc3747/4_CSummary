@@ -114,6 +114,11 @@
     
 }
 
+#pragma mark -  5，runTime传值
+- (void)testRunTime {
+    
+}
+
 #pragma mark -  各种测试方法
 - (void)printName {
     NSLog(@"我的名字");
@@ -134,4 +139,6 @@
     NSLog(@"我的名字%@,%@和%@",name1,name2,name3);
     return [NSString stringWithFormat:@"%@,%@,%@",name1,name2,name3];
 }
+
+
 @end
