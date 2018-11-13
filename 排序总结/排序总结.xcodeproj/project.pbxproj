@@ -226,6 +226,8 @@
 		42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014E218307D9008DFABB /* AudioPlayVC.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
+		42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E7A135219920E500304651 /* CalculateImageStorageVC.m */; };
+		42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E7A136219920E500304651 /* CalculateImageStorageVC.xib */; };
 		42E8C8B02147583B00BA399D /* RegularExpressionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */; };
 		42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8B3214758B900BA399D /* SearchViewController.m */; };
 		42E8C8BC214758BB00BA399D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8B4214758B900BA399D /* FirstViewController.m */; };
@@ -239,6 +241,8 @@
 		42E8C8D42147933500BA399D /* NSString+NSStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8D22147933500BA399D /* NSString+NSStringUtils.m */; };
 		42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8D62147951A00BA399D /* AmountInputVC.m */; };
 		42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E8C8D72147951A00BA399D /* AmountInputVC.xib */; };
+		42FC73B6219A7BDE00B61FAE /* CacalateStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC73B5219A7BDE00B61FAE /* CacalateStorageVC.m */; };
+		42FC73B9219A7D8F00B61FAE /* PhonoAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC73B8219A7D8F00B61FAE /* PhonoAlertTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -704,6 +708,9 @@
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
 		42E4579F212E3D8D00898A3D /* CallMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallMethodViewController.h; sourceTree = "<group>"; };
+		42E7A134219920E500304651 /* CalculateImageStorageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateImageStorageVC.h; sourceTree = "<group>"; };
+		42E7A135219920E500304651 /* CalculateImageStorageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateImageStorageVC.m; sourceTree = "<group>"; };
+		42E7A136219920E500304651 /* CalculateImageStorageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculateImageStorageVC.xib; sourceTree = "<group>"; };
 		42E8C8AE2147583B00BA399D /* RegularExpressionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularExpressionVC.h; sourceTree = "<group>"; };
 		42E8C8AF2147583B00BA399D /* RegularExpressionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionVC.m; sourceTree = "<group>"; };
 		42E8C8B3214758B900BA399D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
@@ -728,6 +735,10 @@
 		42E8C8D52147951A00BA399D /* AmountInputVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmountInputVC.h; sourceTree = "<group>"; };
 		42E8C8D62147951A00BA399D /* AmountInputVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmountInputVC.m; sourceTree = "<group>"; };
 		42E8C8D72147951A00BA399D /* AmountInputVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmountInputVC.xib; sourceTree = "<group>"; };
+		42FC73B4219A7BDE00B61FAE /* CacalateStorageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacalateStorageVC.h; sourceTree = "<group>"; };
+		42FC73B5219A7BDE00B61FAE /* CacalateStorageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacalateStorageVC.m; sourceTree = "<group>"; };
+		42FC73B7219A7D8F00B61FAE /* PhonoAlertTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhonoAlertTool.h; sourceTree = "<group>"; };
+		42FC73B8219A7D8F00B61FAE /* PhonoAlertTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhonoAlertTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -927,6 +938,7 @@
 				42747A232181D421004CFC10 /* 15_多线程汇总 */,
 				42747A242181D435004CFC10 /* 16_加密汇总 */,
 				42D7013921830492008DFABB /* 17_音频汇总 */,
+				42E7A1322199127B00304651 /* 18_计算文件大小 */,
 				42747A212181BEF7004CFC10 /* 性能优化 */,
 				42747A222181D3C9004CFC10 /* APP安全 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -1940,6 +1952,28 @@
 			path = "4_调用方法的方式";
 			sourceTree = "<group>";
 		};
+		42E7A1322199127B00304651 /* 18_计算文件大小 */ = {
+			isa = PBXGroup;
+			children = (
+				42FC73B4219A7BDE00B61FAE /* CacalateStorageVC.h */,
+				42FC73B5219A7BDE00B61FAE /* CacalateStorageVC.m */,
+				42E7A13321991F9500304651 /* 1，image文件的大小 */,
+			);
+			path = "18_计算文件大小";
+			sourceTree = "<group>";
+		};
+		42E7A13321991F9500304651 /* 1，image文件的大小 */ = {
+			isa = PBXGroup;
+			children = (
+				42E7A134219920E500304651 /* CalculateImageStorageVC.h */,
+				42E7A135219920E500304651 /* CalculateImageStorageVC.m */,
+				42E7A136219920E500304651 /* CalculateImageStorageVC.xib */,
+				42FC73B7219A7D8F00B61FAE /* PhonoAlertTool.h */,
+				42FC73B8219A7D8F00B61FAE /* PhonoAlertTool.m */,
+			);
+			path = "1，image文件的大小";
+			sourceTree = "<group>";
+		};
 		42E8C8BF214758BF00BA399D /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -2112,6 +2146,7 @@
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
 				42D7011C2182A8B7008DFABB /* SVProgressHUD.bundle in Resources */,
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
+				42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */,
 				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
 				42D701072182A842008DFABB /* NSOperationVC.xib in Resources */,
 				42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */,
@@ -2159,6 +2194,7 @@
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
 				42C5B6742142646A00563794 /* UIColor+Separate.m in Sources */,
 				422789532146044C002B9C13 /* TimerDelegate.m in Sources */,
+				42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */,
 				42E8C8C521476FDA00BA399D /* RegularUtils.m in Sources */,
 				42C5B66321425EA500563794 /* Calculator.m in Sources */,
 				42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */,
@@ -2210,6 +2246,7 @@
 				42C5B61521425EA500563794 /* CabDriver.m in Sources */,
 				42C5B61221425EA500563794 /* FacadeCar.m in Sources */,
 				42CB7E542138E399003397FB /* NSTimer+TimerBlock.m in Sources */,
+				42FC73B9219A7D8F00B61FAE /* PhonoAlertTool.m in Sources */,
 				42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */,
 				42C5B63621425EA500563794 /* StrategyPatternViewController.m in Sources */,
 				42C5B66821425EA500563794 /* InterpreterPatternViewController.m in Sources */,
@@ -2341,6 +2378,7 @@
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
 				42C5B6752142646A00563794 /* UIColor+Wonderful.m in Sources */,
 				4227895F2146093B002B9C13 /* MutiDelegatVC.m in Sources */,
+				42FC73B6219A7BDE00B61FAE /* CacalateStorageVC.m in Sources */,
 				42C5B63721425EA500563794 /* OperationSubStract.m in Sources */,
 				42C5B66021425EA500563794 /* Game.m in Sources */,
 				42C5B63121425EA500563794 /* CircleView.m in Sources */,

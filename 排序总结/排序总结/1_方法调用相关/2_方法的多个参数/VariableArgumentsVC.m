@@ -130,7 +130,7 @@ typedef struct TTTestStrout{
     
 }
 
-#pragma mark -  7，传指针列表
+#pragma mark -  7，传指针列表，参数个数不定，但类型一致
 - (void)test7 {
     
     /*2，传同一类型的参数，个数不定 */
@@ -237,8 +237,6 @@ typedef struct TTTestStrout{
     
     NSLog(@"button的tag%ld",(long)btn.tag);
     NSLog(@"button的runtime添加属性%@",objc_getAssociatedObject(btn,@"newProperty"));
-    
-//    btn.hidden = YES;
     
 }
           
