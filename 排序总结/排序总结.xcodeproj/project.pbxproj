@@ -67,6 +67,8 @@
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
 		42AF6E8321868D49001806BE /* AudioPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AF6E8221868D49001806BE /* AudioPlayManager.m */; };
+		42B26F6B21F17EB3007351A9 /* ReplaceIfElseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B26F6A21F17EB3007351A9 /* ReplaceIfElseVC.m */; };
+		42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B26F6D21F18150007351A9 /* TestReplaceIfElseVC.m */; };
 		42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F2213FDCFF0089CFDF /* PerformSelectorNoViewController.m */; };
 		42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F4213FDCFF0089CFDF /* PerformSelectorViewController.m */; };
 		42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F5213FDCFF0089CFDF /* PerformSelectorThreadViewController.m */; };
@@ -385,6 +387,10 @@
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
 		42AF6E8121868D49001806BE /* AudioPlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayManager.h; sourceTree = "<group>"; };
 		42AF6E8221868D49001806BE /* AudioPlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayManager.m; sourceTree = "<group>"; };
+		42B26F6921F17EB3007351A9 /* ReplaceIfElseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaceIfElseVC.h; sourceTree = "<group>"; };
+		42B26F6A21F17EB3007351A9 /* ReplaceIfElseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceIfElseVC.m; sourceTree = "<group>"; };
+		42B26F6C21F18150007351A9 /* TestReplaceIfElseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestReplaceIfElseVC.h; sourceTree = "<group>"; };
+		42B26F6D21F18150007351A9 /* TestReplaceIfElseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestReplaceIfElseVC.m; sourceTree = "<group>"; };
 		42B573EF213FDCFE0089CFDF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		42B573F0213FDCFE0089CFDF /* PerformSelectorThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformSelectorThreadViewController.h; sourceTree = "<group>"; };
 		42B573F1213FDCFF0089CFDF /* PerformSelectorNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformSelectorNoViewController.h; sourceTree = "<group>"; };
@@ -766,6 +772,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		421F15CC21EF0A9E00428704 /* 19_代替if else的方法 */ = {
+			isa = PBXGroup;
+			children = (
+				42B26F6921F17EB3007351A9 /* ReplaceIfElseVC.h */,
+				42B26F6A21F17EB3007351A9 /* ReplaceIfElseVC.m */,
+				42B26F6C21F18150007351A9 /* TestReplaceIfElseVC.h */,
+				42B26F6D21F18150007351A9 /* TestReplaceIfElseVC.m */,
+			);
+			path = "19_代替if else的方法";
+			sourceTree = "<group>";
+		};
 		422355D2219514D800A7DF99 /* 1_方法调用相关 */ = {
 			isa = PBXGroup;
 			children = (
@@ -939,6 +956,7 @@
 				42747A242181D435004CFC10 /* 16_加密汇总 */,
 				42D7013921830492008DFABB /* 17_音频汇总 */,
 				42E7A1322199127B00304651 /* 18_计算文件大小 */,
+				421F15CC21EF0A9E00428704 /* 19_代替if else的方法 */,
 				42747A212181BEF7004CFC10 /* 性能优化 */,
 				42747A222181D3C9004CFC10 /* APP安全 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -2189,6 +2207,7 @@
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
 				42C5B65221425EA500563794 /* ShipmentState.m in Sources */,
 				42D70146218306AD008DFABB /* AudioPlistVC.m in Sources */,
+				42B26F6B21F17EB3007351A9 /* ReplaceIfElseVC.m in Sources */,
 				42D7011B2182A8B7008DFABB /* SVIndefiniteAnimatedView.m in Sources */,
 				42C5B62E21425EA500563794 /* BuilderViewController.m in Sources */,
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
@@ -2266,6 +2285,7 @@
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
+				42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
