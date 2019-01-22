@@ -6,11 +6,11 @@
 //  Copyright © 2018年 macheng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseTableViewVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface EncryptVC : UIViewController
+@interface EncryptVC : BaseTableViewVC
 
 @end
 

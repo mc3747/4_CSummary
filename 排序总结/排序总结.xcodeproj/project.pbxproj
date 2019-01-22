@@ -245,6 +245,18 @@
 		42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E8C8D72147951A00BA399D /* AmountInputVC.xib */; };
 		42FC73B6219A7BDE00B61FAE /* CacalateStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC73B5219A7BDE00B61FAE /* CacalateStorageVC.m */; };
 		42FC73B9219A7D8F00B61FAE /* PhonoAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC73B8219A7D8F00B61FAE /* PhonoAlertTool.m */; };
+		42FFFF8921F6B78100C594AA /* EncryptBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFF8721F6B78100C594AA /* EncryptBaseVC.m */; };
+		42FFFF8A21F6B78100C594AA /* EncryptBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFF8821F6B78100C594AA /* EncryptBaseVC.xib */; };
+		42FFFF9021F6F06200C594AA /* HashEncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFF8E21F6F06200C594AA /* HashEncryptVC.m */; };
+		42FFFF9121F6F06200C594AA /* HashEncryptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFF8F21F6F06200C594AA /* HashEncryptVC.xib */; };
+		42FFFF9521F6F09900C594AA /* SymmetryEncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFF9321F6F09800C594AA /* SymmetryEncryptVC.m */; };
+		42FFFF9621F6F09900C594AA /* SymmetryEncryptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFF9421F6F09900C594AA /* SymmetryEncryptVC.xib */; };
+		42FFFF9A21F6F0F900C594AA /* DissymmetryEncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFF9821F6F0F900C594AA /* DissymmetryEncryptVC.m */; };
+		42FFFF9B21F6F0F900C594AA /* DissymmetryEncryptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFF9921F6F0F900C594AA /* DissymmetryEncryptVC.xib */; };
+		42FFFF9F21F6F11700C594AA /* Base64EncryptVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFF9D21F6F11700C594AA /* Base64EncryptVC.m */; };
+		42FFFFA021F6F11700C594AA /* Base64EncryptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFF9E21F6F11700C594AA /* Base64EncryptVC.xib */; };
+		42FFFFA421F6F4C700C594AA /* EncryptApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */; };
+		42FFFFA521F6F4C700C594AA /* EncryptApplicationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -745,6 +757,24 @@
 		42FC73B5219A7BDE00B61FAE /* CacalateStorageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacalateStorageVC.m; sourceTree = "<group>"; };
 		42FC73B7219A7D8F00B61FAE /* PhonoAlertTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhonoAlertTool.h; sourceTree = "<group>"; };
 		42FC73B8219A7D8F00B61FAE /* PhonoAlertTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhonoAlertTool.m; sourceTree = "<group>"; };
+		42FFFF8621F6B78100C594AA /* EncryptBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptBaseVC.h; sourceTree = "<group>"; };
+		42FFFF8721F6B78100C594AA /* EncryptBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptBaseVC.m; sourceTree = "<group>"; };
+		42FFFF8821F6B78100C594AA /* EncryptBaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EncryptBaseVC.xib; sourceTree = "<group>"; };
+		42FFFF8D21F6F06200C594AA /* HashEncryptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashEncryptVC.h; sourceTree = "<group>"; };
+		42FFFF8E21F6F06200C594AA /* HashEncryptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashEncryptVC.m; sourceTree = "<group>"; };
+		42FFFF8F21F6F06200C594AA /* HashEncryptVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HashEncryptVC.xib; sourceTree = "<group>"; };
+		42FFFF9221F6F09800C594AA /* SymmetryEncryptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SymmetryEncryptVC.h; sourceTree = "<group>"; };
+		42FFFF9321F6F09800C594AA /* SymmetryEncryptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SymmetryEncryptVC.m; sourceTree = "<group>"; };
+		42FFFF9421F6F09900C594AA /* SymmetryEncryptVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SymmetryEncryptVC.xib; sourceTree = "<group>"; };
+		42FFFF9721F6F0F900C594AA /* DissymmetryEncryptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DissymmetryEncryptVC.h; sourceTree = "<group>"; };
+		42FFFF9821F6F0F900C594AA /* DissymmetryEncryptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DissymmetryEncryptVC.m; sourceTree = "<group>"; };
+		42FFFF9921F6F0F900C594AA /* DissymmetryEncryptVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DissymmetryEncryptVC.xib; sourceTree = "<group>"; };
+		42FFFF9C21F6F11700C594AA /* Base64EncryptVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base64EncryptVC.h; sourceTree = "<group>"; };
+		42FFFF9D21F6F11700C594AA /* Base64EncryptVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base64EncryptVC.m; sourceTree = "<group>"; };
+		42FFFF9E21F6F11700C594AA /* Base64EncryptVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Base64EncryptVC.xib; sourceTree = "<group>"; };
+		42FFFFA121F6F4C700C594AA /* EncryptApplicationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptApplicationVC.h; sourceTree = "<group>"; };
+		42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptApplicationVC.m; sourceTree = "<group>"; };
+		42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EncryptApplicationVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1130,6 +1160,12 @@
 			children = (
 				42D7011D2182A93A008DFABB /* EncryptVC.h */,
 				42D7011E2182A93A008DFABB /* EncryptVC.m */,
+				42FFFF8521F6B70700C594AA /* 1，基础知识 */,
+				42FFFF8221F6B5CB00C594AA /* 2，哈希算法 */,
+				42FFFF8321F6B6E100C594AA /* 3，对称加密 */,
+				42FFFF8421F6B6EC00C594AA /* 4，不对称加密 */,
+				42FFFF8C21F6EE2400C594AA /* 5，Base64 */,
+				42FFFF8B21F6BD8600C594AA /* 6，实战应用 */,
 			);
 			path = "16_加密汇总";
 			sourceTree = "<group>";
@@ -2050,6 +2086,66 @@
 			path = AmountString;
 			sourceTree = "<group>";
 		};
+		42FFFF8221F6B5CB00C594AA /* 2，哈希算法 */ = {
+			isa = PBXGroup;
+			children = (
+				42FFFF8D21F6F06200C594AA /* HashEncryptVC.h */,
+				42FFFF8E21F6F06200C594AA /* HashEncryptVC.m */,
+				42FFFF8F21F6F06200C594AA /* HashEncryptVC.xib */,
+			);
+			path = "2，哈希算法";
+			sourceTree = "<group>";
+		};
+		42FFFF8321F6B6E100C594AA /* 3，对称加密 */ = {
+			isa = PBXGroup;
+			children = (
+				42FFFF9221F6F09800C594AA /* SymmetryEncryptVC.h */,
+				42FFFF9321F6F09800C594AA /* SymmetryEncryptVC.m */,
+				42FFFF9421F6F09900C594AA /* SymmetryEncryptVC.xib */,
+			);
+			path = "3，对称加密";
+			sourceTree = "<group>";
+		};
+		42FFFF8421F6B6EC00C594AA /* 4，不对称加密 */ = {
+			isa = PBXGroup;
+			children = (
+				42FFFF9721F6F0F900C594AA /* DissymmetryEncryptVC.h */,
+				42FFFF9821F6F0F900C594AA /* DissymmetryEncryptVC.m */,
+				42FFFF9921F6F0F900C594AA /* DissymmetryEncryptVC.xib */,
+			);
+			path = "4，不对称加密";
+			sourceTree = "<group>";
+		};
+		42FFFF8521F6B70700C594AA /* 1，基础知识 */ = {
+			isa = PBXGroup;
+			children = (
+				42FFFF8621F6B78100C594AA /* EncryptBaseVC.h */,
+				42FFFF8721F6B78100C594AA /* EncryptBaseVC.m */,
+				42FFFF8821F6B78100C594AA /* EncryptBaseVC.xib */,
+			);
+			path = "1，基础知识";
+			sourceTree = "<group>";
+		};
+		42FFFF8B21F6BD8600C594AA /* 6，实战应用 */ = {
+			isa = PBXGroup;
+			children = (
+				42FFFFA121F6F4C700C594AA /* EncryptApplicationVC.h */,
+				42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */,
+				42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */,
+			);
+			path = "6，实战应用";
+			sourceTree = "<group>";
+		};
+		42FFFF8C21F6EE2400C594AA /* 5，Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				42FFFF9C21F6F11700C594AA /* Base64EncryptVC.h */,
+				42FFFF9D21F6F11700C594AA /* Base64EncryptVC.m */,
+				42FFFF9E21F6F11700C594AA /* Base64EncryptVC.xib */,
+			);
+			path = "5，Base64";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2154,13 +2250,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D7010B2182A842008DFABB /* NSThreadVC.xib in Resources */,
+				42FFFF9B21F6F0F900C594AA /* DissymmetryEncryptVC.xib in Resources */,
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
+				42FFFFA521F6F4C700C594AA /* EncryptApplicationVC.xib in Resources */,
 				42C5B60F21425EA500563794 /* 文件夹系统.png in Resources */,
 				4257583220A29F0900BA4F54 /* LaunchScreen.storyboard in Resources */,
 				42D7014C21830724008DFABB /* SystemSound.plist in Resources */,
 				42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */,
 				42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
+				42FFFF9121F6F06200C594AA /* HashEncryptVC.xib in Resources */,
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
 				42D7011C2182A8B7008DFABB /* SVProgressHUD.bundle in Resources */,
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
@@ -2168,7 +2267,10 @@
 				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
 				42D701072182A842008DFABB /* NSOperationVC.xib in Resources */,
 				42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */,
+				42FFFF9621F6F09900C594AA /* SymmetryEncryptVC.xib in Resources */,
 				42D7010A2182A842008DFABB /* GCDViewController.xib in Resources */,
+				42FFFFA021F6F11700C594AA /* Base64EncryptVC.xib in Resources */,
+				42FFFF8A21F6B78100C594AA /* EncryptBaseVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2209,6 +2311,7 @@
 				42D70146218306AD008DFABB /* AudioPlistVC.m in Sources */,
 				42B26F6B21F17EB3007351A9 /* ReplaceIfElseVC.m in Sources */,
 				42D7011B2182A8B7008DFABB /* SVIndefiniteAnimatedView.m in Sources */,
+				42FFFF9021F6F06200C594AA /* HashEncryptVC.m in Sources */,
 				42C5B62E21425EA500563794 /* BuilderViewController.m in Sources */,
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
 				42C5B6742142646A00563794 /* UIColor+Separate.m in Sources */,
@@ -2247,6 +2350,7 @@
 				42C5B62C21425EA500563794 /* Car.m in Sources */,
 				42C5B64D21425EA500563794 /* Handler.m in Sources */,
 				42747A0821819DC4004CFC10 /* NSObject+YYModel.m in Sources */,
+				42FFFFA421F6F4C700C594AA /* EncryptApplicationVC.m in Sources */,
 				42C5B65D21425EA500563794 /* Node.m in Sources */,
 				422355DC2195240D00A7DF99 /* VariableArgumentsVC.m in Sources */,
 				42C5B60521425EA500563794 /* AdapterUSD.m in Sources */,
@@ -2260,6 +2364,7 @@
 				42C5B63521425EA500563794 /* SquareView.m in Sources */,
 				42E8C8C821476FF500BA399D /* LCRegExpTool.m in Sources */,
 				42D701182182A8B7008DFABB /* SVRadialGradientLayer.m in Sources */,
+				42FFFF8921F6B78100C594AA /* EncryptBaseVC.m in Sources */,
 				42747A1421819DC4004CFC10 /* MJFoundation.m in Sources */,
 				42C5B60221425EA500563794 /* ModelTwo.m in Sources */,
 				42C5B61521425EA500563794 /* CabDriver.m in Sources */,
@@ -2290,6 +2395,7 @@
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
 				42C5B61021425EA500563794 /* Person.m in Sources */,
+				42FFFF9521F6F09900C594AA /* SymmetryEncryptVC.m in Sources */,
 				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
@@ -2375,6 +2481,7 @@
 				42C5B64B21425EA500563794 /* Order.m in Sources */,
 				42C5B64621425EA500563794 /* ConcreteColleague.m in Sources */,
 				42C5B65821425EA500563794 /* MementoPatternViewController.m in Sources */,
+				42FFFF9A21F6F0F900C594AA /* DissymmetryEncryptVC.m in Sources */,
 				42C5B64921425EA500563794 /* Mediator.m in Sources */,
 				42C5B60321425EA500563794 /* ModelOneAdapter.m in Sources */,
 				42C5B60E21425EA500563794 /* CompositePatternViewController.m in Sources */,
@@ -2395,6 +2502,7 @@
 				42D7013D218304F3008DFABB /* AudioSummaryVC.m in Sources */,
 				427479D9218173DE004CFC10 /* Builder.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
+				42FFFF9F21F6F11700C594AA /* Base64EncryptVC.m in Sources */,
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
 				42C5B6752142646A00563794 /* UIColor+Wonderful.m in Sources */,
 				4227895F2146093B002B9C13 /* MutiDelegatVC.m in Sources */,

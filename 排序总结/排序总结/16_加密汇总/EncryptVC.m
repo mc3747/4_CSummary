@@ -17,16 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = RandColor;
+    self.contentArray = @[@"基础知识",@"哈希算法",@"对称加密",@"不对称加密",@"编码方式",@"实战应用"];
+    self.vcTitleArray = self.contentArray;
+    self.vcNameArray = @[@"EncryptBaseVC",@"HashEncryptVC",@"SymmetryEncryptVC",@"DissymmetryEncryptVC",@"Base64EncryptVC",@"EncryptApplicationVC"];
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
