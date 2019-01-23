@@ -65,4 +65,5 @@
     return [strM copy];
 }
 
+#pragma mark -  加盐
 @end
