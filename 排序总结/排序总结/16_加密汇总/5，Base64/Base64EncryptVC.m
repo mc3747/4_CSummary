@@ -7,26 +7,32 @@
 //
 
 #import "Base64EncryptVC.h"
+#import "GBEncodeTool.h"
 
 @interface Base64EncryptVC ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UITextView *textView1;
+@property (weak, nonatomic) IBOutlet UITextView *textView2;
 
 @end
 
 @implementation Base64EncryptVC
 
+- (IBAction)encryptAction:(id)sender {
+      NSString *encodeBase64=[GBEncodeTool encodeBase64String:_textField.text];
+    _textView1.text = encodeBase64;
+}
+- (IBAction)decryptAction:(id)sender {
+     NSString*decodeBase64=[GBEncodeTool decodeBase64String:_textView1.text];
+    _textView2.text = decodeBase64;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

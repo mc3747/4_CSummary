@@ -41,6 +41,8 @@
 		4227897C21461827002B9C13 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227897A21461827002B9C13 /* NavController.m */; };
 		42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42278981214651B8002B9C13 /* MatchingMethodVC.m */; };
 		423E2FBF21F98F1600832137 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E2FBE21F98F1600832137 /* NSString+Hash.m */; };
+		424154CA21FAA37E00AC35A2 /* CodedFormatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424154C821FAA37E00AC35A2 /* CodedFormatVC.m */; };
+		424154CB21FAA37E00AC35A2 /* CodedFormatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424154C921FAA37E00AC35A2 /* CodedFormatVC.xib */; };
 		4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582620A29F0700BA4F54 /* AppDelegate.m */; };
 		4257582A20A29F0700BA4F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582920A29F0700BA4F54 /* ViewController.m */; };
 		4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4257582B20A29F0700BA4F54 /* Main.storyboard */; };
@@ -353,6 +355,9 @@
 		42278982214651B8002B9C13 /* MatchingMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingMethodVC.h; sourceTree = "<group>"; };
 		423E2FBD21F98F1600832137 /* NSString+Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
 		423E2FBE21F98F1600832137 /* NSString+Hash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		424154C721FAA37E00AC35A2 /* CodedFormatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CodedFormatVC.h; sourceTree = "<group>"; };
+		424154C821FAA37E00AC35A2 /* CodedFormatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodedFormatVC.m; sourceTree = "<group>"; };
+		424154C921FAA37E00AC35A2 /* CodedFormatVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CodedFormatVC.xib; sourceTree = "<group>"; };
 		4257582220A29F0700BA4F54 /* 排序总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257582520A29F0700BA4F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4257582620A29F0700BA4F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -831,7 +836,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		420189A521F9AA1200257DCF /* GBEncodeTool */ = {
+		420189A521F9AA1200257DCF /* 0，加密工具 */ = {
 			isa = PBXGroup;
 			children = (
 				420189A921F9AA1200257DCF /* GBEncodeTool.h */,
@@ -848,7 +853,7 @@
 				420189AF21F9AA1200257DCF /* private_key.p12 */,
 				420189B121F9AA1200257DCF /* GTMDefines.h */,
 			);
-			path = GBEncodeTool;
+			path = "0，加密工具";
 			sourceTree = "<group>";
 		};
 		421F15CC21EF0A9E00428704 /* 19_代替if else的方法 */ = {
@@ -990,6 +995,16 @@
 				42E8C8C92147724F00BA399D /* 2，金额输入格式化 */,
 			);
 			path = "3,常用的正则工具";
+			sourceTree = "<group>";
+		};
+		424154C621FAA30C00AC35A2 /* 6，编码格式 */ = {
+			isa = PBXGroup;
+			children = (
+				424154C721FAA37E00AC35A2 /* CodedFormatVC.h */,
+				424154C821FAA37E00AC35A2 /* CodedFormatVC.m */,
+				424154C921FAA37E00AC35A2 /* CodedFormatVC.xib */,
+			);
+			path = "6，编码格式";
 			sourceTree = "<group>";
 		};
 		4257581920A29F0700BA4F54 = {
@@ -1210,13 +1225,14 @@
 			children = (
 				42D7011D2182A93A008DFABB /* EncryptVC.h */,
 				42D7011E2182A93A008DFABB /* EncryptVC.m */,
-				420189A521F9AA1200257DCF /* GBEncodeTool */,
+				420189A521F9AA1200257DCF /* 0，加密工具 */,
 				42FFFF8521F6B70700C594AA /* 1，基础知识 */,
 				42FFFF8221F6B5CB00C594AA /* 2，哈希算法 */,
 				42FFFF8321F6B6E100C594AA /* 3，对称加密 */,
 				42FFFF8421F6B6EC00C594AA /* 4，不对称加密 */,
 				42FFFF8C21F6EE2400C594AA /* 5，Base64 */,
-				42FFFF8B21F6BD8600C594AA /* 6，实战应用 */,
+				424154C621FAA30C00AC35A2 /* 6，编码格式 */,
+				42FFFF8B21F6BD8600C594AA /* 7，实战应用 */,
 			);
 			path = "16_加密汇总";
 			sourceTree = "<group>";
@@ -2189,14 +2205,14 @@
 			path = "1，基础知识";
 			sourceTree = "<group>";
 		};
-		42FFFF8B21F6BD8600C594AA /* 6，实战应用 */ = {
+		42FFFF8B21F6BD8600C594AA /* 7，实战应用 */ = {
 			isa = PBXGroup;
 			children = (
 				42FFFFA121F6F4C700C594AA /* EncryptApplicationVC.h */,
 				42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */,
 				42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */,
 			);
-			path = "6，实战应用";
+			path = "7，实战应用";
 			sourceTree = "<group>";
 		};
 		42FFFF8C21F6EE2400C594AA /* 5，Base64 */ = {
@@ -2315,6 +2331,7 @@
 				42D7010B2182A842008DFABB /* NSThreadVC.xib in Resources */,
 				42FADC8F21F94349008C77F3 /* MemoryLeakVC.xib in Resources */,
 				42FFFF9B21F6F0F900C594AA /* DissymmetryEncryptVC.xib in Resources */,
+				424154CB21FAA37E00AC35A2 /* CodedFormatVC.xib in Resources */,
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
 				42FFFFA521F6F4C700C594AA /* EncryptApplicationVC.xib in Resources */,
 				42C5B60F21425EA500563794 /* 文件夹系统.png in Resources */,
@@ -2475,6 +2492,7 @@
 				42C5B64821425EA500563794 /* Colleague.m in Sources */,
 				42C5B63E21425EA500563794 /* CAP.m in Sources */,
 				42C5B65021425EA500563794 /* ChairmanHandler.m in Sources */,
+				424154CA21FAA37E00AC35A2 /* CodedFormatVC.m in Sources */,
 				42C5B62821425EA500563794 /* ClassModel.m in Sources */,
 				42747A0D21819DC4004CFC10 /* NSObject+MJCoding.m in Sources */,
 				4227897C21461827002B9C13 /* NavController.m in Sources */,
