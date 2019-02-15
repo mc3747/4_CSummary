@@ -7,6 +7,8 @@
 //
 
 #import "MemoryLeakVC.h"
+#import "UIWebViewVC.h"
+#import "WKWebViewVC.h"
 
 @interface MemoryLeakVC ()
 
@@ -30,5 +32,14 @@
 
 #pragma mark -  4，内存泄露解决办法
 
+- (IBAction)uiWebViewAction:(id)sender {
+    UIWebViewVC *vc = [[UIWebViewVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)wkWebViewAction:(id)sender {
+    WKWebViewVC *vc = [[WKWebViewVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 @end
