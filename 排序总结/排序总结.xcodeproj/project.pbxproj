@@ -79,6 +79,15 @@
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
+		42A5335F22436DF000CC1B5E /* NativeAndWebTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5335E22436DF000CC1B5E /* NativeAndWebTableVC.m */; };
+		42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5336422436FD000CC1B5E /* WebViewBaseVC.m */; };
+		42A533682243700900CC1B5E /* NativeAndWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A533672243700900CC1B5E /* NativeAndWebVC.m */; };
+		42A5336B2243711000CC1B5E /* NativeAndWebSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5336A2243711000CC1B5E /* NativeAndWebSummaryVC.m */; };
+		42A5336F224372DB00CC1B5E /* WKWebViewSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5336E224372DB00CC1B5E /* WKWebViewSummaryVC.m */; };
+		42A5337722437F8500CC1B5E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5337522437F8500CC1B5E /* UIView+Extension.m */; };
+		42A5337D2243847D00CC1B5E /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5337A2243847D00CC1B5E /* WYWebProgressLayer.m */; };
+		42A5337E2243847D00CC1B5E /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5337C2243847D00CC1B5E /* NSTimer+addition.m */; };
+		42A5338122438F4400CC1B5E /* CacheFileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5337F22438F4300CC1B5E /* CacheFileManagerTool.m */; };
 		42AF6E8321868D49001806BE /* AudioPlayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AF6E8221868D49001806BE /* AudioPlayManager.m */; };
 		42B26F6B21F17EB3007351A9 /* ReplaceIfElseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B26F6A21F17EB3007351A9 /* ReplaceIfElseVC.m */; };
 		42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B26F6D21F18150007351A9 /* TestReplaceIfElseVC.m */; };
@@ -434,6 +443,25 @@
 		427F207F20C695C000F511B0 /* ParameterClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterClass.m; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
+		42A5335D22436DF000CC1B5E /* NativeAndWebTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAndWebTableVC.h; sourceTree = "<group>"; };
+		42A5335E22436DF000CC1B5E /* NativeAndWebTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAndWebTableVC.m; sourceTree = "<group>"; };
+		42A5336322436FD000CC1B5E /* WebViewBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewBaseVC.h; sourceTree = "<group>"; };
+		42A5336422436FD000CC1B5E /* WebViewBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewBaseVC.m; sourceTree = "<group>"; };
+		42A533662243700900CC1B5E /* NativeAndWebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAndWebVC.h; sourceTree = "<group>"; };
+		42A533672243700900CC1B5E /* NativeAndWebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAndWebVC.m; sourceTree = "<group>"; };
+		42A533692243711000CC1B5E /* NativeAndWebSummaryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAndWebSummaryVC.h; sourceTree = "<group>"; };
+		42A5336A2243711000CC1B5E /* NativeAndWebSummaryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAndWebSummaryVC.m; sourceTree = "<group>"; };
+		42A5336D224372DB00CC1B5E /* WKWebViewSummaryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewSummaryVC.h; sourceTree = "<group>"; };
+		42A5336E224372DB00CC1B5E /* WKWebViewSummaryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewSummaryVC.m; sourceTree = "<group>"; };
+		42A5337522437F8500CC1B5E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		42A5337622437F8500CC1B5E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		42A5337822437FF200CC1B5E /* CommonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		42A533792243847C00CC1B5E /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
+		42A5337A2243847D00CC1B5E /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
+		42A5337B2243847D00CC1B5E /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		42A5337C2243847D00CC1B5E /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		42A5337F22438F4300CC1B5E /* CacheFileManagerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheFileManagerTool.m; sourceTree = "<group>"; };
+		42A5338022438F4400CC1B5E /* CacheFileManagerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheFileManagerTool.h; sourceTree = "<group>"; };
 		42AF6E8121868D49001806BE /* AudioPlayManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayManager.h; sourceTree = "<group>"; };
 		42AF6E8221868D49001806BE /* AudioPlayManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayManager.m; sourceTree = "<group>"; };
 		42B26F6921F17EB3007351A9 /* ReplaceIfElseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaceIfElseVC.h; sourceTree = "<group>"; };
@@ -865,6 +893,12 @@
 		4212D9C122169538004A7BA8 /* 21_原生和js交互 */ = {
 			isa = PBXGroup;
 			children = (
+				42A5335D22436DF000CC1B5E /* NativeAndWebTableVC.h */,
+				42A5335E22436DF000CC1B5E /* NativeAndWebTableVC.m */,
+				42A5336022436F6A00CC1B5E /* 1，webView基础介绍 */,
+				42A5336222436F7D00CC1B5E /* 2，webView和JS交互 */,
+				42A5336C2243729C00CC1B5E /* 3，WKWebView的使用及交互 */,
+				42A5336122436F7B00CC1B5E /* 4，总结归纳 */,
 			);
 			path = "21_原生和js交互";
 			sourceTree = "<group>";
@@ -1072,6 +1106,7 @@
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
 				4257583320A29F0900BA4F54 /* Info.plist */,
+				42A5337422437F7500CC1B5E /* Sources */,
 				4257583420A29F0900BA4F54 /* main.m */,
 			);
 			path = "排序总结";
@@ -1287,6 +1322,55 @@
 				429D333A20C7939A006EA211 /* ReturnValueManager.m */,
 			);
 			path = "3_方法的多个返回值";
+			sourceTree = "<group>";
+		};
+		42A5336022436F6A00CC1B5E /* 1，webView基础介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				42A5338022438F4400CC1B5E /* CacheFileManagerTool.h */,
+				42A5337F22438F4300CC1B5E /* CacheFileManagerTool.m */,
+				42A5337B2243847D00CC1B5E /* NSTimer+addition.h */,
+				42A5337C2243847D00CC1B5E /* NSTimer+addition.m */,
+				42A533792243847C00CC1B5E /* WYWebProgressLayer.h */,
+				42A5337A2243847D00CC1B5E /* WYWebProgressLayer.m */,
+				42A5336322436FD000CC1B5E /* WebViewBaseVC.h */,
+				42A5336422436FD000CC1B5E /* WebViewBaseVC.m */,
+			);
+			path = "1，webView基础介绍";
+			sourceTree = "<group>";
+		};
+		42A5336122436F7B00CC1B5E /* 4，总结归纳 */ = {
+			isa = PBXGroup;
+			children = (
+				42A533692243711000CC1B5E /* NativeAndWebSummaryVC.h */,
+				42A5336A2243711000CC1B5E /* NativeAndWebSummaryVC.m */,
+			);
+			path = "4，总结归纳";
+			sourceTree = "<group>";
+		};
+		42A5336222436F7D00CC1B5E /* 2，webView和JS交互 */ = {
+			isa = PBXGroup;
+			children = (
+				42A533662243700900CC1B5E /* NativeAndWebVC.h */,
+				42A533672243700900CC1B5E /* NativeAndWebVC.m */,
+			);
+			path = "2，webView和JS交互";
+			sourceTree = "<group>";
+		};
+		42A5336C2243729C00CC1B5E /* 3，WKWebView的使用及交互 */ = {
+			isa = PBXGroup;
+			children = (
+				42A5336D224372DB00CC1B5E /* WKWebViewSummaryVC.h */,
+				42A5336E224372DB00CC1B5E /* WKWebViewSummaryVC.m */,
+			);
+			path = "3，WKWebView的使用及交互";
+			sourceTree = "<group>";
+		};
+		42A5337422437F7500CC1B5E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		42B573EE213FDCC10089CFDF /* 5_PerformSelctor的测试 */ = {
@@ -1912,6 +1996,9 @@
 				42D7010D2182A8B7008DFABB /* SVProgressHUD */,
 				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
+				42A5337622437F8500CC1B5E /* UIView+Extension.h */,
+				42A5337522437F8500CC1B5E /* UIView+Extension.m */,
+				42A5337822437FF200CC1B5E /* CommonDefine.h */,
 				42C5B6712142646900563794 /* UIColor+Separate.h */,
 				42C5B6702142646900563794 /* UIColor+Separate.m */,
 				42C5B6722142646900563794 /* UIColor+Wonderful.h */,
@@ -2439,9 +2526,11 @@
 				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
 				42747A1821819E1E004CFC10 /* DicToModelVC.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
+				42A5337E2243847D00CC1B5E /* NSTimer+addition.m in Sources */,
 				42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */,
 				4227896F214614A2002B9C13 /* BlockKVOViewController.m in Sources */,
 				4227896B21460CAF002B9C13 /* myKVO.m in Sources */,
+				42A533682243700900CC1B5E /* NativeAndWebVC.m in Sources */,
 				42C5B65C21425EA500563794 /* LinkIterator.m in Sources */,
 				42C5B61821425EA500563794 /* TemperatureRemote.m in Sources */,
 				42B573FA213FDCFF0089CFDF /* RootViewController.m in Sources */,
@@ -2480,6 +2569,7 @@
 				42FC73B9219A7D8F00B61FAE /* PhonoAlertTool.m in Sources */,
 				42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */,
 				42C5B63621425EA500563794 /* StrategyPatternViewController.m in Sources */,
+				42A5337D2243847D00CC1B5E /* WYWebProgressLayer.m in Sources */,
 				42C5B66821425EA500563794 /* InterpreterPatternViewController.m in Sources */,
 				4227895021460376002B9C13 /* ProtocolDelegateVC.m in Sources */,
 				42C5B61F21425EA500563794 /* Flower.m in Sources */,
@@ -2487,6 +2577,7 @@
 				42C5B63321425EA500563794 /* HeaderImgFactory.m in Sources */,
 				42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */,
 				42AF6E8321868D49001806BE /* AudioPlayManager.m in Sources */,
+				42A5337722437F8500CC1B5E /* UIView+Extension.m in Sources */,
 				42C5B61C21425EA500563794 /* BridgePatternViewController.m in Sources */,
 				42D7010C2182A842008DFABB /* NSThreadVC.m in Sources */,
 				42D7011A2182A8B7008DFABB /* SVProgressHUD.m in Sources */,
@@ -2497,6 +2588,7 @@
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
+				42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */,
 				42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
@@ -2547,6 +2639,7 @@
 				42C5B64221425EA500563794 /* LighterCommand.m in Sources */,
 				42D701272182B109008DFABB /* MultiThreadApplicationVC.m in Sources */,
 				42C5B64521425EA500563794 /* DarkerCommand.m in Sources */,
+				42A5335F22436DF000CC1B5E /* NativeAndWebTableVC.m in Sources */,
 				42C5B5FC21425EA500563794 /* CheatGameDecotor.m in Sources */,
 				42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */,
 				42C5B64321425EA500563794 /* CommandPatternViewController.m in Sources */,
@@ -2573,6 +2666,7 @@
 				42747A0F21819DC4004CFC10 /* NSObject+MJProperty.m in Sources */,
 				42C5B66221425EA500563794 /* Football.m in Sources */,
 				42C5B65621425EA500563794 /* Apple.m in Sources */,
+				42A5336B2243711000CC1B5E /* NativeAndWebSummaryVC.m in Sources */,
 				423E2FBF21F98F1600832137 /* NSString+Hash.m in Sources */,
 				42C5B62621425EA500563794 /* SingletonPatternViewController.m in Sources */,
 				42C5B61721425EA500563794 /* DirectionRemote.m in Sources */,
@@ -2587,6 +2681,7 @@
 				42C5B61421425EA500563794 /* FacadePatternViewController.m in Sources */,
 				42CB7E4F2138E399003397FB /* BlockTimerVC.m in Sources */,
 				42E8C8CF2147931300BA399D /* MMReTextField.m in Sources */,
+				42A5336F224372DB00CC1B5E /* WKWebViewSummaryVC.m in Sources */,
 				42C5B64E21425EA500563794 /* GroupLeaderHandler.m in Sources */,
 				42C5B66721425EA500563794 /* OperatorExpression.m in Sources */,
 				42C5B64B21425EA500563794 /* Order.m in Sources */,
@@ -2596,6 +2691,7 @@
 				42C5B64921425EA500563794 /* Mediator.m in Sources */,
 				42C5B60321425EA500563794 /* ModelOneAdapter.m in Sources */,
 				42C5B60E21425EA500563794 /* CompositePatternViewController.m in Sources */,
+				42A5338122438F4400CC1B5E /* CacheFileManagerTool.m in Sources */,
 				42D7011F2182A93A008DFABB /* EncryptVC.m in Sources */,
 				42C5B62421425EA500563794 /* Pen.m in Sources */,
 				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,

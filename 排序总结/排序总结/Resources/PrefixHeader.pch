@@ -13,6 +13,8 @@
 #import "UIColor+Wonderful.h"
 #import "HAMLogOutputWindow.h"
 #import "HAMStatisticsManager.h"
+#import "UIView+Extension.h"
+#import "CommonDefine.h"
 
 //  随机色
 #define RandColor RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
