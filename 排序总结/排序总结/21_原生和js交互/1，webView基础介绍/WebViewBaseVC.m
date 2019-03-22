@@ -9,6 +9,7 @@
 #import "WebViewBaseVC.h"
 #import "WYWebProgressLayer.h"
 #import "CacheFileManagerTool.h"
+#import "WebviewEncryptTool.h"
 
 @interface WebViewBaseVC ()<UIWebViewDelegate>
 @property (nonatomic, strong) UIWebView *webView;
@@ -30,27 +31,12 @@
     _webView.userInteractionEnabled =YES;
     
     // 3,加载网站内容
-    //网络资源：加载http请求，xcode7以后需要设置：在Xcode7.1中苹果更改了这项设定的名称，在App Transport Security Settings下添加Allows Arbitrary Loads类型Boolean,值设为YES
+    //1,网络资源：加载http请求，xcode7以后需要设置：在Xcode7.1中苹果更改了这项设定的名称，在App Transport Security Settings下添加Allows Arbitrary Loads类型Boolean,值设为YES
     NSString *urlPath = @"https://www.baidu.com";
     NSURL *url = [NSURL URLWithString:urlPath];
     
     
-    // 如果有缓存，那么就从缓存中取得
-    NSString *htmlString = [CacheFileManagerTool readFromCache:urlPath];
-    if(!(htmlString == nil || [htmlString isEqualToString:@""])){
-        
-        [_webView loadHTMLString:htmlString baseURL:url];
-        
-    }else{
-        
-        [_webView loadRequest:[NSURLRequest requestWithURL:url]];
-        [CacheFileManagerTool writeToCache:urlPath];
-    };
-    
-//    NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:url];
-//    [_webView loadRequest:urlRequest];
-    
-    //加载本地资源
+    //2,加载本地资源
     //    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"gyyh@2x" ofType:@"png"];
     //    NSURL *localUrl = [NSURL fileURLWithPath:filePath];
     //    NSURLRequest *localRequest = [[NSURLRequest alloc] initWithURL:localUrl];
@@ -100,11 +86,66 @@
     
     // 7，添加进度条:webViewDidStartLoad方法里
     
-    // 8，添加缓存
+    // 8，添加缓存:
+        /*
+         缓存机制：
+         1，如果有缓存，那么就从缓存中取得；没有就新拉取
+         2，获取缓存后定期删除缓存
+         */
+    NSString *htmlString = [CacheFileManagerTool readFromCache:urlPath];
+    if(!(htmlString == nil || [htmlString isEqualToString:@""])){
+        
+        [_webView loadHTMLString:htmlString baseURL:url];
+        
+    }else{
+        
+        [_webView loadRequest:[NSURLRequest requestWithURL:url]];
+        [CacheFileManagerTool writeToCache:urlPath];
+    };
+    //    没有缓存
+    //    NSURLRequest *urlRequest = [[NSURLRequest alloc] initWithURL:url];
+    //    [_webView loadRequest:urlRequest];
     
-    // 9，添加post请求
+    // 9，添加post请求：以下为示例
 }
 
+#pragma mark -  发送post请求
+-(void)getPostAction {
+    NSURL *url = [NSURL URLWithString:@"http://your.url"];
+
+    //参数
+        //服务器名称
+    NSString *serviceName = @"PERSONAL_REGISTER_EXPAND";
+        //平台编号
+    NSString *platformNo = @"9100002451";
+        //当前时间戳
+    NSString *timeStamp = [WebviewEncryptTool getCurrentTimeStr];
+        //平台用户编号
+    NSString *platformUserNo = @"gjfax_platform_user_number_123gjfax_platform_user8";
+        //请求流水号
+    NSString *requestNo = @"gjfax_platform_user_number_123gjfax__requestno_008";
+    //参数字典明文
+    NSDictionary *reqData = @{@"platformUserNo":platformUserNo,@"requestNo":requestNo,@"redirectUrl":@"http://gank.io/",@"userRole":@"INVESTOR",@"checkType":@"LIMIT",@"timestamp":timeStamp};
+    //参数字典转json
+    NSString *reqDatas = [WebviewEncryptTool convertToJsonData:reqData];
+     //参数json的SHA1加密
+    NSString *signData = [WebviewEncryptTool signSHA1WithRSA:reqDatas];
+    NSLog(@"jason数据:%@",reqDatas);
+    NSLog(@"签名数据：%@",signData);
+
+    //请求体
+    NSString *bodyShare = [NSString stringWithFormat: @"serviceName=%@&platformNo=%@&%@&keySerial=1&sign=%@",serviceName,platformNo,reqDatas,signData];
+    unsigned long encode = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingHZ_GB_2312);
+    bodyShare = [bodyShare dataUsingEncoding:encode];
+    
+    //post请求
+    NSMutableURLRequest * requestShare = [[NSMutableURLRequest alloc]initWithURL:[NSURL URLWithString:@"https://hubk.lanmaoly.com/bha-neo-app/lanmaotech/gateway"]];
+    [requestShare setHTTPMethod: @"POST"];
+    [requestShare setHTTPBody: [bodyShare dataUsingEncoding: NSUTF8StringEncoding]];
+    
+    [_webView loadRequest:requestShare];
+    
+}
 #pragma mark - 返回
 - (void)goBack: (NSString *)goBackBtn{
     [_webView goBack];

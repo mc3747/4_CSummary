@@ -7,26 +7,78 @@
 //
 
 #import "NativeAndWebVC.h"
+#import "UIWebViewJSViewController.h"
+#import "WKWebViewJSViewController.h"
+
+#import "JSUIWebViewViewController.h"
+#import "JSWKWebViewViewController.h"
+
+#import "JSCallOCViewController.h"
+#import "OCCallJSViewController.h"
+#import "HighchartsWebViewController.h"
 
 @interface NativeAndWebVC ()
 
 @end
+/*
+ UIWebView和WKWebview各3种方法：
+ 1.拦截url（适用于UIWebView和WKWebView）
+ 2.JavaScriptCore（只适用于UIWebView，iOS7+）
+ 3.WKScriptMessageHandler（只适用于WKWebView，iOS8+）
+ 4.WebViewJavascriptBridge（适用于UIWebView和WKWebView，属于第三方框架）
 
+ */
 @implementation NativeAndWebVC
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+#pragma mark -  UIWebview拦截url方式与js交互
+- (IBAction)UIWebviewToJS:(id)sender {
+    UIWebViewJSViewController *webView = [[UIWebViewJSViewController alloc]initWithNibName:@"UIWebViewJSViewController" bundle:nil];
+    [self.navigationController pushViewController:webView animated:YES];
 }
-*/
+
+- (IBAction)JSToUIWebview:(id)sender {
+    JSUIWebViewViewController *js = [[JSUIWebViewViewController alloc]init];
+    [self.navigationController pushViewController:js animated:YES];
+}
+
+#pragma mark -  UIWebview拦截jscore方式与js交互
+- (IBAction)JSCallOC:(id)sender {
+    JSCallOCViewController *jsCallOC = [[JSCallOCViewController alloc]init];
+    [self.navigationController pushViewController:jsCallOC animated:YES];
+}
+
+- (IBAction)OCCallJS:(id)sender {
+    OCCallJSViewController *ocCallJS = [[OCCallJSViewController alloc]init];
+    [self.navigationController pushViewController:ocCallJS animated:YES];
+}
+
+
+- (IBAction)HighchartsWeb:(id)sender {
+    HighchartsWebViewController *highchartsWeb =[[HighchartsWebViewController alloc]init];
+    [self.navigationController pushViewController:highchartsWeb animated:YES];
+}
+
+
+#pragma mark -  WKWebview拦截messageHandle方式与js交互
+- (IBAction)WKWebViewToJS:(id)sender {
+    WKWebViewJSViewController *webView = [[WKWebViewJSViewController alloc]initWithNibName:@"WKWebViewJSViewController" bundle:nil];
+    [self.navigationController pushViewController:webView animated:YES];
+}
+
+- (IBAction)JSToWKWebView:(id)sender {
+    JSWKWebViewViewController *js = [[JSWKWebViewViewController alloc]init];
+    [self.navigationController pushViewController:js animated:YES];
+}
+
+
+
+
 
 @end
