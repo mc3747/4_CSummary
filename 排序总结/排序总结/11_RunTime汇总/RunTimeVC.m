@@ -12,25 +12,30 @@
 #define  kLineNum 3
 #define  kLineSpacing 5
 @interface MyCollectionViewCell:UICollectionViewCell
-@property (nonatomic, strong) UIColor *bgColor;
-@property (nonatomic, strong) NSString *title;
+- (void)updateDisplay:(UIColor *)bgColor title:(NSString *)title;
+@property (nonatomic, strong) UILabel *titleLabel;
 @end
 
 @implementation MyCollectionViewCell
 
 - (instancetype)initWithFrame:(CGRect)frame  {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = self.bgColor;
+        
         UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height * 0.5f)];
-        titleLabel.text = self.title;
         [self addSubview:titleLabel];
+        _titleLabel = titleLabel;
     }
     return self;
 }
 
+- (void)updateDisplay:(UIColor *)bgColor title:(NSString *)title{
+    _titleLabel.text = title;
+    _titleLabel.backgroundColor = bgColor;
+}
 @end
 
 @interface RunTimeVC ()<UICollectionViewDelegate,UICollectionViewDataSource>
+@property (nonatomic, strong) NSArray *classArray;
 @property (nonatomic, strong) NSArray *titleArray;
 @end
 
@@ -38,7 +43,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _titleArray = @[@"1，消息机制",@"2，动态添加属性",@"3，动态添加方法",@"4，动态交换方法",@"5，拦截替换方法",@"6，方法添加额外功能",@"7，自动归档",@"8，字典自动转模型"];
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    _titleArray = @[@"1，消息机制",@"2，动态添加属性",@"3，动态添加方法",@"4，动态交换方法",@"5，拦截替换方法",@"6，方法添加额外功能",@"7，自动归档",@"8，字典自动转模型",@"9，找到苹果所有类的属性，方法，协议"];
+        _classArray = @[@"",@"",@"",@"",@"",@"",@"",@"",@"GetPrivateVC"];
     [self initCollectionView];
 }
 
@@ -46,7 +53,7 @@
     /**创建layout*/
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
     /**创建collectionView*/
-    UICollectionView* collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.width-64) collectionViewLayout:layout];
+    UICollectionView* collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-64) collectionViewLayout:layout];
     collectionView.delegate = self;
     collectionView.dataSource = self;
     collectionView.backgroundColor = [UIColor cyanColor];
@@ -80,8 +87,7 @@
 - (__kindof MyCollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *cellIndentifer = @"MyCollectionViewCell";
     MyCollectionViewCell *cell = (MyCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:cellIndentifer forIndexPath:indexPath];
-    cell.bgColor = [UIColor cyanColor];
-    cell.title = _titleArray[indexPath.item];
+    [cell updateDisplay:[UIColor plumColor] title:_titleArray[indexPath.item]];
     return cell;
 }
 
@@ -113,6 +119,7 @@
  */
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     NSLog(@"点击了第%ld分item",(long)indexPath.item);
+    [self jumpToVC:_classArray[indexPath.row] title:_titleArray[indexPath.row]];
 }
 /**
  cell的大小
@@ -152,4 +159,15 @@
     return CGSizeMake(kScreenWidth, 65);
 }
 
+
+#pragma mark -  跳转
+- (void)jumpToVC:(NSString *)className title:(NSString *)classTitle{
+    Class class = NSClassFromString(className);
+    if (class) {
+        UIViewController *ctrl = class.new;
+        ctrl.title = classTitle;
+        ctrl.view.backgroundColor = [UIColor lavender];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    };
+}
 @end

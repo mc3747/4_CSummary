@@ -17,6 +17,10 @@
 		420189BA21F9AA1200257DCF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 420189B221F9AA1200257DCF /* GTMBase64.m */; };
 		4212D9BD221662D5004A7BA8 /* UIWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9BC221662D5004A7BA8 /* UIWebViewVC.m */; };
 		4212D9C0221662E8004A7BA8 /* WKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9BF221662E8004A7BA8 /* WKWebViewVC.m */; };
+		421485F322730359009D0B0A /* NSObject+WHRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485EE22730358009D0B0A /* NSObject+WHRuntime.m */; };
+		421485F422730359009D0B0A /* GetPrivateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485EF22730358009D0B0A /* GetPrivateVC.m */; };
+		421485F522730359009D0B0A /* TestRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485F222730359009D0B0A /* TestRuntime.m */; };
+		421485F8227303C5009D0B0A /* UIImage+swizzlingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485F7227303C5009D0B0A /* UIImage+swizzlingImage.m */; };
 		422355D6219516D400A7DF99 /* BaseTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D5219516D400A7DF99 /* BaseTableViewVC.m */; };
 		422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D821951F3100A7DF99 /* MethodCallVC.m */; };
 		422355DC2195240D00A7DF99 /* VariableArgumentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355DB2195240D00A7DF99 /* VariableArgumentsVC.m */; };
@@ -354,6 +358,14 @@
 		4212D9BC221662D5004A7BA8 /* UIWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewVC.m; sourceTree = "<group>"; };
 		4212D9BE221662E8004A7BA8 /* WKWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewVC.h; sourceTree = "<group>"; };
 		4212D9BF221662E8004A7BA8 /* WKWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewVC.m; sourceTree = "<group>"; };
+		421485ED22730358009D0B0A /* TestRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRuntime.h; sourceTree = "<group>"; };
+		421485EE22730358009D0B0A /* NSObject+WHRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHRuntime.m"; sourceTree = "<group>"; };
+		421485EF22730358009D0B0A /* GetPrivateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetPrivateVC.m; sourceTree = "<group>"; };
+		421485F022730358009D0B0A /* NSObject+WHRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHRuntime.h"; sourceTree = "<group>"; };
+		421485F122730358009D0B0A /* GetPrivateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetPrivateVC.h; sourceTree = "<group>"; };
+		421485F222730359009D0B0A /* TestRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRuntime.m; sourceTree = "<group>"; };
+		421485F6227303C5009D0B0A /* UIImage+swizzlingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+swizzlingImage.h"; sourceTree = "<group>"; };
+		421485F7227303C5009D0B0A /* UIImage+swizzlingImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+swizzlingImage.m"; sourceTree = "<group>"; };
 		422355D4219516D400A7DF99 /* BaseTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewVC.h; sourceTree = "<group>"; };
 		422355D5219516D400A7DF99 /* BaseTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewVC.m; sourceTree = "<group>"; };
 		422355D721951F3100A7DF99 /* MethodCallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodCallVC.h; sourceTree = "<group>"; };
@@ -2359,16 +2371,24 @@
 			children = (
 				42D04E972176C5490075ECEF /* RunTimeVC.h */,
 				42D04E982176C5490075ECEF /* RunTimeVC.m */,
-				42D04E9A2176C6450075ECEF /* 1,常规特征 */,
+				42D04E9A2176C6450075ECEF /* 9,获取属性，协议和方法 */,
 			);
 			path = "11_RunTime汇总";
 			sourceTree = "<group>";
 		};
-		42D04E9A2176C6450075ECEF /* 1,常规特征 */ = {
+		42D04E9A2176C6450075ECEF /* 9,获取属性，协议和方法 */ = {
 			isa = PBXGroup;
 			children = (
+				421485F122730358009D0B0A /* GetPrivateVC.h */,
+				421485EF22730358009D0B0A /* GetPrivateVC.m */,
+				421485F022730358009D0B0A /* NSObject+WHRuntime.h */,
+				421485EE22730358009D0B0A /* NSObject+WHRuntime.m */,
+				421485F6227303C5009D0B0A /* UIImage+swizzlingImage.h */,
+				421485F7227303C5009D0B0A /* UIImage+swizzlingImage.m */,
+				421485ED22730358009D0B0A /* TestRuntime.h */,
+				421485F222730359009D0B0A /* TestRuntime.m */,
 			);
-			path = "1,常规特征";
+			path = "9,获取属性，协议和方法";
 			sourceTree = "<group>";
 		};
 		42D700F82182A841008DFABB /* 3_NSOperation */ = {
@@ -2819,6 +2839,7 @@
 				4227896421460950002B9C13 /* YBProxyManager.m in Sources */,
 				42C5B66521425EA500563794 /* AdditionExpression.m in Sources */,
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
+				421485F522730359009D0B0A /* TestRuntime.m in Sources */,
 				42C5B65221425EA500563794 /* ShipmentState.m in Sources */,
 				42D70146218306AD008DFABB /* AudioPlistVC.m in Sources */,
 				42B26F6B21F17EB3007351A9 /* ReplaceIfElseVC.m in Sources */,
@@ -2913,6 +2934,7 @@
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
+				421485F422730359009D0B0A /* GetPrivateVC.m in Sources */,
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
 				42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */,
 				42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */,
@@ -2964,6 +2986,7 @@
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
 				42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */,
 				42C5B65B21425EA500563794 /* IteratorPatternViewController.m in Sources */,
+				421485F322730359009D0B0A /* NSObject+WHRuntime.m in Sources */,
 				42C5B64221425EA500563794 /* LighterCommand.m in Sources */,
 				42D701272182B109008DFABB /* MultiThreadApplicationVC.m in Sources */,
 				42C5B64521425EA500563794 /* DarkerCommand.m in Sources */,
@@ -2973,6 +2996,7 @@
 				42C5B64321425EA500563794 /* CommandPatternViewController.m in Sources */,
 				42C5B62D21425EA500563794 /* Director.m in Sources */,
 				4257582A20A29F0700BA4F54 /* ViewController.m in Sources */,
+				421485F8227303C5009D0B0A /* UIImage+swizzlingImage.m in Sources */,
 				4227895E2146093B002B9C13 /* TestTableViewDigitConfig.m in Sources */,
 				42C5B63821425EA500563794 /* OperationAdd.m in Sources */,
 				422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */,
