@@ -119,8 +119,7 @@
 - (void)privateMethod {
     NSLog(@"=================调用私有方法=====================\n\n\n");
     TestRuntime *test = [[TestRuntime alloc] init];
-//    objc_msgSend(test, @selector(privateMethod));
-    objc_msgSend((id)test,@selector(privateMethod));
+    objc_msgSend(test,@selector(privateMethod));
 }
 
 
