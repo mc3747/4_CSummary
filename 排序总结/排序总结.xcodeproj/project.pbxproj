@@ -109,6 +109,32 @@
 		424F0537227540500039CD62 /* NSObject+Mod.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F052C227540500039CD62 /* NSObject+Mod.m */; };
 		424F0538227540500039CD62 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F052D227540500039CD62 /* User.m */; };
 		424F053B227540D10039CD62 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F053A227540D10039CD62 /* NSObject+Property.m */; };
+		424F053F227585750039CD62 /* WebViewUseJsBridgeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F053D227585750039CD62 /* WebViewUseJsBridgeVC.m */; };
+		424F0540227585750039CD62 /* WebViewUseJsBridgeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 424F053E227585750039CD62 /* WebViewUseJsBridgeVC.xib */; };
+		424F0554227588380039CD62 /* index1.html in Resources */ = {isa = PBXBuildFile; fileRef = 424F0553227588370039CD62 /* index1.html */; };
+		424F055E22758C160039CD62 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F055622758C150039CD62 /* WebViewJavascriptBridgeBase.m */; };
+		424F055F22758C160039CD62 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F055722758C150039CD62 /* WKWebViewJavascriptBridge.m */; };
+		424F056022758C160039CD62 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F055822758C150039CD62 /* WebViewJavascriptBridge.m */; };
+		424F056122758C160039CD62 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F055B22758C150039CD62 /* WebViewJavascriptBridge_JS.m */; };
+		424F056722758E8A0039CD62 /* WebViewUseJsBridge2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F056522758E8A0039CD62 /* WebViewUseJsBridge2VC.m */; };
+		424F056822758E8A0039CD62 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 424F056622758E8A0039CD62 /* index2.html */; };
+		424F058722759E150039CD62 /* WKWebView+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F056D22759E140039CD62 /* WKWebView+BAKit.m */; };
+		424F058822759E150039CD62 /* WeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F057022759E140039CD62 /* WeakScriptMessageDelegate.m */; };
+		424F058922759E150039CD62 /* WKWebView+Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F057222759E140039CD62 /* WKWebView+Post.m */; };
+		424F058A22759E150039CD62 /* WKWebView+BAJavaScriptAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F057322759E140039CD62 /* WKWebView+BAJavaScriptAlert.m */; };
+		424F058B22759E150039CD62 /* BAHome2.html in Resources */ = {isa = PBXBuildFile; fileRef = 424F057622759E140039CD62 /* BAHome2.html */; };
+		424F058C22759E150039CD62 /* jquery-1.7.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 424F057722759E140039CD62 /* jquery-1.7.2.min.js */; };
+		424F058D22759E150039CD62 /* BAHome.html in Resources */ = {isa = PBXBuildFile; fileRef = 424F057822759E140039CD62 /* BAHome.html */; };
+		424F058E22759E150039CD62 /* BAWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 424F057922759E140039CD62 /* BAWebView.html */; };
+		424F058F22759E150039CD62 /* BAKit_WebView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 424F057B22759E140039CD62 /* BAKit_WebView.bundle */; };
+		424F059022759E150039CD62 /* NSObject+BARunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F057E22759E140039CD62 /* NSObject+BARunTime.m */; };
+		424F059122759E150039CD62 /* UIAlertController+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F058022759E140039CD62 /* UIAlertController+BAKit.m */; };
+		424F059222759E150039CD62 /* NSMutableAttributedString+BAKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F058522759E150039CD62 /* NSMutableAttributedString+BAKit.m */; };
+		424F059322759E150039CD62 /* BAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F058622759E150039CD62 /* BAWebViewController.m */; };
+		424F059C22759E420039CD62 /* WebVIewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059522759E400039CD62 /* WebVIewModel.m */; };
+		424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059622759E400039CD62 /* BAWKWebViewVC2.m */; };
+		424F059E22759E420039CD62 /* BAWKWebViewVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059822759E410039CD62 /* BAWKWebViewVC3.m */; };
+		424F059F22759E420039CD62 /* BACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059A22759E410039CD62 /* BACell.m */; };
 		4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582620A29F0700BA4F54 /* AppDelegate.m */; };
 		4257582A20A29F0700BA4F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582920A29F0700BA4F54 /* ViewController.m */; };
 		4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4257582B20A29F0700BA4F54 /* Main.storyboard */; };
@@ -537,6 +563,55 @@
 		424F0530227540500039CD62 /* NSObject+Mod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mod.h"; sourceTree = "<group>"; };
 		424F0539227540D10039CD62 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		424F053A227540D10039CD62 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		424F053C227585750039CD62 /* WebViewUseJsBridgeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewUseJsBridgeVC.h; sourceTree = "<group>"; };
+		424F053D227585750039CD62 /* WebViewUseJsBridgeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewUseJsBridgeVC.m; sourceTree = "<group>"; };
+		424F053E227585750039CD62 /* WebViewUseJsBridgeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewUseJsBridgeVC.xib; sourceTree = "<group>"; };
+		424F0553227588370039CD62 /* index1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index1.html; sourceTree = "<group>"; };
+		424F055622758C150039CD62 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		424F055722758C150039CD62 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		424F055822758C150039CD62 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		424F055922758C150039CD62 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		424F055A22758C150039CD62 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		424F055B22758C150039CD62 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		424F055C22758C150039CD62 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		424F055D22758C150039CD62 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		424F056422758E8A0039CD62 /* WebViewUseJsBridge2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewUseJsBridge2VC.h; sourceTree = "<group>"; };
+		424F056522758E8A0039CD62 /* WebViewUseJsBridge2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewUseJsBridge2VC.m; sourceTree = "<group>"; };
+		424F056622758E8A0039CD62 /* index2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index2.html; sourceTree = "<group>"; };
+		424F056A22759E140039CD62 /* WeakScriptMessageDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeakScriptMessageDelegate.h; sourceTree = "<group>"; };
+		424F056B22759E140039CD62 /* BAKit_ConfigurationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_ConfigurationDefine.h; sourceTree = "<group>"; };
+		424F056C22759E140039CD62 /* WKWebView+Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Post.h"; sourceTree = "<group>"; };
+		424F056D22759E140039CD62 /* WKWebView+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+BAKit.m"; sourceTree = "<group>"; };
+		424F056E22759E140039CD62 /* BAKit_WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_WebView.h; sourceTree = "<group>"; };
+		424F056F22759E140039CD62 /* WKWebView+BAJavaScriptAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+BAJavaScriptAlert.h"; sourceTree = "<group>"; };
+		424F057022759E140039CD62 /* WeakScriptMessageDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeakScriptMessageDelegate.m; sourceTree = "<group>"; };
+		424F057122759E140039CD62 /* WKWebView+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+BAKit.h"; sourceTree = "<group>"; };
+		424F057222759E140039CD62 /* WKWebView+Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Post.m"; sourceTree = "<group>"; };
+		424F057322759E140039CD62 /* WKWebView+BAJavaScriptAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+BAJavaScriptAlert.m"; sourceTree = "<group>"; };
+		424F057422759E140039CD62 /* BAKit_WebView_Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_WebView_Version.h; sourceTree = "<group>"; };
+		424F057622759E140039CD62 /* BAHome2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BAHome2.html; sourceTree = "<group>"; };
+		424F057722759E140039CD62 /* jquery-1.7.2.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.7.2.min.js"; sourceTree = "<group>"; };
+		424F057822759E140039CD62 /* BAHome.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BAHome.html; sourceTree = "<group>"; };
+		424F057922759E140039CD62 /* BAWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BAWebView.html; sourceTree = "<group>"; };
+		424F057B22759E140039CD62 /* BAKit_WebView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BAKit_WebView.bundle; sourceTree = "<group>"; };
+		424F057C22759E140039CD62 /* BAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWebViewController.h; sourceTree = "<group>"; };
+		424F057E22759E140039CD62 /* NSObject+BARunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BARunTime.m"; sourceTree = "<group>"; };
+		424F057F22759E140039CD62 /* BAKit_ConfigurationDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAKit_ConfigurationDefine.h; sourceTree = "<group>"; };
+		424F058022759E140039CD62 /* UIAlertController+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+BAKit.m"; sourceTree = "<group>"; };
+		424F058122759E140039CD62 /* BAAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAAlertController.h; sourceTree = "<group>"; };
+		424F058222759E140039CD62 /* NSMutableAttributedString+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+BAKit.h"; sourceTree = "<group>"; };
+		424F058322759E150039CD62 /* NSObject+BARunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BARunTime.h"; sourceTree = "<group>"; };
+		424F058422759E150039CD62 /* UIAlertController+BAKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+BAKit.h"; sourceTree = "<group>"; };
+		424F058522759E150039CD62 /* NSMutableAttributedString+BAKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+BAKit.m"; sourceTree = "<group>"; };
+		424F058622759E150039CD62 /* BAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAWebViewController.m; sourceTree = "<group>"; };
+		424F059422759E400039CD62 /* BACell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACell.h; sourceTree = "<group>"; };
+		424F059522759E400039CD62 /* WebVIewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVIewModel.m; sourceTree = "<group>"; };
+		424F059622759E400039CD62 /* BAWKWebViewVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAWKWebViewVC2.m; sourceTree = "<group>"; };
+		424F059722759E400039CD62 /* BAWKWebViewVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWKWebViewVC2.h; sourceTree = "<group>"; };
+		424F059822759E410039CD62 /* BAWKWebViewVC3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAWKWebViewVC3.m; sourceTree = "<group>"; };
+		424F059922759E410039CD62 /* BAWKWebViewVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWKWebViewVC3.h; sourceTree = "<group>"; };
+		424F059A22759E410039CD62 /* BACell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACell.m; sourceTree = "<group>"; };
+		424F059B22759E420039CD62 /* WebVIewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVIewModel.h; sourceTree = "<group>"; };
 		4257582220A29F0700BA4F54 /* 排序总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257582520A29F0700BA4F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4257582620A29F0700BA4F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1062,7 +1137,7 @@
 				42A5336022436F6A00CC1B5E /* 1，webView基础介绍 */,
 				42A5336222436F7D00CC1B5E /* 2，webView和JS交互 */,
 				42A5336C2243729C00CC1B5E /* 3，WKWebView的使用及交互 */,
-				42A5336122436F7B00CC1B5E /* 4，总结归纳 */,
+				42A5336122436F7B00CC1B5E /* 4，第三方好用 */,
 			);
 			path = "21_原生和js交互";
 			sourceTree = "<group>";
@@ -1307,6 +1382,9 @@
 		423C38C522447DB8005319C1 /* 3，jsBridge */ = {
 			isa = PBXGroup;
 			children = (
+				424F056222758E3F0039CD62 /* Demo1 */,
+				424F056322758E6F0039CD62 /* Demo2 */,
+				424F055522758C150039CD62 /* WebViewJavascriptBridge */,
 			);
 			path = "3，jsBridge";
 			sourceTree = "<group>";
@@ -1314,9 +1392,9 @@
 		423C38C622447DDB005319C1 /* UIWebView To JS */ = {
 			isa = PBXGroup;
 			children = (
+				423C38D422447DDB005319C1 /* UIWebViewJSViewController.h */,
 				423C38CE22447DDB005319C1 /* UIWebViewJSViewController.m */,
 				423C38D022447DDB005319C1 /* UIWebViewJSViewController.xib */,
-				423C38D422447DDB005319C1 /* UIWebViewJSViewController.h */,
 			);
 			path = "UIWebView To JS";
 			sourceTree = "<group>";
@@ -1437,8 +1515,8 @@
 			children = (
 				424F0539227540D10039CD62 /* NSObject+Property.h */,
 				424F053A227540D10039CD62 /* NSObject+Property.m */,
-				424F04AC227534E40039CD62 /* LNAddAttributesViewController.m */,
 				424F04AD227534E40039CD62 /* LNAddAttributesViewController.h */,
+				424F04AC227534E40039CD62 /* LNAddAttributesViewController.m */,
 			);
 			path = "2，动态添加属性";
 			sourceTree = "<group>";
@@ -1469,8 +1547,8 @@
 		424F04B9227534E50039CD62 /* 3，动态添加方法 */ = {
 			isa = PBXGroup;
 			children = (
-				424F04BA227534E50039CD62 /* LNAddMethodsViewController.m */,
 				424F04BB227534E50039CD62 /* LNAddMethodsViewController.h */,
+				424F04BA227534E50039CD62 /* LNAddMethodsViewController.m */,
 			);
 			path = "3，动态添加方法";
 			sourceTree = "<group>";
@@ -1586,6 +1664,105 @@
 				424F0530227540500039CD62 /* NSObject+Mod.h */,
 			);
 			path = "runtime字典转模型2";
+			sourceTree = "<group>";
+		};
+		424F055522758C150039CD62 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				424F055622758C150039CD62 /* WebViewJavascriptBridgeBase.m */,
+				424F055722758C150039CD62 /* WKWebViewJavascriptBridge.m */,
+				424F055822758C150039CD62 /* WebViewJavascriptBridge.m */,
+				424F055922758C150039CD62 /* WebViewJavascriptBridge_JS.h */,
+				424F055A22758C150039CD62 /* WebViewJavascriptBridgeBase.h */,
+				424F055B22758C150039CD62 /* WebViewJavascriptBridge_JS.m */,
+				424F055C22758C150039CD62 /* WebViewJavascriptBridge.h */,
+				424F055D22758C150039CD62 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		424F056222758E3F0039CD62 /* Demo1 */ = {
+			isa = PBXGroup;
+			children = (
+				424F0553227588370039CD62 /* index1.html */,
+				424F053C227585750039CD62 /* WebViewUseJsBridgeVC.h */,
+				424F053D227585750039CD62 /* WebViewUseJsBridgeVC.m */,
+				424F053E227585750039CD62 /* WebViewUseJsBridgeVC.xib */,
+			);
+			path = Demo1;
+			sourceTree = "<group>";
+		};
+		424F056322758E6F0039CD62 /* Demo2 */ = {
+			isa = PBXGroup;
+			children = (
+				424F056622758E8A0039CD62 /* index2.html */,
+				424F056422758E8A0039CD62 /* WebViewUseJsBridge2VC.h */,
+				424F056522758E8A0039CD62 /* WebViewUseJsBridge2VC.m */,
+			);
+			path = Demo2;
+			sourceTree = "<group>";
+		};
+		424F056922759E140039CD62 /* BAWKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				424F056A22759E140039CD62 /* WeakScriptMessageDelegate.h */,
+				424F056B22759E140039CD62 /* BAKit_ConfigurationDefine.h */,
+				424F056C22759E140039CD62 /* WKWebView+Post.h */,
+				424F056D22759E140039CD62 /* WKWebView+BAKit.m */,
+				424F056E22759E140039CD62 /* BAKit_WebView.h */,
+				424F056F22759E140039CD62 /* WKWebView+BAJavaScriptAlert.h */,
+				424F057022759E140039CD62 /* WeakScriptMessageDelegate.m */,
+				424F057122759E140039CD62 /* WKWebView+BAKit.h */,
+				424F057222759E140039CD62 /* WKWebView+Post.m */,
+				424F057322759E140039CD62 /* WKWebView+BAJavaScriptAlert.m */,
+				424F057422759E140039CD62 /* BAKit_WebView_Version.h */,
+			);
+			path = BAWKWebView;
+			sourceTree = "<group>";
+		};
+		424F057522759E140039CD62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				424F059422759E400039CD62 /* BACell.h */,
+				424F059A22759E410039CD62 /* BACell.m */,
+				424F059722759E400039CD62 /* BAWKWebViewVC2.h */,
+				424F059622759E400039CD62 /* BAWKWebViewVC2.m */,
+				424F059922759E410039CD62 /* BAWKWebViewVC3.h */,
+				424F059822759E410039CD62 /* BAWKWebViewVC3.m */,
+				424F059B22759E420039CD62 /* WebVIewModel.h */,
+				424F059522759E400039CD62 /* WebVIewModel.m */,
+				424F057622759E140039CD62 /* BAHome2.html */,
+				424F057722759E140039CD62 /* jquery-1.7.2.min.js */,
+				424F057822759E140039CD62 /* BAHome.html */,
+				424F057922759E140039CD62 /* BAWebView.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		424F057A22759E140039CD62 /* BAWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				424F057B22759E140039CD62 /* BAKit_WebView.bundle */,
+				424F057C22759E140039CD62 /* BAWebViewController.h */,
+				424F057D22759E140039CD62 /* BAAlertController */,
+				424F058622759E150039CD62 /* BAWebViewController.m */,
+			);
+			path = BAWebViewController;
+			sourceTree = "<group>";
+		};
+		424F057D22759E140039CD62 /* BAAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				424F057E22759E140039CD62 /* NSObject+BARunTime.m */,
+				424F057F22759E140039CD62 /* BAKit_ConfigurationDefine.h */,
+				424F058022759E140039CD62 /* UIAlertController+BAKit.m */,
+				424F058122759E140039CD62 /* BAAlertController.h */,
+				424F058222759E140039CD62 /* NSMutableAttributedString+BAKit.h */,
+				424F058322759E150039CD62 /* NSObject+BARunTime.h */,
+				424F058422759E150039CD62 /* UIAlertController+BAKit.h */,
+				424F058522759E150039CD62 /* NSMutableAttributedString+BAKit.m */,
+			);
+			path = BAAlertController;
 			sourceTree = "<group>";
 		};
 		4257581920A29F0700BA4F54 = {
@@ -1870,13 +2047,16 @@
 			path = "1，webView基础介绍";
 			sourceTree = "<group>";
 		};
-		42A5336122436F7B00CC1B5E /* 4，总结归纳 */ = {
+		42A5336122436F7B00CC1B5E /* 4，第三方好用 */ = {
 			isa = PBXGroup;
 			children = (
+				424F057A22759E140039CD62 /* BAWebViewController */,
+				424F056922759E140039CD62 /* BAWKWebView */,
+				424F057522759E140039CD62 /* Resources */,
 				42A533692243711000CC1B5E /* NativeAndWebSummaryVC.h */,
 				42A5336A2243711000CC1B5E /* NativeAndWebSummaryVC.m */,
 			);
-			path = "4，总结归纳";
+			path = "4，第三方好用";
 			sourceTree = "<group>";
 		};
 		42A5336222436F7D00CC1B5E /* 2，webView和JS交互 */ = {
@@ -2988,6 +3168,7 @@
 				42D7010B2182A842008DFABB /* NSThreadVC.xib in Resources */,
 				423C38F12244928B005319C1 /* WKWebViewJS.html in Resources */,
 				423C38D722447DDB005319C1 /* JSUIWebViewViewController.xib in Resources */,
+				424F058C22759E150039CD62 /* jquery-1.7.2.min.js in Resources */,
 				423C38BF22447974005319C1 /* NativeAndWebVC.xib in Resources */,
 				423C38DF22447DDB005319C1 /* JSUIWebView.html in Resources */,
 				42FADC8F21F94349008C77F3 /* MemoryLeakVC.xib in Resources */,
@@ -3012,11 +3193,14 @@
 				42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */,
 				420189B821F9AA1200257DCF /* private_key.p12 in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
+				424F056822758E8A0039CD62 /* index2.html in Resources */,
 				42FFFF9121F6F06200C594AA /* HashEncryptVC.xib in Resources */,
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
 				42D7011C2182A8B7008DFABB /* SVProgressHUD.bundle in Resources */,
 				423C391722449322005319C1 /* HighchartsView.html in Resources */,
+				424F058E22759E150039CD62 /* BAWebView.html in Resources */,
 				423C391322449322005319C1 /* JSCallOCViewController.xib in Resources */,
+				424F058B22759E150039CD62 /* BAHome2.html in Resources */,
 				420189B321F9AA1200257DCF /* private_key.pfx in Resources */,
 				423C391C22449322005319C1 /* SecondTestViewController.xib in Resources */,
 				423C38DD22447DDB005319C1 /* UIWebViewJSViewController.xib in Resources */,
@@ -3028,12 +3212,15 @@
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
 				423C38F42244928B005319C1 /* JSWKWebView.html in Resources */,
 				42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */,
+				424F0554227588380039CD62 /* index1.html in Resources */,
 				423C391222449322005319C1 /* JSCallOC.html in Resources */,
 				423C38F62244928B005319C1 /* WKWebViewJS_location.html in Resources */,
 				423C391A22449322005319C1 /* jquery-1.11.0.min.js in Resources */,
 				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
 				42D701072182A842008DFABB /* NSOperationVC.xib in Resources */,
 				42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */,
+				424F0540227585750039CD62 /* WebViewUseJsBridgeVC.xib in Resources */,
+				424F058D22759E150039CD62 /* BAHome.html in Resources */,
 				424F04C3227534E50039CD62 /* LNExchangeMethodViewController.xib in Resources */,
 				423C38F92244928B005319C1 /* WKWebViewJSViewController.xib in Resources */,
 				42FFFF9621F6F09900C594AA /* SymmetryEncryptVC.xib in Resources */,
@@ -3041,6 +3228,7 @@
 				42FFFFA021F6F11700C594AA /* Base64EncryptVC.xib in Resources */,
 				42FFFF8A21F6B78100C594AA /* EncryptBaseVC.xib in Resources */,
 				420189B621F9AA1200257DCF /* public_key.der in Resources */,
+				424F058F22759E150039CD62 /* BAKit_WebView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3065,10 +3253,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424F058922759E150039CD62 /* WKWebView+Post.m in Sources */,
 				4227896821460C9D002B9C13 /* BaseKVOViewController.m in Sources */,
 				427479D121817382004CFC10 /* InitMethodVC.m in Sources */,
 				42C5B64021425EA500563794 /* Boss.m in Sources */,
 				42747A1021819DC4004CFC10 /* NSObject+MJClass.m in Sources */,
+				424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */,
 				42C5B66921425EA500563794 /* SubscibeCenter.m in Sources */,
 				42C5B64F21425EA500563794 /* ChainOfResponsibilityPatternViewController.m in Sources */,
 				42747A0B21819DC4004CFC10 /* NSObject+MJKeyValue.m in Sources */,
@@ -3084,6 +3274,7 @@
 				42B26F6B21F17EB3007351A9 /* ReplaceIfElseVC.m in Sources */,
 				42D7011B2182A8B7008DFABB /* SVIndefiniteAnimatedView.m in Sources */,
 				424F050822753B620039CD62 /* LNPerson.m in Sources */,
+				424F058822759E150039CD62 /* WeakScriptMessageDelegate.m in Sources */,
 				42FFFF9021F6F06200C594AA /* HashEncryptVC.m in Sources */,
 				42C5B62E21425EA500563794 /* BuilderViewController.m in Sources */,
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
@@ -3105,7 +3296,9 @@
 				423C38D922447DDB005319C1 /* WebView+Alert.m in Sources */,
 				42C5B60121425EA500563794 /* ModelTwoAdapter.m in Sources */,
 				42C5B65321425EA500563794 /* Celling.m in Sources */,
+				424F059022759E150039CD62 /* NSObject+BARunTime.m in Sources */,
 				42FADC8E21F94349008C77F3 /* MemoryLeakVC.m in Sources */,
+				424F059122759E150039CD62 /* UIAlertController+BAKit.m in Sources */,
 				424F04C9227534E50039CD62 /* RuntimeDictViewController.m in Sources */,
 				427479DA218173DE004CFC10 /* BuildPattern.m in Sources */,
 				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
@@ -3113,6 +3306,7 @@
 				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
 				42747A1821819E1E004CFC10 /* DicToModelVC.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
+				424F058722759E150039CD62 /* WKWebView+BAKit.m in Sources */,
 				424F051A22753C700039CD62 /* TestClass+Category.m in Sources */,
 				42A5337E2243847D00CC1B5E /* NSTimer+addition.m in Sources */,
 				42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */,
@@ -3124,6 +3318,7 @@
 				42B573FA213FDCFF0089CFDF /* RootViewController.m in Sources */,
 				42C5B60A21425EA500563794 /* FileViewController.m in Sources */,
 				42C5B61B21425EA500563794 /* HaierAirConditioner.m in Sources */,
+				424F059E22759E420039CD62 /* BAWKWebViewVC3.m in Sources */,
 				42C5B62321425EA500563794 /* BallpointPen.m in Sources */,
 				42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */,
 				42C5B5FB21425EA500563794 /* DecoratorPatternViewController.m in Sources */,
@@ -3172,6 +3367,7 @@
 				42AF6E8321868D49001806BE /* AudioPlayManager.m in Sources */,
 				42A5337722437F8500CC1B5E /* UIView+Extension.m in Sources */,
 				42C5B61C21425EA500563794 /* BridgePatternViewController.m in Sources */,
+				424F055F22758C160039CD62 /* WKWebViewJavascriptBridge.m in Sources */,
 				42D7010C2182A842008DFABB /* NSThreadVC.m in Sources */,
 				42D7011A2182A8B7008DFABB /* SVProgressHUD.m in Sources */,
 				42D701092182A842008DFABB /* GCDViewController.m in Sources */,
@@ -3184,8 +3380,10 @@
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
 				42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */,
 				42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */,
+				424F053F227585750039CD62 /* WebViewUseJsBridgeVC.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
+				424F056722758E8A0039CD62 /* WebViewUseJsBridge2VC.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
 				42C5B61021425EA500563794 /* Person.m in Sources */,
 				42FFFF9521F6F09900C594AA /* SymmetryEncryptVC.m in Sources */,
@@ -3194,7 +3392,9 @@
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
 				423C391622449322005319C1 /* OCCallJSViewController.m in Sources */,
+				424F055E22758C160039CD62 /* WebViewJavascriptBridgeBase.m in Sources */,
 				42C5B66D21425EE300563794 /* DesignModeSummaryVC.m in Sources */,
+				424F059222759E150039CD62 /* NSMutableAttributedString+BAKit.m in Sources */,
 				42E8C8BE214758BB00BA399D /* ThirdViewController.m in Sources */,
 				42C5B64821425EA500563794 /* Colleague.m in Sources */,
 				42C5B63E21425EA500563794 /* CAP.m in Sources */,
@@ -3224,6 +3424,7 @@
 				42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */,
 				42C5B62021425EA500563794 /* FactoryPatternViewController.m in Sources */,
 				420189B421F9AA1200257DCF /* RSACodeTool.m in Sources */,
+				424F058A22759E150039CD62 /* WKWebView+BAJavaScriptAlert.m in Sources */,
 				42C5B66A21425EA500563794 /* ObserverPatternViewController.m in Sources */,
 				424F0534227540500039CD62 /* StatusItem.m in Sources */,
 				42747A1C2181A4C8004CFC10 /* HAMStatisticsManager.m in Sources */,
@@ -3244,6 +3445,7 @@
 				42A5335F22436DF000CC1B5E /* NativeAndWebTableVC.m in Sources */,
 				42C5B5FC21425EA500563794 /* CheatGameDecotor.m in Sources */,
 				42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */,
+				424F059C22759E420039CD62 /* WebVIewModel.m in Sources */,
 				424F0532227540500039CD62 /* NSObject+Item.m in Sources */,
 				42C5B64321425EA500563794 /* CommandPatternViewController.m in Sources */,
 				424F04C1227534E50039CD62 /* LNAddAttributesViewController.m in Sources */,
@@ -3256,6 +3458,7 @@
 				422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */,
 				42C5B65A21425EA500563794 /* NSObject+MementoCenter.m in Sources */,
 				42747A0C21819DC4004CFC10 /* MJProperty.m in Sources */,
+				424F056122758C160039CD62 /* WebViewJavascriptBridge_JS.m in Sources */,
 				42D700F22182A672008DFABB /* RunLoopVC.m in Sources */,
 				42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */,
 				42E8C8D02147931300BA399D /* MMRegularParser.m in Sources */,
@@ -3265,12 +3468,14 @@
 				42C5B65E21425EA500563794 /* LinkedList.m in Sources */,
 				424F053B227540D10039CD62 /* NSObject+Property.m in Sources */,
 				424F0533227540500039CD62 /* StatusItem3.m in Sources */,
+				424F059322759E150039CD62 /* BAWebViewController.m in Sources */,
 				42C5B62B21425EA500563794 /* CarCompanyBuilder.m in Sources */,
 				42D701062182A842008DFABB /* NSOperationVC.m in Sources */,
 				42C5B60821425EA500563794 /* AdapterCNY.m in Sources */,
 				42E8C8D42147933500BA399D /* NSString+NSStringUtils.m in Sources */,
 				42C5B5FF21425EA500563794 /* ModelOne.m in Sources */,
 				423C38D622447DDB005319C1 /* JSUIWebViewViewController.m in Sources */,
+				424F059F22759E420039CD62 /* BACell.m in Sources */,
 				424F04C8227534E50039CD62 /* LNAddMethodsViewController.m in Sources */,
 				42747A1121819DC4004CFC10 /* NSString+MJExtension.m in Sources */,
 				42747A0F21819DC4004CFC10 /* NSObject+MJProperty.m in Sources */,
@@ -3331,6 +3536,7 @@
 				423C38F32244928B005319C1 /* JSWKWebViewViewController.m in Sources */,
 				4227895F2146093B002B9C13 /* MutiDelegatVC.m in Sources */,
 				42FC73B6219A7BDE00B61FAE /* CacalateStorageVC.m in Sources */,
+				424F056022758C160039CD62 /* WebViewJavascriptBridge.m in Sources */,
 				42C5B63721425EA500563794 /* OperationSubStract.m in Sources */,
 				42C5B66021425EA500563794 /* Game.m in Sources */,
 				42C5B63121425EA500563794 /* CircleView.m in Sources */,

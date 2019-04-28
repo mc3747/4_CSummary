@@ -16,6 +16,8 @@
 #import "JSCallOCViewController.h"
 #import "OCCallJSViewController.h"
 #import "HighchartsWebViewController.h"
+#import "WebViewUseJsBridgeVC.h"
+#import "WebViewUseJsBridge2VC.h"
 
 @interface NativeAndWebVC ()
 
@@ -65,6 +67,15 @@
     [self.navigationController pushViewController:highchartsWeb animated:YES];
 }
 
+#pragma mark -  UIwebvie使用JSBridge
+- (IBAction)webviewUseJsBridgeAction:(id)sender {
+    WebViewUseJsBridgeVC *vc = [[WebViewUseJsBridgeVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)WebViewUseJSBridgeAction2:(id)sender {
+    WebViewUseJsBridge2VC *vc = [[WebViewUseJsBridge2VC alloc] init];
+     [self.navigationController pushViewController:vc animated:YES];
+}
 
 #pragma mark -  WKWebview拦截messageHandle方式与js交互
 - (IBAction)WKWebViewToJS:(id)sender {
@@ -76,6 +87,7 @@
     JSWKWebViewViewController *js = [[JSWKWebViewViewController alloc]init];
     [self.navigationController pushViewController:js animated:YES];
 }
+
 
 
 

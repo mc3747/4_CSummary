@@ -45,7 +45,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor lightGrayColor];
     _titleArray = @[@"1，消息机制",@"2，动态添加属性",@"3，动态添加方法",@"4，动态交换方法",@"5，拦截替换方法",@"6，方法添加额外功能",@"7，自动归档",@"8，字典自动转模型",@"9，找到苹果所有类的属性，方法，协议",@"10，完美封装"];
-        _classArray = @[@"",@"",@"",@"",@"",@"",@"",@"",@"GetPrivateVC",@"PackageRuntimeVC"];
+        _classArray = @[@"LNMessageViewController",@"LNAddAttributesViewController",@"LNAddMethodsViewController",@"LNExchangeMethodViewController",@"",@"",@"",@"",@"GetPrivateVC",@"PackageRuntimeVC"];
     [self initCollectionView];
 }
 
