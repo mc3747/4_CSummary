@@ -313,6 +313,36 @@
 		42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E482138E399003397FB /* JX_GCDTimerManager.m */; };
 		42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */; };
 		42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D04E982176C5490075ECEF /* RunTimeVC.m */; };
+		42D1C6D42277F43F001F170F /* NSObject+WHC_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6D22277F43F001F170F /* NSObject+WHC_Model.m */; };
+		42D1C6DA2277F529001F170F /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6D72277F529001F170F /* ModelObject.m */; };
+		42D1C6DB2277F529001F170F /* ModelObject.json in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C6D82277F529001F170F /* ModelObject.json */; };
+		42D1C6F02277FB36001F170F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6DD2277FB35001F170F /* JSONValueTransformer.m */; };
+		42D1C6F12277FB36001F170F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6E02277FB35001F170F /* JSONKeyMapper.m */; };
+		42D1C6F22277FB36001F170F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6E22277FB35001F170F /* JSONModel.m */; };
+		42D1C6F32277FB36001F170F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6E32277FB35001F170F /* JSONModelError.m */; };
+		42D1C6F42277FB36001F170F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6E62277FB35001F170F /* JSONModelClassProperty.m */; };
+		42D1C6F52277FB36001F170F /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6EA2277FB35001F170F /* JSONHTTPClient.m */; };
+		42D1C6F62277FB36001F170F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6EB2277FB35001F170F /* JSONAPI.m */; };
+		42D1C6F72277FB36001F170F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6EF2277FB35001F170F /* JSONModel+networking.m */; };
+		42D1C6F9227822FB001F170F /* DicToModelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C6F8227822FB001F170F /* DicToModelVC.xib */; };
+		42D1C70422782455001F170F /* province_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C6FA22782454001F170F /* province_data.json */; };
+		42D1C70522782455001F170F /* ZSAnalysisVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6FB22782454001F170F /* ZSAnalysisVC.m */; };
+		42D1C70622782455001F170F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6FD22782454001F170F /* People.m */; };
+		42D1C70722782455001F170F /* CityNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C6FE22782454001F170F /* CityNameModel.m */; };
+		42D1C70822782455001F170F /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C70222782454001F170F /* MyModel.m */; };
+		42D1C70B22782887001F170F /* WHCModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C70A22782887001F170F /* WHCModelVC.m */; };
+		42D1C71022782A94001F170F /* MJExtensionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C70E22782A94001F170F /* MJExtensionVC.m */; };
+		42D1C71122782A94001F170F /* MJExtensionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D1C70F22782A94001F170F /* MJExtensionVC.xib */; };
+		42D1C75D22782F4C001F170F /* MJBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C74A22782F48001F170F /* MJBag.m */; };
+		42D1C75E22782F4C001F170F /* MJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C74B22782F48001F170F /* MJUser.m */; };
+		42D1C75F22782F4C001F170F /* MJBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75122782F49001F170F /* MJBaseObject.m */; };
+		42D1C76022782F4C001F170F /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75222782F4A001F170F /* MJDog.m */; };
+		42D1C76122782F4C001F170F /* MJStatusResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75422782F4A001F170F /* MJStatusResult.m */; };
+		42D1C76222782F4C001F170F /* MJBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75522782F4A001F170F /* MJBook.m */; };
+		42D1C76322782F4C001F170F /* MJAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75722782F4A001F170F /* MJAd.m */; };
+		42D1C76422782F4C001F170F /* MJBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75822782F4B001F170F /* MJBox.m */; };
+		42D1C76522782F4C001F170F /* MJStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75922782F4B001F170F /* MJStatus.m */; };
+		42D1C76622782F4C001F170F /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D1C75A22782F4B001F170F /* MJStudent.m */; };
 		42D700F22182A672008DFABB /* RunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D700F12182A672008DFABB /* RunLoopVC.m */; };
 		42D700F62182A6B6008DFABB /* MultiThreadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D700F42182A6B6008DFABB /* MultiThreadingVC.m */; };
 		42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D700F52182A6B6008DFABB /* MultiThreadingVC.xib */; };
@@ -983,6 +1013,63 @@
 		42CB7E4D2138E399003397FB /* CADisplayLinkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CADisplayLinkVC.m; sourceTree = "<group>"; };
 		42D04E972176C5490075ECEF /* RunTimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeVC.h; sourceTree = "<group>"; };
 		42D04E982176C5490075ECEF /* RunTimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeVC.m; sourceTree = "<group>"; };
+		42D1C6D22277F43F001F170F /* NSObject+WHC_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHC_Model.m"; sourceTree = "<group>"; };
+		42D1C6D32277F43F001F170F /* NSObject+WHC_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHC_Model.h"; sourceTree = "<group>"; };
+		42D1C6D72277F529001F170F /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelObject.m; sourceTree = "<group>"; };
+		42D1C6D82277F529001F170F /* ModelObject.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ModelObject.json; sourceTree = "<group>"; };
+		42D1C6D92277F529001F170F /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelObject.h; sourceTree = "<group>"; };
+		42D1C6DD2277FB35001F170F /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		42D1C6DE2277FB35001F170F /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		42D1C6DF2277FB35001F170F /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		42D1C6E02277FB35001F170F /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		42D1C6E22277FB35001F170F /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		42D1C6E32277FB35001F170F /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		42D1C6E42277FB35001F170F /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		42D1C6E52277FB35001F170F /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		42D1C6E62277FB35001F170F /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		42D1C6E72277FB35001F170F /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		42D1C6E82277FB35001F170F /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		42D1C6EA2277FB35001F170F /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		42D1C6EB2277FB35001F170F /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		42D1C6EC2277FB35001F170F /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		42D1C6ED2277FB35001F170F /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		42D1C6EE2277FB35001F170F /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		42D1C6EF2277FB35001F170F /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		42D1C6F8227822FB001F170F /* DicToModelVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DicToModelVC.xib; sourceTree = "<group>"; };
+		42D1C6FA22782454001F170F /* province_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province_data.json; sourceTree = "<group>"; };
+		42D1C6FB22782454001F170F /* ZSAnalysisVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSAnalysisVC.m; sourceTree = "<group>"; };
+		42D1C6FD22782454001F170F /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		42D1C6FE22782454001F170F /* CityNameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityNameModel.m; sourceTree = "<group>"; };
+		42D1C6FF22782454001F170F /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		42D1C70022782454001F170F /* CityNameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityNameModel.h; sourceTree = "<group>"; };
+		42D1C70122782454001F170F /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		42D1C70222782454001F170F /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		42D1C70322782454001F170F /* ZSAnalysisVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSAnalysisVC.h; sourceTree = "<group>"; };
+		42D1C70922782887001F170F /* WHCModelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHCModelVC.h; sourceTree = "<group>"; };
+		42D1C70A22782887001F170F /* WHCModelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHCModelVC.m; sourceTree = "<group>"; };
+		42D1C70D22782A94001F170F /* MJExtensionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionVC.h; sourceTree = "<group>"; };
+		42D1C70E22782A94001F170F /* MJExtensionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionVC.m; sourceTree = "<group>"; };
+		42D1C70F22782A94001F170F /* MJExtensionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MJExtensionVC.xib; sourceTree = "<group>"; };
+		42D1C74922782F48001F170F /* MJAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAd.h; sourceTree = "<group>"; };
+		42D1C74A22782F48001F170F /* MJBag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBag.m; sourceTree = "<group>"; };
+		42D1C74B22782F48001F170F /* MJUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJUser.m; sourceTree = "<group>"; };
+		42D1C74C22782F49001F170F /* MJBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBook.h; sourceTree = "<group>"; };
+		42D1C74D22782F49001F170F /* MJDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDog.h; sourceTree = "<group>"; };
+		42D1C74E22782F49001F170F /* MJStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStatus.h; sourceTree = "<group>"; };
+		42D1C74F22782F49001F170F /* MJStatusResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStatusResult.h; sourceTree = "<group>"; };
+		42D1C75022782F49001F170F /* MJUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJUser.h; sourceTree = "<group>"; };
+		42D1C75122782F49001F170F /* MJBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBaseObject.m; sourceTree = "<group>"; };
+		42D1C75222782F4A001F170F /* MJDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDog.m; sourceTree = "<group>"; };
+		42D1C75322782F4A001F170F /* MJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
+		42D1C75422782F4A001F170F /* MJStatusResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStatusResult.m; sourceTree = "<group>"; };
+		42D1C75522782F4A001F170F /* MJBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBook.m; sourceTree = "<group>"; };
+		42D1C75622782F4A001F170F /* MJBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBox.h; sourceTree = "<group>"; };
+		42D1C75722782F4A001F170F /* MJAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAd.m; sourceTree = "<group>"; };
+		42D1C75822782F4B001F170F /* MJBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJBox.m; sourceTree = "<group>"; };
+		42D1C75922782F4B001F170F /* MJStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStatus.m; sourceTree = "<group>"; };
+		42D1C75A22782F4B001F170F /* MJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
+		42D1C75B22782F4B001F170F /* MJBag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBag.h; sourceTree = "<group>"; };
+		42D1C75C22782F4B001F170F /* MJBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJBaseObject.h; sourceTree = "<group>"; };
 		42D700F02182A672008DFABB /* RunLoopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopVC.h; sourceTree = "<group>"; };
 		42D700F12182A672008DFABB /* RunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopVC.m; sourceTree = "<group>"; };
 		42D700F32182A6B6008DFABB /* MultiThreadingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadingVC.h; sourceTree = "<group>"; };
@@ -1874,62 +1961,52 @@
 			children = (
 				42747A1721819E1E004CFC10 /* DicToModelVC.h */,
 				42747A1621819E1E004CFC10 /* DicToModelVC.m */,
-				427479E821819DC3004CFC10 /* TestModel.h */,
-				42747A0621819DC3004CFC10 /* TestModel.m */,
-				427479E921819DC3004CFC10 /* YYModel */,
-				427479E521819DC3004CFC10 /* ZSAnalysis */,
-				427479EF21819DC3004CFC10 /* MJExtension */,
+				42D1C6F8227822FB001F170F /* DicToModelVC.xib */,
+				42D1C6D52277F4B9001F170F /* 1，Gjs的model */,
+				427479E521819DC3004CFC10 /* 2，ZSAnalysis */,
+				427479E921819DC3004CFC10 /* 3，YYModel */,
+				427479EF21819DC3004CFC10 /* 4，MJExtension */,
+				42D1C6D12277F143001F170F /* 5，JsonModel */,
+				42D1C6D02277F138001F170F /* 6，WHCModel */,
 			);
 			path = "13_字典转模型";
 			sourceTree = "<group>";
 		};
-		427479E521819DC3004CFC10 /* ZSAnalysis */ = {
+		427479E521819DC3004CFC10 /* 2，ZSAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				42D1C70322782454001F170F /* ZSAnalysisVC.h */,
+				42D1C6FB22782454001F170F /* ZSAnalysisVC.m */,
+				42D1C6FA22782454001F170F /* province_data.json */,
+				42D1C6FC22782454001F170F /* Models */,
 				427479E621819DC3004CFC10 /* ZSAnalysisClass.h */,
 				427479E721819DC3004CFC10 /* ZSAnalysisClass.m */,
 			);
-			path = ZSAnalysis;
+			path = "2，ZSAnalysis";
 			sourceTree = "<group>";
 		};
-		427479E921819DC3004CFC10 /* YYModel */ = {
+		427479E921819DC3004CFC10 /* 3，YYModel */ = {
 			isa = PBXGroup;
 			children = (
-				427479EA21819DC3004CFC10 /* YYClassInfo.h */,
 				427479EB21819DC3004CFC10 /* YYModel.h */,
-				427479EC21819DC3004CFC10 /* NSObject+YYModel.m */,
+				427479EA21819DC3004CFC10 /* YYClassInfo.h */,
 				427479ED21819DC3004CFC10 /* YYClassInfo.m */,
 				427479EE21819DC3004CFC10 /* NSObject+YYModel.h */,
+				427479EC21819DC3004CFC10 /* NSObject+YYModel.m */,
 			);
-			path = YYModel;
+			path = "3，YYModel";
 			sourceTree = "<group>";
 		};
-		427479EF21819DC3004CFC10 /* MJExtension */ = {
+		427479EF21819DC3004CFC10 /* 4，MJExtension */ = {
 			isa = PBXGroup;
 			children = (
-				427479F021819DC3004CFC10 /* MJPropertyKey.h */,
-				427479F121819DC3004CFC10 /* NSObject+MJClass.h */,
-				427479F221819DC3004CFC10 /* NSString+MJExtension.h */,
-				427479F321819DC3004CFC10 /* MJPropertyType.m */,
-				427479F421819DC3004CFC10 /* NSObject+MJProperty.h */,
-				427479F521819DC3004CFC10 /* MJExtensionConst.h */,
-				427479F621819DC3004CFC10 /* NSObject+MJKeyValue.m */,
-				427479F721819DC3004CFC10 /* MJProperty.m */,
-				427479F821819DC3004CFC10 /* MJFoundation.h */,
-				427479F921819DC3004CFC10 /* NSObject+MJCoding.m */,
-				427479FA21819DC3004CFC10 /* MJExtension.h */,
-				427479FB21819DC3004CFC10 /* MJExtensionConst.m */,
-				427479FC21819DC3004CFC10 /* NSObject+MJProperty.m */,
-				427479FD21819DC3004CFC10 /* MJPropertyType.h */,
-				427479FE21819DC3004CFC10 /* NSObject+MJClass.m */,
-				427479FF21819DC3004CFC10 /* NSString+MJExtension.m */,
-				42747A0021819DC3004CFC10 /* MJPropertyKey.m */,
-				42747A0121819DC3004CFC10 /* MJProperty.h */,
-				42747A0221819DC3004CFC10 /* NSObject+MJKeyValue.h */,
-				42747A0321819DC3004CFC10 /* NSObject+MJCoding.h */,
-				42747A0521819DC3004CFC10 /* MJFoundation.m */,
+				42D1C71322782F1E001F170F /* Model */,
+				42D1C70D22782A94001F170F /* MJExtensionVC.h */,
+				42D1C70E22782A94001F170F /* MJExtensionVC.m */,
+				42D1C70F22782A94001F170F /* MJExtensionVC.xib */,
+				42D1C70C2278292C001F170F /* MJExtension */,
 			);
-			path = MJExtension;
+			path = "4，MJExtension";
 			sourceTree = "<group>";
 		};
 		42747A192181A492004CFC10 /* 日志显示 */ = {
@@ -2807,6 +2884,153 @@
 			path = "9，获取属性，协议和方法";
 			sourceTree = "<group>";
 		};
+		42D1C6D02277F138001F170F /* 6，WHCModel */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C70922782887001F170F /* WHCModelVC.h */,
+				42D1C70A22782887001F170F /* WHCModelVC.m */,
+				42D1C6D62277F514001F170F /* Modules */,
+				42D1C6D32277F43F001F170F /* NSObject+WHC_Model.h */,
+				42D1C6D22277F43F001F170F /* NSObject+WHC_Model.m */,
+			);
+			path = "6，WHCModel";
+			sourceTree = "<group>";
+		};
+		42D1C6D12277F143001F170F /* 5，JsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C6E82277FB35001F170F /* JSONModelLib.h */,
+				42D1C6E12277FB35001F170F /* JSONModel */,
+				42D1C6E92277FB35001F170F /* JSONModelNetworking */,
+				42D1C6DC2277FB35001F170F /* JSONModelTransformations */,
+			);
+			path = "5，JsonModel";
+			sourceTree = "<group>";
+		};
+		42D1C6D52277F4B9001F170F /* 1，Gjs的model */ = {
+			isa = PBXGroup;
+			children = (
+				427479E821819DC3004CFC10 /* TestModel.h */,
+				42747A0621819DC3004CFC10 /* TestModel.m */,
+			);
+			path = "1，Gjs的model";
+			sourceTree = "<group>";
+		};
+		42D1C6D62277F514001F170F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C6D92277F529001F170F /* ModelObject.h */,
+				42D1C6D72277F529001F170F /* ModelObject.m */,
+				42D1C6D82277F529001F170F /* ModelObject.json */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		42D1C6DC2277FB35001F170F /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C6DD2277FB35001F170F /* JSONValueTransformer.m */,
+				42D1C6DE2277FB35001F170F /* JSONKeyMapper.h */,
+				42D1C6DF2277FB35001F170F /* JSONValueTransformer.h */,
+				42D1C6E02277FB35001F170F /* JSONKeyMapper.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		42D1C6E12277FB35001F170F /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C6E22277FB35001F170F /* JSONModel.m */,
+				42D1C6E32277FB35001F170F /* JSONModelError.m */,
+				42D1C6E42277FB35001F170F /* JSONModelClassProperty.h */,
+				42D1C6E52277FB35001F170F /* JSONModel.h */,
+				42D1C6E62277FB35001F170F /* JSONModelClassProperty.m */,
+				42D1C6E72277FB35001F170F /* JSONModelError.h */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		42D1C6E92277FB35001F170F /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C6EA2277FB35001F170F /* JSONHTTPClient.m */,
+				42D1C6EB2277FB35001F170F /* JSONAPI.m */,
+				42D1C6EC2277FB35001F170F /* JSONModel+networking.h */,
+				42D1C6ED2277FB35001F170F /* JSONHTTPClient.h */,
+				42D1C6EE2277FB35001F170F /* JSONAPI.h */,
+				42D1C6EF2277FB35001F170F /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		42D1C6FC22782454001F170F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C6FD22782454001F170F /* People.m */,
+				42D1C6FE22782454001F170F /* CityNameModel.m */,
+				42D1C6FF22782454001F170F /* MyModel.h */,
+				42D1C70022782454001F170F /* CityNameModel.h */,
+				42D1C70122782454001F170F /* People.h */,
+				42D1C70222782454001F170F /* MyModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		42D1C70C2278292C001F170F /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				427479FA21819DC3004CFC10 /* MJExtension.h */,
+				427479F021819DC3004CFC10 /* MJPropertyKey.h */,
+				427479F121819DC3004CFC10 /* NSObject+MJClass.h */,
+				427479F221819DC3004CFC10 /* NSString+MJExtension.h */,
+				427479F321819DC3004CFC10 /* MJPropertyType.m */,
+				427479F421819DC3004CFC10 /* NSObject+MJProperty.h */,
+				427479F521819DC3004CFC10 /* MJExtensionConst.h */,
+				427479F621819DC3004CFC10 /* NSObject+MJKeyValue.m */,
+				427479F721819DC3004CFC10 /* MJProperty.m */,
+				427479F821819DC3004CFC10 /* MJFoundation.h */,
+				427479F921819DC3004CFC10 /* NSObject+MJCoding.m */,
+				427479FB21819DC3004CFC10 /* MJExtensionConst.m */,
+				427479FC21819DC3004CFC10 /* NSObject+MJProperty.m */,
+				427479FD21819DC3004CFC10 /* MJPropertyType.h */,
+				427479FE21819DC3004CFC10 /* NSObject+MJClass.m */,
+				427479FF21819DC3004CFC10 /* NSString+MJExtension.m */,
+				42747A0021819DC3004CFC10 /* MJPropertyKey.m */,
+				42747A0121819DC3004CFC10 /* MJProperty.h */,
+				42747A0221819DC3004CFC10 /* NSObject+MJKeyValue.h */,
+				42747A0321819DC3004CFC10 /* NSObject+MJCoding.h */,
+				42747A0521819DC3004CFC10 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		42D1C71322782F1E001F170F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				42D1C74922782F48001F170F /* MJAd.h */,
+				42D1C75722782F4A001F170F /* MJAd.m */,
+				42D1C75B22782F4B001F170F /* MJBag.h */,
+				42D1C74A22782F48001F170F /* MJBag.m */,
+				42D1C75C22782F4B001F170F /* MJBaseObject.h */,
+				42D1C75122782F49001F170F /* MJBaseObject.m */,
+				42D1C74C22782F49001F170F /* MJBook.h */,
+				42D1C75522782F4A001F170F /* MJBook.m */,
+				42D1C75622782F4A001F170F /* MJBox.h */,
+				42D1C75822782F4B001F170F /* MJBox.m */,
+				42D1C74D22782F49001F170F /* MJDog.h */,
+				42D1C75222782F4A001F170F /* MJDog.m */,
+				42D1C74E22782F49001F170F /* MJStatus.h */,
+				42D1C75922782F4B001F170F /* MJStatus.m */,
+				42D1C74F22782F49001F170F /* MJStatusResult.h */,
+				42D1C75422782F4A001F170F /* MJStatusResult.m */,
+				42D1C75322782F4A001F170F /* MJStudent.h */,
+				42D1C75A22782F4B001F170F /* MJStudent.m */,
+				42D1C75022782F49001F170F /* MJUser.h */,
+				42D1C74B22782F48001F170F /* MJUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		42D700F82182A841008DFABB /* 3_NSOperation */ = {
 			isa = PBXGroup;
 			children = (
@@ -3169,6 +3393,7 @@
 				423C38F12244928B005319C1 /* WKWebViewJS.html in Resources */,
 				423C38D722447DDB005319C1 /* JSUIWebViewViewController.xib in Resources */,
 				424F058C22759E150039CD62 /* jquery-1.7.2.min.js in Resources */,
+				42D1C6F9227822FB001F170F /* DicToModelVC.xib in Resources */,
 				423C38BF22447974005319C1 /* NativeAndWebVC.xib in Resources */,
 				423C38DF22447DDB005319C1 /* JSUIWebView.html in Resources */,
 				42FADC8F21F94349008C77F3 /* MemoryLeakVC.xib in Resources */,
@@ -3186,6 +3411,7 @@
 				423C38D822447DDB005319C1 /* light_illstration.png in Resources */,
 				42C5B60F21425EA500563794 /* 文件夹系统.png in Resources */,
 				420189B721F9AA1200257DCF /* rsaCert.der in Resources */,
+				42D1C70422782455001F170F /* province_data.json in Resources */,
 				423C391422449322005319C1 /* test.js in Resources */,
 				4257583220A29F0900BA4F54 /* LaunchScreen.storyboard in Resources */,
 				42D7014C21830724008DFABB /* SystemSound.plist in Resources */,
@@ -3210,6 +3436,7 @@
 				423C391822449322005319C1 /* HighchartsWebViewController.xib in Resources */,
 				423C391522449322005319C1 /* OCCallJSViewController.xib in Resources */,
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
+				42D1C71122782A94001F170F /* MJExtensionVC.xib in Resources */,
 				423C38F42244928B005319C1 /* JSWKWebView.html in Resources */,
 				42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */,
 				424F0554227588380039CD62 /* index1.html in Resources */,
@@ -3219,6 +3446,7 @@
 				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
 				42D701072182A842008DFABB /* NSOperationVC.xib in Resources */,
 				42D700F72182A6B6008DFABB /* MultiThreadingVC.xib in Resources */,
+				42D1C6DB2277F529001F170F /* ModelObject.json in Resources */,
 				424F0540227585750039CD62 /* WebViewUseJsBridgeVC.xib in Resources */,
 				424F058D22759E150039CD62 /* BAHome.html in Resources */,
 				424F04C3227534E50039CD62 /* LNExchangeMethodViewController.xib in Resources */,
@@ -3272,6 +3500,7 @@
 				42C5B65221425EA500563794 /* ShipmentState.m in Sources */,
 				42D70146218306AD008DFABB /* AudioPlistVC.m in Sources */,
 				42B26F6B21F17EB3007351A9 /* ReplaceIfElseVC.m in Sources */,
+				42D1C71022782A94001F170F /* MJExtensionVC.m in Sources */,
 				42D7011B2182A8B7008DFABB /* SVIndefiniteAnimatedView.m in Sources */,
 				424F050822753B620039CD62 /* LNPerson.m in Sources */,
 				424F058822759E150039CD62 /* WeakScriptMessageDelegate.m in Sources */,
@@ -3292,8 +3521,10 @@
 				4227894C2145FFF5002B9C13 /* SimpleDelegateTestVC.m in Sources */,
 				42C5B62921425EA500563794 /* PrototypePatternViewController.m in Sources */,
 				424F051C22753C700039CD62 /* TestClass+SwapMethod.m in Sources */,
+				42D1C6F02277FB36001F170F /* JSONValueTransformer.m in Sources */,
 				42C5B64121425EA500563794 /* Receiver.m in Sources */,
 				423C38D922447DDB005319C1 /* WebView+Alert.m in Sources */,
+				42D1C70622782455001F170F /* People.m in Sources */,
 				42C5B60121425EA500563794 /* ModelTwoAdapter.m in Sources */,
 				42C5B65321425EA500563794 /* Celling.m in Sources */,
 				424F059022759E150039CD62 /* NSObject+BARunTime.m in Sources */,
@@ -3336,6 +3567,8 @@
 				42747A0A21819DC4004CFC10 /* MJPropertyType.m in Sources */,
 				4227897B21461827002B9C13 /* NotificationVC.m in Sources */,
 				42C5B63021425EA500563794 /* SquareHeaderFactory.m in Sources */,
+				42D1C70B22782887001F170F /* WHCModelVC.m in Sources */,
+				42D1C75F22782F4C001F170F /* MJBaseObject.m in Sources */,
 				42C5B5F921425EA500563794 /* GameLoL+Coin.m in Sources */,
 				42E8C8B02147583B00BA399D /* RegularExpressionVC.m in Sources */,
 				42E8C8BD214758BB00BA399D /* SecondViewController.m in Sources */,
@@ -3345,11 +3578,14 @@
 				42D701182182A8B7008DFABB /* SVRadialGradientLayer.m in Sources */,
 				42FFFF8921F6B78100C594AA /* EncryptBaseVC.m in Sources */,
 				42747A1421819DC4004CFC10 /* MJFoundation.m in Sources */,
+				42D1C76322782F4C001F170F /* MJAd.m in Sources */,
 				42C5B60221425EA500563794 /* ModelTwo.m in Sources */,
 				4212D9BD221662D5004A7BA8 /* UIWebViewVC.m in Sources */,
 				424F0537227540500039CD62 /* NSObject+Mod.m in Sources */,
+				42D1C6F32277FB36001F170F /* JSONModelError.m in Sources */,
 				42C5B61521425EA500563794 /* CabDriver.m in Sources */,
 				424F050C22753C630039CD62 /* PackageRuntimeVC.m in Sources */,
+				42D1C70522782455001F170F /* ZSAnalysisVC.m in Sources */,
 				42C5B61221425EA500563794 /* FacadeCar.m in Sources */,
 				423C391D22449322005319C1 /* SecondTestViewController.m in Sources */,
 				42CB7E542138E399003397FB /* NSTimer+TimerBlock.m in Sources */,
@@ -3379,8 +3615,10 @@
 				421485F422730359009D0B0A /* GetPrivateVC.m in Sources */,
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
 				42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */,
+				42D1C76222782F4C001F170F /* MJBook.m in Sources */,
 				42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */,
 				424F053F227585750039CD62 /* WebViewUseJsBridgeVC.m in Sources */,
+				42D1C76022782F4C001F170F /* MJDog.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				424F056722758E8A0039CD62 /* WebViewUseJsBridge2VC.m in Sources */,
@@ -3415,6 +3653,7 @@
 				42C5B61621425EA500563794 /* Remote.m in Sources */,
 				42747A1F2181A4E1004CFC10 /* HAMLogOutputWindow.m in Sources */,
 				42C5B65121425EA500563794 /* BuyState.m in Sources */,
+				42D1C76522782F4C001F170F /* MJStatus.m in Sources */,
 				42C5B65F21425EA500563794 /* TemplatePatternViewController.m in Sources */,
 				424F051D22753C700039CD62 /* RuntimeKit.m in Sources */,
 				422789452145FCEE002B9C13 /* SingltonVC.m in Sources */,
@@ -3436,6 +3675,7 @@
 				42C5B65721425EA500563794 /* MementoCenter.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
+				42D1C75D22782F4C001F170F /* MJBag.m in Sources */,
 				42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */,
 				42C5B65B21425EA500563794 /* IteratorPatternViewController.m in Sources */,
 				421485F322730359009D0B0A /* NSObject+WHRuntime.m in Sources */,
@@ -3444,6 +3684,7 @@
 				42C5B64521425EA500563794 /* DarkerCommand.m in Sources */,
 				42A5335F22436DF000CC1B5E /* NativeAndWebTableVC.m in Sources */,
 				42C5B5FC21425EA500563794 /* CheatGameDecotor.m in Sources */,
+				42D1C70822782455001F170F /* MyModel.m in Sources */,
 				42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */,
 				424F059C22759E420039CD62 /* WebVIewModel.m in Sources */,
 				424F0532227540500039CD62 /* NSObject+Item.m in Sources */,
@@ -3462,9 +3703,12 @@
 				42D700F22182A672008DFABB /* RunLoopVC.m in Sources */,
 				42CB7E502138E399003397FB /* GCDTimerVC.m in Sources */,
 				42E8C8D02147931300BA399D /* MMRegularParser.m in Sources */,
+				42D1C6F62277FB36001F170F /* JSONAPI.m in Sources */,
 				42D700F62182A6B6008DFABB /* MultiThreadingVC.m in Sources */,
+				42D1C70722782455001F170F /* CityNameModel.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
 				420189B521F9AA1200257DCF /* NSData+AES.m in Sources */,
+				42D1C6F72277FB36001F170F /* JSONModel+networking.m in Sources */,
 				42C5B65E21425EA500563794 /* LinkedList.m in Sources */,
 				424F053B227540D10039CD62 /* NSObject+Property.m in Sources */,
 				424F0533227540500039CD62 /* StatusItem3.m in Sources */,
@@ -3485,6 +3729,7 @@
 				423E2FBF21F98F1600832137 /* NSString+Hash.m in Sources */,
 				42C5B62621425EA500563794 /* SingletonPatternViewController.m in Sources */,
 				42C5B61721425EA500563794 /* DirectionRemote.m in Sources */,
+				42D1C6F52277FB36001F170F /* JSONHTTPClient.m in Sources */,
 				42C5B60921425EA500563794 /* AdapterViewController.m in Sources */,
 				423C391122449322005319C1 /* JSCallOCViewController.m in Sources */,
 				4227895D2146093B002B9C13 /* TestTableViewCellConfig.m in Sources */,
@@ -3493,6 +3738,7 @@
 				42C5B65921425EA500563794 /* FastCoder.m in Sources */,
 				42C5B61321425EA500563794 /* Taximeter.m in Sources */,
 				42C5B63B21425EA500563794 /* IncomeBill.m in Sources */,
+				42D1C6F42277FB36001F170F /* JSONModelClassProperty.m in Sources */,
 				422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */,
 				42C5B61421425EA500563794 /* FacadePatternViewController.m in Sources */,
 				42CB7E4F2138E399003397FB /* BlockTimerVC.m in Sources */,
@@ -3505,6 +3751,7 @@
 				42C5B65821425EA500563794 /* MementoPatternViewController.m in Sources */,
 				42FFFF9A21F6F0F900C594AA /* DissymmetryEncryptVC.m in Sources */,
 				42C5B64921425EA500563794 /* Mediator.m in Sources */,
+				42D1C6DA2277F529001F170F /* ModelObject.m in Sources */,
 				423C38BB224471F2005319C1 /* WebviewEncryptTool.m in Sources */,
 				42C5B60321425EA500563794 /* ModelOneAdapter.m in Sources */,
 				424F04C4227534E50039CD62 /* LNExchangeMethodViewController.m in Sources */,
@@ -3515,29 +3762,35 @@
 				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,
 				42C5B61E21425EA500563794 /* FlowerFactory.m in Sources */,
 				42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */,
+				42D1C6F22277FB36001F170F /* JSONModel.m in Sources */,
 				420189B921F9AA1200257DCF /* GBEncodeTool.m in Sources */,
 				42C5B5FD21425EA500563794 /* CoinGameDecorator.m in Sources */,
 				42C5B65421425EA500563794 /* StatePatternViewController.m in Sources */,
 				42C5B63421425EA500563794 /* CircleHeaderFactory.m in Sources */,
 				42C5B60D21425EA500563794 /* File.m in Sources */,
 				427F207D20C6915400F511B0 /* ParameterManager.m in Sources */,
+				42D1C76622782F4C001F170F /* MJStudent.m in Sources */,
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
 				424F0536227540500039CD62 /* StatusItem2.m in Sources */,
 				42D70147218306AD008DFABB /* AudioSystemVC.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
 				42D7013D218304F3008DFABB /* AudioSummaryVC.m in Sources */,
+				42D1C75E22782F4C001F170F /* MJUser.m in Sources */,
 				427479D9218173DE004CFC10 /* Builder.m in Sources */,
+				42D1C6D42277F43F001F170F /* NSObject+WHC_Model.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
 				42FFFF9F21F6F11700C594AA /* Base64EncryptVC.m in Sources */,
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
 				424F04C2227534E50039CD62 /* UIImage+Image.m in Sources */,
 				42C5B6752142646A00563794 /* UIColor+Wonderful.m in Sources */,
 				423C38F32244928B005319C1 /* JSWKWebViewViewController.m in Sources */,
+				42D1C6F12277FB36001F170F /* JSONKeyMapper.m in Sources */,
 				4227895F2146093B002B9C13 /* MutiDelegatVC.m in Sources */,
 				42FC73B6219A7BDE00B61FAE /* CacalateStorageVC.m in Sources */,
 				424F056022758C160039CD62 /* WebViewJavascriptBridge.m in Sources */,
 				42C5B63721425EA500563794 /* OperationSubStract.m in Sources */,
+				42D1C76122782F4C001F170F /* MJStatusResult.m in Sources */,
 				42C5B66021425EA500563794 /* Game.m in Sources */,
 				42C5B63121425EA500563794 /* CircleView.m in Sources */,
 				42C5B66421425EA500563794 /* NumExpression.m in Sources */,
@@ -3546,6 +3799,7 @@
 				42C5B62A21425EA500563794 /* StudentModel.m in Sources */,
 				4257583520A29F0900BA4F54 /* main.m in Sources */,
 				42278974214614B1002B9C13 /* LXD_ObservedObject.m in Sources */,
+				42D1C76422782F4C001F170F /* MJBox.m in Sources */,
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
 				42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */,

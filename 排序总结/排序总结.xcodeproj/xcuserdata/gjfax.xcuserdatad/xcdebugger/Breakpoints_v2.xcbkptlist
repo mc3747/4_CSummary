@@ -105,38 +105,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/11_RunTime&#x6c47;&#x603b;/RunTimeVC.m"
-            timestampString = "578110695.478066"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-initWithFrame:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/11_RunTime&#x6c47;&#x603b;/RunTimeVC.m"
-            timestampString = "578110695.480243"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
-            landmarkName = "-initWithFrame:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/2&#xff0c;webView&#x548c;JS&#x4ea4;&#x4e92;/UIWebView 3&#x79cd;&#x4ea4;&#x4e92;&#x65b9;&#x5f0f;/3&#xff0c;jsBridge/WebViewUseJsBridgeVC.m"
             timestampString = "578129135.5334049"
             startingColumnNumber = "9223372036854775807"

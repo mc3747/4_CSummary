@@ -23,9 +23,11 @@
 //        _name = dict[@"name"];
 //        // 字典不能保存基本数据类型，NSNumber ->
 //        _age = dict[@"age"];
+        
 //    /*写法2: kvc列举*/
 //        [self setValue:dict[@"name"] forKey:@"name"];
 //        [self setValue:dict[@"age"] forKey:@"age"];
+        
     /*写法3: 循环遍历字典*/
 //        for (NSString *key in dict) {
 //            // 1. 通过 key 取值
@@ -33,9 +35,12 @@
 //            // 2. 通过 KVC 方法设置数值
 //            [self setValue:value forKey:key];
 //        }
+        
 //    /*写法4: kvc直接遍历*/
 //        [self setValuesForKeysWithDictionary:dict];
+        
      /*写法4: kvc优化：遍历字典中的key值，去模型类里面去查找有没有所对应的key，并匹配属性的类型*/
+        
           [self setClassProperty:[self class] withPropertyDic:dict];
     
     }
