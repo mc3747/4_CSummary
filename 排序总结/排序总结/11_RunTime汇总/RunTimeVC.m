@@ -20,8 +20,10 @@
 
 - (instancetype)initWithFrame:(CGRect)frame  {
     if (self = [super initWithFrame:frame]) {
-        
-        UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height * 0.5f)];
+        self.backgroundColor = [UIColor lightSalmon];
+        UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, frame.size.height * 0.25f, frame.size.width, frame.size.height * 0.5f)];
+        titleLabel.numberOfLines = 0;
+        titleLabel.font = [UIFont systemFontOfSize:14.f];
         [self addSubview:titleLabel];
         _titleLabel = titleLabel;
     }
@@ -31,6 +33,7 @@
 - (void)updateDisplay:(UIColor *)bgColor title:(NSString *)title{
     _titleLabel.text = title;
     _titleLabel.backgroundColor = bgColor;
+    
 }
 @end
 
@@ -44,8 +47,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor lightGrayColor];
-    _titleArray = @[@"1，消息机制",@"2，动态添加属性",@"3，动态添加方法",@"4，动态交换方法",@"5，拦截替换方法",@"6，方法添加额外功能",@"7，自动归档",@"8，字典自动转模型",@"9，找到苹果所有类的属性，方法，协议",@"10，完美封装"];
-        _classArray = @[@"LNMessageViewController",@"LNAddAttributesViewController",@"LNAddMethodsViewController",@"LNExchangeMethodViewController",@"",@"",@"",@"",@"GetPrivateVC",@"PackageRuntimeVC"];
+    _titleArray = @[@"1,runTime基础",@"2，消息机制",@"3，动态修改属性",@"4，动态添加属性",@"5，动态添加方法",@"6，动态交换方法",@"7，拦截替换方法",@"8，方法添加额外功能",@"9，自动归档",@"10，字典自动转模型",@"11，找到苹果所有类的属性，方法，协议",@"12，完美封装"];
+        _classArray = @[@"RunTimeBaseVC",@"LNMessageViewController",@"LNChangeAttributesVC",@"LNAddAttributesViewController",@"LNAddMethodsViewController",@"LNExchangeMethodViewController",@"",@"",@"",@"",@"GetPrivateVC",@"PackageRuntimeVC"];
     [self initCollectionView];
 }
 

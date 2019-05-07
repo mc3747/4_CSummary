@@ -21,6 +21,9 @@
 		421485F422730359009D0B0A /* GetPrivateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485EF22730358009D0B0A /* GetPrivateVC.m */; };
 		421485F522730359009D0B0A /* TestRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485F222730359009D0B0A /* TestRuntime.m */; };
 		421485F8227303C5009D0B0A /* UIImage+swizzlingImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485F7227303C5009D0B0A /* UIImage+swizzlingImage.m */; };
+		42166F24227FC85C006724CD /* RunTimeBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F22227FC85C006724CD /* RunTimeBaseVC.m */; };
+		42166F25227FC85C006724CD /* RunTimeBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42166F23227FC85C006724CD /* RunTimeBaseVC.xib */; };
+		42166F28227FC948006724CD /* MCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F27227FC948006724CD /* MCPerson.m */; };
 		422355D6219516D400A7DF99 /* BaseTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D5219516D400A7DF99 /* BaseTableViewVC.m */; };
 		422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D821951F3100A7DF99 /* MethodCallVC.m */; };
 		422355DC2195240D00A7DF99 /* VariableArgumentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355DB2195240D00A7DF99 /* VariableArgumentsVC.m */; };
@@ -46,6 +49,9 @@
 		4227897B21461827002B9C13 /* NotificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227897721461827002B9C13 /* NotificationVC.m */; };
 		4227897C21461827002B9C13 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4227897A21461827002B9C13 /* NavController.m */; };
 		42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42278981214651B8002B9C13 /* MatchingMethodVC.m */; };
+		4237B0CF2281826900E155C3 /* MCCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237B0CE2281826900E155C3 /* MCCat.m */; };
+		4237B0D22281857700E155C3 /* NSObject+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237B0D12281857700E155C3 /* NSObject+Json.m */; };
+		4237B0D622818AFA00E155C3 /* LNChangeAttributesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4237B0D522818AFA00E155C3 /* LNChangeAttributesVC.m */; };
 		423C38BB224471F2005319C1 /* WebviewEncryptTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 423C38BA224471F2005319C1 /* WebviewEncryptTool.m */; };
 		423C38BF22447974005319C1 /* NativeAndWebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 423C38BE22447974005319C1 /* NativeAndWebVC.xib */; };
 		423C38D622447DDB005319C1 /* JSUIWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423C38C722447DDB005319C1 /* JSUIWebViewViewController.m */; };
@@ -446,6 +452,11 @@
 		421485F222730359009D0B0A /* TestRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRuntime.m; sourceTree = "<group>"; };
 		421485F6227303C5009D0B0A /* UIImage+swizzlingImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+swizzlingImage.h"; sourceTree = "<group>"; };
 		421485F7227303C5009D0B0A /* UIImage+swizzlingImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+swizzlingImage.m"; sourceTree = "<group>"; };
+		42166F21227FC85C006724CD /* RunTimeBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunTimeBaseVC.h; sourceTree = "<group>"; };
+		42166F22227FC85C006724CD /* RunTimeBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeBaseVC.m; sourceTree = "<group>"; };
+		42166F23227FC85C006724CD /* RunTimeBaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunTimeBaseVC.xib; sourceTree = "<group>"; };
+		42166F26227FC948006724CD /* MCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCPerson.h; sourceTree = "<group>"; };
+		42166F27227FC948006724CD /* MCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCPerson.m; sourceTree = "<group>"; };
 		422355D4219516D400A7DF99 /* BaseTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewVC.h; sourceTree = "<group>"; };
 		422355D5219516D400A7DF99 /* BaseTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewVC.m; sourceTree = "<group>"; };
 		422355D721951F3100A7DF99 /* MethodCallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodCallVC.h; sourceTree = "<group>"; };
@@ -496,6 +507,12 @@
 		4227897A21461827002B9C13 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 		42278981214651B8002B9C13 /* MatchingMethodVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchingMethodVC.m; sourceTree = "<group>"; };
 		42278982214651B8002B9C13 /* MatchingMethodVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchingMethodVC.h; sourceTree = "<group>"; };
+		4237B0CD2281826900E155C3 /* MCCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCCat.h; sourceTree = "<group>"; };
+		4237B0CE2281826900E155C3 /* MCCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCCat.m; sourceTree = "<group>"; };
+		4237B0D02281857600E155C3 /* NSObject+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
+		4237B0D12281857700E155C3 /* NSObject+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Json.m"; sourceTree = "<group>"; };
+		4237B0D422818AFA00E155C3 /* LNChangeAttributesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LNChangeAttributesVC.h; sourceTree = "<group>"; };
+		4237B0D522818AFA00E155C3 /* LNChangeAttributesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LNChangeAttributesVC.m; sourceTree = "<group>"; };
 		423C38B9224471F2005319C1 /* WebviewEncryptTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebviewEncryptTool.h; sourceTree = "<group>"; };
 		423C38BA224471F2005319C1 /* WebviewEncryptTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebviewEncryptTool.m; sourceTree = "<group>"; };
 		423C38BE22447974005319C1 /* NativeAndWebVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NativeAndWebVC.xib; sourceTree = "<group>"; };
@@ -1370,6 +1387,15 @@
 			path = "3,常用的正则工具";
 			sourceTree = "<group>";
 		};
+		4237B0D32281883E00E155C3 /* 3，动态修改属性 */ = {
+			isa = PBXGroup;
+			children = (
+				4237B0D422818AFA00E155C3 /* LNChangeAttributesVC.h */,
+				4237B0D522818AFA00E155C3 /* LNChangeAttributesVC.m */,
+			);
+			path = "3，动态修改属性";
+			sourceTree = "<group>";
+		};
 		423C38B622447176005319C1 /* html缓存工具 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1597,7 +1623,7 @@
 			path = "6，编码格式";
 			sourceTree = "<group>";
 		};
-		424F04AB227534E40039CD62 /* 2，动态添加属性 */ = {
+		424F04AB227534E40039CD62 /* 4，动态添加属性 */ = {
 			isa = PBXGroup;
 			children = (
 				424F0539227540D10039CD62 /* NSObject+Property.h */,
@@ -1605,10 +1631,10 @@
 				424F04AD227534E40039CD62 /* LNAddAttributesViewController.h */,
 				424F04AC227534E40039CD62 /* LNAddAttributesViewController.m */,
 			);
-			path = "2，动态添加属性";
+			path = "4，动态添加属性";
 			sourceTree = "<group>";
 		};
-		424F04AE227534E40039CD62 /* 4，动态交换两个方法 */ = {
+		424F04AE227534E40039CD62 /* 6，动态交换两个方法 */ = {
 			isa = PBXGroup;
 			children = (
 				424F04AF227534E40039CD62 /* UIImage+Image.m */,
@@ -1617,10 +1643,10 @@
 				424F04B1227534E40039CD62 /* LNExchangeMethodViewController.xib */,
 				424F04B2227534E40039CD62 /* LNExchangeMethodViewController.m */,
 			);
-			path = "4，动态交换两个方法";
+			path = "6，动态交换两个方法";
 			sourceTree = "<group>";
 		};
-		424F04B4227534E40039CD62 /* 1，Runtime消息机制 */ = {
+		424F04B4227534E40039CD62 /* 2，Runtime消息机制 */ = {
 			isa = PBXGroup;
 			children = (
 				424F04B6227534E40039CD62 /* LNMessageViewController.h */,
@@ -1628,19 +1654,19 @@
 				424F050622753B610039CD62 /* LNPerson.h */,
 				424F050722753B610039CD62 /* LNPerson.m */,
 			);
-			path = "1，Runtime消息机制";
+			path = "2，Runtime消息机制";
 			sourceTree = "<group>";
 		};
-		424F04B9227534E50039CD62 /* 3，动态添加方法 */ = {
+		424F04B9227534E50039CD62 /* 5，动态添加方法 */ = {
 			isa = PBXGroup;
 			children = (
 				424F04BB227534E50039CD62 /* LNAddMethodsViewController.h */,
 				424F04BA227534E50039CD62 /* LNAddMethodsViewController.m */,
 			);
-			path = "3，动态添加方法";
+			path = "5，动态添加方法";
 			sourceTree = "<group>";
 		};
-		424F04BC227534E50039CD62 /* 8，Runtime字典转模型 */ = {
+		424F04BC227534E50039CD62 /* 10，Runtime字典转模型 */ = {
 			isa = PBXGroup;
 			children = (
 				424F0525227540500039CD62 /* runtime字典转模型1 */,
@@ -1650,38 +1676,47 @@
 				424F04BD227534E50039CD62 /* RuntimeDictViewController.m */,
 				424F04BE227534E50039CD62 /* RuntimeDictViewController.xib */,
 			);
-			path = "8，Runtime字典转模型";
+			path = "10，Runtime字典转模型";
 			sourceTree = "<group>";
 		};
-		424F04CC227535980039CD62 /* 5，拦截替换方法 */ = {
+		424F04CC227535980039CD62 /* 7，拦截替换方法 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "5，拦截替换方法";
+			path = "7，拦截替换方法";
 			sourceTree = "<group>";
 		};
-		424F04CD227535B10039CD62 /* 6，方法添加额外功能 */ = {
+		424F04CD227535B10039CD62 /* 8，方法添加额外功能 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "6，方法添加额外功能";
+			path = "8，方法添加额外功能";
 			sourceTree = "<group>";
 		};
-		424F04CE227535C80039CD62 /* 7，自动归档和解档 */ = {
+		424F04CE227535C80039CD62 /* 9，自动归档和解档 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "7，自动归档和解档";
+			path = "9，自动归档和解档";
 			sourceTree = "<group>";
 		};
-		424F04CF2275361D0039CD62 /* Sources */ = {
+		424F04CF2275361D0039CD62 /* 1，runTime认识基础 */ = {
 			isa = PBXGroup;
 			children = (
+				42166F21227FC85C006724CD /* RunTimeBaseVC.h */,
+				42166F22227FC85C006724CD /* RunTimeBaseVC.m */,
+				42166F23227FC85C006724CD /* RunTimeBaseVC.xib */,
+				42166F26227FC948006724CD /* MCPerson.h */,
+				42166F27227FC948006724CD /* MCPerson.m */,
+				4237B0CD2281826900E155C3 /* MCCat.h */,
+				4237B0CE2281826900E155C3 /* MCCat.m */,
+				4237B0D02281857600E155C3 /* NSObject+Json.h */,
+				4237B0D12281857700E155C3 /* NSObject+Json.m */,
 			);
-			path = Sources;
+			path = "1，runTime认识基础";
 			sourceTree = "<group>";
 		};
-		424F050922753C2D0039CD62 /* 10，完好封装 */ = {
+		424F050922753C2D0039CD62 /* 12，完好封装 */ = {
 			isa = PBXGroup;
 			children = (
 				424F051622753C700039CD62 /* Runtime */,
@@ -1689,7 +1724,7 @@
 				424F050A22753C630039CD62 /* PackageRuntimeVC.h */,
 				424F050B22753C630039CD62 /* PackageRuntimeVC.m */,
 			);
-			path = "10，完好封装";
+			path = "12，完好封装";
 			sourceTree = "<group>";
 		};
 		424F050D22753C700039CD62 /* TestClass */ = {
@@ -1886,7 +1921,7 @@
 				42C5B4DE2142593800563794 /* 7_设计模式 */,
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
 				427D28B1216C9843009DDEAC /* 9_代码架构 */,
-				427D28B2216C9863009DDEAC /* 10_组件化 */,
+				427D28B2216C9863009DDEAC /* 10_封装，解耦，路由，组件化，MVVM，AOP */,
 				42D04E962176C2920075ECEF /* 11_RunTime汇总 */,
 				427479CE21817321004CFC10 /* 12_对象初始化方法 */,
 				427479DB218199EB004CFC10 /* 13_字典转模型 */,
@@ -2081,11 +2116,11 @@
 			path = "9_代码架构";
 			sourceTree = "<group>";
 		};
-		427D28B2216C9863009DDEAC /* 10_组件化 */ = {
+		427D28B2216C9863009DDEAC /* 10_封装，解耦，路由，组件化，MVVM，AOP */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "10_组件化";
+			path = "10_封装，解耦，路由，组件化，MVVM，AOP";
 			sourceTree = "<group>";
 		};
 		429D333720C77F48006EA211 /* 2_方法的多个参数 */ = {
@@ -2854,22 +2889,23 @@
 			children = (
 				42D04E972176C5490075ECEF /* RunTimeVC.h */,
 				42D04E982176C5490075ECEF /* RunTimeVC.m */,
-				424F04CF2275361D0039CD62 /* Sources */,
-				424F04B4227534E40039CD62 /* 1，Runtime消息机制 */,
-				424F04AB227534E40039CD62 /* 2，动态添加属性 */,
-				424F04B9227534E50039CD62 /* 3，动态添加方法 */,
-				424F04AE227534E40039CD62 /* 4，动态交换两个方法 */,
-				424F04CC227535980039CD62 /* 5，拦截替换方法 */,
-				424F04CD227535B10039CD62 /* 6，方法添加额外功能 */,
-				424F04CE227535C80039CD62 /* 7，自动归档和解档 */,
-				424F04BC227534E50039CD62 /* 8，Runtime字典转模型 */,
-				42D04E9A2176C6450075ECEF /* 9，获取属性，协议和方法 */,
-				424F050922753C2D0039CD62 /* 10，完好封装 */,
+				424F04CF2275361D0039CD62 /* 1，runTime认识基础 */,
+				424F04B4227534E40039CD62 /* 2，Runtime消息机制 */,
+				4237B0D32281883E00E155C3 /* 3，动态修改属性 */,
+				424F04AB227534E40039CD62 /* 4，动态添加属性 */,
+				424F04B9227534E50039CD62 /* 5，动态添加方法 */,
+				424F04AE227534E40039CD62 /* 6，动态交换两个方法 */,
+				424F04CC227535980039CD62 /* 7，拦截替换方法 */,
+				424F04CD227535B10039CD62 /* 8，方法添加额外功能 */,
+				424F04CE227535C80039CD62 /* 9，自动归档和解档 */,
+				424F04BC227534E50039CD62 /* 10，Runtime字典转模型 */,
+				42D04E9A2176C6450075ECEF /* 11，获取属性，协议和方法 */,
+				424F050922753C2D0039CD62 /* 12，完好封装 */,
 			);
 			path = "11_RunTime汇总";
 			sourceTree = "<group>";
 		};
-		42D04E9A2176C6450075ECEF /* 9，获取属性，协议和方法 */ = {
+		42D04E9A2176C6450075ECEF /* 11，获取属性，协议和方法 */ = {
 			isa = PBXGroup;
 			children = (
 				421485F122730358009D0B0A /* GetPrivateVC.h */,
@@ -2881,7 +2917,7 @@
 				421485ED22730358009D0B0A /* TestRuntime.h */,
 				421485F222730359009D0B0A /* TestRuntime.m */,
 			);
-			path = "9，获取属性，协议和方法";
+			path = "11，获取属性，协议和方法";
 			sourceTree = "<group>";
 		};
 		42D1C6D02277F138001F170F /* 6，WHCModel */ = {
@@ -3403,6 +3439,7 @@
 				423C38F22244928B005319C1 /* WKWebViewJS_file.html in Resources */,
 				424154CB21FAA37E00AC35A2 /* CodedFormatVC.xib in Resources */,
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
+				42166F25227FC85C006724CD /* RunTimeBaseVC.xib in Resources */,
 				423C38E022447DDB005319C1 /* UIWebViewJS_file.html in Resources */,
 				42FFFFA521F6F4C700C594AA /* EncryptApplicationVC.xib in Resources */,
 				423C391922449322005319C1 /* highcharts.js in Resources */,
@@ -3521,6 +3558,7 @@
 				4227894C2145FFF5002B9C13 /* SimpleDelegateTestVC.m in Sources */,
 				42C5B62921425EA500563794 /* PrototypePatternViewController.m in Sources */,
 				424F051C22753C700039CD62 /* TestClass+SwapMethod.m in Sources */,
+				42166F28227FC948006724CD /* MCPerson.m in Sources */,
 				42D1C6F02277FB36001F170F /* JSONValueTransformer.m in Sources */,
 				42C5B64121425EA500563794 /* Receiver.m in Sources */,
 				423C38D922447DDB005319C1 /* WebView+Alert.m in Sources */,
@@ -3554,6 +3592,7 @@
 				42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */,
 				42C5B5FB21425EA500563794 /* DecoratorPatternViewController.m in Sources */,
 				42C5B61921425EA500563794 /* GeliAirConditioner.m in Sources */,
+				42166F24227FC85C006724CD /* RunTimeBaseVC.m in Sources */,
 				42C5B63A21425EA500563794 /* Context.m in Sources */,
 				42747A0E21819DC4004CFC10 /* MJExtensionConst.m in Sources */,
 				42C5B62C21425EA500563794 /* Car.m in Sources */,
@@ -3582,6 +3621,7 @@
 				42C5B60221425EA500563794 /* ModelTwo.m in Sources */,
 				4212D9BD221662D5004A7BA8 /* UIWebViewVC.m in Sources */,
 				424F0537227540500039CD62 /* NSObject+Mod.m in Sources */,
+				4237B0D22281857700E155C3 /* NSObject+Json.m in Sources */,
 				42D1C6F32277FB36001F170F /* JSONModelError.m in Sources */,
 				42C5B61521425EA500563794 /* CabDriver.m in Sources */,
 				424F050C22753C630039CD62 /* PackageRuntimeVC.m in Sources */,
@@ -3650,6 +3690,7 @@
 				42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */,
 				42C5B61A21425EA500563794 /* AirConditioner.m in Sources */,
 				42CB7E532138E399003397FB /* PerformSelectorVC.m in Sources */,
+				4237B0CF2281826900E155C3 /* MCCat.m in Sources */,
 				42C5B61621425EA500563794 /* Remote.m in Sources */,
 				42747A1F2181A4E1004CFC10 /* HAMLogOutputWindow.m in Sources */,
 				42C5B65121425EA500563794 /* BuyState.m in Sources */,
@@ -3686,6 +3727,7 @@
 				42C5B5FC21425EA500563794 /* CheatGameDecotor.m in Sources */,
 				42D1C70822782455001F170F /* MyModel.m in Sources */,
 				42CB7E552138E399003397FB /* JX_GCDTimerManager.m in Sources */,
+				4237B0D622818AFA00E155C3 /* LNChangeAttributesVC.m in Sources */,
 				424F059C22759E420039CD62 /* WebVIewModel.m in Sources */,
 				424F0532227540500039CD62 /* NSObject+Item.m in Sources */,
 				42C5B64321425EA500563794 /* CommandPatternViewController.m in Sources */,
