@@ -149,6 +149,7 @@
 		4257583520A29F0900BA4F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583420A29F0900BA4F54 /* main.m */; };
 		4257583F20A29F0900BA4F54 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583E20A29F0900BA4F54 /* ____Tests.m */; };
 		4257584A20A29F0900BA4F54 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257584920A29F0900BA4F54 /* ____UITests.m */; };
+		426D559F2285C7010060AEF4 /* PackageEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 426D559E2285C7010060AEF4 /* PackageEventTableViewCell.m */; };
 		426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C320CA77ED00B2B747 /* PassValueVC.m */; };
 		426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */; };
 		427479D121817382004CFC10 /* InitMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D021817382004CFC10 /* InitMethodVC.m */; };
@@ -675,6 +676,8 @@
 		4257584520A29F0900BA4F54 /* 排序总结UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序总结UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257584920A29F0900BA4F54 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		4257584B20A29F0900BA4F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426D559D2285C7010060AEF4 /* PackageEventTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackageEventTableViewCell.h; sourceTree = "<group>"; };
+		426D559E2285C7010060AEF4 /* PackageEventTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackageEventTableViewCell.m; sourceTree = "<group>"; };
 		426FB1C220CA77ED00B2B747 /* PassValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassValueVC.h; sourceTree = "<group>"; };
 		426FB1C320CA77ED00B2B747 /* PassValueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassValueVC.m; sourceTree = "<group>"; };
 		426FB1C520CA7CFD00B2B747 /* ReceiveValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveValueVC.h; sourceTree = "<group>"; };
@@ -1933,6 +1936,7 @@
 				421F15CC21EF0A9E00428704 /* 19_代替if else的方法 */,
 				42BF36AA21F8751500760C41 /* 20_内存泄露汇总 */,
 				4212D9C122169538004A7BA8 /* 21_原生和js交互 */,
+				426D559C2285C61B0060AEF4 /* 22_事件的封装 */,
 				42747A212181BEF7004CFC10 /* 性能优化 */,
 				42747A222181D3C9004CFC10 /* APP安全 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -1961,6 +1965,15 @@
 				4257584B20A29F0900BA4F54 /* Info.plist */,
 			);
 			path = "排序总结UITests";
+			sourceTree = "<group>";
+		};
+		426D559C2285C61B0060AEF4 /* 22_事件的封装 */ = {
+			isa = PBXGroup;
+			children = (
+				426D559D2285C7010060AEF4 /* PackageEventTableViewCell.h */,
+				426D559E2285C7010060AEF4 /* PackageEventTableViewCell.m */,
+			);
+			path = "22_事件的封装";
 			sourceTree = "<group>";
 		};
 		426FB1C120CA755E00B2B747 /* 3_控制器传值 */ = {
@@ -3555,6 +3568,7 @@
 				42C5B61121425EA500563794 /* DelegatePatternViewController.m in Sources */,
 				424F051922753C700039CD62 /* TestClass.m in Sources */,
 				42C5B5FE21425EA500563794 /* GameDecortor.m in Sources */,
+				426D559F2285C7010060AEF4 /* PackageEventTableViewCell.m in Sources */,
 				4227894C2145FFF5002B9C13 /* SimpleDelegateTestVC.m in Sources */,
 				42C5B62921425EA500563794 /* PrototypePatternViewController.m in Sources */,
 				424F051C22753C700039CD62 /* TestClass+SwapMethod.m in Sources */,
