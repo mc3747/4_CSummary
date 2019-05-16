@@ -376,6 +376,9 @@
 		42D7014C21830724008DFABB /* SystemSound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D7014A21830724008DFABB /* SystemSound.plist */; };
 		42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014E218307D9008DFABB /* AudioPlayVC.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
+		42E4218D228D68B100DBC2E4 /* GCDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E42189228D68B000DBC2E4 /* GCDTableViewController.m */; };
+		42E4218E228D68B100DBC2E4 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E4218A228D68B000DBC2E4 /* DemoViewController.xib */; };
+		42E4218F228D68B100DBC2E4 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4218B228D68B000DBC2E4 /* DemoViewController.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 		42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E7A135219920E500304651 /* CalculateImageStorageVC.m */; };
 		42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E7A136219920E500304651 /* CalculateImageStorageVC.xib */; };
@@ -1135,6 +1138,11 @@
 		42D7014E218307D9008DFABB /* AudioPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayVC.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
+		42E42188228D68B000DBC2E4 /* GCDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTableViewController.h; sourceTree = "<group>"; };
+		42E42189228D68B000DBC2E4 /* GCDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTableViewController.m; sourceTree = "<group>"; };
+		42E4218A228D68B000DBC2E4 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+		42E4218B228D68B000DBC2E4 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		42E4218C228D68B000DBC2E4 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
 		42E4579F212E3D8D00898A3D /* CallMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallMethodViewController.h; sourceTree = "<group>"; };
 		42E7A134219920E500304651 /* CalculateImageStorageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateImageStorageVC.h; sourceTree = "<group>"; };
@@ -2099,8 +2107,9 @@
 				42D700F52182A6B6008DFABB /* MultiThreadingVC.xib */,
 				42D701022182A841008DFABB /* 1_NSThread */,
 				42D700FE2182A841008DFABB /* 2_GCD */,
-				42D700F82182A841008DFABB /* 3_NSOperation */,
-				42D701202182B09F008DFABB /* 4_具体应用 */,
+				42E42187228D688900DBC2E4 /* 3_GCD详细 */,
+				42D700F82182A841008DFABB /* 4_NSOperation */,
+				42D701202182B09F008DFABB /* 5_具体应用 */,
 			);
 			path = "15_多线程汇总";
 			sourceTree = "<group>";
@@ -3080,7 +3089,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		42D700F82182A841008DFABB /* 3_NSOperation */ = {
+		42D700F82182A841008DFABB /* 4_NSOperation */ = {
 			isa = PBXGroup;
 			children = (
 				42D700F92182A841008DFABB /* NSOperationVC.h */,
@@ -3089,7 +3098,7 @@
 				42D700FA2182A841008DFABB /* WHOperation.h */,
 				42D700FD2182A841008DFABB /* WHOperation.m */,
 			);
-			path = 3_NSOperation;
+			path = 4_NSOperation;
 			sourceTree = "<group>";
 		};
 		42D700FE2182A841008DFABB /* 2_GCD */ = {
@@ -3129,14 +3138,14 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		42D701202182B09F008DFABB /* 4_具体应用 */ = {
+		42D701202182B09F008DFABB /* 5_具体应用 */ = {
 			isa = PBXGroup;
 			children = (
 				42D701242182B109008DFABB /* MultiThreadApplicationVC.h */,
 				42D701252182B109008DFABB /* MultiThreadApplicationVC.m */,
 				42D701262182B109008DFABB /* MultiThreadApplicationVC.xib */,
 			);
-			path = "4_具体应用";
+			path = "5_具体应用";
 			sourceTree = "<group>";
 		};
 		42D7013921830492008DFABB /* 17_音频汇总 */ = {
@@ -3182,6 +3191,18 @@
 				42AF6E8221868D49001806BE /* AudioPlayManager.m */,
 			);
 			path = "3_展示本地音频文件";
+			sourceTree = "<group>";
+		};
+		42E42187228D688900DBC2E4 /* 3_GCD详细 */ = {
+			isa = PBXGroup;
+			children = (
+				42E4218C228D68B000DBC2E4 /* DemoViewController.h */,
+				42E4218B228D68B000DBC2E4 /* DemoViewController.m */,
+				42E4218A228D68B000DBC2E4 /* DemoViewController.xib */,
+				42E42188228D68B000DBC2E4 /* GCDTableViewController.h */,
+				42E42189228D68B000DBC2E4 /* GCDTableViewController.m */,
+			);
+			path = "3_GCD详细";
 			sourceTree = "<group>";
 		};
 		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
@@ -3487,6 +3508,7 @@
 				423C391522449322005319C1 /* OCCallJSViewController.xib in Resources */,
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
 				42D1C71122782A94001F170F /* MJExtensionVC.xib in Resources */,
+				42E4218E228D68B100DBC2E4 /* DemoViewController.xib in Resources */,
 				423C38F42244928B005319C1 /* JSWKWebView.html in Resources */,
 				42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */,
 				424F0554227588380039CD62 /* index1.html in Resources */,
@@ -3730,6 +3752,7 @@
 				42C5B65721425EA500563794 /* MementoCenter.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
+				42E4218F228D68B100DBC2E4 /* DemoViewController.m in Sources */,
 				42D1C75D22782F4C001F170F /* MJBag.m in Sources */,
 				42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */,
 				42C5B65B21425EA500563794 /* IteratorPatternViewController.m in Sources */,
@@ -3776,6 +3799,7 @@
 				42C5B5FF21425EA500563794 /* ModelOne.m in Sources */,
 				423C38D622447DDB005319C1 /* JSUIWebViewViewController.m in Sources */,
 				424F059F22759E420039CD62 /* BACell.m in Sources */,
+				42E4218D228D68B100DBC2E4 /* GCDTableViewController.m in Sources */,
 				424F04C8227534E50039CD62 /* LNAddMethodsViewController.m in Sources */,
 				42747A1121819DC4004CFC10 /* NSString+MJExtension.m in Sources */,
 				42747A0F21819DC4004CFC10 /* NSObject+MJProperty.m in Sources */,

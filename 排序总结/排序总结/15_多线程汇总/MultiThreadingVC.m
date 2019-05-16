@@ -11,6 +11,7 @@
 #import "NSOperationVC.h"
 #import "NSThreadVC.h"
 #import "MultiThreadApplicationVC.h"
+#import "GCDTableViewController.h"
 
 @interface MultiThreadingVC ()
 
@@ -28,6 +29,10 @@
 }
 - (IBAction)GCDAction:(id)sender {
     GCDViewController *GCDVC = [[GCDViewController alloc] init];
+    [self.navigationController pushViewController:GCDVC animated:YES];
+}
+- (IBAction)GCDAction2:(id)sender {
+    GCDTableViewController *GCDVC = [[GCDTableViewController alloc] init];
     [self.navigationController pushViewController:GCDVC animated:YES];
 }
 
