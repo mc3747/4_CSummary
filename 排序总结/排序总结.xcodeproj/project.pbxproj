@@ -175,6 +175,7 @@
 		42747A1F2181A4E1004CFC10 /* HAMLogOutputWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 42747A1E2181A4E1004CFC10 /* HAMLogOutputWindow.m */; };
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
+		4288EF2D2332218A00113EAE /* ElementMakerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288EF2C2332218A00113EAE /* ElementMakerVC.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
 		42A5335F22436DF000CC1B5E /* NativeAndWebTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5335E22436DF000CC1B5E /* NativeAndWebTableVC.m */; };
 		42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5336422436FD000CC1B5E /* WebViewBaseVC.m */; };
@@ -733,6 +734,8 @@
 		427F207C20C6915400F511B0 /* ParameterManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterManager.m; sourceTree = "<group>"; };
 		427F207E20C695C000F511B0 /* ParameterClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParameterClass.h; sourceTree = "<group>"; };
 		427F207F20C695C000F511B0 /* ParameterClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterClass.m; sourceTree = "<group>"; };
+		4288EF2B2332218A00113EAE /* ElementMakerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElementMakerVC.h; sourceTree = "<group>"; };
+		4288EF2C2332218A00113EAE /* ElementMakerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementMakerVC.m; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
 		42A5335D22436DF000CC1B5E /* NativeAndWebTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAndWebTableVC.h; sourceTree = "<group>"; };
@@ -1945,6 +1948,9 @@
 				42BF36AA21F8751500760C41 /* 20_内存泄露汇总 */,
 				4212D9C122169538004A7BA8 /* 21_原生和js交互 */,
 				426D559C2285C61B0060AEF4 /* 22_事件的封装 */,
+				4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */,
+				4288EF232331D2BC00113EAE /* 24_继承和多态应用 */,
+				4288EF2E2332375100113EAE /* 25_代理和block应用 */,
 				42747A212181BEF7004CFC10 /* 性能优化 */,
 				42747A222181D3C9004CFC10 /* APP安全 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -2143,6 +2149,29 @@
 			children = (
 			);
 			path = "10_封装，解耦，路由，组件化，MVVM，AOP";
+			sourceTree = "<group>";
+		};
+		4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */ = {
+			isa = PBXGroup;
+			children = (
+				4288EF2B2332218A00113EAE /* ElementMakerVC.h */,
+				4288EF2C2332218A00113EAE /* ElementMakerVC.m */,
+			);
+			path = "23_控件的写法(懒加载等）";
+			sourceTree = "<group>";
+		};
+		4288EF232331D2BC00113EAE /* 24_继承和多态应用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "24_继承和多态应用";
+			sourceTree = "<group>";
+		};
+		4288EF2E2332375100113EAE /* 25_代理和block应用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "25_代理和block应用";
 			sourceTree = "<group>";
 		};
 		429D333720C77F48006EA211 /* 2_方法的多个参数 */ = {
@@ -3566,6 +3595,7 @@
 				42747A1221819DC4004CFC10 /* MJPropertyKey.m in Sources */,
 				4227896421460950002B9C13 /* YBProxyManager.m in Sources */,
 				42C5B66521425EA500563794 /* AdditionExpression.m in Sources */,
+				4288EF2D2332218A00113EAE /* ElementMakerVC.m in Sources */,
 				424F0538227540500039CD62 /* User.m in Sources */,
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
 				421485F522730359009D0B0A /* TestRuntime.m in Sources */,
