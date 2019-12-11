@@ -177,6 +177,11 @@
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		4288EF2D2332218A00113EAE /* ElementMakerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288EF2C2332218A00113EAE /* ElementMakerVC.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
+		42A4DC4323619FED003C345A /* PrintLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC4223619FED003C345A /* PrintLogVC.m */; };
+		42A4DC4E2361AD3E003C345A /* NSObject+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC452361AD3E003C345A /* NSObject+DebugDescription.m */; };
+		42A4DC4F2361AD3E003C345A /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC482361AD3E003C345A /* NSArray+HYBUnicodeReadable.m */; };
+		42A4DC502361AD3E003C345A /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC492361AD3E003C345A /* NSDictionary+HYBUnicodeReadable.m */; };
+		42A4DC512361AD3E003C345A /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC4A2361AD3E003C345A /* NSSet+HYBUnicodeReadable.m */; };
 		42A5335F22436DF000CC1B5E /* NativeAndWebTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5335E22436DF000CC1B5E /* NativeAndWebTableVC.m */; };
 		42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A5336422436FD000CC1B5E /* WebViewBaseVC.m */; };
 		42A533682243700900CC1B5E /* NativeAndWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A533672243700900CC1B5E /* NativeAndWebVC.m */; };
@@ -738,6 +743,16 @@
 		4288EF2C2332218A00113EAE /* ElementMakerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementMakerVC.m; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
+		42A4DC4123619FED003C345A /* PrintLogVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintLogVC.h; sourceTree = "<group>"; };
+		42A4DC4223619FED003C345A /* PrintLogVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintLogVC.m; sourceTree = "<group>"; };
+		42A4DC452361AD3E003C345A /* NSObject+DebugDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DebugDescription.m"; sourceTree = "<group>"; };
+		42A4DC462361AD3E003C345A /* NSObject+DebugDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DebugDescription.h"; sourceTree = "<group>"; };
+		42A4DC482361AD3E003C345A /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		42A4DC492361AD3E003C345A /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		42A4DC4A2361AD3E003C345A /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		42A4DC4B2361AD3E003C345A /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		42A4DC4C2361AD3E003C345A /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		42A4DC4D2361AD3E003C345A /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
 		42A5335D22436DF000CC1B5E /* NativeAndWebTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeAndWebTableVC.h; sourceTree = "<group>"; };
 		42A5335E22436DF000CC1B5E /* NativeAndWebTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeAndWebTableVC.m; sourceTree = "<group>"; };
 		42A5336322436FD000CC1B5E /* WebViewBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewBaseVC.h; sourceTree = "<group>"; };
@@ -1258,6 +1273,13 @@
 				42A5336122436F7B00CC1B5E /* 4，第三方好用 */,
 			);
 			path = "21_原生和js交互";
+			sourceTree = "<group>";
+		};
+		421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "26_ 单元测试";
 			sourceTree = "<group>";
 		};
 		421F15CC21EF0A9E00428704 /* 19_代替if else的方法 */ = {
@@ -1951,6 +1973,8 @@
 				4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */,
 				4288EF232331D2BC00113EAE /* 24_继承和多态应用 */,
 				4288EF2E2332375100113EAE /* 25_代理和block应用 */,
+				421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */,
+				42A4DC4023619F9A003C345A /* 27_打印日志 */,
 				42747A212181BEF7004CFC10 /* 性能优化 */,
 				42747A222181D3C9004CFC10 /* APP安全 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -2196,6 +2220,39 @@
 				429D333A20C7939A006EA211 /* ReturnValueManager.m */,
 			);
 			path = "3_方法的多个返回值";
+			sourceTree = "<group>";
+		};
+		42A4DC4023619F9A003C345A /* 27_打印日志 */ = {
+			isa = PBXGroup;
+			children = (
+				42A4DC472361AD3E003C345A /* HYBUnicodeReadable */,
+				42A4DC442361AD3E003C345A /* NSObject-DebugDescription-master */,
+				42A4DC4123619FED003C345A /* PrintLogVC.h */,
+				42A4DC4223619FED003C345A /* PrintLogVC.m */,
+			);
+			path = "27_打印日志";
+			sourceTree = "<group>";
+		};
+		42A4DC442361AD3E003C345A /* NSObject-DebugDescription-master */ = {
+			isa = PBXGroup;
+			children = (
+				42A4DC452361AD3E003C345A /* NSObject+DebugDescription.m */,
+				42A4DC462361AD3E003C345A /* NSObject+DebugDescription.h */,
+			);
+			path = "NSObject-DebugDescription-master";
+			sourceTree = "<group>";
+		};
+		42A4DC472361AD3E003C345A /* HYBUnicodeReadable */ = {
+			isa = PBXGroup;
+			children = (
+				42A4DC482361AD3E003C345A /* NSArray+HYBUnicodeReadable.m */,
+				42A4DC492361AD3E003C345A /* NSDictionary+HYBUnicodeReadable.m */,
+				42A4DC4A2361AD3E003C345A /* NSSet+HYBUnicodeReadable.m */,
+				42A4DC4B2361AD3E003C345A /* NSArray+HYBUnicodeReadable.h */,
+				42A4DC4C2361AD3E003C345A /* NSDictionary+HYBUnicodeReadable.h */,
+				42A4DC4D2361AD3E003C345A /* NSSet+HYBUnicodeReadable.h */,
+			);
+			path = HYBUnicodeReadable;
 			sourceTree = "<group>";
 		};
 		42A5336022436F6A00CC1B5E /* 1，webView基础介绍 */ = {
@@ -3658,6 +3715,7 @@
 				42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */,
 				42C5B5FB21425EA500563794 /* DecoratorPatternViewController.m in Sources */,
 				42C5B61921425EA500563794 /* GeliAirConditioner.m in Sources */,
+				42A4DC4F2361AD3E003C345A /* NSArray+HYBUnicodeReadable.m in Sources */,
 				42166F24227FC85C006724CD /* RunTimeBaseVC.m in Sources */,
 				42C5B63A21425EA500563794 /* Context.m in Sources */,
 				42747A0E21819DC4004CFC10 /* MJExtensionConst.m in Sources */,
@@ -3704,6 +3762,7 @@
 				4227895021460376002B9C13 /* ProtocolDelegateVC.m in Sources */,
 				42C5B61F21425EA500563794 /* Flower.m in Sources */,
 				42C5B60B21425EA500563794 /* FileCell.m in Sources */,
+				42A4DC512361AD3E003C345A /* NSSet+HYBUnicodeReadable.m in Sources */,
 				42C5B63321425EA500563794 /* HeaderImgFactory.m in Sources */,
 				42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */,
 				42AF6E8321868D49001806BE /* AudioPlayManager.m in Sources */,
@@ -3718,9 +3777,11 @@
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
+				42A4DC502361AD3E003C345A /* NSDictionary+HYBUnicodeReadable.m in Sources */,
 				421485F422730359009D0B0A /* GetPrivateVC.m in Sources */,
 				422789492145FFD4002B9C13 /* SimpleDelegateTestView.m in Sources */,
 				42A5336522436FD000CC1B5E /* WebViewBaseVC.m in Sources */,
+				42A4DC4323619FED003C345A /* PrintLogVC.m in Sources */,
 				42D1C76222782F4C001F170F /* MJBook.m in Sources */,
 				42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */,
 				424F053F227585750039CD62 /* WebViewUseJsBridgeVC.m in Sources */,
@@ -3847,6 +3908,7 @@
 				42CB7E512138E399003397FB /* NSTimerVC.m in Sources */,
 				42C5B65921425EA500563794 /* FastCoder.m in Sources */,
 				42C5B61321425EA500563794 /* Taximeter.m in Sources */,
+				42A4DC4E2361AD3E003C345A /* NSObject+DebugDescription.m in Sources */,
 				42C5B63B21425EA500563794 /* IncomeBill.m in Sources */,
 				42D1C6F42277FB36001F170F /* JSONModelClassProperty.m in Sources */,
 				422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */,
