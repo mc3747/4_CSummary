@@ -11,7 +11,7 @@
 @implementation NSObject (DebugDescription)
 
 #pragma mark - 重写description方法(调用NSLog方法打印时执行)
-- (NSString )description {
+- (NSString *)description {
     if ([self isKindOfClass:[NSArray class]] || [self isKindOfClass:[NSDictionary class]] || [self isKindOfClass:[NSNumber class]] || [self isKindOfClass:[NSString class]]) {
         return self.description;
     }
@@ -22,9 +22,14 @@
     objc_property_t *properties = class_copyPropertyList([self class], &count);
     for (int i = 0; i<count; i++) { //循环并用KVC得到每个属性的值
         objc_property_t property = properties[i];
-        NSString *name = @(property_getName(property));
-        id value = [self valueForKey:name]?:@"nil";//默认值为nil字符串
-        [dictionary setObject:value forKey:name];//装载到字典里
+        if (property != nil) {
+//               const char *oldName = property_getName(property);
+//            NSString *name = [NSString stringWithFormat:@"%s",oldName];
+//            NSString *name =   [NSString stringWithUTF8String:oldName];
+//                 id value = [self valueForKey:name]?:@"nil";//默认值为nil字符串
+//                 [dictionary setObject:value forKey:name];//装载到字典里
+        }
+     
     }
     //释放
     free(properties);

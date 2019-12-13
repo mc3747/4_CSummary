@@ -55,10 +55,10 @@
 - (void)initArrays {
     
     
-    self.cellDisplayNameArray = @[@"1，方法的调用相关",@"3，控制器传值",
+    self.cellDisplayNameArray = @[@"1，方法的调用相关",@"2，button传递多个参数",@"3，控制器传值",
                                   @"5，定时器汇总",@"7，24种设计模式汇总",@"8，单例模式",@"9，简单代理",@"10，协议代理",@"11，多代理",@"12，KVO基本使用",@"13，Block封装KVO",@"14，通知模式",@"15，匹配的三种方式",@"16，正则表达式的使用场景",@"17，RunTime总结",@"18，对象的初始化方法",@"19，字典转模型",@"20，RunLoop汇总",@"21，多线程汇总",@"22，加密汇总",@"23，音频汇总",@"24，文件大小及图片相关汇总",@"25，代替if-else的条件方法",@"26，内存泄露",@"27，原生和js交互",@"28，控件的简单写法（懒加载）",@"29，日志打印"];
     
-    self.cellControllerNameArray = @[@"MethodCallVC",@"PassValueVC",
+    self.cellControllerNameArray = @[@"MethodCallVC",@"ButtonTransferParameterVC",@"PassValueVC",
  @"TimerViewController",@"DesignModeSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"BaseKVOViewController",@"BlockKVOViewController",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"MultiThreadingVC",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"ElementMakerVC",@"PrintLogVC"];
 }
 

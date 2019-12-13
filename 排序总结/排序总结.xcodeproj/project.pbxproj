@@ -149,6 +149,9 @@
 		4257583520A29F0900BA4F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583420A29F0900BA4F54 /* main.m */; };
 		4257583F20A29F0900BA4F54 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583E20A29F0900BA4F54 /* ____Tests.m */; };
 		4257584A20A29F0900BA4F54 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257584920A29F0900BA4F54 /* ____UITests.m */; };
+		4268A95B23A364B400448758 /* ButtonTransferParameterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A95A23A364B400448758 /* ButtonTransferParameterVC.m */; };
+		4268A95E23A36BCC00448758 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A95D23A36BCC00448758 /* MyButton.m */; };
+		4268A96223A37D2A00448758 /* UIButton+PassValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A96123A37D2A00448758 /* UIButton+PassValue.m */; };
 		426D559F2285C7010060AEF4 /* PackageEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 426D559E2285C7010060AEF4 /* PackageEventTableViewCell.m */; };
 		426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C320CA77ED00B2B747 /* PassValueVC.m */; };
 		426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */; };
@@ -685,6 +688,12 @@
 		4257584520A29F0900BA4F54 /* 排序总结UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序总结UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257584920A29F0900BA4F54 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		4257584B20A29F0900BA4F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4268A95923A364B400448758 /* ButtonTransferParameterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonTransferParameterVC.h; sourceTree = "<group>"; };
+		4268A95A23A364B400448758 /* ButtonTransferParameterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonTransferParameterVC.m; sourceTree = "<group>"; };
+		4268A95C23A36BCC00448758 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		4268A95D23A36BCC00448758 /* MyButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
+		4268A96023A37D2A00448758 /* UIButton+PassValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+PassValue.h"; sourceTree = "<group>"; };
+		4268A96123A37D2A00448758 /* UIButton+PassValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PassValue.m"; sourceTree = "<group>"; };
 		426D559D2285C7010060AEF4 /* PackageEventTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackageEventTableViewCell.h; sourceTree = "<group>"; };
 		426D559E2285C7010060AEF4 /* PackageEventTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackageEventTableViewCell.m; sourceTree = "<group>"; };
 		426FB1C220CA77ED00B2B747 /* PassValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassValueVC.h; sourceTree = "<group>"; };
@@ -1952,6 +1961,7 @@
 				4257582920A29F0700BA4F54 /* ViewController.m */,
 				42C5B66F2142643E00563794 /* Resources */,
 				422355D2219514D800A7DF99 /* 1_方法调用相关 */,
+				4268A95823A3644900448758 /* 2_button传递参数 */,
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
 				42CB7E382138E355003397FB /* 5_定时器总结 */,
 				42C5B4DE2142593800563794 /* 7_设计模式 */,
@@ -2003,6 +2013,19 @@
 				4257584B20A29F0900BA4F54 /* Info.plist */,
 			);
 			path = "排序总结UITests";
+			sourceTree = "<group>";
+		};
+		4268A95823A3644900448758 /* 2_button传递参数 */ = {
+			isa = PBXGroup;
+			children = (
+				4268A95923A364B400448758 /* ButtonTransferParameterVC.h */,
+				4268A95A23A364B400448758 /* ButtonTransferParameterVC.m */,
+				4268A95C23A36BCC00448758 /* MyButton.h */,
+				4268A95D23A36BCC00448758 /* MyButton.m */,
+				4268A96023A37D2A00448758 /* UIButton+PassValue.h */,
+				4268A96123A37D2A00448758 /* UIButton+PassValue.m */,
+			);
+			path = "2_button传递参数";
 			sourceTree = "<group>";
 		};
 		426D559C2285C61B0060AEF4 /* 22_事件的封装 */ = {
@@ -3878,6 +3901,7 @@
 				42D1C70722782455001F170F /* CityNameModel.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
 				420189B521F9AA1200257DCF /* NSData+AES.m in Sources */,
+				4268A95E23A36BCC00448758 /* MyButton.m in Sources */,
 				42D1C6F72277FB36001F170F /* JSONModel+networking.m in Sources */,
 				42C5B65E21425EA500563794 /* LinkedList.m in Sources */,
 				424F053B227540D10039CD62 /* NSObject+Property.m in Sources */,
@@ -3971,7 +3995,9 @@
 				42C5B62A21425EA500563794 /* StudentModel.m in Sources */,
 				4257583520A29F0900BA4F54 /* main.m in Sources */,
 				42278974214614B1002B9C13 /* LXD_ObservedObject.m in Sources */,
+				4268A96223A37D2A00448758 /* UIButton+PassValue.m in Sources */,
 				42D1C76422782F4C001F170F /* MJBox.m in Sources */,
+				4268A95B23A364B400448758 /* ButtonTransferParameterVC.m in Sources */,
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
 				42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */,
