@@ -17,8 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.contentArray = @[@"webView相关",@"webView和js交互",@"WKWebview相关",@"第三方好用"];
-    self.vcNameArray = @[@"WebViewBaseVC",@"NativeAndWebVC",@"WKWebViewSummaryVC",@"NativeAndWebSummaryVC"];
+    self.contentArray = @[@"UIWebView基础介绍",@"WKWebview基础介绍",@"webView和js交互",@"第三方好用"];
+    self.vcNameArray = @[@"WebViewBaseVC",@"WKWebViewSummaryVC",@"NativeAndWebVC",@"NativeAndWebSummaryVC"];
     self.vcTitleArray = self.contentArray;
 }
 

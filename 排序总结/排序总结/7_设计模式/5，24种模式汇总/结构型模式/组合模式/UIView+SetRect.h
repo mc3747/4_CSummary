@@ -29,7 +29,7 @@
 
 // Center Point
 #if !IS_IOS_DEVICE
-@property (nonatomic) CGPoint center;
+@property (nonatomic) CGPoint newCenter;
 #endif
 @property (nonatomic) CGFloat centerX;
 @property (nonatomic) CGFloat centerY;

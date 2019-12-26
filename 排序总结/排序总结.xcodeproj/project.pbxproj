@@ -179,6 +179,10 @@
 		427F207D20C6915400F511B0 /* ParameterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207C20C6915400F511B0 /* ParameterManager.m */; };
 		427F208020C695C000F511B0 /* ParameterClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 427F207F20C695C000F511B0 /* ParameterClass.m */; };
 		4288EF2D2332218A00113EAE /* ElementMakerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4288EF2C2332218A00113EAE /* ElementMakerVC.m */; };
+		429674CE23B48FA600637C82 /* JSPost.html in Resources */ = {isa = PBXBuildFile; fileRef = 429674CD23B48FA600637C82 /* JSPost.html */; };
+		429674D423B4935300637C82 /* SimpleJsWithWK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429674D123B4935200637C82 /* SimpleJsWithWK.storyboard */; };
+		429674D523B4935300637C82 /* SimpleJsWithWK.html in Resources */ = {isa = PBXBuildFile; fileRef = 429674D223B4935200637C82 /* SimpleJsWithWK.html */; };
+		429674D623B4935300637C82 /* SimpleJsWithWKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 429674D323B4935300637C82 /* SimpleJsWithWKVC.m */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
 		42A4DC4323619FED003C345A /* PrintLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC4223619FED003C345A /* PrintLogVC.m */; };
 		42A4DC4E2361AD3E003C345A /* NSObject+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC452361AD3E003C345A /* NSObject+DebugDescription.m */; };
@@ -750,6 +754,11 @@
 		427F207F20C695C000F511B0 /* ParameterClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParameterClass.m; sourceTree = "<group>"; };
 		4288EF2B2332218A00113EAE /* ElementMakerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElementMakerVC.h; sourceTree = "<group>"; };
 		4288EF2C2332218A00113EAE /* ElementMakerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementMakerVC.m; sourceTree = "<group>"; };
+		429674CD23B48FA600637C82 /* JSPost.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = JSPost.html; sourceTree = "<group>"; };
+		429674D023B4935200637C82 /* SimpleJsWithWKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleJsWithWKVC.h; sourceTree = "<group>"; };
+		429674D123B4935200637C82 /* SimpleJsWithWK.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleJsWithWK.storyboard; sourceTree = "<group>"; };
+		429674D223B4935200637C82 /* SimpleJsWithWK.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SimpleJsWithWK.html; sourceTree = "<group>"; };
+		429674D323B4935300637C82 /* SimpleJsWithWKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleJsWithWKVC.m; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
 		42A4DC4123619FED003C345A /* PrintLogVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintLogVC.h; sourceTree = "<group>"; };
@@ -1277,8 +1286,8 @@
 				42A5335D22436DF000CC1B5E /* NativeAndWebTableVC.h */,
 				42A5335E22436DF000CC1B5E /* NativeAndWebTableVC.m */,
 				42A5336022436F6A00CC1B5E /* 1，webView基础介绍 */,
-				42A5336222436F7D00CC1B5E /* 2，webView和JS交互 */,
-				42A5336C2243729C00CC1B5E /* 3，WKWebView的使用及交互 */,
+				42A5336C2243729C00CC1B5E /* 2，WKWebView基础介绍 */,
+				42A5336222436F7D00CC1B5E /* 3，webView和JS交互 */,
 				42A5336122436F7B00CC1B5E /* 4，第三方好用 */,
 			);
 			path = "21_原生和js交互";
@@ -1963,6 +1972,7 @@
 				422355D2219514D800A7DF99 /* 1_方法调用相关 */,
 				4268A95823A3644900448758 /* 2_button传递参数 */,
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
+				42FB50C123A8B1C400C5E315 /* 4_封装 */,
 				42CB7E382138E355003397FB /* 5_定时器总结 */,
 				42C5B4DE2142593800563794 /* 7_设计模式 */,
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
@@ -2221,6 +2231,17 @@
 			path = "25_代理和block应用";
 			sourceTree = "<group>";
 		};
+		429674CF23B492E400637C82 /* SimpleJsWithWK */ = {
+			isa = PBXGroup;
+			children = (
+				429674D223B4935200637C82 /* SimpleJsWithWK.html */,
+				429674D123B4935200637C82 /* SimpleJsWithWK.storyboard */,
+				429674D023B4935200637C82 /* SimpleJsWithWKVC.h */,
+				429674D323B4935300637C82 /* SimpleJsWithWKVC.m */,
+			);
+			path = SimpleJsWithWK;
+			sourceTree = "<group>";
+		};
 		429D333720C77F48006EA211 /* 2_方法的多个参数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2281,11 +2302,11 @@
 		42A5336022436F6A00CC1B5E /* 1，webView基础介绍 */ = {
 			isa = PBXGroup;
 			children = (
+				42A5336322436FD000CC1B5E /* WebViewBaseVC.h */,
+				42A5336422436FD000CC1B5E /* WebViewBaseVC.m */,
 				423C38B8224471AD005319C1 /* webview发送post请求工具 */,
 				423C38B722447185005319C1 /* webview进度条工具 */,
 				423C38B622447176005319C1 /* html缓存工具 */,
-				42A5336322436FD000CC1B5E /* WebViewBaseVC.h */,
-				42A5336422436FD000CC1B5E /* WebViewBaseVC.m */,
 			);
 			path = "1，webView基础介绍";
 			sourceTree = "<group>";
@@ -2302,7 +2323,7 @@
 			path = "4，第三方好用";
 			sourceTree = "<group>";
 		};
-		42A5336222436F7D00CC1B5E /* 2，webView和JS交互 */ = {
+		42A5336222436F7D00CC1B5E /* 3，webView和JS交互 */ = {
 			isa = PBXGroup;
 			children = (
 				42A533662243700900CC1B5E /* NativeAndWebVC.h */,
@@ -2311,16 +2332,18 @@
 				423C38BC22447819005319C1 /* UIWebView 3种交互方式 */,
 				423C38BD2244787E005319C1 /* WKWebView 3种交互方式 */,
 			);
-			path = "2，webView和JS交互";
+			path = "3，webView和JS交互";
 			sourceTree = "<group>";
 		};
-		42A5336C2243729C00CC1B5E /* 3，WKWebView的使用及交互 */ = {
+		42A5336C2243729C00CC1B5E /* 2，WKWebView基础介绍 */ = {
 			isa = PBXGroup;
 			children = (
+				429674CF23B492E400637C82 /* SimpleJsWithWK */,
 				42A5336D224372DB00CC1B5E /* WKWebViewSummaryVC.h */,
 				42A5336E224372DB00CC1B5E /* WKWebViewSummaryVC.m */,
+				429674CD23B48FA600637C82 /* JSPost.html */,
 			);
-			path = "3，WKWebView的使用及交互";
+			path = "2，WKWebView基础介绍";
 			sourceTree = "<group>";
 		};
 		42A5337422437F7500CC1B5E /* Sources */ = {
@@ -2530,12 +2553,12 @@
 		42C5B51121425EA300563794 /* 组合模式 */ = {
 			isa = PBXGroup;
 			children = (
+				42C5B51721425EA300563794 /* UIView+SetRect.h */,
+				42C5B51421425EA300563794 /* UIView+SetRect.m */,
 				42C5B51221425EA300563794 /* FileViewController.m */,
 				42C5B51321425EA300563794 /* FileCell.m */,
-				42C5B51421425EA300563794 /* UIView+SetRect.m */,
 				42C5B51521425EA300563794 /* CompositePatternViewController.h */,
 				42C5B51621425EA300563794 /* File.h */,
-				42C5B51721425EA300563794 /* UIView+SetRect.h */,
 				42C5B51821425EA300563794 /* FileCell.h */,
 				42C5B51921425EA300563794 /* FileViewController.h */,
 				42C5B51A21425EA300563794 /* File.m */,
@@ -3403,6 +3426,13 @@
 			path = AmountString;
 			sourceTree = "<group>";
 		};
+		42FB50C123A8B1C400C5E315 /* 4_封装 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "4_封装";
+			sourceTree = "<group>";
+		};
 		42FFFF8221F6B5CB00C594AA /* 2，哈希算法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3599,6 +3629,7 @@
 				42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */,
 				420189B821F9AA1200257DCF /* private_key.p12 in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
+				429674CE23B48FA600637C82 /* JSPost.html in Resources */,
 				424F056822758E8A0039CD62 /* index2.html in Resources */,
 				42FFFF9121F6F06200C594AA /* HashEncryptVC.xib in Resources */,
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
@@ -3611,6 +3642,7 @@
 				423C391C22449322005319C1 /* SecondTestViewController.xib in Resources */,
 				423C38DD22447DDB005319C1 /* UIWebViewJSViewController.xib in Resources */,
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
+				429674D523B4935300637C82 /* SimpleJsWithWK.html in Resources */,
 				423C38DE22447DDB005319C1 /* light_advice.png in Resources */,
 				423C38F02244928B005319C1 /* WKWebViewJS_location.html in Resources */,
 				423C391822449322005319C1 /* HighchartsWebViewController.xib in Resources */,
@@ -3618,6 +3650,7 @@
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
 				42D1C71122782A94001F170F /* MJExtensionVC.xib in Resources */,
 				42E4218E228D68B100DBC2E4 /* DemoViewController.xib in Resources */,
+				429674D423B4935300637C82 /* SimpleJsWithWK.storyboard in Resources */,
 				423C38F42244928B005319C1 /* JSWKWebView.html in Resources */,
 				42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */,
 				424F0554227588380039CD62 /* index1.html in Resources */,
@@ -3860,6 +3893,7 @@
 				42747A1C2181A4C8004CFC10 /* HAMStatisticsManager.m in Sources */,
 				42C5B66621425EA500563794 /* ReduceExpression.m in Sources */,
 				42C5B63221425EA500563794 /* AbstractFactoryPatternViewController.m in Sources */,
+				429674D623B4935300637C82 /* SimpleJsWithWKVC.m in Sources */,
 				424F04C5227534E50039CD62 /* LNMessageViewController.m in Sources */,
 				42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */,
 				423C391B22449322005319C1 /* HighchartsWebViewController.m in Sources */,
