@@ -13,7 +13,14 @@
 #import "BAWebViewController.h"
 
 static NSString * const kCellID = @"ViewControllerCell";
-static NSString * const kURL1 = @"https://www.baidu.com";
+
+//static NSString * const kURL1 = @"https://www.baidu.com";
+
+static NSString * const kURL1 = @"https://app.gjfax.com/APP_SERVER/remote/trading/getLegalAgreement?gqdm=161248&applicationId=110929";
+
+//static NSString * const kURL1 = @"https://app.gjfax.com/APP_SERVER/remote/product/getProjectDetail?gqdm=161248";
+
+//static NSString * const kURL1 = @"https://app.gjfax.com/APP_SERVER/remote/product/getProductSpecification?gqdm=161248";
 
 @interface NativeAndWebSummaryVC ()<UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic, strong) UITableView *tableView;
@@ -68,9 +75,8 @@ static NSString * const kURL1 = @"https://www.baidu.com";
             BAWebViewController *webVC = [BAWebViewController new];
             webVC.ba_web_progressTintColor = [UIColor cyanColor];
             webVC.ba_web_progressTrackTintColor = [UIColor whiteColor];
-            
+//            [webVC ba_web_loadURLString:kURL1];
             [webVC ba_web_loadURLString:kURL1];
-            
             [self.navigationController pushViewController:webVC animated:YES];
         }
             break;

@@ -9,6 +9,7 @@
 #import "WKWebViewSummaryVC.h"
 #import <WebKit/WebKit.h>
 #import "SimpleJsWithWKVC.h"
+#import <AFNetworking.h>
 
 #define POST_JS @"function my_post(path, params) {\
 var method = \"POST\";\
@@ -41,16 +42,70 @@ form.submit();\
     [self setWKWebview];
     [self setBottomUI1];
     [self setGetRequest];
-    
+//    [self getDemo];
+    [self postDemo];
+}
+-(void)getDemo{
+    NSDictionary *dict = @{
+                              @"gqdm":@"161248",
+                              @"applicationId":@"110929"
+                              };
+        AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+       [manager GET:@"https://app.gjfax.com/APP_SERVER/remote/trading/getLegalAgreement?" parameters:dict progress:nil success:
+        ^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+               NSLog(@"请求成功---%@",responseObject);
+        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+            NSLog(@"请求失败,服务器返回的错误信息%@",error);
+        }];
+}
+
+-(void)postDemo{
+    //请求的参数
+       NSDictionary *parameters = @{
+           @"origin":@{
+                   @"apiVersion" : @"1.3",
+                         @"appVersion" : @"3.34.0",
+                         @"channel" : @950,
+                         @"phoneType" : @"iPhone 6s",
+                         @"platform" : @5,
+                         @"reqId" : @"600E2CE628F087DD1256B37B0839025C",
+                         @"sysVersion" : @"iOS_13.3",
+                         @"timestamp" : @"1578465610000",
+                   @"uuid" : @"B86D519D-83F7-4C86-906D-3F9D16FF9994"
+           },
+           @"param":@"",
+           @"security":@{
+                   @"secCode" : @0,
+                   @"secType" : @0
+           }
+                                    };
+       //请求的url
+       NSString *urlString = @"https://app.gjfax.com/APP_SERVER/remote/trading/getLegalAgreement?gqdm=161248&applicationId=110929";
+       //请求的managers
+       AFHTTPSessionManager *managers = [AFHTTPSessionManager manager];
+       managers.requestSerializer=[AFJSONRequestSerializer serializer];
+       managers.responseSerializer=[AFJSONResponseSerializer serializer];
+       managers.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",@"text/plain",@"application/json",@"text/javascript",@"application/pdf",@"application/octet-stream", nil];
+       [managers POST:urlString parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
+       } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+           NSLog(@"请求成功,服务器返回的信息%@",responseObject);
+       } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+           NSLog(@"请求失败,服务器返回的错误信息%@",error);
+       }];
 }
 
 // get请求
 -(void)setGetRequest{
     
-    NSString *urlStr = @"https://www.baidu.com";
+//    NSString *urlStr = @"https://www.baidu.com";
+    
+    NSString *urlStr = @"https://app.gjfax.com/APP_SERVER/remote/trading/getLegalAgreement?gqdm=161248&applicationId=110929";
     NSURL *url = [NSURL URLWithString:urlStr];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     [_webView loadRequest:request];
+    
+//     NSData *data = [NSData dataWithContentsOfURL:url];
+//    [_webView loadData:data MIMEType:@"application/pdf" characterEncodingName:@"UTF-8" baseURL:url];
 }
 
 // post请求
@@ -275,15 +330,28 @@ form.submit();\
 // 在发送请求之前，决定是否跳转
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler{
     // ⚠️必须实现decisionHandler的回调，否则就会报错
-    if (navigationAction.navigationType == WKNavigationTypeLinkActivated) {
-        decisionHandler(WKNavigationActionPolicyCancel);
-        NSLog(@"WKNavigationActionPolicyCancel");
+//    if (navigationAction.navigationType == WKNavigationTypeLinkActivated) {
+//        decisionHandler(WKNavigationActionPolicyCancel);
+//        NSLog(@"WKNavigationActionPolicyCancel");
+//
+//    } else {
+//        decisionHandler(WKNavigationActionPolicyAllow);
+//        NSLog(@"WKNavigationActionPolicyAllow");
+//    };
+//        NSLog(@"%s", __func__);
+    
+    NSString *_webUrlStr = navigationAction.request.URL.absoluteString;
+    NSString *lastName =[[_webUrlStr lastPathComponent] lowercaseString];
         
-    } else {
+        if ([lastName containsString:@".pdf"])
+        {
+            NSData *data = [NSData dataWithContentsOfURL:navigationAction.request.URL];
+            NSString *urlStr = @"https://app.gjfax.com/APP_SERVER/remote/trading/getLegalAgreement?gqdm=161248&applicationId=110929";
+             NSURL *url = [NSURL URLWithString:urlStr];
+            [self.webView loadData:data MIMEType:@"application/octet-stream" characterEncodingName:@"UTF-8" baseURL:url];
+        }
         decisionHandler(WKNavigationActionPolicyAllow);
-        NSLog(@"WKNavigationActionPolicyAllow");
-    };
-        NSLog(@"%s", __func__);
+
 }
 
 #pragma mark -  ✅2，WKUIDelegate协议的代理方法

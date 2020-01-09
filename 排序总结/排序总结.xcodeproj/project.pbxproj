@@ -15,6 +15,10 @@
 		420189B821F9AA1200257DCF /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 420189AF21F9AA1200257DCF /* private_key.p12 */; };
 		420189B921F9AA1200257DCF /* GBEncodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 420189B021F9AA1200257DCF /* GBEncodeTool.m */; };
 		420189BA21F9AA1200257DCF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 420189B221F9AA1200257DCF /* GTMBase64.m */; };
+		4212680823C71D3B009F7C43 /* BlockSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212680623C71D3B009F7C43 /* BlockSummaryVC.m */; };
+		4212680923C71D3B009F7C43 /* BlockSummaryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4212680723C71D3B009F7C43 /* BlockSummaryVC.xib */; };
+		4212680D23C71DE3009F7C43 /* KVCSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212680B23C71DE3009F7C43 /* KVCSummaryVC.m */; };
+		4212680E23C71DE3009F7C43 /* KVCSummaryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4212680C23C71DE3009F7C43 /* KVCSummaryVC.xib */; };
 		4212D9BD221662D5004A7BA8 /* UIWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9BC221662D5004A7BA8 /* UIWebViewVC.m */; };
 		4212D9C0221662E8004A7BA8 /* WKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212D9BF221662E8004A7BA8 /* WKWebViewVC.m */; };
 		421485F322730359009D0B0A /* NSObject+WHRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 421485EE22730358009D0B0A /* NSObject+WHRuntime.m */; };
@@ -65,15 +69,12 @@
 		423C38DE22447DDB005319C1 /* light_advice.png in Resources */ = {isa = PBXBuildFile; fileRef = 423C38D222447DDB005319C1 /* light_advice.png */; };
 		423C38DF22447DDB005319C1 /* JSUIWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38D322447DDB005319C1 /* JSUIWebView.html */; };
 		423C38E022447DDB005319C1 /* UIWebViewJS_file.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38D522447DDB005319C1 /* UIWebViewJS_file.html */; };
-		423C38F02244928B005319C1 /* WKWebViewJS_location.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38E32244928A005319C1 /* WKWebViewJS_location.html */; };
 		423C38F12244928B005319C1 /* WKWebViewJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38E42244928B005319C1 /* WKWebViewJS.html */; };
 		423C38F22244928B005319C1 /* WKWebViewJS_file.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38E72244928B005319C1 /* WKWebViewJS_file.html */; };
 		423C38F32244928B005319C1 /* JSWKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423C38E92244928B005319C1 /* JSWKWebViewViewController.m */; };
 		423C38F42244928B005319C1 /* JSWKWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38EA2244928B005319C1 /* JSWKWebView.html */; };
 		423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 423C38EB2244928B005319C1 /* JSWKWebViewViewController.xib */; };
-		423C38F62244928B005319C1 /* WKWebViewJS_location.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38EC2244928B005319C1 /* WKWebViewJS_location.html */; };
 		423C38F72244928B005319C1 /* WKWebViewJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423C38ED2244928B005319C1 /* WKWebViewJSViewController.m */; };
-		423C38F82244928B005319C1 /* WKWebViewJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C38EE2244928B005319C1 /* WKWebViewJS.html */; };
 		423C38F92244928B005319C1 /* WKWebViewJSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 423C38EF2244928B005319C1 /* WKWebViewJSViewController.xib */; };
 		423C391122449322005319C1 /* JSCallOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 423C38FF22449322005319C1 /* JSCallOCViewController.m */; };
 		423C391222449322005319C1 /* JSCallOC.html in Resources */ = {isa = PBXBuildFile; fileRef = 423C390022449322005319C1 /* JSCallOC.html */; };
@@ -424,6 +425,7 @@
 		42FFFFA021F6F11700C594AA /* Base64EncryptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFF9E21F6F11700C594AA /* Base64EncryptVC.xib */; };
 		42FFFFA421F6F4C700C594AA /* EncryptApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */; };
 		42FFFFA521F6F4C700C594AA /* EncryptApplicationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */; };
+		96F4EB17E12FF5CDC8E028F1 /* libPods-排序总结.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -444,6 +446,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		222DDE4481AE9AB6EB036D87 /* Pods-排序总结.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-排序总结.debug.xcconfig"; path = "Target Support Files/Pods-排序总结/Pods-排序总结.debug.xcconfig"; sourceTree = "<group>"; };
 		420189A621F9AA1200257DCF /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		420189A721F9AA1200257DCF /* private_key.pfx */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.pfx; sourceTree = "<group>"; };
 		420189A821F9AA1200257DCF /* RSACodeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACodeTool.h; sourceTree = "<group>"; };
@@ -457,6 +460,12 @@
 		420189B021F9AA1200257DCF /* GBEncodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBEncodeTool.m; sourceTree = "<group>"; };
 		420189B121F9AA1200257DCF /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		420189B221F9AA1200257DCF /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		4212680523C71D3B009F7C43 /* BlockSummaryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockSummaryVC.h; sourceTree = "<group>"; };
+		4212680623C71D3B009F7C43 /* BlockSummaryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockSummaryVC.m; sourceTree = "<group>"; };
+		4212680723C71D3B009F7C43 /* BlockSummaryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockSummaryVC.xib; sourceTree = "<group>"; };
+		4212680A23C71DE3009F7C43 /* KVCSummaryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCSummaryVC.h; sourceTree = "<group>"; };
+		4212680B23C71DE3009F7C43 /* KVCSummaryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCSummaryVC.m; sourceTree = "<group>"; };
+		4212680C23C71DE3009F7C43 /* KVCSummaryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KVCSummaryVC.xib; sourceTree = "<group>"; };
 		4212D9BB221662D5004A7BA8 /* UIWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewVC.h; sourceTree = "<group>"; };
 		4212D9BC221662D5004A7BA8 /* UIWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewVC.m; sourceTree = "<group>"; };
 		4212D9BE221662E8004A7BA8 /* WKWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewVC.h; sourceTree = "<group>"; };
@@ -547,7 +556,6 @@
 		423C38D322447DDB005319C1 /* JSUIWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSUIWebView.html; sourceTree = "<group>"; };
 		423C38D422447DDB005319C1 /* UIWebViewJSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewJSViewController.h; sourceTree = "<group>"; };
 		423C38D522447DDB005319C1 /* UIWebViewJS_file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UIWebViewJS_file.html; sourceTree = "<group>"; };
-		423C38E32244928A005319C1 /* WKWebViewJS_location.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = WKWebViewJS_location.html; path = ../WKWebViewJS_location.html; sourceTree = "<group>"; };
 		423C38E42244928B005319C1 /* WKWebViewJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = WKWebViewJS.html; path = ../WKWebViewJS.html; sourceTree = "<group>"; };
 		423C38E62244928B005319C1 /* JSWKWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWKWebViewViewController.h; sourceTree = "<group>"; };
 		423C38E72244928B005319C1 /* WKWebViewJS_file.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewJS_file.html; sourceTree = "<group>"; };
@@ -555,9 +563,7 @@
 		423C38E92244928B005319C1 /* JSWKWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSWKWebViewViewController.m; sourceTree = "<group>"; };
 		423C38EA2244928B005319C1 /* JSWKWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSWKWebView.html; sourceTree = "<group>"; };
 		423C38EB2244928B005319C1 /* JSWKWebViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSWKWebViewViewController.xib; sourceTree = "<group>"; };
-		423C38EC2244928B005319C1 /* WKWebViewJS_location.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewJS_location.html; sourceTree = "<group>"; };
 		423C38ED2244928B005319C1 /* WKWebViewJSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJSViewController.m; sourceTree = "<group>"; };
-		423C38EE2244928B005319C1 /* WKWebViewJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebViewJS.html; sourceTree = "<group>"; };
 		423C38EF2244928B005319C1 /* WKWebViewJSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKWebViewJSViewController.xib; sourceTree = "<group>"; };
 		423C38FE22449322005319C1 /* JSCallOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCallOCViewController.h; sourceTree = "<group>"; };
 		423C38FF22449322005319C1 /* JSCallOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCallOCViewController.m; sourceTree = "<group>"; };
@@ -1233,6 +1239,8 @@
 		42FFFFA121F6F4C700C594AA /* EncryptApplicationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptApplicationVC.h; sourceTree = "<group>"; };
 		42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptApplicationVC.m; sourceTree = "<group>"; };
 		42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EncryptApplicationVC.xib; sourceTree = "<group>"; };
+		9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-排序总结.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-排序总结.release.xcconfig"; path = "Target Support Files/Pods-排序总结/Pods-排序总结.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1240,6 +1248,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F4EB17E12FF5CDC8E028F1 /* libPods-排序总结.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1278,6 +1287,26 @@
 				420189B121F9AA1200257DCF /* GTMDefines.h */,
 			);
 			path = "0，加密工具";
+			sourceTree = "<group>";
+		};
+		4212680323C71C88009F7C43 /* 5，Block */ = {
+			isa = PBXGroup;
+			children = (
+				4212680523C71D3B009F7C43 /* BlockSummaryVC.h */,
+				4212680623C71D3B009F7C43 /* BlockSummaryVC.m */,
+				4212680723C71D3B009F7C43 /* BlockSummaryVC.xib */,
+			);
+			path = "5，Block";
+			sourceTree = "<group>";
+		};
+		4212680423C71C96009F7C43 /* 6，KVC */ = {
+			isa = PBXGroup;
+			children = (
+				4212680A23C71DE3009F7C43 /* KVCSummaryVC.h */,
+				4212680B23C71DE3009F7C43 /* KVCSummaryVC.m */,
+				4212680C23C71DE3009F7C43 /* KVCSummaryVC.xib */,
+			);
+			path = "6，KVC";
 			sourceTree = "<group>";
 		};
 		4212D9C122169538004A7BA8 /* 21_原生和js交互 */ = {
@@ -1612,12 +1641,9 @@
 		423C38FA224492A1005319C1 /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				423C38E32244928A005319C1 /* WKWebViewJS_location.html */,
 				423C38E42244928B005319C1 /* WKWebViewJS.html */,
 				423C38E72244928B005319C1 /* WKWebViewJS_file.html */,
 				423C38EA2244928B005319C1 /* JSWKWebView.html */,
-				423C38EC2244928B005319C1 /* WKWebViewJS_location.html */,
-				423C38EE2244928B005319C1 /* WKWebViewJS.html */,
 			);
 			path = sources;
 			sourceTree = "<group>";
@@ -1882,14 +1908,14 @@
 			isa = PBXGroup;
 			children = (
 				424F056A22759E140039CD62 /* WeakScriptMessageDelegate.h */,
+				424F057022759E140039CD62 /* WeakScriptMessageDelegate.m */,
 				424F056B22759E140039CD62 /* BAKit_ConfigurationDefine.h */,
 				424F056C22759E140039CD62 /* WKWebView+Post.h */,
+				424F057222759E140039CD62 /* WKWebView+Post.m */,
+				424F057122759E140039CD62 /* WKWebView+BAKit.h */,
 				424F056D22759E140039CD62 /* WKWebView+BAKit.m */,
 				424F056E22759E140039CD62 /* BAKit_WebView.h */,
 				424F056F22759E140039CD62 /* WKWebView+BAJavaScriptAlert.h */,
-				424F057022759E140039CD62 /* WeakScriptMessageDelegate.m */,
-				424F057122759E140039CD62 /* WKWebView+BAKit.h */,
-				424F057222759E140039CD62 /* WKWebView+Post.m */,
 				424F057322759E140039CD62 /* WKWebView+BAJavaScriptAlert.m */,
 				424F057422759E140039CD62 /* BAKit_WebView_Version.h */,
 			);
@@ -1918,10 +1944,10 @@
 		424F057A22759E140039CD62 /* BAWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				424F057B22759E140039CD62 /* BAKit_WebView.bundle */,
 				424F057C22759E140039CD62 /* BAWebViewController.h */,
-				424F057D22759E140039CD62 /* BAAlertController */,
 				424F058622759E150039CD62 /* BAWebViewController.m */,
+				424F057B22759E140039CD62 /* BAKit_WebView.bundle */,
+				424F057D22759E140039CD62 /* BAAlertController */,
 			);
 			path = BAWebViewController;
 			sourceTree = "<group>";
@@ -1948,6 +1974,8 @@
 				4257583D20A29F0900BA4F54 /* 排序总结Tests */,
 				4257584820A29F0900BA4F54 /* 排序总结UITests */,
 				4257582320A29F0700BA4F54 /* Products */,
+				5DBF32C8776305E579ACB9AE /* Pods */,
+				90852BA0AEA99CA9F6BF8825 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1974,7 +2002,7 @@
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
 				42FB50C123A8B1C400C5E315 /* 4_封装 */,
 				42CB7E382138E355003397FB /* 5_定时器总结 */,
-				42C5B4DE2142593800563794 /* 7_设计模式 */,
+				42C5B4DE2142593800563794 /* 7_常见设计模式 */,
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
 				427D28B1216C9843009DDEAC /* 9_代码架构 */,
 				427D28B2216C9863009DDEAC /* 10_封装，解耦，路由，组件化，MVVM，AOP */,
@@ -2382,16 +2410,18 @@
 			path = "20_内存泄露汇总";
 			sourceTree = "<group>";
 		};
-		42C5B4DE2142593800563794 /* 7_设计模式 */ = {
+		42C5B4DE2142593800563794 /* 7_常见设计模式 */ = {
 			isa = PBXGroup;
 			children = (
 				42C5B4DF21425A7300563794 /* 1，单例模式 */,
 				42C5B4E021425A7D00563794 /* 2，代理(委托)模式 */,
 				42C5B4E121425A9C00563794 /* 3，观察者(KVO)模式 */,
 				42C5B4E221425AC100563794 /* 4，通知模式 */,
-				42C5B4E321425E5C00563794 /* 5，24种模式汇总 */,
+				4212680323C71C88009F7C43 /* 5，Block */,
+				4212680423C71C96009F7C43 /* 6，KVC */,
+				42C5B4E321425E5C00563794 /* 7，24种模式汇总 */,
 			);
-			path = "7_设计模式";
+			path = "7_常见设计模式";
 			sourceTree = "<group>";
 		};
 		42C5B4DF21425A7300563794 /* 1，单例模式 */ = {
@@ -2440,7 +2470,7 @@
 			path = "4，通知模式";
 			sourceTree = "<group>";
 		};
-		42C5B4E321425E5C00563794 /* 5，24种模式汇总 */ = {
+		42C5B4E321425E5C00563794 /* 7，24种模式汇总 */ = {
 			isa = PBXGroup;
 			children = (
 				42C5B66C21425EE300563794 /* DesignModeSummaryVC.h */,
@@ -2449,7 +2479,7 @@
 				42C5B4E421425EA300563794 /* 结构型模式 */,
 				42C5B57721425EA500563794 /* 行为型模式 */,
 			);
-			path = "5，24种模式汇总";
+			path = "7，24种模式汇总";
 			sourceTree = "<group>";
 		};
 		42C5B4E421425EA300563794 /* 结构型模式 */ = {
@@ -3495,6 +3525,23 @@
 			path = "5，Base64";
 			sourceTree = "<group>";
 		};
+		5DBF32C8776305E579ACB9AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				222DDE4481AE9AB6EB036D87 /* Pods-排序总结.debug.xcconfig */,
+				C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90852BA0AEA99CA9F6BF8825 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3502,6 +3549,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4257584E20A29F0900BA4F54 /* Build configuration list for PBXNativeTarget "排序总结" */;
 			buildPhases = (
+				C2A95B377C799757FF346BEC /* [CP] Check Pods Manifest.lock */,
 				4257581E20A29F0700BA4F54 /* Sources */,
 				4257581F20A29F0700BA4F54 /* Frameworks */,
 				4257582020A29F0700BA4F54 /* Resources */,
@@ -3607,8 +3655,8 @@
 				423C38DF22447DDB005319C1 /* JSUIWebView.html in Resources */,
 				42FADC8F21F94349008C77F3 /* MemoryLeakVC.xib in Resources */,
 				424F04CA227534E50039CD62 /* RuntimeDictViewController.xib in Resources */,
+				4212680923C71D3B009F7C43 /* BlockSummaryVC.xib in Resources */,
 				42FFFF9B21F6F0F900C594AA /* DissymmetryEncryptVC.xib in Resources */,
-				423C38F82244928B005319C1 /* WKWebViewJS.html in Resources */,
 				423C38F22244928B005319C1 /* WKWebViewJS_file.html in Resources */,
 				424154CB21FAA37E00AC35A2 /* CodedFormatVC.xib in Resources */,
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
@@ -3644,7 +3692,6 @@
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
 				429674D523B4935300637C82 /* SimpleJsWithWK.html in Resources */,
 				423C38DE22447DDB005319C1 /* light_advice.png in Resources */,
-				423C38F02244928B005319C1 /* WKWebViewJS_location.html in Resources */,
 				423C391822449322005319C1 /* HighchartsWebViewController.xib in Resources */,
 				423C391522449322005319C1 /* OCCallJSViewController.xib in Resources */,
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
@@ -3655,7 +3702,6 @@
 				42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */,
 				424F0554227588380039CD62 /* index1.html in Resources */,
 				423C391222449322005319C1 /* JSCallOC.html in Resources */,
-				423C38F62244928B005319C1 /* WKWebViewJS_location.html in Resources */,
 				423C391A22449322005319C1 /* jquery-1.11.0.min.js in Resources */,
 				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
 				42D701072182A842008DFABB /* NSOperationVC.xib in Resources */,
@@ -3668,6 +3714,7 @@
 				42FFFF9621F6F09900C594AA /* SymmetryEncryptVC.xib in Resources */,
 				42D7010A2182A842008DFABB /* GCDViewController.xib in Resources */,
 				42FFFFA021F6F11700C594AA /* Base64EncryptVC.xib in Resources */,
+				4212680E23C71DE3009F7C43 /* KVCSummaryVC.xib in Resources */,
 				42FFFF8A21F6B78100C594AA /* EncryptBaseVC.xib in Resources */,
 				420189B621F9AA1200257DCF /* public_key.der in Resources */,
 				424F058F22759E150039CD62 /* BAKit_WebView.bundle in Resources */,
@@ -3689,6 +3736,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2A95B377C799757FF346BEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-排序总结-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4257581E20A29F0700BA4F54 /* Sources */ = {
@@ -3843,6 +3915,7 @@
 				424F053F227585750039CD62 /* WebViewUseJsBridgeVC.m in Sources */,
 				42D1C76022782F4C001F170F /* MJDog.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
+				4212680D23C71DE3009F7C43 /* KVCSummaryVC.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				424F056722758E8A0039CD62 /* WebViewUseJsBridge2VC.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
@@ -3933,6 +4006,7 @@
 				42D1C6F62277FB36001F170F /* JSONAPI.m in Sources */,
 				42D700F62182A6B6008DFABB /* MultiThreadingVC.m in Sources */,
 				42D1C70722782455001F170F /* CityNameModel.m in Sources */,
+				4212680823C71D3B009F7C43 /* BlockSummaryVC.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
 				420189B521F9AA1200257DCF /* NSData+AES.m in Sources */,
 				4268A95E23A36BCC00448758 /* MyButton.m in Sources */,
@@ -4203,6 +4277,7 @@
 		};
 		4257584F20A29F0900BA4F54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222DDE4481AE9AB6EB036D87 /* Pods-排序总结.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -4223,6 +4298,7 @@
 		};
 		4257585020A29F0900BA4F54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -15,7 +15,6 @@
 @property(nonatomic, strong) WKWebView *webView;
 @property(nonatomic, strong) WKWebViewConfiguration *webConfig;
 @property(nonatomic, strong) UIProgressView *progressView;
-
 @property(nonatomic, strong) NSURL *ba_web_currentUrl;
 
 @end
