@@ -28,6 +28,12 @@
 		42166F24227FC85C006724CD /* RunTimeBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F22227FC85C006724CD /* RunTimeBaseVC.m */; };
 		42166F25227FC85C006724CD /* RunTimeBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42166F23227FC85C006724CD /* RunTimeBaseVC.xib */; };
 		42166F28227FC948006724CD /* MCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F27227FC948006724CD /* MCPerson.m */; };
+		4218DF9823C8272500758F12 /* AssociatedMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DF9623C8272500758F12 /* AssociatedMethodVC.m */; };
+		4218DF9923C8272500758F12 /* AssociatedMethodVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4218DF9723C8272500758F12 /* AssociatedMethodVC.xib */; };
+		4218DFA323C84B2D00758F12 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DF9C23C84B2B00758F12 /* NSObject+AssociatedObject.m */; };
+		4218DFA423C84B2D00758F12 /* UIImagePickerController+RFBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DF9E23C84B2C00758F12 /* UIImagePickerController+RFBlocks.m */; };
+		4218DFA523C84B2D00758F12 /* UIButton+RFBlcoks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFA023C84B2C00758F12 /* UIButton+RFBlcoks.m */; };
+		4218DFA623C84B2D00758F12 /* UIViewController+RFPresentPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFA223C84B2D00758F12 /* UIViewController+RFPresentPopover.m */; };
 		422355D6219516D400A7DF99 /* BaseTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D5219516D400A7DF99 /* BaseTableViewVC.m */; };
 		422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D821951F3100A7DF99 /* MethodCallVC.m */; };
 		422355DC2195240D00A7DF99 /* VariableArgumentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355DB2195240D00A7DF99 /* VariableArgumentsVC.m */; };
@@ -483,6 +489,17 @@
 		42166F23227FC85C006724CD /* RunTimeBaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunTimeBaseVC.xib; sourceTree = "<group>"; };
 		42166F26227FC948006724CD /* MCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCPerson.h; sourceTree = "<group>"; };
 		42166F27227FC948006724CD /* MCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCPerson.m; sourceTree = "<group>"; };
+		4218DF9523C8272500758F12 /* AssociatedMethodVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssociatedMethodVC.h; sourceTree = "<group>"; };
+		4218DF9623C8272500758F12 /* AssociatedMethodVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssociatedMethodVC.m; sourceTree = "<group>"; };
+		4218DF9723C8272500758F12 /* AssociatedMethodVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssociatedMethodVC.xib; sourceTree = "<group>"; };
+		4218DF9B23C84B2B00758F12 /* UIImagePickerController+RFBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+RFBlocks.h"; sourceTree = "<group>"; };
+		4218DF9C23C84B2B00758F12 /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		4218DF9D23C84B2B00758F12 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		4218DF9E23C84B2C00758F12 /* UIImagePickerController+RFBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+RFBlocks.m"; sourceTree = "<group>"; };
+		4218DF9F23C84B2C00758F12 /* UIButton+RFBlcoks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RFBlcoks.h"; sourceTree = "<group>"; };
+		4218DFA023C84B2C00758F12 /* UIButton+RFBlcoks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RFBlcoks.m"; sourceTree = "<group>"; };
+		4218DFA123C84B2C00758F12 /* UIViewController+RFPresentPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RFPresentPopover.h"; sourceTree = "<group>"; };
+		4218DFA223C84B2D00758F12 /* UIViewController+RFPresentPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RFPresentPopover.m"; sourceTree = "<group>"; };
 		422355D4219516D400A7DF99 /* BaseTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewVC.h; sourceTree = "<group>"; };
 		422355D5219516D400A7DF99 /* BaseTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewVC.m; sourceTree = "<group>"; };
 		422355D721951F3100A7DF99 /* MethodCallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodCallVC.h; sourceTree = "<group>"; };
@@ -1320,6 +1337,32 @@
 				42A5336122436F7B00CC1B5E /* 4，第三方好用 */,
 			);
 			path = "21_原生和js交互";
+			sourceTree = "<group>";
+		};
+		4218DF9423C826B500758F12 /* 13，关联对象及应用 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DF9A23C84B1000758F12 /* demos */,
+				4218DF9523C8272500758F12 /* AssociatedMethodVC.h */,
+				4218DF9623C8272500758F12 /* AssociatedMethodVC.m */,
+				4218DF9723C8272500758F12 /* AssociatedMethodVC.xib */,
+			);
+			path = "13，关联对象及应用";
+			sourceTree = "<group>";
+		};
+		4218DF9A23C84B1000758F12 /* demos */ = {
+			isa = PBXGroup;
+			children = (
+				4218DF9D23C84B2B00758F12 /* NSObject+AssociatedObject.h */,
+				4218DF9C23C84B2B00758F12 /* NSObject+AssociatedObject.m */,
+				4218DF9F23C84B2C00758F12 /* UIButton+RFBlcoks.h */,
+				4218DFA023C84B2C00758F12 /* UIButton+RFBlcoks.m */,
+				4218DF9B23C84B2B00758F12 /* UIImagePickerController+RFBlocks.h */,
+				4218DF9E23C84B2C00758F12 /* UIImagePickerController+RFBlocks.m */,
+				4218DFA123C84B2C00758F12 /* UIViewController+RFPresentPopover.h */,
+				4218DFA223C84B2D00758F12 /* UIViewController+RFPresentPopover.m */,
+			);
+			path = demos;
 			sourceTree = "<group>";
 		};
 		421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */ = {
@@ -3085,6 +3128,7 @@
 				424F04BC227534E50039CD62 /* 10，Runtime字典转模型 */,
 				42D04E9A2176C6450075ECEF /* 11，获取属性，协议和方法 */,
 				424F050922753C2D0039CD62 /* 12，完好封装 */,
+				4218DF9423C826B500758F12 /* 13，关联对象及应用 */,
 			);
 			path = "11_RunTime汇总";
 			sourceTree = "<group>";
@@ -3678,6 +3722,7 @@
 				420189B821F9AA1200257DCF /* private_key.p12 in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
 				429674CE23B48FA600637C82 /* JSPost.html in Resources */,
+				4218DF9923C8272500758F12 /* AssociatedMethodVC.xib in Resources */,
 				424F056822758E8A0039CD62 /* index2.html in Resources */,
 				42FFFF9121F6F06200C594AA /* HashEncryptVC.xib in Resources */,
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
@@ -3773,6 +3818,7 @@
 				42C5B64021425EA500563794 /* Boss.m in Sources */,
 				42747A1021819DC4004CFC10 /* NSObject+MJClass.m in Sources */,
 				424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */,
+				4218DFA323C84B2D00758F12 /* NSObject+AssociatedObject.m in Sources */,
 				42C5B66921425EA500563794 /* SubscibeCenter.m in Sources */,
 				42C5B64F21425EA500563794 /* ChainOfResponsibilityPatternViewController.m in Sources */,
 				42747A0B21819DC4004CFC10 /* NSObject+MJKeyValue.m in Sources */,
@@ -3882,6 +3928,7 @@
 				423C391D22449322005319C1 /* SecondTestViewController.m in Sources */,
 				42CB7E542138E399003397FB /* NSTimer+TimerBlock.m in Sources */,
 				42FC73B9219A7D8F00B61FAE /* PhonoAlertTool.m in Sources */,
+				4218DF9823C8272500758F12 /* AssociatedMethodVC.m in Sources */,
 				42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */,
 				42C5B63621425EA500563794 /* StrategyPatternViewController.m in Sources */,
 				42A5337D2243847D00CC1B5E /* WYWebProgressLayer.m in Sources */,
@@ -3944,6 +3991,7 @@
 				42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */,
 				42C5B63C21425EA500563794 /* ConsumeBill.m in Sources */,
 				42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */,
+				4218DFA423C84B2D00758F12 /* UIImagePickerController+RFBlocks.m in Sources */,
 				42C5B61A21425EA500563794 /* AirConditioner.m in Sources */,
 				42CB7E532138E399003397FB /* PerformSelectorVC.m in Sources */,
 				4237B0CF2281826900E155C3 /* MCCat.m in Sources */,
@@ -3970,6 +4018,7 @@
 				424F04C5227534E50039CD62 /* LNMessageViewController.m in Sources */,
 				42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */,
 				423C391B22449322005319C1 /* HighchartsWebViewController.m in Sources */,
+				4218DFA623C84B2D00758F12 /* UIViewController+RFPresentPopover.m in Sources */,
 				42C5B65721425EA500563794 /* MementoCenter.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
@@ -4073,6 +4122,7 @@
 				42C5B63421425EA500563794 /* CircleHeaderFactory.m in Sources */,
 				42C5B60D21425EA500563794 /* File.m in Sources */,
 				427F207D20C6915400F511B0 /* ParameterManager.m in Sources */,
+				4218DFA523C84B2D00758F12 /* UIButton+RFBlcoks.m in Sources */,
 				42D1C76622782F4C001F170F /* MJStudent.m in Sources */,
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
