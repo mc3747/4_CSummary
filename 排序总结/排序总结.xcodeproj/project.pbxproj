@@ -34,6 +34,14 @@
 		4218DFA423C84B2D00758F12 /* UIImagePickerController+RFBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DF9E23C84B2C00758F12 /* UIImagePickerController+RFBlocks.m */; };
 		4218DFA523C84B2D00758F12 /* UIButton+RFBlcoks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFA023C84B2C00758F12 /* UIButton+RFBlcoks.m */; };
 		4218DFA623C84B2D00758F12 /* UIViewController+RFPresentPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFA223C84B2D00758F12 /* UIViewController+RFPresentPopover.m */; };
+		4218DFB423C8635700758F12 /* BlockDemo1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFB323C8635600758F12 /* BlockDemo1VC.m */; };
+		4218DFB723C8636300758F12 /* BlockDemo2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFB623C8636300758F12 /* BlockDemo2VC.m */; };
+		4218DFBA23C87A2900758F12 /* BlockDemo3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFB923C87A2900758F12 /* BlockDemo3VC.m */; };
+		4218DFBD23C87A3800758F12 /* BlockDemo4VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFBC23C87A3700758F12 /* BlockDemo4VC.m */; };
+		4218DFC023C87A4500758F12 /* BlockDemo5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFBF23C87A4500758F12 /* BlockDemo5VC.m */; };
+		4218DFC323C87A5200758F12 /* BlockDemo6VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFC223C87A5200758F12 /* BlockDemo6VC.m */; };
+		4218DFC623C87A6300758F12 /* BlockDemo7VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFC523C87A6300758F12 /* BlockDemo7VC.m */; };
+		4218DFC923C87A7200758F12 /* BlockDemo8VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4218DFC823C87A7200758F12 /* BlockDemo8VC.m */; };
 		422355D6219516D400A7DF99 /* BaseTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D5219516D400A7DF99 /* BaseTableViewVC.m */; };
 		422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355D821951F3100A7DF99 /* MethodCallVC.m */; };
 		422355DC2195240D00A7DF99 /* VariableArgumentsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 422355DB2195240D00A7DF99 /* VariableArgumentsVC.m */; };
@@ -500,6 +508,22 @@
 		4218DFA023C84B2C00758F12 /* UIButton+RFBlcoks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RFBlcoks.m"; sourceTree = "<group>"; };
 		4218DFA123C84B2C00758F12 /* UIViewController+RFPresentPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RFPresentPopover.h"; sourceTree = "<group>"; };
 		4218DFA223C84B2D00758F12 /* UIViewController+RFPresentPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RFPresentPopover.m"; sourceTree = "<group>"; };
+		4218DFB223C8635600758F12 /* BlockDemo1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo1VC.h; sourceTree = "<group>"; };
+		4218DFB323C8635600758F12 /* BlockDemo1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo1VC.m; sourceTree = "<group>"; };
+		4218DFB523C8636300758F12 /* BlockDemo2VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo2VC.h; sourceTree = "<group>"; };
+		4218DFB623C8636300758F12 /* BlockDemo2VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo2VC.m; sourceTree = "<group>"; };
+		4218DFB823C87A2900758F12 /* BlockDemo3VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo3VC.h; sourceTree = "<group>"; };
+		4218DFB923C87A2900758F12 /* BlockDemo3VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo3VC.m; sourceTree = "<group>"; };
+		4218DFBB23C87A3700758F12 /* BlockDemo4VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo4VC.h; sourceTree = "<group>"; };
+		4218DFBC23C87A3700758F12 /* BlockDemo4VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo4VC.m; sourceTree = "<group>"; };
+		4218DFBE23C87A4500758F12 /* BlockDemo5VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo5VC.h; sourceTree = "<group>"; };
+		4218DFBF23C87A4500758F12 /* BlockDemo5VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo5VC.m; sourceTree = "<group>"; };
+		4218DFC123C87A5200758F12 /* BlockDemo6VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo6VC.h; sourceTree = "<group>"; };
+		4218DFC223C87A5200758F12 /* BlockDemo6VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo6VC.m; sourceTree = "<group>"; };
+		4218DFC423C87A6300758F12 /* BlockDemo7VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo7VC.h; sourceTree = "<group>"; };
+		4218DFC523C87A6300758F12 /* BlockDemo7VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo7VC.m; sourceTree = "<group>"; };
+		4218DFC723C87A7200758F12 /* BlockDemo8VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDemo8VC.h; sourceTree = "<group>"; };
+		4218DFC823C87A7200758F12 /* BlockDemo8VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDemo8VC.m; sourceTree = "<group>"; };
 		422355D4219516D400A7DF99 /* BaseTableViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewVC.h; sourceTree = "<group>"; };
 		422355D5219516D400A7DF99 /* BaseTableViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewVC.m; sourceTree = "<group>"; };
 		422355D721951F3100A7DF99 /* MethodCallVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodCallVC.h; sourceTree = "<group>"; };
@@ -1309,6 +1333,14 @@
 		4212680323C71C88009F7C43 /* 5，Block */ = {
 			isa = PBXGroup;
 			children = (
+				4218DFAE23C862B400758F12 /* 8，block封装 */,
+				4218DFAD23C862AA00758F12 /* 7，block的内存管理 */,
+				4218DFAC23C8629F00758F12 /* 6，block的引用计数 */,
+				4218DFAB23C8623200758F12 /* 5，block作为参数 */,
+				4218DFAA23C8621400758F12 /* 4，block作为返回值 */,
+				4218DFA923C8620600758F12 /* 3，block传递参数 */,
+				4218DFA823C861C600758F12 /* 2，block回调 */,
+				4218DFA723C861B800758F12 /* 1，block定义 */,
 				4212680523C71D3B009F7C43 /* BlockSummaryVC.h */,
 				4212680623C71D3B009F7C43 /* BlockSummaryVC.m */,
 				4212680723C71D3B009F7C43 /* BlockSummaryVC.xib */,
@@ -1363,6 +1395,78 @@
 				4218DFA223C84B2D00758F12 /* UIViewController+RFPresentPopover.m */,
 			);
 			path = demos;
+			sourceTree = "<group>";
+		};
+		4218DFA723C861B800758F12 /* 1，block定义 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFB223C8635600758F12 /* BlockDemo1VC.h */,
+				4218DFB323C8635600758F12 /* BlockDemo1VC.m */,
+			);
+			path = "1，block定义";
+			sourceTree = "<group>";
+		};
+		4218DFA823C861C600758F12 /* 2，block回调 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFB523C8636300758F12 /* BlockDemo2VC.h */,
+				4218DFB623C8636300758F12 /* BlockDemo2VC.m */,
+			);
+			path = "2，block回调";
+			sourceTree = "<group>";
+		};
+		4218DFA923C8620600758F12 /* 3，block传递参数 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFB823C87A2900758F12 /* BlockDemo3VC.h */,
+				4218DFB923C87A2900758F12 /* BlockDemo3VC.m */,
+			);
+			path = "3，block传递参数";
+			sourceTree = "<group>";
+		};
+		4218DFAA23C8621400758F12 /* 4，block作为返回值 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFBB23C87A3700758F12 /* BlockDemo4VC.h */,
+				4218DFBC23C87A3700758F12 /* BlockDemo4VC.m */,
+			);
+			path = "4，block作为返回值";
+			sourceTree = "<group>";
+		};
+		4218DFAB23C8623200758F12 /* 5，block作为参数 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFBE23C87A4500758F12 /* BlockDemo5VC.h */,
+				4218DFBF23C87A4500758F12 /* BlockDemo5VC.m */,
+			);
+			path = "5，block作为参数";
+			sourceTree = "<group>";
+		};
+		4218DFAC23C8629F00758F12 /* 6，block的引用计数 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFC123C87A5200758F12 /* BlockDemo6VC.h */,
+				4218DFC223C87A5200758F12 /* BlockDemo6VC.m */,
+			);
+			path = "6，block的引用计数";
+			sourceTree = "<group>";
+		};
+		4218DFAD23C862AA00758F12 /* 7，block的内存管理 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFC423C87A6300758F12 /* BlockDemo7VC.h */,
+				4218DFC523C87A6300758F12 /* BlockDemo7VC.m */,
+			);
+			path = "7，block的内存管理";
+			sourceTree = "<group>";
+		};
+		4218DFAE23C862B400758F12 /* 8，block封装 */ = {
+			isa = PBXGroup;
+			children = (
+				4218DFC723C87A7200758F12 /* BlockDemo8VC.h */,
+				4218DFC823C87A7200758F12 /* BlockDemo8VC.m */,
+			);
+			path = "8，block封装";
 			sourceTree = "<group>";
 		};
 		421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */ = {
@@ -3825,6 +3929,7 @@
 				422355D6219516D400A7DF99 /* BaseTableViewVC.m in Sources */,
 				42747A1221819DC4004CFC10 /* MJPropertyKey.m in Sources */,
 				4227896421460950002B9C13 /* YBProxyManager.m in Sources */,
+				4218DFC623C87A6300758F12 /* BlockDemo7VC.m in Sources */,
 				42C5B66521425EA500563794 /* AdditionExpression.m in Sources */,
 				4288EF2D2332218A00113EAE /* ElementMakerVC.m in Sources */,
 				424F0538227540500039CD62 /* User.m in Sources */,
@@ -3880,12 +3985,14 @@
 				4227896B21460CAF002B9C13 /* myKVO.m in Sources */,
 				42A533682243700900CC1B5E /* NativeAndWebVC.m in Sources */,
 				42C5B65C21425EA500563794 /* LinkIterator.m in Sources */,
+				4218DFBD23C87A3800758F12 /* BlockDemo4VC.m in Sources */,
 				42C5B61821425EA500563794 /* TemperatureRemote.m in Sources */,
 				42B573FA213FDCFF0089CFDF /* RootViewController.m in Sources */,
 				42C5B60A21425EA500563794 /* FileViewController.m in Sources */,
 				42C5B61B21425EA500563794 /* HaierAirConditioner.m in Sources */,
 				424F059E22759E420039CD62 /* BAWKWebViewVC3.m in Sources */,
 				42C5B62321425EA500563794 /* BallpointPen.m in Sources */,
+				4218DFC023C87A4500758F12 /* BlockDemo5VC.m in Sources */,
 				42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */,
 				42C5B5FB21425EA500563794 /* DecoratorPatternViewController.m in Sources */,
 				42C5B61921425EA500563794 /* GeliAirConditioner.m in Sources */,
@@ -3967,6 +4074,8 @@
 				424F056722758E8A0039CD62 /* WebViewUseJsBridge2VC.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
 				42C5B61021425EA500563794 /* Person.m in Sources */,
+				4218DFB423C8635700758F12 /* BlockDemo1VC.m in Sources */,
+				4218DFB723C8636300758F12 /* BlockDemo2VC.m in Sources */,
 				42FFFF9521F6F09900C594AA /* SymmetryEncryptVC.m in Sources */,
 				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
@@ -4007,6 +4116,7 @@
 				422789442145FCEE002B9C13 /* TestVC2.m in Sources */,
 				42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */,
 				42C5B62021425EA500563794 /* FactoryPatternViewController.m in Sources */,
+				4218DFBA23C87A2900758F12 /* BlockDemo3VC.m in Sources */,
 				420189B421F9AA1200257DCF /* RSACodeTool.m in Sources */,
 				424F058A22759E150039CD62 /* WKWebView+BAJavaScriptAlert.m in Sources */,
 				42C5B66A21425EA500563794 /* ObserverPatternViewController.m in Sources */,
@@ -4094,6 +4204,7 @@
 				42D1C6F42277FB36001F170F /* JSONModelClassProperty.m in Sources */,
 				422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */,
 				42C5B61421425EA500563794 /* FacadePatternViewController.m in Sources */,
+				4218DFC923C87A7200758F12 /* BlockDemo8VC.m in Sources */,
 				42CB7E4F2138E399003397FB /* BlockTimerVC.m in Sources */,
 				42E8C8CF2147931300BA399D /* MMReTextField.m in Sources */,
 				42A5336F224372DB00CC1B5E /* WKWebViewSummaryVC.m in Sources */,
@@ -4112,6 +4223,7 @@
 				42A5338122438F4400CC1B5E /* CacheFileManagerTool.m in Sources */,
 				42D7011F2182A93A008DFABB /* EncryptVC.m in Sources */,
 				42C5B62421425EA500563794 /* Pen.m in Sources */,
+				4218DFC323C87A5200758F12 /* BlockDemo6VC.m in Sources */,
 				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,
 				42C5B61E21425EA500563794 /* FlowerFactory.m in Sources */,
 				42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */,
