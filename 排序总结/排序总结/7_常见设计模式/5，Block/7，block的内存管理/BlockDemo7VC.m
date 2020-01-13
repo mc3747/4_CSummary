@@ -7,6 +7,8 @@
 //
 
 #import "BlockDemo7VC.h"
+#import "Tool.h"
+#import <Foundation/Foundation.h>
 
 @interface BlockDemo7VC ()<UIPickerViewDelegate,UIPickerViewDataSource>
 @property(nonatomic,strong)UIPickerView *pickerView;
@@ -24,7 +26,7 @@
         [self.view addSubview:self.pickerView];
     
     //    默认选中数据
-            [self pickerView:self.pickerView didSelectRow:0 inComponent:1];
+            [self pickerView:self.pickerView didSelectRow:0 inComponent:0];
         
     //    每行的默认选中数据
         for (int i = 0; i < self.dataSouce.count; ++i) {
@@ -32,7 +34,114 @@
             [self pickerView:self.pickerView didSelectRow:1 inComponent:i];
         }
 }
+#pragma mark -  点击确认
+-(void)confirmAction:(id)sender{
+//    根据字符串，得到选择器，选择器得到imp指针，再执行函数
+    NSString *index = [self getNumberFromStr:self.titleButton.titleLabel.text];
+    NSString *methodName = [NSString stringWithFormat:@"testDemo%@",index];
+    SEL selector = NSSelectorFromString(methodName);
+    IMP imp = [self methodForSelector:selector];
+    void (*func)(id, SEL) = (void *)imp;
+    func(self, selector);
+}
 
+//字符串中获取数字
+- (NSString *)getNumberFromStr:(NSString *)str {
+    NSCharacterSet *nonDigitCharacterSet = [[NSCharacterSet decimalDigitCharacterSet] invertedSet];
+    return[[str componentsSeparatedByCharactersInSet:nonDigitCharacterSet] componentsJoinedByString:@""];
+}
+
+//1，无__block修饰变量
+-(void)testDemo1{
+    int val = 0;
+    void (^blk)(void) = ^{
+      printf("in block val = %d\n", val);
+    };
+    val = 1;
+    blk();
+}
+//2，__block修饰变量
+-(void)testDemo2{
+    __block int val = 0;
+      void (^blk)(void) = ^{
+          printf("in block val = %d\n", val);
+      };
+      val = 1;
+      blk();
+}
+//3，block内改变变量值
+-(void)testDemo3{
+    __block int val = 0;
+    void (^blk)(void) = ^{
+       printf("in block val = %d\n", val);
+       val = 2;
+    };
+    val = 1;
+    blk();
+    printf("after block val = %d\n", val);
+}
+//4，block读取变量指针
+-(void)testDemo4{
+//    const char text[] = "hello";
+    const char *text = "hello";
+    void (^blk)(void) = ^{
+              printf("%c \n", text[1]);
+        };
+          
+    blk();
+     // Blocks 中，截获自动变量的方法，没有实现对 C 语言数组的截获
+}
+//5，block读取变量指针
+-(void)testDemo5{
+    int val = 10;
+    const char *fmt = "val = %d\n";
+    void (^blk)(void) = ^{printf(fmt, val);};
+    
+    val = 2;
+    fmt = "These values were changed, val = %d\n";
+    
+    blk();
+}
+//6,block改变变量的值
+/*
+ // block 中不可以改变自动变量的值，
+ // 可以改变：
+ //      1. 静态变量
+ //      2. 静态全局变量
+ //      3. 全局变量
+ */
+int global_val = 1;
+static int static_global_val = 2;
+-(void)testDemo6{
+    static int static_val = 3;
+      void (^blk)(void) = ^ {
+          global_val = 1 * 2;
+          static_global_val = 2 * 2;
+          static_val = 3 * 2;
+      };
+    
+}
+-(void)testDemo7{
+    __block int val = 10;
+    void (^blk)(void) = ^{val = 1;};
+    blk();
+    const char *fmt = "val = %d\n";
+    printf(fmt, val);
+}
+-(void)testDemo8{
+    id arr = [[[Tool alloc] init] getBlockArray];
+    
+    typedef void (^blk_t)(void);
+    
+    blk_t blk = [arr objectAtIndex:0];
+    
+    blk();
+}
+-(void)testDemo9{
+  
+};
+
+#pragma mark -  获取标题
 - (void)getTitle:(id)sender {
     
     // 遍历集合中的所有组
@@ -80,7 +189,7 @@
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     NSString *selFood = self.dataSouce[component][row];
     NSLog(@"%@", selFood);
-    self.titleButton.titleLabel.text = selFood;
+    [self.titleButton setTitle:selFood forState:UIControlStateNormal];
 }
 
 #pragma mark - lazy loading
@@ -97,7 +206,7 @@
 
 - (NSArray *)dataSouce {
     if (!_dataSouce) {
-        _dataSouce = @[@[@"西瓜",@"西红柿",@"番茄"],@[@"",@"西红柿",@"番茄"],@[@"西瓜",@"西红柿",@"番茄"]];
+        _dataSouce = @[@[@"1,无__block修饰变量",@"2,__block修饰变量",@"3,block内改变变量值",@"4,4，block改变变量指针",@"5,西红柿",@"6,番茄",@"7,西瓜",@"8,西红柿"]];
       
     }
     return _dataSouce;
@@ -110,6 +219,7 @@
         _titleButton.frame = CGRectMake(0, 100, MAIN_SCREEN_WIDTH, 50);
         [_titleButton setTitle:@"点击选择" forState:UIControlStateNormal];
         [_titleButton addTarget:self action:@selector(getTitle:) forControlEvents:UIControlEventTouchUpInside];
+        [_titleButton setBackgroundColor:[UIColor greenYellow]];
     }
     
     return _titleButton;
@@ -121,6 +231,8 @@
         _confirmButton = [[UIButton alloc] init];
         _confirmButton.frame = CGRectMake(0, 150, MAIN_SCREEN_WIDTH, 50);
         [_confirmButton setTitle:@"点击确认" forState:UIControlStateNormal];
+        [_confirmButton setBackgroundColor:[UIColor peachRed]];
+        [_confirmButton addTarget:self action:@selector(confirmAction:) forControlEvents:UIControlEventTouchUpInside];
     }
     
     return _confirmButton;

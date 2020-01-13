@@ -41,6 +41,7 @@
 
 #pragma mark -  2， [obj performSelector......]
 - (void)testPerform {
+//⚠️总结：该方法写法简便，但会报警告“performSelector may cause a leak because its selector is unknown”，因为返回值不确定，该如何处理，建议使用指针
     
 /*优点：可以通过方法名字符串来执行方法 */
     
@@ -57,7 +58,7 @@
     
  
 /*缺点：不可以调用多个参数 ：最多两个参数*/
-    
+
     
 }
 #pragma mark -  3，函数指针的方法

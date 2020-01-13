@@ -168,6 +168,8 @@
 		4268A95E23A36BCC00448758 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A95D23A36BCC00448758 /* MyButton.m */; };
 		4268A96223A37D2A00448758 /* UIButton+PassValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A96123A37D2A00448758 /* UIButton+PassValue.m */; };
 		426D559F2285C7010060AEF4 /* PackageEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 426D559E2285C7010060AEF4 /* PackageEventTableViewCell.m */; };
+		426DDF6623CC51A3007230B8 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 426DDF6523CC51A3007230B8 /* Tool.m */; };
+		426DDF6923CC51C5007230B8 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 426DDF6823CC51C5007230B8 /* MyObject.m */; };
 		426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C320CA77ED00B2B747 /* PassValueVC.m */; };
 		426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB1C620CA7CFD00B2B747 /* ReceiveValueVC.m */; };
 		427479D121817382004CFC10 /* InitMethodVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 427479D021817382004CFC10 /* InitMethodVC.m */; };
@@ -747,6 +749,10 @@
 		4268A96123A37D2A00448758 /* UIButton+PassValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PassValue.m"; sourceTree = "<group>"; };
 		426D559D2285C7010060AEF4 /* PackageEventTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PackageEventTableViewCell.h; sourceTree = "<group>"; };
 		426D559E2285C7010060AEF4 /* PackageEventTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackageEventTableViewCell.m; sourceTree = "<group>"; };
+		426DDF6423CC51A3007230B8 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		426DDF6523CC51A3007230B8 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		426DDF6723CC51C5007230B8 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		426DDF6823CC51C5007230B8 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		426FB1C220CA77ED00B2B747 /* PassValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PassValueVC.h; sourceTree = "<group>"; };
 		426FB1C320CA77ED00B2B747 /* PassValueVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassValueVC.m; sourceTree = "<group>"; };
 		426FB1C520CA7CFD00B2B747 /* ReceiveValueVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiveValueVC.h; sourceTree = "<group>"; };
@@ -1454,6 +1460,10 @@
 		4218DFAD23C862AA00758F12 /* 7，block的内存管理 */ = {
 			isa = PBXGroup;
 			children = (
+				426DDF6723CC51C5007230B8 /* MyObject.h */,
+				426DDF6823CC51C5007230B8 /* MyObject.m */,
+				426DDF6423CC51A3007230B8 /* Tool.h */,
+				426DDF6523CC51A3007230B8 /* Tool.m */,
 				4218DFC423C87A6300758F12 /* BlockDemo7VC.h */,
 				4218DFC523C87A6300758F12 /* BlockDemo7VC.m */,
 			);
@@ -4224,6 +4234,7 @@
 				42D7011F2182A93A008DFABB /* EncryptVC.m in Sources */,
 				42C5B62421425EA500563794 /* Pen.m in Sources */,
 				4218DFC323C87A5200758F12 /* BlockDemo6VC.m in Sources */,
+				426DDF6923CC51C5007230B8 /* MyObject.m in Sources */,
 				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,
 				42C5B61E21425EA500563794 /* FlowerFactory.m in Sources */,
 				42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */,
@@ -4245,6 +4256,7 @@
 				42D1C75E22782F4C001F170F /* MJUser.m in Sources */,
 				427479D9218173DE004CFC10 /* Builder.m in Sources */,
 				42D1C6D42277F43F001F170F /* NSObject+WHC_Model.m in Sources */,
+				426DDF6623CC51A3007230B8 /* Tool.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
 				42FFFF9F21F6F11700C594AA /* Base64EncryptVC.m in Sources */,
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
