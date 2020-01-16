@@ -15,6 +15,8 @@
 		420189B821F9AA1200257DCF /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 420189AF21F9AA1200257DCF /* private_key.p12 */; };
 		420189B921F9AA1200257DCF /* GBEncodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 420189B021F9AA1200257DCF /* GBEncodeTool.m */; };
 		420189BA21F9AA1200257DCF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 420189B221F9AA1200257DCF /* GTMBase64.m */; };
+		4212088423D01700001D16B9 /* KVC_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212088323D01700001D16B9 /* KVC_Person.m */; };
+		4212088723D01717001D16B9 /* KVC_Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212088623D01716001D16B9 /* KVC_Book.m */; };
 		4212680823C71D3B009F7C43 /* BlockSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212680623C71D3B009F7C43 /* BlockSummaryVC.m */; };
 		4212680923C71D3B009F7C43 /* BlockSummaryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4212680723C71D3B009F7C43 /* BlockSummaryVC.xib */; };
 		4212680D23C71DE3009F7C43 /* KVCSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212680B23C71DE3009F7C43 /* KVCSummaryVC.m */; };
@@ -476,6 +478,10 @@
 		420189B021F9AA1200257DCF /* GBEncodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBEncodeTool.m; sourceTree = "<group>"; };
 		420189B121F9AA1200257DCF /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		420189B221F9AA1200257DCF /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		4212088223D01700001D16B9 /* KVC_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC_Person.h; sourceTree = "<group>"; };
+		4212088323D01700001D16B9 /* KVC_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_Person.m; sourceTree = "<group>"; };
+		4212088523D01716001D16B9 /* KVC_Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC_Book.h; sourceTree = "<group>"; };
+		4212088623D01716001D16B9 /* KVC_Book.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_Book.m; sourceTree = "<group>"; };
 		4212680523C71D3B009F7C43 /* BlockSummaryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockSummaryVC.h; sourceTree = "<group>"; };
 		4212680623C71D3B009F7C43 /* BlockSummaryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockSummaryVC.m; sourceTree = "<group>"; };
 		4212680723C71D3B009F7C43 /* BlockSummaryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlockSummaryVC.xib; sourceTree = "<group>"; };
@@ -1357,6 +1363,10 @@
 		4212680423C71C96009F7C43 /* 6，KVC */ = {
 			isa = PBXGroup;
 			children = (
+				4212088223D01700001D16B9 /* KVC_Person.h */,
+				4212088323D01700001D16B9 /* KVC_Person.m */,
+				4212088523D01716001D16B9 /* KVC_Book.h */,
+				4212088623D01716001D16B9 /* KVC_Book.m */,
 				4212680A23C71DE3009F7C43 /* KVCSummaryVC.h */,
 				4212680B23C71DE3009F7C43 /* KVCSummaryVC.m */,
 				4212680C23C71DE3009F7C43 /* KVCSummaryVC.xib */,
@@ -4089,6 +4099,7 @@
 				42FFFF9521F6F09900C594AA /* SymmetryEncryptVC.m in Sources */,
 				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
+				4212088723D01717001D16B9 /* KVC_Book.m in Sources */,
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
 				423C391622449322005319C1 /* OCCallJSViewController.m in Sources */,
@@ -4199,6 +4210,7 @@
 				42C5B65621425EA500563794 /* Apple.m in Sources */,
 				42A5336B2243711000CC1B5E /* NativeAndWebSummaryVC.m in Sources */,
 				423E2FBF21F98F1600832137 /* NSString+Hash.m in Sources */,
+				4212088423D01700001D16B9 /* KVC_Person.m in Sources */,
 				42C5B62621425EA500563794 /* SingletonPatternViewController.m in Sources */,
 				42C5B61721425EA500563794 /* DirectionRemote.m in Sources */,
 				42D1C6F52277FB36001F170F /* JSONHTTPClient.m in Sources */,
