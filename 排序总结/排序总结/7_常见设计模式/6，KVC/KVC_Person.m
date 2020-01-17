@@ -15,6 +15,8 @@
 -(NSString *)description
 {
     //重写description方法，拼一个字符串，按既定个数输出
-    return [NSString stringWithFormat:@"<%@:%p>,{height:%f,school:%@,name:%@,age:%d,weight:%f}",[self class],self,_height,self.school,self.name,self.age,self.weight];
+    return [NSString stringWithFormat:@"<%@:%p>,{heightInt:%d,school:%@,name:%@,age:%d,weight:%f}",[self class],self,_heightInt,self.school,self.name,self.age,self.weight];
 }
+
+
 @end

@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface KVC_Book : NSObject
+
 @property (nonatomic, copy) NSString *bookName;
+
 @end
 
 NS_ASSUME_NONNULL_END

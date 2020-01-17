@@ -14,14 +14,15 @@ NS_ASSUME_NONNULL_BEGIN
 @interface KVC_Person : NSObject
 {
     @private
-    float _height;
+    int _heightInt;
 }
-@property (nonatomic, strong,readonly, getter=is) NSString *school;
 
+@property (nonatomic, strong,readonly, getter=is) NSString *school;
 @property (nonatomic, copy) NSString    *name;
 @property (nonatomic, assign) int       age;
 @property (nonatomic, strong) KVC_Book      *book;
 @property (nonatomic, strong) NSArray<KVC_Book *> *books;
+
 @end
 
 NS_ASSUME_NONNULL_END
