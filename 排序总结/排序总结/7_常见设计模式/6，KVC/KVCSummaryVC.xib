@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KVCSummaryVC">
             <connections>
+                <outlet property="textField" destination="uGl-xr-g2D" id="T70-r0-LWY"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -55,22 +56,31 @@
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e78-Wg-Equ">
                     <rect key="frame" x="227" y="144" width="167" height="50"/>
                     <color key="backgroundColor" name="TestGreen"/>
-                    <state key="normal" title="Button6"/>
+                    <state key="normal" title="6_计算数字属性"/>
+                    <connections>
+                        <action selector="demo6:" destination="-1" eventType="touchUpInside" id="X11-xs-w14"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Et1-GQ-Kjk">
                     <rect key="frame" x="227" y="244" width="167" height="50"/>
                     <color key="backgroundColor" name="TestOrange"/>
-                    <state key="normal" title="Button7"/>
+                    <state key="normal" title="7_字典转模型"/>
+                    <connections>
+                        <action selector="demo7:" destination="-1" eventType="touchUpInside" id="d0P-W6-tg5"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhW-sr-O5S">
                     <rect key="frame" x="227" y="344" width="167" height="50"/>
                     <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" title="Button8"/>
+                    <state key="normal" title="8_修改属性"/>
+                    <connections>
+                        <action selector="demo8:" destination="-1" eventType="touchUpInside" id="PJ4-I5-9pa"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nov-CO-ZYU">
                     <rect key="frame" x="20" y="444" width="187" height="50"/>
                     <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" title="Button4"/>
+                    <state key="normal" title="4_打印私有属性"/>
                     <connections>
                         <action selector="demo4:" destination="-1" eventType="touchUpInside" id="2l4-pC-X5y"/>
                     </connections>
@@ -79,11 +89,14 @@
                     <rect key="frame" x="227" y="444" width="167" height="50"/>
                     <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Button9"/>
+                    <connections>
+                        <action selector="demo9:" destination="-1" eventType="touchUpInside" id="Zrl-cb-ZJk"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAy-gu-VcZ">
                     <rect key="frame" x="20" y="544" width="187" height="50"/>
                     <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <state key="normal" title="Button5"/>
+                    <state key="normal" title="5_打印私有方法"/>
                     <connections>
                         <action selector="demo5:" destination="-1" eventType="touchUpInside" id="aUy-Ll-F0q"/>
                     </connections>
@@ -92,7 +105,17 @@
                     <rect key="frame" x="227" y="544" width="167" height="50"/>
                     <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <state key="normal" title="Button10"/>
+                    <connections>
+                        <action selector="demo10:" destination="-1" eventType="touchUpInside" id="TZa-3h-iXl"/>
+                    </connections>
                 </button>
+                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uGl-xr-g2D">
+                    <rect key="frame" x="27" y="640" width="97" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>

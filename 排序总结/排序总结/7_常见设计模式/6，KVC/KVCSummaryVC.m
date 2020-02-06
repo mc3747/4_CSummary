@@ -9,6 +9,9 @@
 #import "KVCSummaryVC.h"
 #import "KVC_Book.h"
 #import "KVC_Person.h"
+#import <objc/runtime.h>
+#import "Product.h"
+#import "CategoryList.h"
 
 // =====================================================
 /*
@@ -35,7 +38,9 @@
  
  */
 // =====================================================
-@interface KVCSummaryVC ()
+@interface KVCSummaryVC ()<UIScrollViewDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic)  UIPageControl *pageControl;
 
 @end
 
@@ -43,6 +48,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createTextField];
+    [self createScrollView];
     
 }
 //1，基本属性:基本类型，对象类型，集合类型（NSArray，NSDictionary， NSSet）
@@ -80,14 +87,128 @@
     NSLog(@"%@",book);
 }
 
-//
+//4，打印私有属性
 - (IBAction)demo4:(id)sender {
+    unsigned int count = 0;
+       Ivar *var = class_copyIvarList([UIPanGestureRecognizer class], &count);
+       
+       for (int i = 0; i < count; i++) {
+           Ivar _var = *(var + i);
+           // 打印私有属性名称和属性类型
+           NSLog(@"%i:属性类型%s，属性名称%s",i,ivar_getTypeEncoding(_var),ivar_getName(_var));
+           
+       }
+}
+//5，打印私有方法
+- (IBAction)demo5:(id)sender {
+    unsigned int count = 0;
+     Method *method = class_copyMethodList([UIPanGestureRecognizer class], &count);
+     
+     for (int i = 0; i < count; i++) {
+         // 打印私有方法名称
+         SEL a = method_getName(*(method+i));
+         NSString *sn = NSStringFromSelector(a);
+         NSLog(@"%i:%@",i,sn);
+     }
+}
+//6，数字属性进行计算
+- (IBAction)demo6:(id)sender {
+    NSMutableArray *booksArray = [[NSMutableArray alloc] init];
+    for (int i = 0; i < 10; i++) {
+        KVC_Book *book = [[KVC_Book alloc] init];
+        [book setValue:@"活着" forKey:@"bookName"];
+        [book setValue:@(i) forKey:@"bookPage"];
+        [booksArray addObject:book];
+    }
+    
+    KVC_Person *person = [[KVC_Person alloc] init];
+    [person setValue:booksArray forKey:@"books"];
+    
+    // 计算（确保操作的属性为数字类型，否则运行时刻错误。)  五种集合运算符(个数，最大，最小，平均，求和)
+    NSLog(@"count of book price : %@",[person valueForKeyPath:@"books.@count.bookPage"]);
+    NSLog(@"min of book price : %@",[person valueForKeyPath:@"books.@min.bookPage"]);
+    NSLog(@"avg of book price : %@",[person valueForKeyPath:@"books.@max.bookPage"]);
+    NSLog(@"sum of book price : %@",[person valueForKeyPath:@"books.@sum.bookPage"]);
+    NSLog(@"avg of book price : %@",[person valueForKeyPath:@"books.@avg.bookPage"]);
     
 }
-//
-- (IBAction)demo5:(id)sender {
+//7，字典转模型
+- (IBAction)demo7:(id)sender {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"product" ofType:@"json"];
+      NSData *data = [NSData dataWithContentsOfFile:path];
+      NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+      NSLog(@"%@",dict);
+      NSDictionary *dataDict = dict[@"product"];
+      Product *p = [[Product alloc] initWithDictionary:dataDict];
+    
+      NSLog(@"%@ == %@",p.name,p.categoryList);
+      for (CategoryList *list in p.categoryList) {
+          NSLog(@"%@ == %@ == %@ == %.2f", list.name, list.image, list.productId, list.price);
+      }
+}
+//8，修改属性
+- (IBAction)demo8:(id)sender {
+    
+}
+- (IBAction)demo9:(id)sender {
+}
+- (IBAction)demo10:(id)sender {
 }
 
 
+- (void)createTextField
+{
+    // 在iOS6.0之前，可以通过KVC来设置_placeholderLabel的属性值
+//    [_textField setValue:[UIColor redColor]
+//              forKeyPath:@"_placeholderLabel.textColor"];
+//    [_textField setValue:[UIFont systemFontOfSize:14]
+//              forKeyPath:@"_placeholderLabel.font"];
+    
+    // iOS 6.0之后提供的attributedPlaceholder属性
+        NSString *holderText = @"输入密码";
+        NSMutableAttributedString *placeholder = [[NSMutableAttributedString alloc] initWithString:holderText];
+        [placeholder addAttribute:NSForegroundColorAttributeName
+                            value:[UIColor redColor]
+                            range:NSMakeRange(0, holderText.length)];
+    
+        [placeholder addAttribute:NSFontAttributeName
+                            value:[UIFont boldSystemFontOfSize:16]
+                            range:NSMakeRange(0, holderText.length)];
+        _textField.attributedPlaceholder = placeholder;
+    
+}
+
+- (void)createScrollView
+{
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 50, self.view.bounds.size.width, 100)];
+    scrollView.delegate = self;
+    scrollView.pagingEnabled = YES;
+    scrollView.showsHorizontalScrollIndicator = NO;
+    scrollView.contentSize = CGSizeMake(3*self.view.bounds.size.width, 200);
+    [self.view addSubview:scrollView];
+    
+    NSArray *colors = @[UIColor.blueColor, UIColor.blackColor,UIColor.brownColor];
+    for (int i = 0; i < colors.count; i++) {
+        UIView *view = [[UIView alloc]initWithFrame:CGRectMake(i*self.view.bounds.size.width, 0, self.view.bounds.size.width, 200)];
+        view.backgroundColor = colors[i];
+        [scrollView addSubview:view];
+    }
+    
+    _pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(self.view.bounds.size.width/2-50, 100, 100, 10)];
+    _pageControl.numberOfPages = colors.count;
+    _pageControl.currentPage = 0;
+    [self.view addSubview:_pageControl];
+    
+    [_pageControl setValue:[UIImage imageNamed:@"selected"]
+                forKey:@"_currentPageImage"];
+    [_pageControl setValue:[UIImage imageNamed:@"unselected"]
+                forKey:@"_pageImage"];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    int currentPage = scrollView.contentOffset.x / self.view.bounds.size.width;
+    _pageControl.currentPage = currentPage;
+}
 
 @end

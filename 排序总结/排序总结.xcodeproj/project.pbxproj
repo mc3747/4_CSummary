@@ -224,6 +224,16 @@
 		42B573F8213FDCFF0089CFDF /* PerformSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F4213FDCFF0089CFDF /* PerformSelectorViewController.m */; };
 		42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F5213FDCFF0089CFDF /* PerformSelectorThreadViewController.m */; };
 		42B573FA213FDCFF0089CFDF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573F6213FDCFF0089CFDF /* RootViewController.m */; };
+		42B8E18A23EBF8C800108E09 /* CategoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E18623EBF8C700108E09 /* CategoryList.m */; };
+		42B8E18B23EBF8C800108E09 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E18723EBF8C700108E09 /* product.json */; };
+		42B8E18C23EBF8C800108E09 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E18823EBF8C700108E09 /* Product.m */; };
+		42B8E19023EC0AC100108E09 /* KVOSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E18E23EC0AC100108E09 /* KVOSummaryVC.m */; };
+		42B8E19123EC0AC100108E09 /* KVOSummaryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E18F23EC0AC100108E09 /* KVOSummaryVC.xib */; };
+		42B8E19623EC10C300108E09 /* KVOEssenceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19523EC10C300108E09 /* KVOEssenceVC.m */; };
+		42B8E19923EC10EC00108E09 /* KVO_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19823EC10EC00108E09 /* KVO_Person.m */; };
+		42B8E19C23EC12E500108E09 /* KVOFreshDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19B23EC12E500108E09 /* KVOFreshDemoVC.m */; };
+		42B8E1A123EC138500108E09 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19D23EC138400108E09 /* RefreshView.m */; };
+		42B8E1A223EC138500108E09 /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19F23EC138400108E09 /* ActivityView.m */; };
 		42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5B4E621425EA300563794 /* GameLoL+Cheat.m */; };
 		42C5B5F921425EA500563794 /* GameLoL+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5B4E821425EA300563794 /* GameLoL+Coin.m */; };
 		42C5B5FA21425EA500563794 /* GameLoL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5B4EB21425EA300563794 /* GameLoL.m */; };
@@ -863,6 +873,24 @@
 		42B573F4213FDCFF0089CFDF /* PerformSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformSelectorViewController.m; sourceTree = "<group>"; };
 		42B573F5213FDCFF0089CFDF /* PerformSelectorThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformSelectorThreadViewController.m; sourceTree = "<group>"; };
 		42B573F6213FDCFF0089CFDF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		42B8E18523EBF8C700108E09 /* CategoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryList.h; sourceTree = "<group>"; };
+		42B8E18623EBF8C700108E09 /* CategoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryList.m; sourceTree = "<group>"; };
+		42B8E18723EBF8C700108E09 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		42B8E18823EBF8C700108E09 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		42B8E18923EBF8C800108E09 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		42B8E18D23EC0AC100108E09 /* KVOSummaryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOSummaryVC.h; sourceTree = "<group>"; };
+		42B8E18E23EC0AC100108E09 /* KVOSummaryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOSummaryVC.m; sourceTree = "<group>"; };
+		42B8E18F23EC0AC100108E09 /* KVOSummaryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KVOSummaryVC.xib; sourceTree = "<group>"; };
+		42B8E19423EC10C300108E09 /* KVOEssenceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOEssenceVC.h; sourceTree = "<group>"; };
+		42B8E19523EC10C300108E09 /* KVOEssenceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOEssenceVC.m; sourceTree = "<group>"; };
+		42B8E19723EC10EC00108E09 /* KVO_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVO_Person.h; sourceTree = "<group>"; };
+		42B8E19823EC10EC00108E09 /* KVO_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_Person.m; sourceTree = "<group>"; };
+		42B8E19A23EC12E500108E09 /* KVOFreshDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOFreshDemoVC.h; sourceTree = "<group>"; };
+		42B8E19B23EC12E500108E09 /* KVOFreshDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOFreshDemoVC.m; sourceTree = "<group>"; };
+		42B8E19D23EC138400108E09 /* RefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
+		42B8E19E23EC138400108E09 /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
+		42B8E19F23EC138400108E09 /* ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityView.m; sourceTree = "<group>"; };
+		42B8E1A023EC138500108E09 /* ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityView.h; sourceTree = "<group>"; };
 		42C5B4E621425EA300563794 /* GameLoL+Cheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameLoL+Cheat.m"; sourceTree = "<group>"; };
 		42C5B4E721425EA300563794 /* CheatGameDecotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatGameDecotor.h; sourceTree = "<group>"; };
 		42C5B4E821425EA300563794 /* GameLoL+Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameLoL+Coin.m"; sourceTree = "<group>"; };
@@ -1363,6 +1391,7 @@
 		4212680423C71C96009F7C43 /* 6，KVC */ = {
 			isa = PBXGroup;
 			children = (
+				42B8E18423EBF88100108E09 /* DicAndModelDemo */,
 				4212088223D01700001D16B9 /* KVC_Person.h */,
 				4212088323D01700001D16B9 /* KVC_Person.m */,
 				4212088523D01716001D16B9 /* KVC_Book.h */,
@@ -1567,7 +1596,7 @@
 			path = YBProxyManager;
 			sourceTree = "<group>";
 		};
-		4227896521460C5E002B9C13 /* 1,基本使用 */ = {
+		4227896521460C5E002B9C13 /* 1，KVO基本使用 */ = {
 			isa = PBXGroup;
 			children = (
 				4227896721460C9D002B9C13 /* BaseKVOViewController.h */,
@@ -1575,10 +1604,10 @@
 				4227896A21460CAF002B9C13 /* myKVO.h */,
 				4227896921460CAE002B9C13 /* myKVO.m */,
 			);
-			path = "1,基本使用";
+			path = "1，KVO基本使用";
 			sourceTree = "<group>";
 		};
-		4227896C21461303002B9C13 /* 2,Block封装KVO */ = {
+		4227896C21461303002B9C13 /* 4,Block封装KVO */ = {
 			isa = PBXGroup;
 			children = (
 				42278972214614B0002B9C13 /* LXD_ObservedObject.h */,
@@ -1588,14 +1617,14 @@
 				4227896D214614A2002B9C13 /* BlockKVOViewController.h */,
 				4227896E214614A2002B9C13 /* BlockKVOViewController.m */,
 			);
-			path = "2,Block封装KVO";
+			path = "4,Block封装KVO";
 			sourceTree = "<group>";
 		};
-		42278976214616A4002B9C13 /* 3,FaceBook开源的KVOController */ = {
+		42278976214616A4002B9C13 /* 5,FaceBook开源的KVOController */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "3,FaceBook开源的KVOController";
+			path = "5,FaceBook开源的KVOController";
 			sourceTree = "<group>";
 		};
 		4227897D214645F5002B9C13 /* 8_正则表达式 */ = {
@@ -2563,6 +2592,42 @@
 			path = "5_PerformSelctor的测试";
 			sourceTree = "<group>";
 		};
+		42B8E18423EBF88100108E09 /* DicAndModelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42B8E18723EBF8C700108E09 /* product.json */,
+				42B8E18523EBF8C700108E09 /* CategoryList.h */,
+				42B8E18623EBF8C700108E09 /* CategoryList.m */,
+				42B8E18923EBF8C800108E09 /* Product.h */,
+				42B8E18823EBF8C700108E09 /* Product.m */,
+			);
+			path = DicAndModelDemo;
+			sourceTree = "<group>";
+		};
+		42B8E19223EC104800108E09 /* 2，KVO本质 */ = {
+			isa = PBXGroup;
+			children = (
+				42B8E19423EC10C300108E09 /* KVOEssenceVC.h */,
+				42B8E19523EC10C300108E09 /* KVOEssenceVC.m */,
+				42B8E19723EC10EC00108E09 /* KVO_Person.h */,
+				42B8E19823EC10EC00108E09 /* KVO_Person.m */,
+			);
+			path = "2，KVO本质";
+			sourceTree = "<group>";
+		};
+		42B8E19323EC106A00108E09 /* 3，KVO使用案例 */ = {
+			isa = PBXGroup;
+			children = (
+				42B8E1A023EC138500108E09 /* ActivityView.h */,
+				42B8E19F23EC138400108E09 /* ActivityView.m */,
+				42B8E19E23EC138400108E09 /* RefreshView.h */,
+				42B8E19D23EC138400108E09 /* RefreshView.m */,
+				42B8E19A23EC12E500108E09 /* KVOFreshDemoVC.h */,
+				42B8E19B23EC12E500108E09 /* KVOFreshDemoVC.m */,
+			);
+			path = "3，KVO使用案例";
+			sourceTree = "<group>";
+		};
 		42BF36AA21F8751500760C41 /* 20_内存泄露汇总 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2619,9 +2684,14 @@
 		42C5B4E121425A9C00563794 /* 3，观察者(KVO)模式 */ = {
 			isa = PBXGroup;
 			children = (
-				4227896521460C5E002B9C13 /* 1,基本使用 */,
-				4227896C21461303002B9C13 /* 2,Block封装KVO */,
-				42278976214616A4002B9C13 /* 3,FaceBook开源的KVOController */,
+				4227896521460C5E002B9C13 /* 1，KVO基本使用 */,
+				42B8E19223EC104800108E09 /* 2，KVO本质 */,
+				42B8E19323EC106A00108E09 /* 3，KVO使用案例 */,
+				4227896C21461303002B9C13 /* 4,Block封装KVO */,
+				42278976214616A4002B9C13 /* 5,FaceBook开源的KVOController */,
+				42B8E18D23EC0AC100108E09 /* KVOSummaryVC.h */,
+				42B8E18E23EC0AC100108E09 /* KVOSummaryVC.m */,
+				42B8E18F23EC0AC100108E09 /* KVOSummaryVC.xib */,
 			);
 			path = "3，观察者(KVO)模式";
 			sourceTree = "<group>";
@@ -3843,6 +3913,8 @@
 				42D7014C21830724008DFABB /* SystemSound.plist in Resources */,
 				42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */,
 				42D701282182B109008DFABB /* MultiThreadApplicationVC.xib in Resources */,
+				42B8E18B23EBF8C800108E09 /* product.json in Resources */,
+				42B8E19123EC0AC100108E09 /* KVOSummaryVC.xib in Resources */,
 				420189B821F9AA1200257DCF /* private_key.p12 in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
 				429674CE23B48FA600637C82 /* JSPost.html in Resources */,
@@ -3944,6 +4016,7 @@
 				424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */,
 				4218DFA323C84B2D00758F12 /* NSObject+AssociatedObject.m in Sources */,
 				42C5B66921425EA500563794 /* SubscibeCenter.m in Sources */,
+				42B8E1A223EC138500108E09 /* ActivityView.m in Sources */,
 				42C5B64F21425EA500563794 /* ChainOfResponsibilityPatternViewController.m in Sources */,
 				42747A0B21819DC4004CFC10 /* NSObject+MJKeyValue.m in Sources */,
 				422355D6219516D400A7DF99 /* BaseTableViewVC.m in Sources */,
@@ -3967,6 +4040,7 @@
 				42C5B63921425EA500563794 /* OperationMultiply.m in Sources */,
 				420189BA21F9AA1200257DCF /* GTMBase64.m in Sources */,
 				42C5B6742142646A00563794 /* UIColor+Separate.m in Sources */,
+				42B8E18A23EBF8C800108E09 /* CategoryList.m in Sources */,
 				422789532146044C002B9C13 /* TimerDelegate.m in Sources */,
 				42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */,
 				4212D9C0221662E8004A7BA8 /* WKWebViewVC.m in Sources */,
@@ -3983,6 +4057,7 @@
 				42166F28227FC948006724CD /* MCPerson.m in Sources */,
 				42D1C6F02277FB36001F170F /* JSONValueTransformer.m in Sources */,
 				42C5B64121425EA500563794 /* Receiver.m in Sources */,
+				42B8E19023EC0AC100108E09 /* KVOSummaryVC.m in Sources */,
 				423C38D922447DDB005319C1 /* WebView+Alert.m in Sources */,
 				42D1C70622782455001F170F /* People.m in Sources */,
 				42C5B60121425EA500563794 /* ModelTwoAdapter.m in Sources */,
@@ -4029,6 +4104,7 @@
 				42C5B60521425EA500563794 /* AdapterUSD.m in Sources */,
 				42C5B66121425EA500563794 /* Basketball.m in Sources */,
 				42747A0A21819DC4004CFC10 /* MJPropertyType.m in Sources */,
+				42B8E19C23EC12E500108E09 /* KVOFreshDemoVC.m in Sources */,
 				4227897B21461827002B9C13 /* NotificationVC.m in Sources */,
 				42C5B63021425EA500563794 /* SquareHeaderFactory.m in Sources */,
 				42D1C70B22782887001F170F /* WHCModelVC.m in Sources */,
@@ -4058,6 +4134,7 @@
 				4218DF9823C8272500758F12 /* AssociatedMethodVC.m in Sources */,
 				42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */,
 				42C5B63621425EA500563794 /* StrategyPatternViewController.m in Sources */,
+				42B8E18C23EBF8C800108E09 /* Product.m in Sources */,
 				42A5337D2243847D00CC1B5E /* WYWebProgressLayer.m in Sources */,
 				423C38F72244928B005319C1 /* WKWebViewJSViewController.m in Sources */,
 				42C5B66821425EA500563794 /* InterpreterPatternViewController.m in Sources */,
@@ -4124,6 +4201,7 @@
 				4218DFA423C84B2D00758F12 /* UIImagePickerController+RFBlocks.m in Sources */,
 				42C5B61A21425EA500563794 /* AirConditioner.m in Sources */,
 				42CB7E532138E399003397FB /* PerformSelectorVC.m in Sources */,
+				42B8E19923EC10EC00108E09 /* KVO_Person.m in Sources */,
 				4237B0CF2281826900E155C3 /* MCCat.m in Sources */,
 				42C5B61621425EA500563794 /* Remote.m in Sources */,
 				42747A1F2181A4E1004CFC10 /* HAMLogOutputWindow.m in Sources */,
@@ -4188,6 +4266,7 @@
 				42D1C70722782455001F170F /* CityNameModel.m in Sources */,
 				4212680823C71D3B009F7C43 /* BlockSummaryVC.m in Sources */,
 				42C5B64A21425EA500563794 /* ConcreteMediator.m in Sources */,
+				42B8E19623EC10C300108E09 /* KVOEssenceVC.m in Sources */,
 				420189B521F9AA1200257DCF /* NSData+AES.m in Sources */,
 				4268A95E23A36BCC00448758 /* MyButton.m in Sources */,
 				42D1C6F72277FB36001F170F /* JSONModel+networking.m in Sources */,
@@ -4284,6 +4363,7 @@
 				42C5B66021425EA500563794 /* Game.m in Sources */,
 				42C5B63121425EA500563794 /* CircleView.m in Sources */,
 				42C5B66421425EA500563794 /* NumExpression.m in Sources */,
+				42B8E1A123EC138500108E09 /* RefreshView.m in Sources */,
 				42C5B65521425EA500563794 /* ChoosingState.m in Sources */,
 				42747A1521819DC4004CFC10 /* TestModel.m in Sources */,
 				42C5B62A21425EA500563794 /* StudentModel.m in Sources */,
