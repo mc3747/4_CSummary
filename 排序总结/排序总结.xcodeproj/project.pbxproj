@@ -446,6 +446,18 @@
 		42E8C8D42147933500BA399D /* NSString+NSStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8D22147933500BA399D /* NSString+NSStringUtils.m */; };
 		42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E8C8D62147951A00BA399D /* AmountInputVC.m */; };
 		42E8C8D92147951A00BA399D /* AmountInputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E8C8D72147951A00BA399D /* AmountInputVC.xib */; };
+		42EF23752415D2B000EB5F74 /* ObjectOrientedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF23732415D2B000EB5F74 /* ObjectOrientedViewController.m */; };
+		42EF23762415D2B000EB5F74 /* ObjectOrientedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42EF23742415D2B000EB5F74 /* ObjectOrientedViewController.xib */; };
+		42EF237C2415DF2A00EB5F74 /* ProtocolDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF237B2415DF2A00EB5F74 /* ProtocolDemoViewController.m */; };
+		42EF237F2415EC6200EB5F74 /* CommonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF237E2415EC6200EB5F74 /* CommonMethod.m */; };
+		42EF238324160D3D00EB5F74 /* MC_Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF238224160D3D00EB5F74 /* MC_Father.m */; };
+		42EF238624160D9900EB5F74 /* MC_Mother.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF238524160D9900EB5F74 /* MC_Mother.m */; };
+		42EF238924160F4F00EB5F74 /* MC_Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF238824160F4F00EB5F74 /* MC_Son.m */; };
+		42EF238C24161A7200EB5F74 /* MC_Daughter.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF238B24161A7200EB5F74 /* MC_Daughter.m */; };
+		42EF2390241622CC00EB5F74 /* PrecompliedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF238E241622CC00EB5F74 /* PrecompliedViewController.m */; };
+		42EF2391241622CC00EB5F74 /* PrecompliedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42EF238F241622CC00EB5F74 /* PrecompliedViewController.xib */; };
+		42EF239524162AA100EB5F74 /* MacroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF239424162AA100EB5F74 /* MacroViewController.m */; };
+		42EF23982416386100EB5F74 /* UIViewController+CommonSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EF23972416386100EB5F74 /* UIViewController+CommonSetting.m */; };
 		42FADC8E21F94349008C77F3 /* MemoryLeakVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FADC8C21F94349008C77F3 /* MemoryLeakVC.m */; };
 		42FADC8F21F94349008C77F3 /* MemoryLeakVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FADC8D21F94349008C77F3 /* MemoryLeakVC.xib */; };
 		42FC73B6219A7BDE00B61FAE /* CacalateStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FC73B5219A7BDE00B61FAE /* CacalateStorageVC.m */; };
@@ -1315,6 +1327,30 @@
 		42E8C8D52147951A00BA399D /* AmountInputVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmountInputVC.h; sourceTree = "<group>"; };
 		42E8C8D62147951A00BA399D /* AmountInputVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmountInputVC.m; sourceTree = "<group>"; };
 		42E8C8D72147951A00BA399D /* AmountInputVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AmountInputVC.xib; sourceTree = "<group>"; };
+		42EF23722415D2B000EB5F74 /* ObjectOrientedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectOrientedViewController.h; sourceTree = "<group>"; };
+		42EF23732415D2B000EB5F74 /* ObjectOrientedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectOrientedViewController.m; sourceTree = "<group>"; };
+		42EF23742415D2B000EB5F74 /* ObjectOrientedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ObjectOrientedViewController.xib; sourceTree = "<group>"; };
+		42EF23772415DCA000EB5F74 /* MCProtocol_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCProtocol_1.h; sourceTree = "<group>"; };
+		42EF23782415DEAA00EB5F74 /* MCProtocol_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCProtocol_2.h; sourceTree = "<group>"; };
+		42EF237A2415DF2A00EB5F74 /* ProtocolDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolDemoViewController.h; sourceTree = "<group>"; };
+		42EF237B2415DF2A00EB5F74 /* ProtocolDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolDemoViewController.m; sourceTree = "<group>"; };
+		42EF237D2415EC6200EB5F74 /* CommonMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMethod.h; sourceTree = "<group>"; };
+		42EF237E2415EC6200EB5F74 /* CommonMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMethod.m; sourceTree = "<group>"; };
+		42EF238124160D3D00EB5F74 /* MC_Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MC_Father.h; sourceTree = "<group>"; };
+		42EF238224160D3D00EB5F74 /* MC_Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MC_Father.m; sourceTree = "<group>"; };
+		42EF238424160D9900EB5F74 /* MC_Mother.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MC_Mother.h; sourceTree = "<group>"; };
+		42EF238524160D9900EB5F74 /* MC_Mother.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MC_Mother.m; sourceTree = "<group>"; };
+		42EF238724160F4F00EB5F74 /* MC_Son.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MC_Son.h; sourceTree = "<group>"; };
+		42EF238824160F4F00EB5F74 /* MC_Son.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MC_Son.m; sourceTree = "<group>"; };
+		42EF238A24161A7200EB5F74 /* MC_Daughter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MC_Daughter.h; sourceTree = "<group>"; };
+		42EF238B24161A7200EB5F74 /* MC_Daughter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MC_Daughter.m; sourceTree = "<group>"; };
+		42EF238D241622CC00EB5F74 /* PrecompliedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrecompliedViewController.h; sourceTree = "<group>"; };
+		42EF238E241622CC00EB5F74 /* PrecompliedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrecompliedViewController.m; sourceTree = "<group>"; };
+		42EF238F241622CC00EB5F74 /* PrecompliedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrecompliedViewController.xib; sourceTree = "<group>"; };
+		42EF239324162AA100EB5F74 /* MacroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroViewController.h; sourceTree = "<group>"; };
+		42EF239424162AA100EB5F74 /* MacroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroViewController.m; sourceTree = "<group>"; };
+		42EF23962416386100EB5F74 /* UIViewController+CommonSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CommonSetting.h"; sourceTree = "<group>"; };
+		42EF23972416386100EB5F74 /* UIViewController+CommonSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CommonSetting.m"; sourceTree = "<group>"; };
 		42FADC8B21F94349008C77F3 /* MemoryLeakVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryLeakVC.h; sourceTree = "<group>"; };
 		42FADC8C21F94349008C77F3 /* MemoryLeakVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryLeakVC.m; sourceTree = "<group>"; };
 		42FADC8D21F94349008C77F3 /* MemoryLeakVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoryLeakVC.xib; sourceTree = "<group>"; };
@@ -2216,8 +2252,9 @@
 				422355D2219514D800A7DF99 /* 1_方法调用相关 */,
 				4268A95823A3644900448758 /* 2_button传递参数 */,
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
-				42FB50C123A8B1C400C5E315 /* 4_封装 */,
+				42FB50C123A8B1C400C5E315 /* 4_预编译&枚举 */,
 				42CB7E382138E355003397FB /* 5_定时器总结 */,
+				42EF238024160C5200EB5F74 /* 6_空 */,
 				42C5B4DE2142593800563794 /* 7_常见设计模式 */,
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
 				427D28B1216C9843009DDEAC /* 9_代码架构 */,
@@ -2235,7 +2272,7 @@
 				4212D9C122169538004A7BA8 /* 21_原生和js交互 */,
 				426D559C2285C61B0060AEF4 /* 22_事件的封装 */,
 				4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */,
-				4288EF232331D2BC00113EAE /* 24_继承和多态应用 */,
+				4288EF232331D2BC00113EAE /* 24_协议&继承&多态&分类&扩展 */,
 				4288EF2E2332375100113EAE /* 25_展示不同类型文件 */,
 				421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */,
 				42A4DC4023619F9A003C345A /* 27_打印日志 */,
@@ -2461,11 +2498,15 @@
 			path = "23_控件的写法(懒加载等）";
 			sourceTree = "<group>";
 		};
-		4288EF232331D2BC00113EAE /* 24_继承和多态应用 */ = {
+		4288EF232331D2BC00113EAE /* 24_协议&继承&多态&分类&扩展 */ = {
 			isa = PBXGroup;
 			children = (
+				42EF23792415DEED00EB5F74 /* 1_协议 */,
+				42EF23722415D2B000EB5F74 /* ObjectOrientedViewController.h */,
+				42EF23732415D2B000EB5F74 /* ObjectOrientedViewController.m */,
+				42EF23742415D2B000EB5F74 /* ObjectOrientedViewController.xib */,
 			);
-			path = "24_继承和多态应用";
+			path = "24_协议&继承&多态&分类&扩展";
 			sourceTree = "<group>";
 		};
 		4288EF2E2332375100113EAE /* 25_展示不同类型文件 */ = {
@@ -3290,6 +3331,8 @@
 				42D7010D2182A8B7008DFABB /* SVProgressHUD */,
 				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
+				42EF237D2415EC6200EB5F74 /* CommonMethod.h */,
+				42EF237E2415EC6200EB5F74 /* CommonMethod.m */,
 				42A5337622437F8500CC1B5E /* UIView+Extension.h */,
 				42A5337522437F8500CC1B5E /* UIView+Extension.m */,
 				42A5337822437FF200CC1B5E /* CommonDefine.h */,
@@ -3299,6 +3342,8 @@
 				42C5B6732142646A00563794 /* UIColor+Wonderful.m */,
 				422355D4219516D400A7DF99 /* BaseTableViewVC.h */,
 				422355D5219516D400A7DF99 /* BaseTableViewVC.m */,
+				42EF23962416386100EB5F74 /* UIViewController+CommonSetting.h */,
+				42EF23972416386100EB5F74 /* UIViewController+CommonSetting.m */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -3741,11 +3786,50 @@
 			path = AmountString;
 			sourceTree = "<group>";
 		};
-		42FB50C123A8B1C400C5E315 /* 4_封装 */ = {
+		42EF23792415DEED00EB5F74 /* 1_协议 */ = {
+			isa = PBXGroup;
+			children = (
+				42EF23772415DCA000EB5F74 /* MCProtocol_1.h */,
+				42EF23782415DEAA00EB5F74 /* MCProtocol_2.h */,
+				42EF237A2415DF2A00EB5F74 /* ProtocolDemoViewController.h */,
+				42EF237B2415DF2A00EB5F74 /* ProtocolDemoViewController.m */,
+				42EF238124160D3D00EB5F74 /* MC_Father.h */,
+				42EF238224160D3D00EB5F74 /* MC_Father.m */,
+				42EF238424160D9900EB5F74 /* MC_Mother.h */,
+				42EF238524160D9900EB5F74 /* MC_Mother.m */,
+				42EF238724160F4F00EB5F74 /* MC_Son.h */,
+				42EF238824160F4F00EB5F74 /* MC_Son.m */,
+				42EF238A24161A7200EB5F74 /* MC_Daughter.h */,
+				42EF238B24161A7200EB5F74 /* MC_Daughter.m */,
+			);
+			path = "1_协议";
+			sourceTree = "<group>";
+		};
+		42EF238024160C5200EB5F74 /* 6_空 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "4_封装";
+			path = "6_空";
+			sourceTree = "<group>";
+		};
+		42EF2392241626D300EB5F74 /* 1_宏定义 */ = {
+			isa = PBXGroup;
+			children = (
+				42EF239324162AA100EB5F74 /* MacroViewController.h */,
+				42EF239424162AA100EB5F74 /* MacroViewController.m */,
+			);
+			path = "1_宏定义";
+			sourceTree = "<group>";
+		};
+		42FB50C123A8B1C400C5E315 /* 4_预编译&枚举 */ = {
+			isa = PBXGroup;
+			children = (
+				42EF2392241626D300EB5F74 /* 1_宏定义 */,
+				42EF238D241622CC00EB5F74 /* PrecompliedViewController.h */,
+				42EF238E241622CC00EB5F74 /* PrecompliedViewController.m */,
+				42EF238F241622CC00EB5F74 /* PrecompliedViewController.xib */,
+			);
+			path = "4_预编译&枚举";
 			sourceTree = "<group>";
 		};
 		42FFFF8221F6B5CB00C594AA /* 2，哈希算法 */ = {
@@ -3947,6 +4031,7 @@
 				424154CB21FAA37E00AC35A2 /* CodedFormatVC.xib in Resources */,
 				42C5B62F21425EA500563794 /* AbstractFactoryPatternImg.jpeg in Resources */,
 				42166F25227FC85C006724CD /* RunTimeBaseVC.xib in Resources */,
+				42EF23762415D2B000EB5F74 /* ObjectOrientedViewController.xib in Resources */,
 				423C38E022447DDB005319C1 /* UIWebViewJS_file.html in Resources */,
 				42FFFFA521F6F4C700C594AA /* EncryptApplicationVC.xib in Resources */,
 				423C391922449322005319C1 /* highcharts.js in Resources */,
@@ -3987,6 +4072,7 @@
 				423C391822449322005319C1 /* HighchartsWebViewController.xib in Resources */,
 				423C391522449322005319C1 /* OCCallJSViewController.xib in Resources */,
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
+				42EF2391241622CC00EB5F74 /* PrecompliedViewController.xib in Resources */,
 				42D1C71122782A94001F170F /* MJExtensionVC.xib in Resources */,
 				42E4218E228D68B100DBC2E4 /* DemoViewController.xib in Resources */,
 				429674D423B4935300637C82 /* SimpleJsWithWK.storyboard in Resources */,
@@ -4103,6 +4189,7 @@
 				42C5B66321425EA500563794 /* Calculator.m in Sources */,
 				42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */,
 				42C5B61121425EA500563794 /* DelegatePatternViewController.m in Sources */,
+				42EF2390241622CC00EB5F74 /* PrecompliedViewController.m in Sources */,
 				424F051922753C700039CD62 /* TestClass.m in Sources */,
 				42C5B5FE21425EA500563794 /* GameDecortor.m in Sources */,
 				426D559F2285C7010060AEF4 /* PackageEventTableViewCell.m in Sources */,
@@ -4118,6 +4205,7 @@
 				42C5B60121425EA500563794 /* ModelTwoAdapter.m in Sources */,
 				42C5B65321425EA500563794 /* Celling.m in Sources */,
 				424F059022759E150039CD62 /* NSObject+BARunTime.m in Sources */,
+				42EF239524162AA100EB5F74 /* MacroViewController.m in Sources */,
 				42FADC8E21F94349008C77F3 /* MemoryLeakVC.m in Sources */,
 				424F059122759E150039CD62 /* UIAlertController+BAKit.m in Sources */,
 				424F04C9227534E50039CD62 /* RuntimeDictViewController.m in Sources */,
@@ -4234,6 +4322,7 @@
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
 				4212088723D01717001D16B9 /* KVC_Book.m in Sources */,
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
+				42EF237C2415DF2A00EB5F74 /* ProtocolDemoViewController.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
 				423C391622449322005319C1 /* OCCallJSViewController.m in Sources */,
 				424F055E22758C160039CD62 /* WebViewJavascriptBridgeBase.m in Sources */,
@@ -4253,6 +4342,7 @@
 				42D701192182A8B7008DFABB /* SVProgressAnimatedView.m in Sources */,
 				42278983214651B8002B9C13 /* MatchingMethodVC.m in Sources */,
 				42C5B63C21425EA500563794 /* ConsumeBill.m in Sources */,
+				42EF238924160F4F00EB5F74 /* MC_Son.m in Sources */,
 				42CB7E522138E399003397FB /* CustomTimerVC.m in Sources */,
 				4218DFA423C84B2D00758F12 /* UIImagePickerController+RFBlocks.m in Sources */,
 				42C5B61A21425EA500563794 /* AirConditioner.m in Sources */,
@@ -4265,6 +4355,7 @@
 				42D1C76522782F4C001F170F /* MJStatus.m in Sources */,
 				42C5B65F21425EA500563794 /* TemplatePatternViewController.m in Sources */,
 				424F051D22753C700039CD62 /* RuntimeKit.m in Sources */,
+				42EF238624160D9900EB5F74 /* MC_Mother.m in Sources */,
 				422789452145FCEE002B9C13 /* SingltonVC.m in Sources */,
 				422789432145FCEE002B9C13 /* SingltonTest.m in Sources */,
 				42C5B63D21425EA500563794 /* AccountBook.m in Sources */,
@@ -4284,6 +4375,7 @@
 				42CB7E562138E399003397FB /* CADisplayLinkVC.m in Sources */,
 				423C391B22449322005319C1 /* HighchartsWebViewController.m in Sources */,
 				4218DFA623C84B2D00758F12 /* UIViewController+RFPresentPopover.m in Sources */,
+				42EF238324160D3D00EB5F74 /* MC_Father.m in Sources */,
 				42C5B65721425EA500563794 /* MementoCenter.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
@@ -4327,6 +4419,8 @@
 				4268A95E23A36BCC00448758 /* MyButton.m in Sources */,
 				42D1C6F72277FB36001F170F /* JSONModel+networking.m in Sources */,
 				42C5B65E21425EA500563794 /* LinkedList.m in Sources */,
+				42EF23752415D2B000EB5F74 /* ObjectOrientedViewController.m in Sources */,
+				42EF237F2415EC6200EB5F74 /* CommonMethod.m in Sources */,
 				424F053B227540D10039CD62 /* NSObject+Property.m in Sources */,
 				424F0533227540500039CD62 /* StatusItem3.m in Sources */,
 				424F059322759E150039CD62 /* BAWebViewController.m in Sources */,
@@ -4399,6 +4493,7 @@
 				424F0536227540500039CD62 /* StatusItem2.m in Sources */,
 				42D70147218306AD008DFABB /* AudioSystemVC.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
+				42EF238C24161A7200EB5F74 /* MC_Daughter.m in Sources */,
 				42D7013D218304F3008DFABB /* AudioSummaryVC.m in Sources */,
 				42D1C75E22782F4C001F170F /* MJUser.m in Sources */,
 				427479D9218173DE004CFC10 /* Builder.m in Sources */,
@@ -4406,6 +4501,7 @@
 				426DDF6623CC51A3007230B8 /* Tool.m in Sources */,
 				429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */,
 				42FFFF9F21F6F11700C594AA /* Base64EncryptVC.m in Sources */,
+				42EF23982416386100EB5F74 /* UIViewController+CommonSetting.m in Sources */,
 				42C5B60721425EA500563794 /* AdapterDemo1ViewController.m in Sources */,
 				424F04C2227534E50039CD62 /* UIImage+Image.m in Sources */,
 				42C5B6752142646A00563794 /* UIColor+Wonderful.m in Sources */,

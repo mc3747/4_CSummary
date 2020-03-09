@@ -15,6 +15,8 @@
 #import "HAMStatisticsManager.h"
 #import "UIView+Extension.h"
 #import "CommonDefine.h"
+#import "CommonMethod.h"
+#import "UIViewController+CommonSetting.h"
 
 //  随机色
 #define RandColor RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
@@ -42,5 +44,8 @@ test_expressions; { BOOL pass = (condition);  printf("%s [%s:%d] => %s\n",pass ?
 #define NEW_LINE printf("\n");
    //分割线
 #define SEP_LINE printf("==========================================================================================================\n");
+
+// sender参数的title
+#define Sender_title ((UIButton *)sender).titleLabel.text
 
 #endif /* PrefixHeader_pch */
