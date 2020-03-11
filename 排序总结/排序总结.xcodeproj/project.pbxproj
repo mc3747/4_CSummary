@@ -202,6 +202,14 @@
 		429674D423B4935300637C82 /* SimpleJsWithWK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 429674D123B4935200637C82 /* SimpleJsWithWK.storyboard */; };
 		429674D523B4935300637C82 /* SimpleJsWithWK.html in Resources */ = {isa = PBXBuildFile; fileRef = 429674D223B4935200637C82 /* SimpleJsWithWK.html */; };
 		429674D623B4935300637C82 /* SimpleJsWithWKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 429674D323B4935300637C82 /* SimpleJsWithWKVC.m */; };
+		42977A942418892000FFA893 /* MixedProgramVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42977A922418892000FFA893 /* MixedProgramVC.mm */; };
+		42977A952418892000FFA893 /* MixedProgramVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42977A932418892000FFA893 /* MixedProgramVC.xib */; };
+		42977AAC2418994400FFA893 /* CPPLogHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42977AAB2418994400FFA893 /* CPPLogHelper.mm */; };
+		42977AAD2418995800FFA893 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 42EF23992416953D00EB5F74 /* libc++.tbd */; };
+		42977AAE2418996400FFA893 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 42977AA624188FA100FFA893 /* libc++.1.tbd */; };
+		42977AC72418E6BC00FFA893 /* CPPPrinter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42977AC02418E6BC00FFA893 /* CPPPrinter.mm */; };
+		42977AC82418E6BC00FFA893 /* DMPrinterManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42977AC32418E6BC00FFA893 /* DMPrinterManager.mm */; };
+		42977AC92418E6BC00FFA893 /* cprinter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 42977AC62418E6BC00FFA893 /* cprinter.mm */; };
 		429D333B20C7939A006EA211 /* ReturnValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D333A20C7939A006EA211 /* ReturnValueManager.m */; };
 		42A4DC4323619FED003C345A /* PrintLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC4223619FED003C345A /* PrintLogVC.m */; };
 		42A4DC4E2361AD3E003C345A /* NSObject+DebugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A4DC452361AD3E003C345A /* NSObject+DebugDescription.m */; };
@@ -849,6 +857,18 @@
 		429674D123B4935200637C82 /* SimpleJsWithWK.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SimpleJsWithWK.storyboard; sourceTree = "<group>"; };
 		429674D223B4935200637C82 /* SimpleJsWithWK.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = SimpleJsWithWK.html; sourceTree = "<group>"; };
 		429674D323B4935300637C82 /* SimpleJsWithWKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleJsWithWKVC.m; sourceTree = "<group>"; };
+		42977A912418892000FFA893 /* MixedProgramVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixedProgramVC.h; sourceTree = "<group>"; };
+		42977A922418892000FFA893 /* MixedProgramVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MixedProgramVC.mm; sourceTree = "<group>"; };
+		42977A932418892000FFA893 /* MixedProgramVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MixedProgramVC.xib; sourceTree = "<group>"; };
+		42977AA624188FA100FFA893 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		42977AAA2418994400FFA893 /* CPPLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPLogHelper.h; sourceTree = "<group>"; };
+		42977AAB2418994400FFA893 /* CPPLogHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPLogHelper.mm; sourceTree = "<group>"; };
+		42977ABF2418E6BC00FFA893 /* CPPPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPPrinter.h; sourceTree = "<group>"; };
+		42977AC02418E6BC00FFA893 /* CPPPrinter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPPPrinter.mm; sourceTree = "<group>"; };
+		42977AC22418E6BC00FFA893 /* DMPrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMPrinterManager.h; sourceTree = "<group>"; };
+		42977AC32418E6BC00FFA893 /* DMPrinterManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DMPrinterManager.mm; sourceTree = "<group>"; };
+		42977AC52418E6BC00FFA893 /* cprinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cprinter.h; sourceTree = "<group>"; };
+		42977AC62418E6BC00FFA893 /* cprinter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cprinter.mm; sourceTree = "<group>"; };
 		429D333920C7939A006EA211 /* ReturnValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReturnValueManager.h; sourceTree = "<group>"; };
 		429D333A20C7939A006EA211 /* ReturnValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReturnValueManager.m; sourceTree = "<group>"; };
 		42A4DC4123619FED003C345A /* PrintLogVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintLogVC.h; sourceTree = "<group>"; };
@@ -1386,6 +1406,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42977AAE2418996400FFA893 /* libc++.1.tbd in Frameworks */,
+				42977AAD2418995800FFA893 /* libc++.tbd in Frameworks */,
 				96F4EB17E12FF5CDC8E028F1 /* libPods-排序总结.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2277,6 +2299,7 @@
 				4288EF2E2332375100113EAE /* 25_展示不同类型文件 */,
 				421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */,
 				42A4DC4023619F9A003C345A /* 27_打印日志 */,
+				42977A8D2418854C00FFA893 /* 28_OC和c,oc++混编 */,
 				42747A212181BEF7004CFC10 /* 性能优化 */,
 				42747A222181D3C9004CFC10 /* APP安全 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
@@ -2530,6 +2553,56 @@
 				429674D323B4935300637C82 /* SimpleJsWithWKVC.m */,
 			);
 			path = SimpleJsWithWK;
+			sourceTree = "<group>";
+		};
+		42977A8D2418854C00FFA893 /* 28_OC和c,oc++混编 */ = {
+			isa = PBXGroup;
+			children = (
+				42977AC42418E6BC00FFA893 /* C */,
+				42977ABE2418E6BB00FFA893 /* Cpp */,
+				42977AC12418E6BC00FFA893 /* OC */,
+				42977AA92418994400FFA893 /* LogHelper */,
+				42977A912418892000FFA893 /* MixedProgramVC.h */,
+				42977A922418892000FFA893 /* MixedProgramVC.mm */,
+				42977A932418892000FFA893 /* MixedProgramVC.xib */,
+			);
+			path = "28_OC和c,oc++混编";
+			sourceTree = "<group>";
+		};
+		42977AA92418994400FFA893 /* LogHelper */ = {
+			isa = PBXGroup;
+			children = (
+				42977AAA2418994400FFA893 /* CPPLogHelper.h */,
+				42977AAB2418994400FFA893 /* CPPLogHelper.mm */,
+			);
+			path = LogHelper;
+			sourceTree = "<group>";
+		};
+		42977ABE2418E6BB00FFA893 /* Cpp */ = {
+			isa = PBXGroup;
+			children = (
+				42977ABF2418E6BC00FFA893 /* CPPPrinter.h */,
+				42977AC02418E6BC00FFA893 /* CPPPrinter.mm */,
+			);
+			path = Cpp;
+			sourceTree = "<group>";
+		};
+		42977AC12418E6BC00FFA893 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				42977AC22418E6BC00FFA893 /* DMPrinterManager.h */,
+				42977AC32418E6BC00FFA893 /* DMPrinterManager.mm */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		42977AC42418E6BC00FFA893 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				42977AC52418E6BC00FFA893 /* cprinter.h */,
+				42977AC62418E6BC00FFA893 /* cprinter.mm */,
+			);
+			path = C;
 			sourceTree = "<group>";
 		};
 		429D333720C77F48006EA211 /* 2_方法的多个参数 */ = {
@@ -3907,6 +3980,7 @@
 		90852BA0AEA99CA9F6BF8825 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				42977AA624188FA100FFA893 /* libc++.1.tbd */,
 				42EF23992416953D00EB5F74 /* libc++.tbd */,
 				9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */,
 			);
@@ -4074,6 +4148,7 @@
 				423C391822449322005319C1 /* HighchartsWebViewController.xib in Resources */,
 				423C391522449322005319C1 /* OCCallJSViewController.xib in Resources */,
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
+				42977A952418892000FFA893 /* MixedProgramVC.xib in Resources */,
 				42EF2391241622CC00EB5F74 /* PrecompliedViewController.xib in Resources */,
 				42D1C71122782A94001F170F /* MJExtensionVC.xib in Resources */,
 				42E4218E228D68B100DBC2E4 /* DemoViewController.xib in Resources */,
@@ -4240,6 +4315,7 @@
 				42166F24227FC85C006724CD /* RunTimeBaseVC.m in Sources */,
 				42C5B63A21425EA500563794 /* Context.m in Sources */,
 				42747A0E21819DC4004CFC10 /* MJExtensionConst.m in Sources */,
+				42977AC92418E6BC00FFA893 /* cprinter.mm in Sources */,
 				42C5B62C21425EA500563794 /* Car.m in Sources */,
 				42C5B64D21425EA500563794 /* Handler.m in Sources */,
 				42747A0821819DC4004CFC10 /* NSObject+YYModel.m in Sources */,
@@ -4332,6 +4408,7 @@
 				424F059222759E150039CD62 /* NSMutableAttributedString+BAKit.m in Sources */,
 				42E8C8BE214758BB00BA399D /* ThirdViewController.m in Sources */,
 				42C5B64821425EA500563794 /* Colleague.m in Sources */,
+				42977AC82418E6BC00FFA893 /* DMPrinterManager.mm in Sources */,
 				42C5B63E21425EA500563794 /* CAP.m in Sources */,
 				42C5B65021425EA500563794 /* ChairmanHandler.m in Sources */,
 				424154CA21FAA37E00AC35A2 /* CodedFormatVC.m in Sources */,
@@ -4370,6 +4447,7 @@
 				42C5B66A21425EA500563794 /* ObserverPatternViewController.m in Sources */,
 				424F0534227540500039CD62 /* StatusItem.m in Sources */,
 				42747A1C2181A4C8004CFC10 /* HAMStatisticsManager.m in Sources */,
+				42977AC72418E6BC00FFA893 /* CPPPrinter.mm in Sources */,
 				42C5B66621425EA500563794 /* ReduceExpression.m in Sources */,
 				42C5B63221425EA500563794 /* AbstractFactoryPatternViewController.m in Sources */,
 				429674D623B4935300637C82 /* SimpleJsWithWKVC.m in Sources */,
@@ -4486,9 +4564,11 @@
 				42C5B5FD21425EA500563794 /* CoinGameDecorator.m in Sources */,
 				42C5B65421425EA500563794 /* StatePatternViewController.m in Sources */,
 				42C5B63421425EA500563794 /* CircleHeaderFactory.m in Sources */,
+				42977A942418892000FFA893 /* MixedProgramVC.mm in Sources */,
 				42C5B60D21425EA500563794 /* File.m in Sources */,
 				427F207D20C6915400F511B0 /* ParameterManager.m in Sources */,
 				4218DFA523C84B2D00758F12 /* UIButton+RFBlcoks.m in Sources */,
+				42977AAC2418994400FFA893 /* CPPLogHelper.mm in Sources */,
 				42D1C76622782F4C001F170F /* MJStudent.m in Sources */,
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
@@ -4710,6 +4790,19 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "www.gjfax.com.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -4730,6 +4823,19 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "www.gjfax.com.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
