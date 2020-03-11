@@ -22,7 +22,7 @@
     可变参数宏
     iOS内置宏
  2,条件编译:#if、#elif、#else、#ifdef、#ifndef、#endif
- 3,文件包含:#include
+ 3,文件包含:#include,@class,#import
  4,其他预编译指令
     #error
         当程序检查到这里时会停止编译，这个命令的作用是在错误的地方禁止编译。

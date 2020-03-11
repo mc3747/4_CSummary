@@ -48,4 +48,7 @@ test_expressions; { BOOL pass = (condition);  printf("%s [%s:%d] => %s\n",pass ?
 // sender参数的title
 #define Sender_title ((UIButton *)sender).titleLabel.text
 
+//所有打印
+#define DLog(fmt, ...) printf("%s [Line %d] %s  \n",__PRETTY_FUNCTION__, __LINE__,[[NSString stringWithFormat:(fmt), ##__VA_ARGS__] UTF8String])
+
 #endif /* PrefixHeader_pch */
