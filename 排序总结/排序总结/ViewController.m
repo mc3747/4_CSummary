@@ -30,7 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"重要知识点汇总";
+    self.title = @"重要知识";
     [self initArrays];
     [self initTableView];
     [self.logDisplayButton addTarget:self action:@selector(logDisplay) forControlEvents:UIControlEventTouchUpInside];
@@ -60,13 +60,13 @@
     @"31, 预编译&枚举总结",@"32, oc,c和c++混编"];
     
     self.cellControllerNameArray = @[@"MethodCallVC",@"ButtonTransferParameterVC",@"PassValueVC",
- @"TimerViewController",@"DesignModeSummaryVC",@"BlockSummaryVC",@"KVCSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"KVOSummaryVC",@"DifferentTypeFilesVC",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"MultiThreadingVC",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"ElementMakerVC",@"PrintLogVC",@"ObjectOrientedViewController",@"PrecompliedViewController",@"MixedProgramVC"];
+ @"TimerViewController",@"DesignModeSummaryVC",@"BlockSummaryVC",@"KVCSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"KVOSummaryVC",@"DifferentTypeFilesVC",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"MultiThreadingVC",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"ElementMakerVC",@"PrintLogVC",@"ObjectOrientedViewController09                                                         ",@"PrecompliedViewController",@"MixedProgramVC"];
 }
 
 #pragma mark -  初始化tableview
 
 - (void)initTableView {
-    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 150) style:UITableViewStylePlain];
+    UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 150 - 49) style:UITableViewStylePlain];
     tableView.backgroundColor = [UIColor whiteColor];
     tableView.delegate = self;
     tableView.dataSource = self;
@@ -110,7 +110,7 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 60;
+    return 40;
 }
 
 

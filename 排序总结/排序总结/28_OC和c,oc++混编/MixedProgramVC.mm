@@ -34,15 +34,16 @@
 
 //c++
 - (IBAction)demo3:(id)sender {
-    // Function in cpp code.
-    CPPPrinter::sayHello();
+    // 1:函数Function in cpp code.
+//    CPPPrinter::sayHello();
+    CPPPrinter::printType(@"33");
 
-    // Instance method in cpp code.
-    self.cppPrinter = new CPPPrinter::CPPPrinter();
-    self.cppPrinter->sayHello();
-
-    // Function in library.
-    CPPLogHelper::log();
+//    // 2:实例方法:Instance method in cpp code.
+//    self.cppPrinter = new CPPPrinter::CPPPrinter();
+//    self.cppPrinter->sayHello();
+//
+//    // 3:库函数:Function in library.
+//    CPPLogHelper::log();
 }
 
 

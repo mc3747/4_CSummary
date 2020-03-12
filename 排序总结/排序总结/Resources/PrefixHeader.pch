@@ -51,4 +51,13 @@ test_expressions; { BOOL pass = (condition);  printf("%s [%s:%d] => %s\n",pass ?
 //所有打印
 #define DLog(fmt, ...) printf("%s [Line %d] %s  \n",__PRETTY_FUNCTION__, __LINE__,[[NSString stringWithFormat:(fmt), ##__VA_ARGS__] UTF8String])
 
+#define Top_SafeArea_HEIGHT (IS_IPHONEX_Serial ? 24.f : 0.f)
+
+//格式化字符串
+#define FMT_STR(format, ...) [NSString stringWithFormat:format, ##__VA_ARGS__]
+
+/**全屏宽高******************************/
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
 #endif /* PrefixHeader_pch */

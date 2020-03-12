@@ -434,6 +434,8 @@
 		42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014821830723008DFABB /* SystemSoundModel.m */; };
 		42D7014C21830724008DFABB /* SystemSound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D7014A21830724008DFABB /* SystemSound.plist */; };
 		42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014E218307D9008DFABB /* AudioPlayVC.m */; };
+		42DBDE8C2419C6EA0008A71F /* WXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */; };
+		42DBDE902419C97C0008A71F /* Common_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8F2419C97C0008A71F /* Common_ViewController.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E4218D228D68B100DBC2E4 /* GCDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E42189228D68B000DBC2E4 /* GCDTableViewController.m */; };
 		42E4218E228D68B100DBC2E4 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E4218A228D68B000DBC2E4 /* DemoViewController.xib */; };
@@ -1311,6 +1313,10 @@
 		42D7014A21830724008DFABB /* SystemSound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SystemSound.plist; sourceTree = "<group>"; };
 		42D7014D218307D9008DFABB /* AudioPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayVC.h; sourceTree = "<group>"; };
 		42D7014E218307D9008DFABB /* AudioPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayVC.m; sourceTree = "<group>"; };
+		42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTabBarController.m; sourceTree = "<group>"; };
+		42DBDE8B2419C6EA0008A71F /* WXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTabBarController.h; sourceTree = "<group>"; };
+		42DBDE8E2419C97C0008A71F /* Common_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_ViewController.h; sourceTree = "<group>"; };
+		42DBDE8F2419C97C0008A71F /* Common_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common_ViewController.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E42188228D68B000DBC2E4 /* GCDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTableViewController.h; sourceTree = "<group>"; };
@@ -2306,7 +2312,6 @@
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
 				4257583320A29F0900BA4F54 /* Info.plist */,
-				42A5337422437F7500CC1B5E /* Sources */,
 				4257583420A29F0900BA4F54 /* main.m */,
 			);
 			path = "排序总结";
@@ -2707,13 +2712,6 @@
 				429674CD23B48FA600637C82 /* JSPost.html */,
 			);
 			path = "2，WKWebView基础介绍";
-			sourceTree = "<group>";
-		};
-		42A5337422437F7500CC1B5E /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		42B573EE213FDCC10089CFDF /* 5_PerformSelctor的测试 */ = {
@@ -3402,6 +3400,8 @@
 		42C5B66F2142643E00563794 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				42DBDE8D2419C97C0008A71F /* CommonViewController */,
+				42DBDE892419C6EA0008A71F /* WXTabBar */,
 				42D7010D2182A8B7008DFABB /* SVProgressHUD */,
 				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
@@ -3757,6 +3757,24 @@
 				42AF6E8221868D49001806BE /* AudioPlayManager.m */,
 			);
 			path = "3_展示本地音频文件";
+			sourceTree = "<group>";
+		};
+		42DBDE892419C6EA0008A71F /* WXTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				42DBDE8B2419C6EA0008A71F /* WXTabBarController.h */,
+				42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */,
+			);
+			path = WXTabBar;
+			sourceTree = "<group>";
+		};
+		42DBDE8D2419C97C0008A71F /* CommonViewController */ = {
+			isa = PBXGroup;
+			children = (
+				42DBDE8E2419C97C0008A71F /* Common_ViewController.h */,
+				42DBDE8F2419C97C0008A71F /* Common_ViewController.m */,
+			);
+			path = CommonViewController;
 			sourceTree = "<group>";
 		};
 		42E42187228D688900DBC2E4 /* 3_GCD详细 */ = {
@@ -4538,6 +4556,7 @@
 				4218DFC923C87A7200758F12 /* BlockDemo8VC.m in Sources */,
 				42CB7E4F2138E399003397FB /* BlockTimerVC.m in Sources */,
 				42E8C8CF2147931300BA399D /* MMReTextField.m in Sources */,
+				42DBDE902419C97C0008A71F /* Common_ViewController.m in Sources */,
 				42A5336F224372DB00CC1B5E /* WKWebViewSummaryVC.m in Sources */,
 				42C5B64E21425EA500563794 /* GroupLeaderHandler.m in Sources */,
 				42C5B66721425EA500563794 /* OperatorExpression.m in Sources */,
@@ -4573,6 +4592,7 @@
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
 				424F0536227540500039CD62 /* StatusItem2.m in Sources */,
+				42DBDE8C2419C6EA0008A71F /* WXTabBarController.m in Sources */,
 				42D70147218306AD008DFABB /* AudioSystemVC.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
 				42EF238C24161A7200EB5F74 /* MC_Daughter.m in Sources */,

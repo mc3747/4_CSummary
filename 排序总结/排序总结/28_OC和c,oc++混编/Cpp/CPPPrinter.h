@@ -16,12 +16,12 @@ using namespace std;
 
 namespace CPPPrinter {
     void sayHello();
-    
+    void printType(id input);
+
     class CPPPrinter {
     public:
         CPPPrinter();
         ~CPPPrinter();
-        
         void sayHello();
     };
 }
