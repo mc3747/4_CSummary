@@ -23,9 +23,28 @@
     [super viewDidLoad];
  
 }
-
+//协议
 - (IBAction)demo1:(id)sender {
     GJSPushViewControllerWithName(@"ProtocolDemoViewController", ((UIButton *)sender).titleLabel.text, YES);
+}
+//封装
+- (IBAction)demo2:(id)sender {
+    
+}
+//继承
+- (IBAction)demo3:(id)sender {
+    
+}
+//多态
+- (IBAction)demo4:(id)sender {
+    
+}
+//扩展
+- (IBAction)demo5:(id)sender {
+    
+}
+//分类
+- (IBAction)demo6:(id)sender {
 }
 
 

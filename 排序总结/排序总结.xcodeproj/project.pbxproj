@@ -158,6 +158,7 @@
 		424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059622759E400039CD62 /* BAWKWebViewVC2.m */; };
 		424F059E22759E420039CD62 /* BAWKWebViewVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059822759E410039CD62 /* BAWKWebViewVC3.m */; };
 		424F059F22759E420039CD62 /* BACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059A22759E410039CD62 /* BACell.m */; };
+		42525615241B0EC7000F2295 /* WXNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42525614241B0EC7000F2295 /* WXNavigationVC.m */; };
 		4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582620A29F0700BA4F54 /* AppDelegate.m */; };
 		4257582A20A29F0700BA4F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582920A29F0700BA4F54 /* ViewController.m */; };
 		4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4257582B20A29F0700BA4F54 /* Main.storyboard */; };
@@ -436,6 +437,8 @@
 		42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014E218307D9008DFABB /* AudioPlayVC.m */; };
 		42DBDE8C2419C6EA0008A71F /* WXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */; };
 		42DBDE902419C97C0008A71F /* Common_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8F2419C97C0008A71F /* Common_ViewController.m */; };
+		42DBDE94241A1CBB0008A71F /* PolymorphismVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE93241A1CBB0008A71F /* PolymorphismVC.m */; };
+		42DBDE99241A35B70008A71F /* WXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE98241A35B70008A71F /* WXNavigationBar.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E4218D228D68B100DBC2E4 /* GCDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E42189228D68B000DBC2E4 /* GCDTableViewController.m */; };
 		42E4218E228D68B100DBC2E4 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E4218A228D68B000DBC2E4 /* DemoViewController.xib */; };
@@ -772,6 +775,8 @@
 		424F059922759E410039CD62 /* BAWKWebViewVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWKWebViewVC3.h; sourceTree = "<group>"; };
 		424F059A22759E410039CD62 /* BACell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACell.m; sourceTree = "<group>"; };
 		424F059B22759E420039CD62 /* WebVIewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVIewModel.h; sourceTree = "<group>"; };
+		42525613241B0EC7000F2295 /* WXNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXNavigationVC.h; sourceTree = "<group>"; };
+		42525614241B0EC7000F2295 /* WXNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXNavigationVC.m; sourceTree = "<group>"; };
 		4257582220A29F0700BA4F54 /* 排序总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257582520A29F0700BA4F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4257582620A29F0700BA4F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1317,6 +1322,10 @@
 		42DBDE8B2419C6EA0008A71F /* WXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTabBarController.h; sourceTree = "<group>"; };
 		42DBDE8E2419C97C0008A71F /* Common_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_ViewController.h; sourceTree = "<group>"; };
 		42DBDE8F2419C97C0008A71F /* Common_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common_ViewController.m; sourceTree = "<group>"; };
+		42DBDE92241A1CBB0008A71F /* PolymorphismVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolymorphismVC.h; sourceTree = "<group>"; };
+		42DBDE93241A1CBB0008A71F /* PolymorphismVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolymorphismVC.m; sourceTree = "<group>"; };
+		42DBDE97241A35B70008A71F /* WXNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXNavigationBar.h; sourceTree = "<group>"; };
+		42DBDE98241A35B70008A71F /* WXNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXNavigationBar.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E42188228D68B000DBC2E4 /* GCDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTableViewController.h; sourceTree = "<group>"; };
@@ -2530,6 +2539,7 @@
 		4288EF232331D2BC00113EAE /* 24_协议&继承&多态&分类&扩展 */ = {
 			isa = PBXGroup;
 			children = (
+				42DBDE91241A1B8E0008A71F /* 4_多态 */,
 				42EF23792415DEED00EB5F74 /* 1_协议 */,
 				42EF23722415D2B000EB5F74 /* ObjectOrientedViewController.h */,
 				42EF23732415D2B000EB5F74 /* ObjectOrientedViewController.m */,
@@ -3400,8 +3410,9 @@
 		42C5B66F2142643E00563794 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42DBDE8D2419C97C0008A71F /* CommonViewController */,
 				42DBDE892419C6EA0008A71F /* WXTabBar */,
+				42DBDE96241A35830008A71F /* WXNaviBar */,
+				42DBDE8D2419C97C0008A71F /* CommonViewController */,
 				42D7010D2182A8B7008DFABB /* SVProgressHUD */,
 				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
@@ -3775,6 +3786,26 @@
 				42DBDE8F2419C97C0008A71F /* Common_ViewController.m */,
 			);
 			path = CommonViewController;
+			sourceTree = "<group>";
+		};
+		42DBDE91241A1B8E0008A71F /* 4_多态 */ = {
+			isa = PBXGroup;
+			children = (
+				42DBDE92241A1CBB0008A71F /* PolymorphismVC.h */,
+				42DBDE93241A1CBB0008A71F /* PolymorphismVC.m */,
+			);
+			path = "4_多态";
+			sourceTree = "<group>";
+		};
+		42DBDE96241A35830008A71F /* WXNaviBar */ = {
+			isa = PBXGroup;
+			children = (
+				42DBDE97241A35B70008A71F /* WXNavigationBar.h */,
+				42DBDE98241A35B70008A71F /* WXNavigationBar.m */,
+				42525613241B0EC7000F2295 /* WXNavigationVC.h */,
+				42525614241B0EC7000F2295 /* WXNavigationVC.m */,
+			);
+			path = WXNaviBar;
 			sourceTree = "<group>";
 		};
 		42E42187228D688900DBC2E4 /* 3_GCD详细 */ = {
@@ -4374,6 +4405,7 @@
 				4218DF9823C8272500758F12 /* AssociatedMethodVC.m in Sources */,
 				42B573F9213FDCFF0089CFDF /* PerformSelectorThreadViewController.m in Sources */,
 				42C5B63621425EA500563794 /* StrategyPatternViewController.m in Sources */,
+				42DBDE94241A1CBB0008A71F /* PolymorphismVC.m in Sources */,
 				42B8E18C23EBF8C800108E09 /* Product.m in Sources */,
 				42A5337D2243847D00CC1B5E /* WYWebProgressLayer.m in Sources */,
 				423C38F72244928B005319C1 /* WKWebViewJSViewController.m in Sources */,
@@ -4393,6 +4425,7 @@
 				42D701092182A842008DFABB /* GCDViewController.m in Sources */,
 				422355DF2195624C00A7DF99 /* MultiReturnValueVC.m in Sources */,
 				42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */,
+				42525615241B0EC7000F2295 /* WXNavigationVC.m in Sources */,
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
@@ -4628,6 +4661,7 @@
 				4268A95B23A364B400448758 /* ButtonTransferParameterVC.m in Sources */,
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
+				42DBDE99241A35B70008A71F /* WXNavigationBar.m in Sources */,
 				42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */,
 				42C5B62121425EA500563794 /* Pencil.m in Sources */,
 				42C5B60621425EA500563794 /* AdapterManager.m in Sources */,
@@ -4800,8 +4834,9 @@
 			baseConfigurationReference = 222DDE4481AE9AB6EB036D87 /* Pods-排序总结.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MQBF47L68X;
+				DEVELOPMENT_TEAM = R7G9YTK95B;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "排序总结/Resources/PrefixHeader.pch";
@@ -4823,8 +4858,9 @@
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "www.gjfax.com.----";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gjfax.com-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -4834,8 +4870,9 @@
 			baseConfigurationReference = C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MQBF47L68X;
+				DEVELOPMENT_TEAM = R7G9YTK95B;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "排序总结/Resources/PrefixHeader.pch";
@@ -4857,8 +4894,9 @@
 					"-framework",
 					"\"SystemConfiguration\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "www.gjfax.com.----";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.gjfax.com-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

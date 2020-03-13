@@ -45,7 +45,7 @@
     
     if (!self.initialized) {
         [self.tabBarButtons enumerateObjectsUsingBlock:^(UIView *tabBarButton, NSUInteger idx, BOOL *stop) {
-//  图像
+//  图像(里层第一个)
             UIImageView *tabBarImageView = tabBarButton.subviews[0].subviews[0].subviews[0];
             UIImageView *imageView = [[UIImageView alloc] init];
             [tabBarButton insertSubview:imageView atIndex:0];
@@ -61,12 +61,12 @@
                                                                                  metrics:@{ @"height": @(-CGRectGetHeight(tabBarImageView.frame)) }
                                                                                    views:NSDictionaryOfVariableBindings(tabBarImageView, imageView)]];
             
-//  文字
+//  文字(里层第二个)
                 UILabel *tabBarLabel = tabBarButton.subviews[1].subviews[0].subviews[1];
                 UILabel *label = [[UILabel alloc] init];
                 [tabBarButton insertSubview:label atIndex:1];
                 label.textColor = self.tabBar.tintColor;
-                label.font = [UIFont systemFontOfSize:12.f];
+                label.font = tabBarLabel.font;
                 label.text = self.backingViewControllers[idx].tabBarItem.title;
                 label.translatesAutoresizingMaskIntoConstraints = NO;
 
@@ -78,7 +78,7 @@
                                                                                      options:0
                                                                                      metrics:@{ @"height": @(-CGRectGetHeight(tabBarLabel.frame)) }
                                                                                        views:NSDictionaryOfVariableBindings(tabBarLabel, label)]];
-            
+
             
         }];
         
@@ -207,11 +207,14 @@
 
     if (highlighted) {
         tabBarButton.subviews[0].alpha = 1 - deltaAlpha;
-//        tabBarButton.subviews[1].alpha = 1 - deltaAlpha;
-
+        tabBarButton.subviews[1].alpha = 1 - deltaAlpha;
+        tabBarButton.subviews[2].subviews[0].subviews[0].alpha = 0 + deltaAlpha;
+        tabBarButton.subviews[2].subviews[0].subviews[1].alpha = 0 + deltaAlpha;
     } else {
         tabBarButton.subviews[0].alpha = 0 + deltaAlpha;
-//        tabBarButton.subviews[1].alpha = 0 + deltaAlpha;
+        tabBarButton.subviews[1].alpha = 0 + deltaAlpha;
+        tabBarButton.subviews[2].subviews[0].subviews[0].alpha = 1 - deltaAlpha;
+        tabBarButton.subviews[2].subviews[0].subviews[1].alpha = 1 - deltaAlpha;
     }
 }
 

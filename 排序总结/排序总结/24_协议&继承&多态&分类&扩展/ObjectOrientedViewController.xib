@@ -43,6 +43,9 @@
                     <state key="normal" title="2_封装Encapsulation的案例">
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
+                    <connections>
+                        <action selector="demo2:" destination="-1" eventType="touchUpInside" id="pgB-gV-TLe"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnI-QB-4pH">
                     <rect key="frame" x="10" y="234" width="394" height="50"/>
@@ -54,6 +57,9 @@
                     <state key="normal" title="3_继承Inheritance的案例">
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
+                    <connections>
+                        <action selector="demo3:" destination="-1" eventType="touchUpInside" id="9It-Kl-Lh2"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f07-7i-q82">
                     <rect key="frame" x="10" y="304" width="394" height="50"/>
@@ -65,6 +71,9 @@
                     <state key="normal" title="4_多态Polymorphism的案例">
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
+                    <connections>
+                        <action selector="demo4:" destination="-1" eventType="touchUpInside" id="KjF-Th-pUG"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0K-TL-diI">
                     <rect key="frame" x="10" y="374" width="394" height="50"/>
@@ -76,6 +85,9 @@
                     <state key="normal" title="5_扩展Extension的案例">
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
+                    <connections>
+                        <action selector="demo5:" destination="-1" eventType="touchUpInside" id="2jn-dz-dZK"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUb-BJ-jkh">
                     <rect key="frame" x="10" y="444" width="394" height="50"/>
@@ -87,6 +99,9 @@
                     <state key="normal" title="6_分类Category的案例">
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
+                    <connections>
+                        <action selector="demo6:" destination="-1" eventType="touchUpInside" id="kX3-Gj-iHk"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

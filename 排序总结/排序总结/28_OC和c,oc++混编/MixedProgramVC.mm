@@ -36,7 +36,8 @@
 - (IBAction)demo3:(id)sender {
     // 1:函数Function in cpp code.
 //    CPPPrinter::sayHello();
-    CPPPrinter::printType(@"33");
+    CGRect rect = CGRectMake(1, 1, 1, 1);
+    CPPPrinter::printType( @"3");
 
 //    // 2:实例方法:Instance method in cpp code.
 //    self.cppPrinter = new CPPPrinter::CPPPrinter();

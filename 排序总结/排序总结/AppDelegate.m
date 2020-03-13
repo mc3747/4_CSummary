@@ -11,6 +11,7 @@
 #import "HAMLogOutputWindow.h"
 #import "WXTabBarController.h"
 #import "Common_ViewController.h"
+#import "WXNavigationVC.h"
 
 @interface AppDelegate ()
 
@@ -34,8 +35,7 @@
 #pragma mark -  配置nvigationController
 - (UINavigationController *)navigationController {
     if (_navigationController == nil) {
-        UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:self.tabBarController];
-        navigationController.navigationBar.tintColor = [UIColor colorWithRed:26 / 255.0 green:178 / 255.0 blue:10 / 255.0 alpha:1];
+        WXNavigationVC *navigationController = [[WXNavigationVC alloc] initWithRootViewController:self.tabBarController];
         _navigationController = navigationController;
     }
     return _navigationController;
@@ -64,7 +64,7 @@
             mainframeViewController;
         });
         
-        ViewController *contactsViewController = ({
+        Common_ViewController *contactsViewController = ({
             Common_ViewController *contactsViewController = [[Common_ViewController alloc] init];
             contactsViewController.subtitleArray = @[@[@"cctableView",@"table基类-代理写",@"table基类-block写",@"tableViewController基类",@"多种cell组合",@"一般的小型封装",@"mvvm实现多种cell组合"]];
             contactsViewController.vcNameArray = @[@[@"",@"",@"",@"",@"",@"",@""]];
@@ -78,7 +78,7 @@
             contactsViewController;
         });
         
-        ViewController *discoverViewController = ({
+        Common_ViewController *discoverViewController = ({
             Common_ViewController *discoverViewController = [[Common_ViewController alloc] init];
             discoverViewController.subtitleArray = @[@[@"cctableView",@"table基类-代理写",@"table基类-block写",@"tableViewController基类",@"多种cell组合",@"一般的小型封装",@"mvvm实现多种cell组合"]];
             discoverViewController.vcNameArray = @[@[@"",@"",@"",@"",@"",@"",@""]];
@@ -92,7 +92,7 @@
             discoverViewController;
         });
         
-        ViewController *meViewController = ({
+        Common_ViewController *meViewController = ({
             Common_ViewController *meViewController = [[Common_ViewController alloc] init];
             meViewController.subtitleArray = @[@[@"cctableView",@"table基类-代理写",@"table基类-block写",@"tableViewController基类",@"多种cell组合",@"一般的小型封装",@"mvvm实现多种cell组合"]];
             meViewController.vcNameArray = @[@[@"",@"",@"",@"",@"",@"",@""]];
