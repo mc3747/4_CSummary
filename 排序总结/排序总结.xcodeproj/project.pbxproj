@@ -15,6 +15,9 @@
 		420189B821F9AA1200257DCF /* private_key.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 420189AF21F9AA1200257DCF /* private_key.p12 */; };
 		420189B921F9AA1200257DCF /* GBEncodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 420189B021F9AA1200257DCF /* GBEncodeTool.m */; };
 		420189BA21F9AA1200257DCF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 420189B221F9AA1200257DCF /* GTMBase64.m */; };
+		4201E547241F05750089044A /* LYDiyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4201E542241F05740089044A /* LYDiyView.m */; };
+		4201E548241F05750089044A /* NOMacroApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4201E544241F05740089044A /* NOMacroApplicationVC.m */; };
+		4201E549241F05750089044A /* MacroApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4201E545241F05750089044A /* MacroApplicationVC.m */; };
 		4212088423D01700001D16B9 /* KVC_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212088323D01700001D16B9 /* KVC_Person.m */; };
 		4212088723D01717001D16B9 /* KVC_Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212088623D01716001D16B9 /* KVC_Book.m */; };
 		4212680823C71D3B009F7C43 /* BlockSummaryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4212680623C71D3B009F7C43 /* BlockSummaryVC.m */; };
@@ -522,6 +525,13 @@
 		420189B021F9AA1200257DCF /* GBEncodeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBEncodeTool.m; sourceTree = "<group>"; };
 		420189B121F9AA1200257DCF /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		420189B221F9AA1200257DCF /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		4201E540241F05730089044A /* LYDiyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDiyView.h; sourceTree = "<group>"; };
+		4201E541241F05740089044A /* MacroApplicationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroApplicationVC.h; sourceTree = "<group>"; };
+		4201E542241F05740089044A /* LYDiyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDiyView.m; sourceTree = "<group>"; };
+		4201E543241F05740089044A /* LYMagicMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMagicMacro.h; sourceTree = "<group>"; };
+		4201E544241F05740089044A /* NOMacroApplicationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOMacroApplicationVC.m; sourceTree = "<group>"; };
+		4201E545241F05750089044A /* MacroApplicationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroApplicationVC.m; sourceTree = "<group>"; };
+		4201E546241F05750089044A /* NOMacroApplicationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOMacroApplicationVC.h; sourceTree = "<group>"; };
 		4212088223D01700001D16B9 /* KVC_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC_Person.h; sourceTree = "<group>"; };
 		4212088323D01700001D16B9 /* KVC_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVC_Person.m; sourceTree = "<group>"; };
 		4212088523D01716001D16B9 /* KVC_Book.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVC_Book.h; sourceTree = "<group>"; };
@@ -1462,6 +1472,20 @@
 				420189B121F9AA1200257DCF /* GTMDefines.h */,
 			);
 			path = "0，加密工具";
+			sourceTree = "<group>";
+		};
+		4201E53F241F04870089044A /* 2_宏应用 */ = {
+			isa = PBXGroup;
+			children = (
+				4201E543241F05740089044A /* LYMagicMacro.h */,
+				4201E540241F05730089044A /* LYDiyView.h */,
+				4201E542241F05740089044A /* LYDiyView.m */,
+				4201E546241F05750089044A /* NOMacroApplicationVC.h */,
+				4201E544241F05740089044A /* NOMacroApplicationVC.m */,
+				4201E541241F05740089044A /* MacroApplicationVC.h */,
+				4201E545241F05750089044A /* MacroApplicationVC.m */,
+			);
+			path = "2_宏应用";
 			sourceTree = "<group>";
 		};
 		4212680323C71C88009F7C43 /* 5，Block */ = {
@@ -3947,6 +3971,7 @@
 		42FB50C123A8B1C400C5E315 /* 4_预编译&枚举 */ = {
 			isa = PBXGroup;
 			children = (
+				4201E53F241F04870089044A /* 2_宏应用 */,
 				42EF2392241626D300EB5F74 /* 1_宏定义 */,
 				42EF238D241622CC00EB5F74 /* PrecompliedViewController.h */,
 				42EF238E241622CC00EB5F74 /* PrecompliedViewController.m */,
@@ -4294,6 +4319,7 @@
 				4288EF2D2332218A00113EAE /* ElementMakerVC.m in Sources */,
 				424F0538227540500039CD62 /* User.m in Sources */,
 				42C5B60021425EA500563794 /* ColorView.m in Sources */,
+				4201E547241F05750089044A /* LYDiyView.m in Sources */,
 				421485F522730359009D0B0A /* TestRuntime.m in Sources */,
 				42C5B65221425EA500563794 /* ShipmentState.m in Sources */,
 				42D70146218306AD008DFABB /* AudioPlistVC.m in Sources */,
@@ -4441,6 +4467,7 @@
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				4212680D23C71DE3009F7C43 /* KVCSummaryVC.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
+				4201E548241F05750089044A /* NOMacroApplicationVC.m in Sources */,
 				424F056722758E8A0039CD62 /* WebViewUseJsBridge2VC.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
 				42C5B61021425EA500563794 /* Person.m in Sources */,
@@ -4662,6 +4689,7 @@
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
 				42DBDE99241A35B70008A71F /* WXNavigationBar.m in Sources */,
+				4201E549241F05750089044A /* MacroApplicationVC.m in Sources */,
 				42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */,
 				42C5B62121425EA500563794 /* Pencil.m in Sources */,
 				42C5B60621425EA500563794 /* AdapterManager.m in Sources */,

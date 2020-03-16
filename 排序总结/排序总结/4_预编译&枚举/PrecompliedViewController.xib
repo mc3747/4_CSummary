@@ -65,12 +65,25 @@
                         <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </state>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Uq-eN-IeZ">
+                    <rect key="frame" x="10" y="404" width="394" height="50"/>
+                    <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="WPd-7M-2eD"/>
+                    </constraints>
+                    <state key="normal" title="5_宏的应用"/>
+                    <connections>
+                        <action selector="demo5:" destination="-1" eventType="touchUpInside" id="Xos-ex-gJp"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="mpK-s3-LJR" secondAttribute="trailing" constant="10" id="00n-FU-nrF"/>
                 <constraint firstItem="2j8-Zt-g1s" firstAttribute="top" secondItem="mpK-s3-LJR" secondAttribute="bottom" constant="20" id="13R-Q0-nbJ"/>
+                <constraint firstItem="7Uq-eN-IeZ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="2jS-Sn-NJg"/>
                 <constraint firstItem="UL7-Nk-HWU" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="LuW-Lx-MCj"/>
+                <constraint firstItem="7Uq-eN-IeZ" firstAttribute="top" secondItem="NRH-ee-iLJ" secondAttribute="bottom" constant="20" id="aXX-Iv-eoz"/>
                 <constraint firstItem="mpK-s3-LJR" firstAttribute="top" secondItem="UL7-Nk-HWU" secondAttribute="bottom" constant="20" id="avF-ap-AXP"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="2j8-Zt-g1s" secondAttribute="trailing" constant="10" id="hNd-4a-AJD"/>
                 <constraint firstItem="NRH-ee-iLJ" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="hWv-Eh-DUl"/>
@@ -78,6 +91,7 @@
                 <constraint firstItem="2j8-Zt-g1s" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="jUA-hj-i7e"/>
                 <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="NRH-ee-iLJ" secondAttribute="trailing" constant="10" id="mjF-gE-cgr"/>
                 <constraint firstItem="NRH-ee-iLJ" firstAttribute="top" secondItem="2j8-Zt-g1s" secondAttribute="bottom" constant="20" id="nPd-Hy-Gg4"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="7Uq-eN-IeZ" secondAttribute="trailing" constant="10" id="pcH-jL-OXi"/>
                 <constraint firstItem="mpK-s3-LJR" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="sKL-2k-qA4"/>
                 <constraint firstItem="UL7-Nk-HWU" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="80" id="vmd-be-0ff"/>
             </constraints>

@@ -48,4 +48,8 @@
     GJSPushViewControllerWithName(@"MacroViewController", Sender_title, YES);
 }
 
+- (IBAction)demo5:(id)sender {
+    GJSPushViewControllerWithName(@"MacroApplicationVC", Sender_title, YES);
+}
+
 @end
