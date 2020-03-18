@@ -56,11 +56,11 @@
     
     
     self.cellDisplayNameArray = @[@"1，方法的调用相关",@"2，button传递多个参数",@"3，控制器传值",
-                                  @"4，定时器汇总",@"5，24种设计模式汇总",@"6，block总结",@"7，KVC总结",@"8，单例模式",@"9，简单代理",@"10，协议代理",@"11，多代理",@"12，KVO总结",@"13，展示不同类型文件",@"14，通知模式",@"15，匹配的三种方式",@"16，正则表达式的使用场景",@"17，RunTime总结",@"18，对象的初始化方法",@"19，字典转模型",@"20，RunLoop汇总",@"21，多线程汇总",@"22，加密汇总",@"23，音频汇总",@"24，文件大小及图片相关汇总",@"25，代替if-else的条件方法",@"26，内存泄露",@"27，原生和js交互",@"28，控件的简单写法（懒加载）",@"29，日志打印",@"30，协议&继承&多态&分类&扩展",
+                                  @"4，定时器汇总",@"5，24种设计模式汇总",@"6，block总结",@"7，KVC总结",@"8，单例模式",@"9，简单代理",@"10，协议代理",@"11，多代理",@"12，KVO总结",@"13，展示不同类型文件",@"14，通知模式",@"15，匹配的三种方式",@"16，正则表达式的使用场景",@"17，RunTime总结",@"18，对象的初始化方法",@"19，字典转模型",@"20，RunLoop汇总",@"22，加密汇总",@"23，音频汇总",@"24，文件大小及图片相关汇总",@"25，代替if-else的条件方法",@"26，内存泄露",@"27，原生和js交互",@"28，控件的简单写法（懒加载）",@"29，日志打印",@"30，协议&继承&多态&分类&扩展",
     @"31, 预编译&枚举总结",@"32, oc,c和c++混编"];
     
     self.cellControllerNameArray = @[@"MethodCallVC",@"ButtonTransferParameterVC",@"PassValueVC",
- @"TimerViewController",@"DesignModeSummaryVC",@"BlockSummaryVC",@"KVCSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"KVOSummaryVC",@"DifferentTypeFilesVC",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"MultiThreadingVC",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"ElementMakerVC",@"PrintLogVC",@"ObjectOrientedViewController09                                                         ",@"PrecompliedViewController",@"MixedProgramVC"];
+ @"TimerViewController",@"DesignModeSummaryVC",@"BlockSummaryVC",@"KVCSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"KVOSummaryVC",@"DifferentTypeFilesVC",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"ElementMakerVC",@"PrintLogVC",@"ObjectOrientedViewController09                                                         ",@"PrecompliedViewController",@"MixedProgramVC"];
 }
 
 #pragma mark -  初始化tableview
