@@ -247,15 +247,6 @@
 		42B8E19C23EC12E500108E09 /* KVOFreshDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19B23EC12E500108E09 /* KVOFreshDemoVC.m */; };
 		42B8E1A123EC138500108E09 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19D23EC138400108E09 /* RefreshView.m */; };
 		42B8E1A223EC138500108E09 /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E19F23EC138400108E09 /* ActivityView.m */; };
-		42B8E1BE23EDAA6C00108E09 /* DifferentTypeFilesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E1BC23EDAA6C00108E09 /* DifferentTypeFilesVC.m */; };
-		42B8E1BF23EDAA6C00108E09 /* DifferentTypeFilesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E1BD23EDAA6C00108E09 /* DifferentTypeFilesVC.xib */; };
-		42B8E1CA23EDAD1700108E09 /* ShowPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B8E1C123EDAD1600108E09 /* ShowPDFViewController.m */; };
-		42B8E1CB23EDAD1700108E09 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E1C323EDAD1700108E09 /* index.html */; };
-		42B8E1CC23EDAD1700108E09 /* pdf.js in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E1C423EDAD1700108E09 /* pdf.js */; };
-		42B8E1CD23EDAD1700108E09 /* compatibility.js in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E1C523EDAD1700108E09 /* compatibility.js */; };
-		42B8E1CE23EDAD1700108E09 /* pdf.worker.js in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E1C623EDAD1700108E09 /* pdf.worker.js */; };
-		42B8E1CF23EDAD1700108E09 /* minimal.css in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E1C723EDAD1700108E09 /* minimal.css */; };
-		42B8E1D023EDAD1700108E09 /* customview.js in Resources */ = {isa = PBXBuildFile; fileRef = 42B8E1C823EDAD1700108E09 /* customview.js */; };
 		42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5B4E621425EA300563794 /* GameLoL+Cheat.m */; };
 		42C5B5F921425EA500563794 /* GameLoL+Coin.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5B4E821425EA300563794 /* GameLoL+Coin.m */; };
 		42C5B5FA21425EA500563794 /* GameLoL.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C5B4EB21425EA300563794 /* GameLoL.m */; };
@@ -938,17 +929,6 @@
 		42B8E19E23EC138400108E09 /* RefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshView.h; sourceTree = "<group>"; };
 		42B8E19F23EC138400108E09 /* ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityView.m; sourceTree = "<group>"; };
 		42B8E1A023EC138500108E09 /* ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityView.h; sourceTree = "<group>"; };
-		42B8E1BB23EDAA6C00108E09 /* DifferentTypeFilesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifferentTypeFilesVC.h; sourceTree = "<group>"; };
-		42B8E1BC23EDAA6C00108E09 /* DifferentTypeFilesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DifferentTypeFilesVC.m; sourceTree = "<group>"; };
-		42B8E1BD23EDAA6C00108E09 /* DifferentTypeFilesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DifferentTypeFilesVC.xib; sourceTree = "<group>"; };
-		42B8E1C123EDAD1600108E09 /* ShowPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPDFViewController.m; sourceTree = "<group>"; };
-		42B8E1C323EDAD1700108E09 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		42B8E1C423EDAD1700108E09 /* pdf.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf.js; sourceTree = "<group>"; };
-		42B8E1C523EDAD1700108E09 /* compatibility.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = compatibility.js; sourceTree = "<group>"; };
-		42B8E1C623EDAD1700108E09 /* pdf.worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pdf.worker.js; sourceTree = "<group>"; };
-		42B8E1C723EDAD1700108E09 /* minimal.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = minimal.css; sourceTree = "<group>"; };
-		42B8E1C823EDAD1700108E09 /* customview.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = customview.js; sourceTree = "<group>"; };
-		42B8E1C923EDAD1700108E09 /* ShowPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPDFViewController.h; sourceTree = "<group>"; };
 		42C5B4E621425EA300563794 /* GameLoL+Cheat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameLoL+Cheat.m"; sourceTree = "<group>"; };
 		42C5B4E721425EA300563794 /* CheatGameDecotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheatGameDecotor.h; sourceTree = "<group>"; };
 		42C5B4E821425EA300563794 /* GameLoL+Coin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GameLoL+Coin.m"; sourceTree = "<group>"; };
@@ -2304,7 +2284,7 @@
 				426D559C2285C61B0060AEF4 /* 22_事件的封装 */,
 				4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */,
 				4288EF232331D2BC00113EAE /* 24_协议&继承&多态&分类&扩展 */,
-				4288EF2E2332375100113EAE /* 25_展示不同类型文件 */,
+				4288EF2E2332375100113EAE /* 25_空 */,
 				421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */,
 				42A4DC4023619F9A003C345A /* 27_打印日志 */,
 				42977A8D2418854C00FFA893 /* 28_OC和c,oc++混编 */,
@@ -2533,15 +2513,11 @@
 			path = "24_协议&继承&多态&分类&扩展";
 			sourceTree = "<group>";
 		};
-		4288EF2E2332375100113EAE /* 25_展示不同类型文件 */ = {
+		4288EF2E2332375100113EAE /* 25_空 */ = {
 			isa = PBXGroup;
 			children = (
-				42B8E1C023EDAD0500108E09 /* 1，第三方pdf工具 */,
-				42B8E1BB23EDAA6C00108E09 /* DifferentTypeFilesVC.h */,
-				42B8E1BC23EDAA6C00108E09 /* DifferentTypeFilesVC.m */,
-				42B8E1BD23EDAA6C00108E09 /* DifferentTypeFilesVC.xib */,
 			);
-			path = "25_展示不同类型文件";
+			path = "25_空";
 			sourceTree = "<group>";
 		};
 		429674CF23B492E400637C82 /* SimpleJsWithWK */ = {
@@ -2758,29 +2734,6 @@
 				42B8E19B23EC12E500108E09 /* KVOFreshDemoVC.m */,
 			);
 			path = "3，KVO使用案例";
-			sourceTree = "<group>";
-		};
-		42B8E1C023EDAD0500108E09 /* 1，第三方pdf工具 */ = {
-			isa = PBXGroup;
-			children = (
-				42B8E1C223EDAD1700108E09 /* PDFJS */,
-				42B8E1C923EDAD1700108E09 /* ShowPDFViewController.h */,
-				42B8E1C123EDAD1600108E09 /* ShowPDFViewController.m */,
-			);
-			path = "1，第三方pdf工具";
-			sourceTree = "<group>";
-		};
-		42B8E1C223EDAD1700108E09 /* PDFJS */ = {
-			isa = PBXGroup;
-			children = (
-				42B8E1C323EDAD1700108E09 /* index.html */,
-				42B8E1C423EDAD1700108E09 /* pdf.js */,
-				42B8E1C523EDAD1700108E09 /* compatibility.js */,
-				42B8E1C623EDAD1700108E09 /* pdf.worker.js */,
-				42B8E1C723EDAD1700108E09 /* minimal.css */,
-				42B8E1C823EDAD1700108E09 /* customview.js */,
-			);
-			path = PDFJS;
 			sourceTree = "<group>";
 		};
 		42BF36AA21F8751500760C41 /* 20_内存泄露汇总 */ = {
@@ -4081,7 +4034,6 @@
 				42FADC8F21F94349008C77F3 /* MemoryLeakVC.xib in Resources */,
 				424F04CA227534E50039CD62 /* RuntimeDictViewController.xib in Resources */,
 				4212680923C71D3B009F7C43 /* BlockSummaryVC.xib in Resources */,
-				42B8E1BF23EDAA6C00108E09 /* DifferentTypeFilesVC.xib in Resources */,
 				42FFFF9B21F6F0F900C594AA /* DissymmetryEncryptVC.xib in Resources */,
 				423C38F22244928B005319C1 /* WKWebViewJS_file.html in Resources */,
 				424154CB21FAA37E00AC35A2 /* CodedFormatVC.xib in Resources */,
@@ -4093,7 +4045,6 @@
 				423C391922449322005319C1 /* highcharts.js in Resources */,
 				423C38DC22447DDB005319C1 /* UIWebViewJS.html in Resources */,
 				423C38DA22447DDB005319C1 /* UIWebViewJS_location.html in Resources */,
-				42B8E1CF23EDAD1700108E09 /* minimal.css in Resources */,
 				423C38D822447DDB005319C1 /* light_illstration.png in Resources */,
 				42C5B60F21425EA500563794 /* 文件夹系统.png in Resources */,
 				420189B721F9AA1200257DCF /* rsaCert.der in Resources */,
@@ -4113,7 +4064,6 @@
 				4257582F20A29F0900BA4F54 /* Assets.xcassets in Resources */,
 				42D7011C2182A8B7008DFABB /* SVProgressHUD.bundle in Resources */,
 				423C391722449322005319C1 /* HighchartsView.html in Resources */,
-				42B8E1CD23EDAD1700108E09 /* compatibility.js in Resources */,
 				424F058E22759E150039CD62 /* BAWebView.html in Resources */,
 				423C391322449322005319C1 /* JSCallOCViewController.xib in Resources */,
 				424F058B22759E150039CD62 /* BAHome2.html in Resources */,
@@ -4123,7 +4073,6 @@
 				4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */,
 				429674D523B4935300637C82 /* SimpleJsWithWK.html in Resources */,
 				423C38DE22447DDB005319C1 /* light_advice.png in Resources */,
-				42B8E1D023EDAD1700108E09 /* customview.js in Resources */,
 				423C391822449322005319C1 /* HighchartsWebViewController.xib in Resources */,
 				423C391522449322005319C1 /* OCCallJSViewController.xib in Resources */,
 				423C38F52244928B005319C1 /* JSWKWebViewViewController.xib in Resources */,
@@ -4131,15 +4080,12 @@
 				42EF2391241622CC00EB5F74 /* PrecompliedViewController.xib in Resources */,
 				42D1C71122782A94001F170F /* MJExtensionVC.xib in Resources */,
 				429674D423B4935300637C82 /* SimpleJsWithWK.storyboard in Resources */,
-				42B8E1CB23EDAD1700108E09 /* index.html in Resources */,
-				42B8E1CE23EDAD1700108E09 /* pdf.worker.js in Resources */,
 				423C38F42244928B005319C1 /* JSWKWebView.html in Resources */,
 				42E7A138219920E500304651 /* CalculateImageStorageVC.xib in Resources */,
 				424F0554227588380039CD62 /* index1.html in Resources */,
 				423C391222449322005319C1 /* JSCallOC.html in Resources */,
 				423C391A22449322005319C1 /* jquery-1.11.0.min.js in Resources */,
 				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
-				42B8E1CC23EDAD1700108E09 /* pdf.js in Resources */,
 				42D1C6DB2277F529001F170F /* ModelObject.json in Resources */,
 				424F0540227585750039CD62 /* WebViewUseJsBridgeVC.xib in Resources */,
 				424F058D22759E150039CD62 /* BAHome.html in Resources */,
@@ -4206,7 +4152,6 @@
 				42C5B64021425EA500563794 /* Boss.m in Sources */,
 				42747A1021819DC4004CFC10 /* NSObject+MJClass.m in Sources */,
 				424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */,
-				42B8E1CA23EDAD1700108E09 /* ShowPDFViewController.m in Sources */,
 				4218DFA323C84B2D00758F12 /* NSObject+AssociatedObject.m in Sources */,
 				42C5B66921425EA500563794 /* SubscibeCenter.m in Sources */,
 				42B8E1A223EC138500108E09 /* ActivityView.m in Sources */,
@@ -4317,7 +4262,6 @@
 				42747A1421819DC4004CFC10 /* MJFoundation.m in Sources */,
 				42D1C76322782F4C001F170F /* MJAd.m in Sources */,
 				42C5B60221425EA500563794 /* ModelTwo.m in Sources */,
-				42B8E1BE23EDAA6C00108E09 /* DifferentTypeFilesVC.m in Sources */,
 				4212D9BD221662D5004A7BA8 /* UIWebViewVC.m in Sources */,
 				424F0537227540500039CD62 /* NSObject+Mod.m in Sources */,
 				4237B0D22281857700E155C3 /* NSObject+Json.m in Sources */,
