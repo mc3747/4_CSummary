@@ -62,7 +62,7 @@ typedef void (^AddCellBlock)(void);
     };
 //    tableBlock.addCell = nil;
     NSLog(@"tableBlock引用计数为%ld",CFGetRetainCount((__bridge CFTypeRef)(tableBlock)));
-//    _tableBlock = tableBlock;
+    _tableBlock = tableBlock;
     
 }
 #pragma mark -  点击，查看引用计数

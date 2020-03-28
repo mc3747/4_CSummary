@@ -51,5 +51,8 @@
 - (IBAction)demo5:(id)sender {
     GJSPushViewControllerWithName(@"MacroApplicationVC", Sender_title, YES);
 }
+- (IBAction)demo6:(id)sender {
+    GJSPushViewControllerWithName(@"MacroCommonUseVC", Sender_title, YES);
+}
 
 @end

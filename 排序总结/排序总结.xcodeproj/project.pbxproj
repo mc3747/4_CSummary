@@ -171,6 +171,9 @@
 		4257583520A29F0900BA4F54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583420A29F0900BA4F54 /* main.m */; };
 		4257583F20A29F0900BA4F54 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257583E20A29F0900BA4F54 /* ____Tests.m */; };
 		4257584A20A29F0900BA4F54 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257584920A29F0900BA4F54 /* ____UITests.m */; };
+		4260FA80242DDA5F0091D609 /* MacroCommonUseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4260FA7E242DDA5F0091D609 /* MacroCommonUseVC.m */; };
+		4260FA81242DDA5F0091D609 /* MacroCommonUseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4260FA7F242DDA5F0091D609 /* MacroCommonUseVC.xib */; };
+		4260FA84242DF9930091D609 /* MacroTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4260FA83242DF9930091D609 /* MacroTestObject.m */; };
 		4268A95B23A364B400448758 /* ButtonTransferParameterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A95A23A364B400448758 /* ButtonTransferParameterVC.m */; };
 		4268A95E23A36BCC00448758 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A95D23A36BCC00448758 /* MyButton.m */; };
 		4268A96223A37D2A00448758 /* UIButton+PassValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4268A96123A37D2A00448758 /* UIButton+PassValue.m */; };
@@ -783,6 +786,11 @@
 		4257584520A29F0900BA4F54 /* 排序总结UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "排序总结UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257584920A29F0900BA4F54 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		4257584B20A29F0900BA4F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4260FA7D242DDA5F0091D609 /* MacroCommonUseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroCommonUseVC.h; sourceTree = "<group>"; };
+		4260FA7E242DDA5F0091D609 /* MacroCommonUseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroCommonUseVC.m; sourceTree = "<group>"; };
+		4260FA7F242DDA5F0091D609 /* MacroCommonUseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MacroCommonUseVC.xib; sourceTree = "<group>"; };
+		4260FA82242DF9930091D609 /* MacroTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroTestObject.h; sourceTree = "<group>"; };
+		4260FA83242DF9930091D609 /* MacroTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacroTestObject.m; sourceTree = "<group>"; };
 		4268A95923A364B400448758 /* ButtonTransferParameterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonTransferParameterVC.h; sourceTree = "<group>"; };
 		4268A95A23A364B400448758 /* ButtonTransferParameterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonTransferParameterVC.m; sourceTree = "<group>"; };
 		4268A95C23A36BCC00448758 /* MyButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
@@ -1421,7 +1429,7 @@
 			path = "0，加密工具";
 			sourceTree = "<group>";
 		};
-		4201E53F241F04870089044A /* 2_宏应用 */ = {
+		4201E53F241F04870089044A /* 2_宏快捷写控件 */ = {
 			isa = PBXGroup;
 			children = (
 				4201E543241F05740089044A /* LYMagicMacro.h */,
@@ -1432,7 +1440,7 @@
 				4201E541241F05740089044A /* MacroApplicationVC.h */,
 				4201E545241F05750089044A /* MacroApplicationVC.m */,
 			);
-			path = "2_宏应用";
+			path = "2_宏快捷写控件";
 			sourceTree = "<group>";
 		};
 		4212680323C71C88009F7C43 /* 5，Block */ = {
@@ -2315,6 +2323,18 @@
 				4257584B20A29F0900BA4F54 /* Info.plist */,
 			);
 			path = "排序总结UITests";
+			sourceTree = "<group>";
+		};
+		4260FA77242DD78B0091D609 /* 3_宏的常见应用 */ = {
+			isa = PBXGroup;
+			children = (
+				4260FA7D242DDA5F0091D609 /* MacroCommonUseVC.h */,
+				4260FA7E242DDA5F0091D609 /* MacroCommonUseVC.m */,
+				4260FA7F242DDA5F0091D609 /* MacroCommonUseVC.xib */,
+				4260FA82242DF9930091D609 /* MacroTestObject.h */,
+				4260FA83242DF9930091D609 /* MacroTestObject.m */,
+			);
+			path = "3_宏的常见应用";
 			sourceTree = "<group>";
 		};
 		4268A95823A3644900448758 /* 2_button传递参数 */ = {
@@ -3831,7 +3851,8 @@
 		42FB50C123A8B1C400C5E315 /* 4_预编译&枚举 */ = {
 			isa = PBXGroup;
 			children = (
-				4201E53F241F04870089044A /* 2_宏应用 */,
+				4260FA77242DD78B0091D609 /* 3_宏的常见应用 */,
+				4201E53F241F04870089044A /* 2_宏快捷写控件 */,
 				42EF2392241626D300EB5F74 /* 1_宏定义 */,
 				42EF238D241622CC00EB5F74 /* PrecompliedViewController.h */,
 				42EF238E241622CC00EB5F74 /* PrecompliedViewController.m */,
@@ -4086,6 +4107,7 @@
 				423C391222449322005319C1 /* JSCallOC.html in Resources */,
 				423C391A22449322005319C1 /* jquery-1.11.0.min.js in Resources */,
 				42D7013E218304F3008DFABB /* AudioSummaryVC.xib in Resources */,
+				4260FA81242DDA5F0091D609 /* MacroCommonUseVC.xib in Resources */,
 				42D1C6DB2277F529001F170F /* ModelObject.json in Resources */,
 				424F0540227585750039CD62 /* WebViewUseJsBridgeVC.xib in Resources */,
 				424F058D22759E150039CD62 /* BAHome.html in Resources */,
@@ -4316,6 +4338,7 @@
 				42C5B61021425EA500563794 /* Person.m in Sources */,
 				4218DFB423C8635700758F12 /* BlockDemo1VC.m in Sources */,
 				4218DFB723C8636300758F12 /* BlockDemo2VC.m in Sources */,
+				4260FA80242DDA5F0091D609 /* MacroCommonUseVC.m in Sources */,
 				42FFFF9521F6F09900C594AA /* SymmetryEncryptVC.m in Sources */,
 				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
@@ -4479,6 +4502,7 @@
 				42D1C6F22277FB36001F170F /* JSONModel.m in Sources */,
 				420189B921F9AA1200257DCF /* GBEncodeTool.m in Sources */,
 				42C5B5FD21425EA500563794 /* CoinGameDecorator.m in Sources */,
+				4260FA84242DF9930091D609 /* MacroTestObject.m in Sources */,
 				42C5B65421425EA500563794 /* StatePatternViewController.m in Sources */,
 				42C5B63421425EA500563794 /* CircleHeaderFactory.m in Sources */,
 				42977A942418892000FFA893 /* MixedProgramVC.mm in Sources */,
