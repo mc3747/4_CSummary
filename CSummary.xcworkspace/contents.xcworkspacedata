@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:day01"
+      name = "day01">
+      <FileRef
+         location = "group:day01.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:day01"
+         name = "1.1_&#x57fa;&#x7840;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6ce8;&#x610f;&#x70b9;"
+         name = "1.2_&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ec3;&#x4e60;"
+         name = "1.3_&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day02"
+      name = "day02">
+      <FileRef
+         location = "group:&#x5173;&#x952e;&#x5b57;.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x5173;&#x952e;&#x5b57;"
+         name = "2.1_&#x5173;&#x952e;&#x5b57;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6ce8;&#x91ca;"
+         name = "2.2_&#x6ce8;&#x91ca;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6ce8;&#x91ca;&#x6ce8;&#x610f;&#x70b9;"
+         name = "2.3_&#x6ce8;&#x91ca;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5e38;&#x4eae;"
+         name = "2.4_&#x5e38;&#x91cf;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x53d8;&#x91cf;&#x7684;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "2.5_&#x53d8;&#x91cf;&#x7684;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x53d8;&#x91cf;&#x7684;&#x4f5c;&#x7528;&#x57df;"
+         name = "2.6_&#x53d8;&#x91cf;&#x7684;&#x4f5c;&#x7528;&#x57df;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:printf"
+         name = "2.7_printf">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:scanf&#x51fd;&#x6570;"
+         name = "2.8_scanf&#x51fd;&#x6570;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:scanf&#x5b9e;&#x73b0;&#x539f;&#x7406;"
+         name = "2.9_scanf&#x5b9e;&#x73b0;&#x539f;&#x7406;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day03"
+      name = "day03">
+      <Group
+         location = "group:&#x903b;&#x8f91;&#x8fd0;&#x7b97;&#x7b26;"
+         name = "&#x903b;&#x8f91;&#x8fd0;&#x7b97;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x8d4b;&#x503c;&#x8fd0;&#x7b97;&#x7b26;"
+         name = "&#x8d4b;&#x503c;&#x8fd0;&#x7b97;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4e09;&#x76ee;&#x8fd0;&#x7b97;&#x7b26;"
+         name = "&#x4e09;&#x76ee;&#x8fd0;&#x7b97;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:if&#x7ec3;&#x4e60;"
+         name = "if&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x77f3;&#x5934;&#x526a;&#x5b50;&#x5e03;"
+         name = "&#x77f3;&#x5934;&#x526a;&#x5b50;&#x5e03;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:if&#x6ce8;&#x610f;&#x70b9;"
+         name = "if&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day03"
+         name = "day03">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x9017;&#x53f7;&#x8fd0;&#x7b97;&#x7b26;"
+         name = "&#x9017;&#x53f7;&#x8fd0;&#x7b97;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;"
+         name = "&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:if&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "if&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x81ea;&#x589e;&#x81ea;&#x51cf;"
+         name = "&#x81ea;&#x589e;&#x81ea;&#x51cf;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:sizeof"
+         name = "sizeof">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day03.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:day04"
+      name = "day04">
+      <Group
+         location = "group:for&#x548c;while&#x7684;&#x5bf9;&#x6bd4;"
+         name = "for&#x548c;while&#x7684;&#x5bf9;&#x6bd4;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Switch&#x6ce8;&#x610f;&#x70b9;"
+         name = "Switch&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:dowhile"
+         name = "dowhile">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:break&#x5173;&#x952e;&#x5b57;"
+         name = "break&#x5173;&#x952e;&#x5b57;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Switch&#x7ec3;&#x4e60;2"
+         name = "Switch&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5faa;&#x73af;&#x5d4c;&#x5957;&#x7ec3;&#x4e60;2"
+         name = "&#x5faa;&#x73af;&#x5d4c;&#x5957;&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5faa;&#x73af;&#x5d4c;&#x5957;&#x7ec3;&#x4e60;3"
+         name = "&#x5faa;&#x73af;&#x5d4c;&#x5957;&#x7ec3;&#x4e60;3">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5faa;&#x73af;&#x5d4c;&#x5957;"
+         name = "&#x5faa;&#x73af;&#x5d4c;&#x5957;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:continue&#x5173;&#x952e;&#x5b57;"
+         name = "continue&#x5173;&#x952e;&#x5b57;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Switch&#x7ec3;&#x4e60;"
+         name = "Switch&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:while&#x7ec3;&#x4e60;1"
+         name = "while&#x7ec3;&#x4e60;1">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:for&#x5faa;&#x73af;"
+         name = "for&#x5faa;&#x73af;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day04"
+         name = "day04">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day04.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x5faa;&#x73af;&#x5d4c;&#x5957;&#x7ec3;&#x4e60;1"
+         name = "&#x5faa;&#x73af;&#x5d4c;&#x5957;&#x7ec3;&#x4e60;1">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:for&#x6ce8;&#x610f;&#x70b9;"
+         name = "for&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:while&#x7ec3;&#x4e60;3"
+         name = "while&#x7ec3;&#x4e60;3">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:while&#x7ec3;&#x4e60;2"
+         name = "while&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:while&#x5faa;&#x73af;"
+         name = "while&#x5faa;&#x73af;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:while&#x6ce8;&#x610f;&#x70b9;"
+         name = "while&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:99&#x4e58;&#x6cd5;&#x8868;"
+         name = "99&#x4e58;&#x6cd5;&#x8868;">
+      </Group>
+   </Group>
+   <Group
+      location = "group:day05"
+      name = "day05">
+      <Group
+         location = "group:&#x9012;&#x5f52;&#x51fd;&#x6570;"
+         name = "&#x9012;&#x5f52;&#x51fd;&#x6570;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:include&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "include&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <Group
+            location = "group:abc"
+            name = "abc">
+            <FileRef
+               location = "group:lnj.txt">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x9012;&#x5f52;&#x51fd;&#x6570;&#x7ec3;&#x4e60;"
+         name = "&#x9012;&#x5f52;&#x51fd;&#x6570;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x51fd;&#x6570;&#x7684;&#x6ce8;&#x610f;&#x70b9;"
+         name = "&#x51fd;&#x6570;&#x7684;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x51fd;&#x6570;&#x7ec3;&#x4e60;"
+         name = "&#x51fd;&#x6570;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x51fd;&#x6570;&#x7684;&#x58f0;&#x660e;&#x548c;&#x5b9a;&#x4e49;"
+         name = "&#x51fd;&#x6570;&#x7684;&#x58f0;&#x660e;&#x548c;&#x5b9a;&#x4e49;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:main&#x51fd;&#x6570;&#x5206;&#x6790;"
+         name = "main&#x51fd;&#x6570;&#x5206;&#x6790;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day05"
+         name = "day05">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day05.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x51fd;&#x6570;&#x7684;&#x5b9a;&#x4e49;"
+         name = "&#x51fd;&#x6570;&#x7684;&#x5b9a;&#x4e49;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x9012;&#x5f52;&#x7ec3;&#x4e60;2"
+         name = "&#x9012;&#x5f52;&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x9012;&#x5f52;&#x7ec3;&#x4e60;3"
+         name = "&#x9012;&#x5f52;&#x7ec3;&#x4e60;3">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x591a;&#x6587;&#x4ef6;&#x5f00;&#x53d1;"
+         name = "&#x591a;&#x6587;&#x4ef6;&#x5f00;&#x53d1;">
+         <FileRef
+            location = "group:main.o">
+         </FileRef>
+         <FileRef
+            location = "group:lisi.o">
+         </FileRef>
+         <FileRef
+            location = "group:lisi.h">
+         </FileRef>
+         <FileRef
+            location = "group:a.out">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+         <FileRef
+            location = "group:lisi.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x51fd;&#x6570;&#x7684;&#x8c03;&#x7528;&#x8fc7;&#x7a0b;"
+         name = "&#x51fd;&#x6570;&#x7684;&#x8c03;&#x7528;&#x8fc7;&#x7a0b;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day06"
+      name = "day06">
+      <Group
+         location = "group:09-char&#x7ec3;&#x4e60;"
+         name = "09-char&#x7ec3;&#x4e60;">
+      </Group>
+      <Group
+         location = "group:01-&#x8fdb;&#x5236;"
+         name = "01-&#x8fdb;&#x5236;">
+         <FileRef
+            location = "group:_1___.1">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:01-&#x8fdb;&#x5236;.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:char&#x7ec3;&#x4e60;"
+         name = "char&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:02-&#x8fdb;&#x5236;&#x8f6c;&#x6362;"
+         name = "02-&#x8fdb;&#x5236;&#x8f6c;&#x6362;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+         <FileRef
+            location = "group:_2_____.1">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:05-&#x4f4d;&#x8fd0;&#x7b97;"
+         name = "05-&#x4f4d;&#x8fd0;&#x7b97;">
+         <FileRef
+            location = "group:_5____.1">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:06-&#x4f4d;&#x8fd0;&#x7b97;&#x7ec3;&#x4e60;"
+         name = "06-&#x4f4d;&#x8fd0;&#x7b97;&#x7ec3;&#x4e60;">
+      </Group>
+      <Group
+         location = "group:08-char&#x7c7b;&#x578b;"
+         name = "08-char&#x7c7b;&#x578b;">
+      </Group>
+      <Group
+         location = "group:03-&#x539f;&#x7801;&#x8865;&#x7801;&#x53cd;&#x7801;"
+         name = "03-&#x539f;&#x7801;&#x8865;&#x7801;&#x53cd;&#x7801;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+         <FileRef
+            location = "group:_3_______.1">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x53d8;&#x91cf;&#x7684;&#x5b58;&#x50a8;&#x7ec6;&#x8282;"
+         name = "&#x53d8;&#x91cf;&#x7684;&#x5b58;&#x50a8;&#x7ec6;&#x8282;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4f4d;&#x8fd0;&#x7b97;&#x7b26;&#x7ec3;&#x4e60;2"
+         name = "&#x4f4d;&#x8fd0;&#x7b97;&#x7b26;&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4f4d;&#x8fd0;&#x7b97;&#x7ec3;&#x4e60;3"
+         name = "&#x4f4d;&#x8fd0;&#x7b97;&#x7ec3;&#x4e60;3">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7c7b;&#x578b;&#x8bf4;&#x660e;&#x7b26;"
+         name = "&#x7c7b;&#x578b;&#x8bf4;&#x660e;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;"
+         name = "&#x6570;&#x7ec4;">
+      </Group>
+      <Group
+         location = "group:char&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "char&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x7684;&#x904d;&#x5386;"
+         name = "&#x6570;&#x7ec4;&#x7684;&#x904d;&#x5386;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:04-&#x53d8;&#x91cf;&#x7684;&#x5b58;&#x50a8;&#x7ec6;&#x8282;"
+         name = "04-&#x53d8;&#x91cf;&#x7684;&#x5b58;&#x50a8;&#x7ec6;&#x8282;">
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x7684;&#x521d;&#x59cb;&#x5316;&#x548c;&#x904d;&#x5386;"
+         name = "&#x6570;&#x7ec4;&#x7684;&#x521d;&#x59cb;&#x5316;&#x548c;&#x904d;&#x5386;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "&#x6570;&#x7ec4;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4f4d;&#x8fd0;&#x7b97;&#x7b26;2"
+         name = "&#x4f4d;&#x8fd0;&#x7b97;&#x7b26;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4f4d;&#x8fd0;&#x7b97;&#x7b26;&#x7ec3;&#x4e60;1"
+         name = "&#x4f4d;&#x8fd0;&#x7b97;&#x7b26;&#x7ec3;&#x4e60;1">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:07-&#x7c7b;&#x578b;&#x8bf4;&#x660e;&#x7b26;"
+         name = "07-&#x7c7b;&#x578b;&#x8bf4;&#x660e;&#x7b26;">
+      </Group>
+   </Group>
+   <Group
+      location = "group:day07"
+      name = "day07">
+      <Group
+         location = "group:day07"
+         name = "day07">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ec3;&#x4e60;4"
+         name = "&#x7ec3;&#x4e60;4">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x548c;&#x51fd;&#x6570;2"
+         name = "&#x6570;&#x7ec4;&#x548c;&#x51fd;&#x6570;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5192;&#x6ce1;&#x6392;&#x5e8f;"
+         name = "&#x5192;&#x6ce1;&#x6392;&#x5e8f;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day07.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x7ec3;&#x4e60;3"
+         name = "&#x6570;&#x7ec4;&#x7ec3;&#x4e60;3">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x548c;&#x51fd;&#x6570;"
+         name = "&#x6570;&#x7ec4;&#x548c;&#x51fd;&#x6570;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x7ec3;&#x4e60;2"
+         name = "&#x6570;&#x7ec4;&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6298;&#x534a;&#x67e5;&#x627e;&#x7ec3;&#x4e60;"
+         name = "&#x6298;&#x534a;&#x67e5;&#x627e;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x7684;&#x6ce8;&#x610f;&#x70b9;"
+         name = "&#x6570;&#x7ec4;&#x7684;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x8fdb;&#x5236;&#x67e5;&#x8868;&#x6cd5;&#x4f18;&#x5316;"
+         name = "&#x8fdb;&#x5236;&#x67e5;&#x8868;&#x6cd5;&#x4f18;&#x5316;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x9009;&#x62e9;&#x6392;&#x5e8f;"
+         name = "&#x9009;&#x62e9;&#x6392;&#x5e8f;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x8fdb;&#x5236;&#x67e5;&#x8868;&#x6cd5;"
+         name = "&#x8fdb;&#x5236;&#x67e5;&#x8868;&#x6cd5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6570;&#x7ec4;&#x7ec3;&#x4e60;1"
+         name = "&#x6570;&#x7ec4;&#x7ec3;&#x4e60;1">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6298;&#x534a;&#x67e5;&#x627e;"
+         name = "&#x6298;&#x534a;&#x67e5;&#x627e;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x9009;&#x62e9;-&#x5192;&#x6ce1;&#x6392;&#x5e8f;&#x4f18;&#x5316;"
+         name = "&#x9009;&#x62e9;-&#x5192;&#x6ce1;&#x6392;&#x5e8f;&#x4f18;&#x5316;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day08"
+      name = "day08">
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x5e38;&#x7528;&#x65b9;&#x6cd5;2"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x5e38;&#x7528;&#x65b9;&#x6cd5;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day08"
+         name = "day08">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x7684;&#x6ce8;&#x610f;&#x70b9;"
+         name = "&#x6307;&#x9488;&#x7684;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "&#x6307;&#x9488;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x6ce8;&#x610f;&#x70b9;"
+         name = "&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x7ec3;&#x4e60;1"
+         name = "&#x6307;&#x9488;&#x7ec3;&#x4e60;1">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x548c;&#x51fd;&#x6570;"
+         name = "&#x4e8c;&#x7ef4;&#x6570;&#x7ec4;&#x548c;&#x51fd;&#x6570;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x6570;&#x7ec4;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x6570;&#x7ec4;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x7ec3;&#x4e60;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x5e38;&#x7528;&#x65b9;&#x6cd5;1"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x5e38;&#x7528;&#x65b9;&#x6cd5;1">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x4e3a;&#x4ec0;&#x4e48;&#x8981;&#x5206;&#x7c7b;&#x578b;"
+         name = "&#x6307;&#x9488;&#x4e3a;&#x4ec0;&#x4e48;&#x8981;&#x5206;&#x7c7b;&#x578b;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x591a;&#x7ea7;&#x6307;&#x9488;"
+         name = "&#x591a;&#x7ea7;&#x6307;&#x9488;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day08.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x7ec3;&#x4e60;2"
+         name = "&#x6307;&#x9488;&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day09"
+      name = "day09">
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x548c;&#x51fd;&#x6570;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x548c;&#x51fd;&#x6570;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day09"
+         name = "day09">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x7684;&#x5185;&#x5b58;&#x5b58;&#x50a8;&#x7ec6;&#x8282;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x7684;&#x5185;&#x5b58;&#x5b58;&#x50a8;&#x7ec6;&#x8282;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x5411;&#x7ed3;&#x6784;&#x4f53;&#x7684;&#x6307;&#x9488;"
+         name = "&#x6307;&#x5411;&#x7ed3;&#x6784;&#x4f53;&#x7684;&#x6307;&#x9488;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x548c;&#x5b57;&#x7b26;&#x4e32;&#x6ce8;&#x610f;&#x70b9;"
+         name = "&#x6307;&#x9488;&#x548c;&#x5b57;&#x7b26;&#x4e32;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x5b9a;&#x4e49;&#x7684;&#x65b9;&#x5f0f;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x5b9a;&#x4e49;&#x7684;&#x65b9;&#x5f0f;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x6570;&#x7ec4;"
+         name = "&#x6307;&#x9488;&#x6570;&#x7ec4;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x7ec3;&#x4e60;"
+         name = "&#x6307;&#x9488;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x548c;&#x5b57;&#x7b26;&#x4e32;"
+         name = "&#x6307;&#x9488;&#x548c;&#x5b57;&#x7b26;&#x4e32;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day09.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x6307;&#x5411;&#x51fd;&#x6570;&#x7684;&#x6307;&#x9488;&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;"
+         name = "&#x6307;&#x5411;&#x51fd;&#x6570;&#x7684;&#x6307;&#x9488;&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x521d;&#x59cb;&#x5316;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x521d;&#x59cb;&#x5316;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x679a;&#x4e3e;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "&#x679a;&#x4e3e;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x9488;&#x7c7b;&#x578b;&#x7684;&#x7279;&#x70b9;"
+         name = "&#x6307;&#x9488;&#x7c7b;&#x578b;&#x7684;&#x7279;&#x70b9;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x5411;&#x51fd;&#x6570;&#x7684;&#x6307;&#x9488;&#x7ec3;&#x4e60;"
+         name = "&#x6307;&#x5411;&#x51fd;&#x6570;&#x7684;&#x6307;&#x9488;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6307;&#x5411;&#x51fd;&#x6570;&#x7684;&#x6307;&#x9488;"
+         name = "&#x6307;&#x5411;&#x51fd;&#x6570;&#x7684;&#x6307;&#x9488;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x6570;&#x7ec4;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x6570;&#x7ec4;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x7684;&#x5d4c;&#x5957;&#x5b9a;&#x4e49;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x7684;&#x5d4c;&#x5957;&#x5b9a;&#x4e49;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x7c7b;&#x578b;&#x7684;&#x4f5c;&#x7528;&#x57df;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x7c7b;&#x578b;&#x7684;&#x4f5c;&#x7528;&#x57df;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day10"
+      name = "day10">
+      <Group
+         location = "group:&#x6587;&#x4ef6;&#x5305;&#x542b;"
+         name = "&#x6587;&#x4ef6;&#x5305;&#x542b;">
+         <FileRef
+            location = "group:ls.c">
+         </FileRef>
+         <FileRef
+            location = "group:zs.c">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+         <FileRef
+            location = "group:ls.h">
+         </FileRef>
+         <FileRef
+            location = "group:zs.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b8f;&#x5b9a;&#x4e49;"
+         name = "&#x5b8f;&#x5b9a;&#x4e49;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:const&#x5173;&#x952e;&#x5b57;"
+         name = "const&#x5173;&#x952e;&#x5b57;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6761;&#x4ef6;&#x7f16;&#x8bd1;"
+         name = "&#x6761;&#x4ef6;&#x7f16;&#x8bd1;">
+         <FileRef
+            location = "group:main.o">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:typedef"
+         name = "typedef">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:typedef&#x548c;&#x5b8f;&#x5b9a;&#x4e49;&#x7684;&#x533a;&#x522b;"
+         name = "typedef&#x548c;&#x5b8f;&#x5b9a;&#x4e49;&#x7684;&#x533a;&#x522b;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5185;&#x90e8;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x548c;&#x5916;&#x90e8;&#x5168;&#x5c40;&#x53d8;&#x91cf;"
+         name = "&#x5185;&#x90e8;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x548c;&#x5916;&#x90e8;&#x5168;&#x5c40;&#x53d8;&#x91cf;">
+         <FileRef
+            location = "group:zs.c">
+         </FileRef>
+         <FileRef
+            location = "group:a.out">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+         <FileRef
+            location = "group:zs.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:static&#x548c;extern&#x5bf9;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x7684;&#x4f5c;&#x7528;"
+         name = "static&#x548c;extern&#x5bf9;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x7684;&#x4f5c;&#x7528;">
+      </Group>
+      <FileRef
+         location = "group:day10.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x5e26;&#x53c2;&#x6570;&#x7684;&#x5b8f;&#x5b9a;&#x4e49;"
+         name = "&#x5e26;&#x53c2;&#x6570;&#x7684;&#x5b8f;&#x5b9a;&#x4e49;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6761;&#x4ef6;&#x7f16;&#x8bd1;&#x5176;&#x5b83;&#x5199;&#x6cd5;"
+         name = "&#x6761;&#x4ef6;&#x7f16;&#x8bd1;&#x5176;&#x5b83;&#x5199;&#x6cd5;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:static&#x5bf9;&#x5c40;&#x90e8;&#x53d8;&#x91cf;&#x7684;&#x4f5c;&#x7528;"
+         name = "static&#x5bf9;&#x5c40;&#x90e8;&#x53d8;&#x91cf;&#x7684;&#x4f5c;&#x7528;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day10"
+         name = "day10">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:extern&#x548c;static&#x5bf9;&#x51fd;&#x6570;&#x7684;&#x4f5c;&#x7528;"
+         name = "extern&#x548c;static&#x5bf9;&#x51fd;&#x6570;&#x7684;&#x4f5c;&#x7528;">
+         <FileRef
+            location = "group:zs.c">
+         </FileRef>
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+         <FileRef
+            location = "group:zs.h">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>
