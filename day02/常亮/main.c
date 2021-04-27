@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-
+#include <stdbool.h>
 int main() {
 
     // 1.整型常量
@@ -33,6 +33,8 @@ int main() {
     "abc";
     "a";
     
+    bool a = true;
     
+    printf("%i", a);
     return 0;
 }

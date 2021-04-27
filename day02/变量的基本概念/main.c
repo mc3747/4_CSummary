@@ -7,7 +7,8 @@
 //
 
 #include <stdio.h>
-
+#include <stdlib.h>
+int age;
 int main(int argc, const char * argv[]) {
     
     // 1.申请一块存储空间, 也就是定义一个变量
@@ -60,14 +61,17 @@ int main(int argc, const char * argv[]) {
 //    int number, value;
 //    number = value = 10;
     
-    int number;
-    number = 10;
-    int value;
-    value = number;
+//    int number;
+//    number = 10;
+//    int value;
+//    value = number;
 
     // 8.部分初始化
 //    int number, value = 10;
     
+//    int age; //声明，也是定义
+    extern int age;
+    printf("%i\n", age);
     
     return 0;
 }
