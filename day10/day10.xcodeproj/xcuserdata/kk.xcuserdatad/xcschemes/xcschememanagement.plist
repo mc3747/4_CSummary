@@ -7,62 +7,62 @@
 		<key>const关键字.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>31</integer>
 		</dict>
 		<key>day10.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>41</integer>
 		</dict>
 		<key>extern和static对函数的作用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>16</integer>
 		</dict>
 		<key>static对局部变量的作用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>90</integer>
+			<integer>94</integer>
 		</dict>
 		<key>typedef.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>103</integer>
+			<integer>35</integer>
 		</dict>
 		<key>typedef和宏定义的区别.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>114</integer>
+			<integer>51</integer>
 		</dict>
 		<key>内部全局变量和外部全局变量.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>99</integer>
 		</dict>
 		<key>宏定义.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>30</integer>
 		</dict>
 		<key>带参数的宏定义.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>76</integer>
 		</dict>
 		<key>文件包含.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>93</integer>
 		</dict>
 		<key>条件编译.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>129</integer>
+			<integer>33</integer>
 		</dict>
 		<key>条件编译其它写法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>111</integer>
+			<integer>58</integer>
 		</dict>
 	</dict>
 </dict>

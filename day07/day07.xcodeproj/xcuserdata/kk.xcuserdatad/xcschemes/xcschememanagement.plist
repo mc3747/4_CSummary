@@ -7,77 +7,77 @@
 		<key>day07.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>100</integer>
 		</dict>
 		<key>冒泡排序.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>82</integer>
 		</dict>
 		<key>折半查找.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>130</integer>
 		</dict>
 		<key>折半查找练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>102</integer>
+			<integer>98</integer>
 		</dict>
 		<key>数组和函数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>103</integer>
 		</dict>
 		<key>数组和函数2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>50</integer>
 		</dict>
 		<key>数组的注意点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>122</integer>
 		</dict>
 		<key>数组练习1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>29</integer>
 		</dict>
 		<key>数组练习2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>81</integer>
 		</dict>
 		<key>数组练习3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>108</integer>
+			<integer>129</integer>
 		</dict>
 		<key>练习4.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>101</integer>
+			<integer>114</integer>
 		</dict>
 		<key>进制查表法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>94</integer>
+			<integer>39</integer>
 		</dict>
 		<key>进制查表法优化.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>60</integer>
 		</dict>
 		<key>选择-冒泡排序优化.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>107</integer>
+			<integer>67</integer>
 		</dict>
 		<key>选择排序.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>128</integer>
+			<integer>111</integer>
 		</dict>
 	</dict>
 </dict>

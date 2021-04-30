@@ -103,6 +103,16 @@
       location = "group:day03"
       name = "day03">
       <Group
+         location = "group:day03"
+         name = "day03">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day03.xcodeproj">
+      </FileRef>
+      <Group
          location = "group:&#x903b;&#x8f91;&#x8fd0;&#x7b97;&#x7b26;"
          name = "&#x903b;&#x8f91;&#x8fd0;&#x7b97;&#x7b26;">
          <FileRef
@@ -119,6 +129,20 @@
       <Group
          location = "group:&#x4e09;&#x76ee;&#x8fd0;&#x7b97;&#x7b26;"
          name = "&#x4e09;&#x76ee;&#x8fd0;&#x7b97;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x9017;&#x53f7;&#x8fd0;&#x7b97;&#x7b26;"
+         name = "&#x9017;&#x53f7;&#x8fd0;&#x7b97;&#x7b26;">
+         <FileRef
+            location = "group:main.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;"
+         name = "&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;">
          <FileRef
             location = "group:main.c">
          </FileRef>
@@ -145,27 +169,6 @@
          </FileRef>
       </Group>
       <Group
-         location = "group:day03"
-         name = "day03">
-         <FileRef
-            location = "group:main.c">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:&#x9017;&#x53f7;&#x8fd0;&#x7b97;&#x7b26;"
-         name = "&#x9017;&#x53f7;&#x8fd0;&#x7b97;&#x7b26;">
-         <FileRef
-            location = "group:main.c">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;"
-         name = "&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;">
-         <FileRef
-            location = "group:main.c">
-         </FileRef>
-      </Group>
-      <Group
          location = "group:if&#x57fa;&#x672c;&#x6982;&#x5ff5;"
          name = "if&#x57fa;&#x672c;&#x6982;&#x5ff5;">
          <FileRef
@@ -186,9 +189,6 @@
             location = "group:main.c">
          </FileRef>
       </Group>
-      <FileRef
-         location = "group:day03.xcodeproj">
-      </FileRef>
    </Group>
    <Group
       location = "group:day04"

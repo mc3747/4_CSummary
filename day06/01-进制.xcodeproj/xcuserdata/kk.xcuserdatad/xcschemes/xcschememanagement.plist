@@ -7,82 +7,82 @@
 		<key>01-进制.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>26</integer>
 		</dict>
 		<key>02-进制转换.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>130</integer>
+			<integer>124</integer>
 		</dict>
 		<key>03-原码补码反码.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>72</integer>
 		</dict>
 		<key>04-变量的存储细节.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>110</integer>
+			<integer>86</integer>
 		</dict>
 		<key>05-位运算.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>109</integer>
+			<integer>87</integer>
 		</dict>
 		<key>char基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>116</integer>
+			<integer>73</integer>
 		</dict>
 		<key>char练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>93</integer>
+			<integer>46</integer>
 		</dict>
 		<key>位运算符2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>127</integer>
 		</dict>
 		<key>位运算符练习1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>100</integer>
+			<integer>28</integer>
 		</dict>
 		<key>位运算符练习2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>109</integer>
 		</dict>
 		<key>位运算练习3.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>34</integer>
 		</dict>
 		<key>变量的存储细节.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>64</integer>
 		</dict>
 		<key>数组基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>20</integer>
 		</dict>
 		<key>数组的初始化和遍历.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>88</integer>
 		</dict>
 		<key>数组的遍历.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>58</integer>
+			<integer>55</integer>
 		</dict>
 		<key>类型说明符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>120</integer>
+			<integer>69</integer>
 		</dict>
 	</dict>
 </dict>
