@@ -7,62 +7,62 @@
 		<key>day03.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>92</integer>
 		</dict>
 		<key>if基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>111</integer>
 		</dict>
 		<key>if注意点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>66</integer>
+			<integer>77</integer>
 		</dict>
 		<key>if练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>118</integer>
+			<integer>21</integer>
 		</dict>
 		<key>sizeof.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>90</integer>
+			<integer>20</integer>
 		</dict>
 		<key>三目运算符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>105</integer>
 		</dict>
 		<key>关系运算符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>121</integer>
+			<integer>40</integer>
 		</dict>
 		<key>石头剪子布.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>56</integer>
+			<integer>48</integer>
 		</dict>
 		<key>自增自减.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>74</integer>
+			<integer>130</integer>
 		</dict>
 		<key>赋值运算符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>95</integer>
+			<integer>71</integer>
 		</dict>
 		<key>逗号运算符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>14</integer>
 		</dict>
 		<key>逻辑运算符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>102</integer>
 		</dict>
 	</dict>
 </dict>
